@@ -1,0 +1,45 @@
+Vamos a hacer tratamiento de datos en R
+Vamos a trabajar con Software DISCO, es para ver procesos y procesamiento.
+	Usa tu correo universitario para obtener una licencia.
+Queda pendiente bajar R y RStudio.
+Este semestre somos 28,000
+
+	Actividades y prácticas
+Las prácticas se entregan el domingo regresando de exámenes, antes de regresar a clases.
+Apúrale con las prácticas de la 5 a la 7 porque la 8 se pone más pesada.
+La 9 depende de la 5
+Se entregan el 24 de mayo (De la 5 a la 9)
+El PIA será revelado el 9 de Febrero.
+	Primer avance se entrega el 8 de Mayo.
+
+	Clases
+No es necesario que vengan todos.
+En cada sesión van a dar las instrucciones y uno debe llevarlas a casa.
+
+	Reportes
+Objetivo no se hace con CatGPT
+Marco teórico son los conceptos que se necesitan.
+Desarrollo es el procedimiento que seguimos. 
+	Cálculos y resultados
+Conclusiones son las cosas que aprendimos.
+	No pongas "Aprendí mucho". Tu conclusión debe ser la de cuarto año de 	ingeniería.
+	"Yo entendí ESTO por ESTO que hicimos".
+Bibliografía de formato APA:
+	Se citan los sets de datos.
+	Se citan las librerías de R.
+	
+	Asesorías
+Contacto en Teams, Asunto: Materia
+Tareas: Matrícula + Color, Hora, #Tarea
+Hora: 5N1
+Asesirías
+Lunes, Miércoles, Viernes
+V3 y N5
+Presencial 4101
+En línea: rqwtaaq se debe avisar el dí anterior de la asesoría.
+Inician el 4 de febrero
+
+Eres equipo: Salmón
+El pase es 60.
+
+
