@@ -1,0 +1,24 @@
+¿Qué es un prefijo?
+Una partícula que complementa una palabra para un significado
+Un Posfijo va después
+El Sufijo es cualquier partícula que está integrada. Un sólo caracter puede ser un sufijo.
+	La palabra completa menos un carácter técnicamente también puede ser un sufijo.
+Todos los PIAs tratan sobre eso.
+
+Para el PIA 
+Nos tocó: First Parallel and Cache Friendly Sufifix Array Construction
+Tenemo que:
+	Leer
+	Aplicar una muestra equivalente. Hay que revisar bien qué significa la muestra que nos están pidiendo. Sin dejar puntos ciegos.
+Hay 4 revisiones de PIA que valen 10 puntos.
+	La primera es la siguiente semana.
+		Se trata sobre preguntar dudas
+	La segunda es la semana antes de Medio Curso.
+	La tercera es la semana regresando de Medio Curso.
+
+Una matríz dispersa no es como una matriz densa.
+Una matriz densa tiene muchos valores útiles.
+Una matriz a la que le falta información es una matríz dispersa.
+
+
+Transición de probabilidades y canales binarios simétricos - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

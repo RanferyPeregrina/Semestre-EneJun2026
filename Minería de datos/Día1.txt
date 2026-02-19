@@ -17,7 +17,7 @@ No es necesario que vengan todos.
 En cada sesión van a dar las instrucciones y uno debe llevarlas a casa.
 
 	Reportes
-Objetivo no se hace con CatGPT
+Objetivo no se hace con ChatGPT
 Marco teórico son los conceptos que se necesitan.
 Desarrollo es el procedimiento que seguimos. 
 	Cálculos y resultados
