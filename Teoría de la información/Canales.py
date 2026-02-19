@@ -1,8 +1,22 @@
-#Antes de correr el programa recuerden abrir su CMD y escribir: pip install itertools
 from itertools import product #El 'product' es como se llama esa cosa de hacer combinaciones posibles.
 
+def PedirAlfabeto(NombreAlfabeto):
+    Alfabeto = []
+    Indice = 0  #No sé cómo hacer esto de forma más profesional.
 
-def generar_mensajes(Alfabeto, L):
+    #Mientras el usuario no deje de ingresar símbolos, se van agregando al alfabeto. Si deja de ingresar, se termina el proceso.
+    print("Ingrese los símbolos del alfabeto", NombreAlfabeto)
+    while True:
+        Indice += 1
+        Simbolo = input(f"Letra {Indice} del alfabeto (Dejar vacío para finalizar): ")
+        if Simbolo == "":
+            break
+        else:
+            Alfabeto.append(Simbolo)
+    return Alfabeto
+
+
+def Generar_Mensajes(Alfabeto, L):
 
     combinaciones = product(Alfabeto, repeat=L)
     
@@ -14,22 +28,22 @@ def generar_mensajes(Alfabeto, L):
     return mensajes
 
 
-# ----- Ejemplo -----
+# ----- Aquí vive todo el programa -----
 
-Alfabeto_A = ['0', '1']
-Alfabeto_B = ['0', '1', '*']
+Alfabeto_A = PedirAlfabeto("A")
+Alfabeto_B = PedirAlfabeto("B")
+L = int(input("Ingrese la longitud de los mensajes (L): "))
 
-L = 3
 for i in range(L):
-    print(i+1)
-    mensajes_A = generar_mensajes(Alfabeto_A, i+1)
-    mensajes_B = generar_mensajes(Alfabeto_B, i+1)
+    print("Para L = ",i+1)
+    mensajes_A = Generar_Mensajes(Alfabeto_A, i+1)
+    mensajes_B = Generar_Mensajes(Alfabeto_B, i+1)
 
     print("Mensajes posibles de entrada:")
-    print(mensajes_A)
+    print("A = ", mensajes_A)
     print("nA = ", len(mensajes_A))
 
     print("\nMensajes posibles de salida:")
-    print(mensajes_B)
-    print("nB = ", len(mensajes_B))
+    print("B = ", mensajes_B)
+    print("nB = ", len(mensajes_B),"\n")
     print('= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = \n')
