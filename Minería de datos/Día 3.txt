@@ -1,0 +1,41 @@
+Objetivo de esta práctica:
+Analizar un proceso mediante su representación en diferentes tipos de diagramas.
+
+Vamos a tomar el diagrama con un nivel de detalle y lo vamos a representar con diferentes tipos de diagramas para minería de procesos.
+
+
+Según el libro de 3.2 de "Banderaast, Process Mining".
+
+
+1.- Diagramas de transición.
+Pero en los casos que amerite hay qiue hacer otras cosas. El diagrama y la tripleta.
+Por ejemplo ahí dice que una tripleta del diagrama.
+
+2.- Petri
+Trae definición y tripleta.
+
+3.- YAWL
+Ahí viene cuales son los  elementos del YAWL, y viene un ejemplo. El YAWL no lleva notación.
+
+4.- BPMN
+No trae notación, también sólo es el diagrama.
+
+5.- EPC, también hay que transoformarlo en cada uno de los diagramas.
+
+6.- Redes causales.
+Hay que tener mucho cuidado, todos los circuitos negros deben traer uno de entrada y uno de salida. Por cada operador debe haber uno que abra y uno que cierre.
+Ese sí trae una notación que debemos incluir.
+
+7.- Árbol de proceso
+También trae definición porque la definición viene el pie de a figura. 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Entonces, según nuestro diagrama de disco con el nivel de detalle que hayamos elegido, tenemos que traducir a cada diagrama.
+No hay ninguna herramienta para hacer esto de forma automática. Hay que leer el libro y hacerlo. 
+Que miedo.
+NOTA: No se entrega en alguna página externa.
+
+En el marco teórico hay que hablar de todos esos diagramas y de qué significa cada una de esas cosas.
+Los resultados son los propios diagramas.
+Las conclusiones debe decir por qué elegimos ese diagrama y por qué fue el más adecuado.

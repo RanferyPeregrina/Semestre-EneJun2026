@@ -1,0 +1,26 @@
+Después de haber hecho esa tabla se busca la probabilidad de:
+Que se cometa un error
+Utilizamos la formula de distribución binomial.
+
+q es probabilidad de digito cambiado
+r es probabilidad de dígito difuso.
+p es probabilidad de fracaso (Es decir, que no falle, irónicamente)
+n es la cantidad de dígitos transmitidos.
+k es la cantidad de dígitos 
+Probabilidad de éxito = q + r
+
+No se busca cuántos dígitos se transmiten iguales.
+En el Excel están las dos matrices que hicimos.
+
+Preguntar de qué trata cada columna.
+Para el examen teórico.
+
+Canal de capacidad - - - - - - - - - - - -
+La capacidad de canal es lo máximo de información que se puede transmitir en un canal de información
+Dadas las frecuencias de entrada y los alfabetos.
+
+Para encontrar la capacidad del canal necesitamos maximizar una ecuación.
+Modificando las frecuencias de entrada.
+Se requiere maximizar en base a las probabilidades de aparición p1 y p0
+
+

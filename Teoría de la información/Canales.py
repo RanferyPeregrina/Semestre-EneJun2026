@@ -17,14 +17,28 @@ def PedirAlfabeto(NombreAlfabeto):
 
 
 def Generar_Mensajes(Alfabeto, L):
-
-    combinaciones = product(Alfabeto, repeat=L)
     
     mensajes = []
-    for c in combinaciones:
-        mensaje = ''.join(c)
-        mensajes.append(mensaje)
-    
+
+    def construir(actual, longitud_actual):
+        
+        # Si ya llegamos exactamente a L → guardamos
+        if longitud_actual == L:
+            mensajes.append(actual)
+            return
+        
+        # Si nos pasamos → cancelamos este camino
+        if longitud_actual > L:
+            return
+        
+        # Intentamos agregar cada símbolo
+        for simbolo in Alfabeto:
+            nueva_longitud = longitud_actual + len(simbolo)
+            construir(actual + simbolo, nueva_longitud)
+
+    # Empezamos desde vacío
+    construir("", 0)
+
     return mensajes
 
 
