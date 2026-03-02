@@ -1,0 +1,60 @@
+ESTO VA EN LA PRÁCTICA 3.
+El objetivo de la práctica 3 lo dieron en la semana pasada.
+
+Tools
+Install Package
+Escribir bupaR edeaR
+
+El tercer Package no lo instalamos de CRAN, es local. Está en Teams.
+Pero primero hay que instalar "RTools" (De la foto)
+
+library(BupaR)
+library(processR) #Este es el que pasaron en Teams
+class(patioents)
+n_activities(patients) #Se ven las actividades de los pacientes
+
+mapping(patients)
+
+#Muestra todos los casos
+dim(patients)
+
+#
+n_activities(patients)
+. . .
+
+#Crea un objeto tipo "table", es una tabla organizada.
+#units de tiempo es lo que tardó tooodo ese caso en suceder.
+processing_tine(patientes, "activity", units = "mins")
+
+#Crea un subset donde sólo existen las actividades con pruebas de sangre
+patients %%filter_activity_presence("Blood Test") %% processing_time(level. . .
+
+#Estamos viendo las actividades que llevan "Septiscemia" y su frecuencia absoluta y relativa.
+activity_frecuency(sepsis, level ="activity") %% arrange(relative)
+#La diferencia entre frecuencia absoluta es la cantidad de veces que ocurre algo, y la relativa es el porcentaje.
+
+. . .
+
+ir a Data(R) (Repositorio del package eventdataR) y repetir todo el proceso con alguno de esos procesos que están ahí, son como 3, con todos los comandos que se usaron en la práctica (Están en Teams)
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Práctica 4: Árboles de decisión
+Tenemos 4 variables
+Tenemos un orden. 'Cuál? no sé
+Debemos buscar el árbol que me genere la mínima entropía.
+
+Tenemos el fabricante, el tipo, y si es elegible para esa ley (Son 3 variables)
+Si los ponemos en ese orden: MTE, tenemos un árbol.
+Si lo ponemos en este orden: MET, tenemos otro árbol.
+Si lo ponemos en este orden: TEM, tenemos otro árbol.
+Si lo ponemos en este orden EMT, tenemos otro árbol.
+etc etc. 6 combinaciones.
+(MTER MET THE TEM ETM EMT)
+
+
+Para MTE:
+
+	Primero vamos en la primer combinación. Y sacamos eso
+
+Cuando el conteo es 0, la entropía se le pone un guión

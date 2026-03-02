@@ -1,0 +1,31 @@
+library(bupaR)
+
+library(edeaR)
+
+library(processmapR)
+
+class(patients)
+ 
+n_activities(patients)
+ 
+mapping(patients)
+ 
+dim(patients)
+ 
+n_activities(patients)
+ 
+activity_labels(patients)
+ 
+activities(patients)
+ 
+processing_time(patients, "activity",   units="mins")
+ 
+processing_time(patients, level="log", units="days")
+ 
+patients %>% filter_activity_presence("Blood test") %>% processing_time(level="log", units="hours")
+ 
+activity_frequency(sepsis, level = "activity") %>% arrange(relative)
+ 
+patients_subset<-filter_activity_presence(sepsis, "CRP")
+ 
+patients_subset %>% process_map(type = frequency("absolute"))

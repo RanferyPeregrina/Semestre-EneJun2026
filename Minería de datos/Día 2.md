@@ -12,14 +12,6 @@ Si viene con Python tendremos problemas para la documentación porque la documen
 
 
 
-Manejo del agua
-
-Pero con datos espaciales.
-
-
-
-
-
 **Nos tocó el 3: WATER QUALITY MANAGMENT USING GIS DATA MINING**
 
 
@@ -33,7 +25,7 @@ Pero con datos espaciales.
 
 
 
-**Para la práctica - - - - - - - - - - - - - - - - - - - - - - - - - - -** 
+**Para la práctica - - - - - - - - - - - - - - - - - - - - - - - - - - -**
 
 
 
@@ -45,7 +37,7 @@ Analizar las variantes y casos de un proceso utilizando Disco.
 
 Instrucciones:
 
-a) En Disco, utilizar registros de ejemplo para 
+a) En Disco, utilizar registros de ejemplo para:
 
 
 
@@ -59,9 +51,9 @@ Si aparecen poquitos en el camino Flecha) es porque pasa poco ese proceso.
 
 Elegir un nivel de detalle de actividades
 
-&nbsp;	nivel de detalles de caminos
+ 	nivel de detalles de caminos
 
-&nbsp;	Para hacer la representación de proceso.
+ 	Para hacer la representación de proceso.
 
 
 
@@ -75,11 +67,11 @@ Ahí hay métricas de la participación de las personas para calificar su desemp
 
 
 
+En la pestaña "cases" aparecen los eventos (Creo)
 
+Se puede analizar el proceso (Variant 1, Case2)
 
-Se puede analizar el proceso (Variant 1, Case2) 
-
-Hay 354 variantes del proceso. 
+Hay 354 variantes del proceso.
 
 Conforme vayamos cambiando de variante (Variant 2, Variant 3) vamos a ver que actividades... Sólo hay una o dos llamadas.
 
@@ -97,23 +89,28 @@ En el 1: Inbould CAll o Inbounding
 
 En el 2: Actividad que muestre atención:
 
-&nbsp;	Handle Case
+ 	Handle Case
 
-&nbsp;	Handle email
+ 	Handle email
 
-&nbsp;	Call outbound
+ 	Call outbound
 
-&nbsp;	email outbound
+ 	email outbound
 
 
 
 Hay que tener 3 registros:
 
-&nbsp;	Original
+ 	Original
 
-&nbsp;	Evidencia clara de atención
+ 	Evidencia clara de atención
 
-&nbsp;	Evidencia NO clara de atención
+ 		La evidencia de atención es clara.
+Cuando tenemos Atención hay "Handle" o "Outbound".
+
+ 	Evidencia NO clara de atención
+
+ 		Es cuando sólo aparece Incall
 
 
 
