@@ -4,7 +4,7 @@ import pandas as pd
 df = pd.read_csv('ExampleLog.csv')
 
 # 2. Definir qué actividades son "Atención"
-actividades_atencion = ['Handle Case', 'Handle email', 'Call outbound', 'email outbound']
+actividades_atencion = ['Handle Case', 'Handle Email', 'Call Outbound', 'Email Outbound']
 
 # 3. Identificar los IDs que tienen al menos una actividad de atención
 ids_con_atencion = df[df['Activity'].isin(actividades_atencion)]['Case ID'].unique()
