@@ -88,21 +88,28 @@ El CSV original se separa en 2 CSV
 En el 1: Inbould CAll o Inbounding
 
 En el 2: Actividad que muestre atención:
+
  	Handle Case
+
  	Handle email
+
  	Call outbound
+
  	email outbound
 
 
 
 Hay que tener 3 registros:
 
- 	1.- Original
+ 	Original
 
- 	2.- Evidencia clara de atención
- 		La evidencia de atención es clara cuando tenemos Atención hay "Handle" o "Outbound".
- 	3.- Evidencia NO clara de atención
- 		Es cuando sólo aparece Incall por ejemplo
+ 	Evidencia clara de atención
+
+ 		La evidencia de atención es clara cuando tenemos "Handle" o "Outbound".
+
+ 	Evidencia NO clara de atención
+
+ 		Es cuando sólo aparece Incall
 
 
 

@@ -1,0 +1,161 @@
+Esto va en la práctica 4
+En Teams buscar el CSV de los precios de las casas 
+
+data("readingSkills")
+head(readingSkills)
+
+#Se le dice que ocupe el 80% de la muestra para entrenamiento
+sample_data <- sample.split(readingSkills$nativeSpeaker, SplitRatio = 0.8)
+
+#Se guarda en un subset
+train_data <- subset(readingSkills, sample_data == TRUE)
+test_data <- subset(readingSkills, sample_data == FALSE)
+
+#Se deja vacío el parámetro para que utilice TODAS las variables para predecir.
+model <- ctree(nativeSpeaker ~ ., data = train_data)
+
+#Enseña una gráfica del árbol de la edad.
+plot(model)
+#El "ScoreP", es la viabilidad, el nivel de confianza. 
+#Están separados en ramas, con particiones que van haciendo que las hipótesis sean válidas y que puedan ser clasificados.
+#Las cajas de abajo son los perfiles de clasificación, son las compiscioens individuales de individuos que pueden determinar si son NateiveSpeakers  una instancia (O no)
+
+#Utilizan un modelo para hacer una predicción o algo así.
+predict_model <- predict(model, test_data)
+
+#Crean una tabla de predicción. Esto se usará en la práctica 9
+m_at <- table(test_data$nativeSpeaker, predict_model)
+
+#Publica la tabla. En la tabla aparecen los intentos de predecir y cuántas veces acertó y falló
+m_at
+
+#Crea el ratio de certibilidad.
+ac_Test <- sum(diag(m_at)) / sum(m_at)
+print(paste('Precisión', ac_Test))
+
+
+#Mover el SplitRadio, esto está anotado en lo que hay que hacer.
+#Elegir diferentes elementos como datos nuevos. No "age" "ShoesSize" ni "score". Otros.
+new_data <- data.frame(
+  age = as.integer(c(7, 8)),     #Prueban con 7 y con 8 años    
+  shoeSize = as.numeric(c(35, 37)),  
+  score = as.numeric(c(22, 30))      
+)
+
+#DUDA ----------------- Cuando dijo que experimentemos con otras variables. En el script usan 2. ¿Usamos 2 también?
+
+pred_new <- predict(model, new_data)
+pred_new
+
+
+
+
+Usar un archivo de VR2, contiene el precio de diferentes casas bajo diferentes condiciones. Son muchos datos.
+Aquí no voy a poner el Script de R. Sólo las instrucciones.
+
+Se carga el modelo
+Se carga el modelo
+Se crea un modelo de predicción con su Split y todo.
+Pero este tiene 2 datos.
+El minsplit = Mínimo de elementos que se considera míninos para que la rama exista.
+Esto es una poda. Elimina los elementos menos probables. Para eso es "cp"
+Hay un scipt para sacar el CP óptimo
+	Y nos da un modelo "podado".
+
+Podemos hacer 2 medidas de error.
+	Medios dice cuánto se desvía cada instancia individualmente de la media.
+	Cuadrado dice el "vulvo" de error que cometí.
+
+Y pusimos unas métricas de predicción
+
+
+
+library(rpart)
+library(rpart.plot)
+library(caTools)   
+library(Metrics)   
+
+
+datos <- read.csv(file.choose(), stringsAsFactors = FALSE)
+
+formula_modelo <- precio ~ .
+muestra <- sample.split(datos$precio, SplitRatio = 0.8)
+train  <- subset(datos, muestra)
+test   <- subset(datos, !muestra)
+
+modelo_arbol <- rpart(
+  formula_modelo,
+  data   = train,
+  method = "anova",
+  control = rpart.control(
+    minsplit = 20,
+    cp       = 0.001 
+  )
+)
+
+cat("\n=== Tabla de complejidad (printcp) ===\n")
+printcp(modelo_arbol)
+
+cp_opt <- modelo_arbol$cptable[which.min(modelo_arbol$cptable[,"xerror"]), "CP"]
+cat("\nMejor cp sugerido:", cp_opt, "\n")
+
+modelo_podado <- prune(modelo_arbol, cp = cp_opt)
+
+rpart.plot(modelo_podado, type = 4, extra = 101)
+
+pred_test <- predict(modelo_podado, newdata = test)
+
+RMSE <- sqrt(mean((test$precio - pred_test)^2))
+MAE  <- mean(abs(test$precio - pred_test))
+
+SST  <- sum( (test$precio - mean(test$precio))^2 )
+SSE  <- sum( (test$precio - pred_test)^2 )
+R2   <- 1 - SSE/SST
+
+cat(sprintf("\n=== Métricas en TEST ===\nRMSE: %.4f\nMAE: %.4f\nR²: %.4f\n", RMSE, MAE, R2))
+
+
+datos$pred_precio <- predict(modelo_podado, newdata = datos)
+
+Cambiar el Split de entreamiento y prueba para ver cómo afecta las pruebas y las predicciones.
+Hay que hacer un análisis de cuál es la mejor composición para estos datos
+Donde haya un Split que me ayude a analizar mejor la información.
+	O quizá el de 80/20 es el mejor.
+
+= = PRACTICA 5 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Esta práctica se trata sobre hayar clusters o clasificaciones del set de: 
+En la práctica (En el salón) usamos una versión reducida de nuestro set real.
+
+Agarramos el dataset de ca_cest_brandi….
+Y en nuestra copia para operar sacamos de cada columna:
+	Min
+	Max
+Para tener los dos centros que se utilizan para nuestra clasificación. Para asegurarnos de que queden lejos.
+	Luego se saca la distancia euclidiana entre:
+	Todas las variables. Con la foto de la distancia euclidiana.
+Pero dicha distancia es guiada por la variable más grande. En este caso la duración.
+Así que hay que normalizar. En este caso usaremos "Línea recta".
+Los máximos serán 1
+Los mínimos serán 0.
+Entonces todas las variables quedan entre 0 y 1.
+
+
+Sacamos la línea recta con.
+M = Y2 - Y1) / (X2 - X1
+Tomamos como máximos y mínimos nuestros datos calculados.
+Y eso lo sacamos de cada columna.
+La ecuación de la línea recta es:
+Y = MX + B, pero no tenemos B.
+Entonces despejamos la B y obtenemos que:
+B = -M (Xmin)
+Y luego para cada columna sacamos eso.
+
+Ahora nos debería quedar una matríz con números entre 0 y 1.
+Pero aún existen 0s y 1s. 
+Así que hay que repetir ese cálculo de distancias pero ahora entre el 0 y el 1.
+
+Luego hacemos 2 columnas adicionales: 0, 1.
+Ahí vamos a clasificar nuestros 2 grupos.
+Si una instancia está en 2 grupos debería aparecer como 1 en ambos grupos.
+
