@@ -1,0 +1,36 @@
+Teoría de la información y métodos de codificación
+
+Lo primero que dijo fue "Pobrecitos" xd
+Es la materia más complicada de Said.
+Es complicada porque tiene un nivel de abstracción muy alto. No es como Visión Computacional, aquí no hay resultados tangibles.
+Esta materia trata de disparar a ciegas.
+"No hay a dónde correr".
+
+Exámenes en línea.
+	MC 10/3/26
+	OR 26/05/26
+	Ex 08/06/26
+Cada examen se divide en 2 partes. Teórica y práctica.
+	La teórica dura 15 minutos.
+	La práctica dura el resto de las 2 horas.
+
+Tareas:
+Todas las tareas juntas valen 40%
+El PIA será revelado después de vacaciones. Vale 20%.
+Nombre: Matrícula, Color, Hora, #Tarea
+Hora: 4N1
+Por ejemplo: "1924910-Crema-4N1-2"
+Todas las tareas se entregan entre las 9:00am y 11:00am se suben de golpe el día del examen.
+Cada método que se ve en clase, se programa en Python. Aunque no lo encarguen.
+
+Asesorías
+Lun Mier Vie
+V3 en línea (Se avisa un día antes)
+N5 en presencial en el 4101
+A partir del 4 de Febrero.
+
+Equipo crema
+
+El pase es con 60.
+
+

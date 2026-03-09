@@ -1,0 +1,107 @@
+Alguien salta de un avión sobre Ohio. La persona puede aterrizar sobre un cuerpo de agua y a menos de 15 millas del centro de Cincinnati
+Determinar el espacio muestral.
+
+Primero que nada:
+
+El diablo está en los detalles. Mi maestro me dijo que pusiera atención en el "Y A menos".
+¿Cuántos elementos tiene este espacio muestral?
+4, porque son 2 preguntas con 2 posibilidades cada una (O algo así)
+Aterriza en un cuerpo de agua y a menos de 15 millas.
+Aterriza en un cuerpo de agua y a 15 o más millas
+NO aterriza en cuerpo de agua y a menos de 15 millas.
+NO aterriza en cuerpo de agua y a 15 o más de 15
+
+Segundo problema:
+Determinar el espacio muestral de:
+A) Lanzar dos dedos.
+B) Lanzar dos dados de diferente color.
+
+Esto seguramente también es una puta trampa. Sospecho que no tiene nada que ver el color.
+La respuesta era:
+A: 11
+Si lanzo 1, es indistinto del lado que salió. El número más bajo del espacio muestral es 2. Porque tendría 1 en cada dado.
+El máximo posible es 12, cuando tengo 6 en cada uno.
+Entonces los números posibles son del 2 al 12. 
+No hay diferencia de un dado al otro, porque son 11 números del espacio muestral.
+
+B) 36
+Ahora podemos diferenciar los dados. No es lo mismo que caiga "1" en el rojo, que "1" en el verde. ¿Pero por qué 36?
+
+
+En una población. 30% de las personas padecen acné, 10% tienen peste bubónica y 12% cólera.
+Además:
+8% tiene acné y peste bubónica.
+7% tiene acné y cólera.
+4% peste bubónica y cólera.
+2% presenta las tres enfermedades.
+
+¿Cuál es el porcentaje de la población que se encuentra sin padecer ninguna de estas tres enfermedades?
+Incluir diagrama de Benn, para la tarea
+
+
+Una urna contiene
+5 esferas rojas
+12 verdes
+8 amarillas
+
+Se sacan 3 sin remplazo.
+A) ¿Cuál es la probabilidad de que se saque una esfera roja, una verde y una amarilla (En ese orden)?
+( 5   ÷   25 )   ×   ( 12   ÷   24 )   ×   ( 8   ÷   23 ) 
+= 0.03478, o 3.4782%
+
+
+B) ¿Cuál es la probabilidad de que la última esfera que se saque sea verde?
+12/25 = 0.48
+Pero ¿Con qué espacio muestral? El número aquí no es lo que importe.
+¿Importa si saco una roja o una amarilla? … NO! Lo único que importan es que no son verdes.
+Podemos simplificar el espacio muestral si decimos "Verdes" y "No verdes".
+Los escenarios:
+V, V, V		12,	11,	10	1320	0.0956
+V, NV, V	12,	13,	11	1716	0.1243
+NV, V, V	13,	12,	11	1716	0.1243
+NV, NV, V	13,	12,	12	1872	0.1356
+(No sé de dónde salieron estos números de esta tabla)
+No es válido que sea "NV, NV, NV" porque la pregunta nos exige que la última sea verde.
+La probabilidad es 0.4798
+Que casualmente es la probabilidad de sacar una a la primera
+Preguntar por qué.
+
+(12/25) * (11/24) * (10/23) = 0.956
+(12/25) * (13/24) * (11/23) = 0.1243
+(13/25) * (12/24) * (11/23) = 0.1243
+(13/25) * (12/24) * (12/23) = 0.1356
+
+Todos estos problemas no son parte del a actividad, pero se entregan. Y dan puntos.
+
+
+Usando la formula de algo binomial.
+En ocho lanzamientos de una moneda justa, encuentre la probabilidad de que caiga cara...
+A) Exactamente tres veces;
+B) Al menos tres veces;
+C) A lo mucho tres veces;
+
+				A) 3 caras en 8 lanzamientos son:
+
+Numerador: 	   n!				R = 56 esta es la resolución del coeficiente binomial.
+Denominador:	k! (n-k) !
+n = 8
+k = 3		
+p = 0.5		Probabilidad de éxito.
+
+p^k = 0.125
+… AY.
+Averiguar por qué la respuesta es: 0.21875
+
+				B) Se suman las probabilidades de que caiga 3 (Ej anterior)… +4, +5, +6... +8
+
+				C) Se suman las probabilidades de que caigan 0, 1, 2, 3
+
+Parece ser que las respuestas están en una foto del teléfono sobre una tabla estadística.
+Por cierto, esa bonita distribución sale en una canción de Stink que se llama "Shape of my heart".
+
+Hacer tarea de las barajas de tus fotos.
+"Si ha puesto atención hoy, cree que voy a querer de todas las combinaciones?": Sí. Porque todas las combinaciones son el espacio muestral.
+¿Cuántas manos diferentes de cinco cartas que contienen dos pares rojos es posiboe obtener a partir de un deck estandar?
+54 cartas
+
+

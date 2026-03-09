@@ -1,0 +1,53 @@
+La información mutua lleva sumatoria si son varios eventos juntos.
+
+	Tipos de procesos
+Cuantificables (hartleys/símbolo)
+	Se cuenta en base 10.
+Transmisión de datos binaria (bits/símbolo)
+	Las computadoras cuentan en base 2
+	Se utiliza log base 2
+Transición entre estados (nats/símbolos)
+	Las cadenas de Márkov son las predicciones del estado siguiente en base al estado actual. Itera sobre sí misma.
+	Converge de manera natural.
+	Entonces usamos la constante de Euler.
+
+Calcular la información mutua y entropía de de:
+A) Lanzar dos dados
+B) Lanzar dos dados de diferente color.
+
+
+
+Calcular información mutua
+
+Si el auto va al norte, y va a la misma dirección en qué dirección está viajando ahora. Norte
+Y si da a la izquierda, Oeste
+Y si va a la derecha: Este.
+Y si va atrás... No es posible. El auto no puede dar reversa de la nada. Este estado no es posible.
+
+Entonces hay que hacer una matríz de una cadena de Márkov.
+	Con cada giro hay una probabilidad.
+	El resultado es en nat/estado (Porque nuestro símbolo es el estado)
+Hacer un programa que permita calcular la información mutua y la entropía
+
+
+No preguntar "Puede..." al profe.
+Preguntar cómo se pregunta apropiadamente entonces.
+
+
+
+	Canales
+Esta diapositiva la bajó del libro. Tiene una almohada con esa portada.
+Cadenas discretos sin memroai
+Un evento discreto es aquel que no tiene valores continuos en su hacer.
+	
+	- Un canal acepta los caracteres de un alfabeto finito. A es nuestro alfabeto de entrada.
+	- Entrega caracteres de un alfabeto de salida B. 
+Los dos alfabetos no tienen que tener la misma longitud, necesariamente.
+
+Si yo tengo 0 y 1 como caracteres posibles y si tengo que usar sólo un carácter entonces si tengo que usar 2
+Todas las representaciones de los alfabetos dependen del cuánto es la longitud de transmisión de ese canal.
+
+Suponer que A = 0 1
+Suponer que B = 0 1 *
+	Osea, el tercer carácter es un "difuso". (Que no sabemos qué es).
+Decidimos usar  A_ = 000, 111 como nuevo alfabeto de entrada
