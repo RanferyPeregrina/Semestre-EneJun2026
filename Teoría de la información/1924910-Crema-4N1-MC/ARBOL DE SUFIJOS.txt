@@ -1,0 +1,72 @@
+
+Raíz
+├── RGFABASABPUEFABASABASABFWFDMOGFOASABASABABASABWM$ (Empieza en pos 0)
+├── GF
+│   ├── ABASABPUEFABASABASABFWFDMOGFOASABASABABASABWM$ (Empieza en pos 1)
+│   └── OASABASABABASABWM$ (Empieza en pos 29)
+├── F
+│   ├── ABASAB
+│   │   ├── PUEFABASABASABFWFDMOGFOASABASABABASABWM$ (Empieza en pos 2)
+│   │   └── ASABFWFDMOGFOASABASABABASABWM$ (Empieza en pos 12)
+│   ├── WFDMOGFOASABASABABASABWM$ (Empieza en pos 23)
+│   ├── DMOGFOASABASABABASABWM$ (Empieza en pos 25)
+│   └── OASABASABABASABWM$ (Empieza en pos 30)
+├── A
+│   ├── B
+│   │   ├── A
+│   │   │   ├── SAB
+│   │   │   │   ├── PUEFABASABASABFWFDMOGFOASABASABABASABWM$ (Empieza en pos 3)
+│   │   │   │   ├── A
+│   │   │   │   │   ├── SABFWFDMOGFOASABASABABASABWM$ (Empieza en pos 13)
+│   │   │   │   │   └── BASABWM$ (Empieza en pos 34)
+│   │   │   │   ├── FWFDMOGFOASABASABABASABWM$ (Empieza en pos 17)
+│   │   │   │   └── WM$ (Empieza en pos 40)
+│   │   │   └── BASABWM$ (Empieza en pos 38)
+│   │   ├── PUEFABASABASABFWFDMOGFOASABASABABASABWM$ (Empieza en pos 7)
+│   │   ├── FWFDMOGFOASABASABABASABWM$ (Empieza en pos 21)
+│   │   └── WM$ (Empieza en pos 44)
+│   └── SAB
+│       ├── PUEFABASABASABFWFDMOGFOASABASABABASABWM$ (Empieza en pos 5)
+│       ├── A
+│       │   ├── SAB
+│       │   │   ├── FWFDMOGFOASABASABABASABWM$ (Empieza en pos 15)
+│       │   │   └── ABASABWM$ (Empieza en pos 32)
+│       │   └── BASABWM$ (Empieza en pos 36)
+│       ├── FWFDMOGFOASABASABABASABWM$ (Empieza en pos 19)
+│       └── WM$ (Empieza en pos 42)
+├── B
+│   ├── A
+│   │   ├── SAB
+│   │   │   ├── PUEFABASABASABFWFDMOGFOASABASABABASABWM$ (Empieza en pos 4)
+│   │   │   ├── A
+│   │   │   │   ├── SABFWFDMOGFOASABASABABASABWM$ (Empieza en pos 14)
+│   │   │   │   └── BASABWM$ (Empieza en pos 35)
+│   │   │   ├── FWFDMOGFOASABASABABASABWM$ (Empieza en pos 18)
+│   │   │   └── WM$ (Empieza en pos 41)
+│   │   └── BASABWM$ (Empieza en pos 39)
+│   ├── PUEFABASABASABFWFDMOGFOASABASABABASABWM$ (Empieza en pos 8)
+│   ├── FWFDMOGFOASABASABABASABWM$ (Empieza en pos 22)
+│   └── WM$ (Empieza en pos 45)
+├── SAB
+│   ├── PUEFABASABASABFWFDMOGFOASABASABABASABWM$ (Empieza en pos 6)
+│   ├── A
+│   │   ├── SAB
+│   │   │   ├── FWFDMOGFOASABASABABASABWM$ (Empieza en pos 16)
+│   │   │   └── ABASABWM$ (Empieza en pos 33)
+│   │   └── BASABWM$ (Empieza en pos 37)
+│   ├── FWFDMOGFOASABASABABASABWM$ (Empieza en pos 20)
+│   └── WM$ (Empieza en pos 43)
+├── PUEFABASABASABFWFDMOGFOASABASABABASABWM$ (Empieza en pos 9)
+├── UEFABASABASABFWFDMOGFOASABASABABASABWM$ (Empieza en pos 10)
+├── EFABASABASABFWFDMOGFOASABASABABASABWM$ (Empieza en pos 11)
+├── W
+│   ├── FDMOGFOASABASABABASABWM$ (Empieza en pos 24)
+│   └── M$ (Empieza en pos 46)
+├── DMOGFOASABASABABASABWM$ (Empieza en pos 26)
+├── M
+│   ├── OGFOASABASABABASABWM$ (Empieza en pos 27)
+│   └── $ (Empieza en pos 47)
+├── O
+│   ├── GFOASABASABABASABWM$ (Empieza en pos 28)
+│   └── ASABASABABASABWM$ (Empieza en pos 31)
+└── $ (Empieza en pos 48)
