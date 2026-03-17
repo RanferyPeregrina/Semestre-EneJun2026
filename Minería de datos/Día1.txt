@@ -32,6 +32,9 @@ Bibliografía de formato APA:
 Contacto en Teams, Asunto: Materia
 Tareas: Matrícula + Color, Hora, #Tarea
 Hora: 5N1
+
+	1924910, Crema, 5N1, Practica2
+
 Asesirías
 Lunes, Miércoles, Viernes
 V3 y N5
