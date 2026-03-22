@@ -1,4 +1,4 @@
-precio,agente_id,pais_id,recamaras,baños,m2_construccion,m2_terreno,pisos,codigo_frente_agua,codigo_vista,codigo_condicion,año_construccion,año_renovacion,codigo_postal,latitud,longitud,vista,condicion
+precio,agente_id,pais_id,recamaras,banos,m2_construccion,m2_terreno,pisos,codigo_frente_agua,codigo_vista,codigo_condicion,ano_construccion,ano_renovacion,codigo_postal,latitud,longitud,vista,condicion
 494000,11,840,4,2.25,545.592,12801.6,1,0,0,3,1983,0,98045,47.4819,-121.744,0,2
 671500,1,484,3,2.5,539.496,522.4272,3,0,0,3,2012,0,98103,47.6532,-122.348,0,2
 630000,11,840,4,3,1109.472,1553.2608,2,0,0,3,2010,0,98118,47.5428,-122.27,0,2
