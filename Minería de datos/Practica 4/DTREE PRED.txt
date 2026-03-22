@@ -1,0 +1,81 @@
+library(datasets) 
+library(caTools)
+library(party)
+library(dplyr)
+library(magrittr)
+
+data("readingSkills")
+head(readingSkills)
+
+sample_data <- sample.split(readingSkills$nativeSpeaker, SplitRatio = 0.8)
+train_data <- subset(readingSkills, sample_data == TRUE)
+test_data <- subset(readingSkills, sample_data == FALSE)
+
+model <- ctree(nativeSpeaker ~ ., data = train_data)
+
+plot(model)
+
+predict_model <- predict(model, test_data)
+m_at <- table(test_data$nativeSpeaker, predict_model)
+m_at
+
+ac_Test <- sum(diag(m_at)) / sum(m_at)
+print(paste('Precisión', ac_Test))
+
+new_data <- data.frame(
+  age = as.integer(c(7, 8)),         
+  shoeSize = as.numeric(c(35, 37)),  
+  score = as.numeric(c(22, 30))      
+)
+
+pred_new <- predict(model, new_data)
+pred_new
+
+
+
+library(rpart)
+library(rpart.plot)
+library(caTools)   
+library(Metrics)   
+
+
+datos <- read.csv(file.choose(), stringsAsFactors = FALSE)
+
+formula_modelo <- precio ~ .
+muestra <- sample.split(datos$precio, SplitRatio = 0.8)
+train  <- subset(datos, muestra)
+test   <- subset(datos, !muestra)
+
+modelo_arbol <- rpart(
+  formula_modelo,
+  data   = train,
+  method = "anova",
+  control = rpart.control(
+    minsplit = 20,
+    cp       = 0.001 
+  )
+)
+
+cat("\n=== Tabla de complejidad (printcp) ===\n")
+printcp(modelo_arbol)
+
+cp_opt <- modelo_arbol$cptable[which.min(modelo_arbol$cptable[,"xerror"]), "CP"]
+cat("\nMejor cp sugerido:", cp_opt, "\n")
+
+modelo_podado <- prune(modelo_arbol, cp = cp_opt)
+
+rpart.plot(modelo_podado, type = 4, extra = 101)
+
+pred_test <- predict(modelo_podado, newdata = test)
+
+RMSE <- sqrt(mean((test$precio - pred_test)^2))
+MAE  <- mean(abs(test$precio - pred_test))
+
+SST  <- sum( (test$precio - mean(test$precio))^2 )
+SSE  <- sum( (test$precio - pred_test)^2 )
+R2   <- 1 - SSE/SST
+
+cat(sprintf("\n=== Métricas en TEST ===\nRMSE: %.4f\nMAE: %.4f\nR²: %.4f\n", RMSE, MAE, R2))
+
+
+datos$pred_precio <- predict(modelo_podado, newdata = datos)
