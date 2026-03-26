@@ -1,0 +1,3 @@
+Organism Scientific Name	Organism Common Name	Organism Qualifier	Taxonomy id	Assembly Name	Assembly Accession	Source	Annotation	Level	Contig N50	Size	Submission Date	Gene Count	BioProject	BioSample
+Helicobacter pylori		strain: CHC155	210	ASM2599845v1	GCA_025998455.1	GenBank	Annotation submitted by Oita University	Complete Genome	1696601	1696601	2022-10-20	1621	PRJDB10671	SAMD00509734
+Helicobacter pylori		strain: CHC155	210	ASM2599845v1	GCF_025998455.1	RefSeq	GCF_025998455.1-RS_2025_12_09	Complete Genome	1696601	1696601	2022-10-20	1629	PRJDB10671	SAMD00509734
