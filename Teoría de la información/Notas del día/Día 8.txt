@@ -1,0 +1,32 @@
+Tenemos muchos métodos de aritmética. Haremos los más sencillos de este capítulo (Capítulo 6) Pero primero hay que ver cómo está hecha la construcción de los intervalos.
+
+Tenemos una tabla de frecuencia y frecuencia relativa.
+Ordenamos por frecuencia relativa.
+
+Necesitamos 
+Alfa Beta Longitud de cada intervalo.
+
+Convertimos todos las frecuencias (Columna) en fila.
+Y esa fila es "Longitud" (L)".
+Alfa:	Si inicia en 0 y su longitud des ".13" dónde debe terminar? .13.
+Beta:	Es la suma de L y Alfa.
+
+Columna 2:
+Alfa es el "L" de la columna 1.
+Beta es esa suma y todo eso...
+
+Si buscamos la codificación de la palabra "FIME".
+Entonces:
+
+Tomamos el intervalo de cada letra, y se divide en... No sé.
+La primer letra inicia con el intervalo en donde inicie la primer letra, en este caso, era "F".
+La Longitud de Fa es Longitud de F * Fa.
+
+
+Son 2 métodos a partir de esa cosa del capítulo 6.
+
+En la codificación aritmética se tiene que hacer la codificación binaria de todos los subintervalos en todos los niveles hasta el nivel de la palabra de máxima longitud.
+Es decir, F, FI, FIM, FIME.
+
+Así que se tiene que hacer un programa que haga eso.
+Yupppieeee

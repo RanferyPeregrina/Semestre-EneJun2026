@@ -34,10 +34,10 @@ def merge_con_lcp(text, izq, der):
     resultado = []
     i, j = 0, 0
     
-    # Lógica base de un Merge tradicional (Falta inyectar la optimización LCP aquí)
+    # Lógica base de un Merge tradicional (Falta inyectar la optimización LCP aquí) no supe como
     while i < len(izq) and j < len(der):
-        # NOTA: text[izq[i]:] hace copias de strings, lo cual es lento. 
-        # En la versión final, deberás comparar índices letra por letra usando la optimización LCP.
+        # NOTA: text[izq[i]:] hace copias de strings, lo cual es lento. Tenemos que cambiar esto después
+        # En la versión final, tenemos que comparar índices letra por letra usando la optimización LCP.
         if text[izq[i]:] < text[der[j]:]:
             resultado.append(izq[i])
             i += 1
@@ -56,11 +56,13 @@ def merge_sort_sufijos(text, indices):
     """
     if len(indices) <= 1:
         return indices
-    
+                                                        #Separa dos mitades del arreglo de sufijos
     medio = len(indices) // 2
-    izq = merge_sort_sufijos(text, indices[:medio])
-    der = merge_sort_sufijos(text, indices[medio:])
+    izq = merge_sort_sufijos(text, indices[:medio])     #Ordena la mitad izquierda
+    der = merge_sort_sufijos(text, indices[medio:])     #Ordena la mitad derecha
     
+    #Chequen que yo ordené con una función automática. No está optimizado.
+    #Perdón.
     return merge_con_lcp(text, izq, der)
 
 
@@ -68,10 +70,11 @@ def merge_sort_sufijos(text, indices):
 # EXPORTACIÓN DE DATOS
 # =========================
 def guardar_resultados(text, sa, lcp_arr):
+    NombreBacteria = os.path.basename(filepath).split('.')[0]
     """Guarda los resultados en disco en lugar de saturar la consola."""
-    output_dir = r"A:\Archivos\Respaldo"
+    output_dir = r"Respuestas/" + NombreBacteria 
     os.makedirs(output_dir, exist_ok=True)
-    output_path = os.path.join(output_dir, "salmonella_output.txt")
+    output_path = os.path.join(output_dir, f"{NombreBacteria}_output.txt")
     
     print(f"\nGuardando resultados en: {output_path}...")
     with open(output_path, 'w') as f:
