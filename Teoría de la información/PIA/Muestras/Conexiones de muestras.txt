@@ -1,0 +1,23 @@
+Listeria innocua 
+Bacteria inofensiva que está en la comida. No es patógena.
+https://www.ncbi.nlm.nih.gov/datasets/taxonomy/1642/
+
+Streptococcus sanguinis
+Es una bacteria anaerobica oral saludable. Está en los dientes y protege de patógenos.
+https://www.ncbi.nlm.nih.gov/datasets/taxonomy/1305/
+
+Corynebacterium pseudotuberculosis
+Es una bacteria grampositiva anaerobica facultativa que causa una enfermedad: Linfadenitis caseosa en bovinos.
+https://www.ncbi.nlm.nih.gov/datasets/taxonomy/1719/
+
+Mycoplasmopsis bovis PG45
+Una enfermedad que enferma al ganado vacuno.
+https://www.ncbi.nlm.nih.gov/datasets/taxonomy/289397/
+
+Lactobacillus acidophilus
+Es una bacteria probiótica que está en el tracto digestivo, urinario y genital. Hace ácido láctico para proteger de bacterias dañinas.
+https://www.ncbi.nlm.nih.gov/datasets/taxonomy/1579/
+
+Haemophilus influenzae
+Es una bacteria cacobacilo gramnegativo de las vías respiratorias que causa infecciones pero no gripa.
+https://www.ncbi.nlm.nih.gov/datasets/taxonomy/727/
