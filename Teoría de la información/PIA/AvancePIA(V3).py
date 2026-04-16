@@ -1,4 +1,5 @@
 import os
+import numpy as np
 from tkinter import Tk, filedialog
 
 class GenomicData:
@@ -134,6 +135,101 @@ class CAPS_Engine:
         # (Aquí se requiere una lógica similar para vaciar las listas)
         print(merged_sa)
         return merged_sa, merged_lcp
+
+
+
+
+class LocalSort:
+    def __init__(self, text):
+        self.text = text
+        self.n = len(text)
+
+    def compare_with_lcp(self, idx_a, idx_b, shared_lcp):
+        """Motor de comparación (Fase 2 mejorada)"""
+        k = shared_lcp
+        while idx_a + k < self.n and idx_b + k < self.n:
+            if self.text[idx_a + k] != self.text[idx_b + k]:
+                if self.text[idx_a + k] < self.text[idx_b + k]:
+                    return "a", k
+                else:
+                    return "b", k
+            k += 1
+        return ("a", k) if idx_a + k == self.n else ("b", k)
+
+    def merge(self, sa_a, lcp_a, sa_b, lcp_b):
+        """Fusión de dos listas usando los 3 casos del paper"""
+        merged_sa = []
+        merged_lcp = []
+        
+        i, j = 0, 0
+        l_a, l_b = 0, 0 
+        
+        # El primer elemento de la fusión
+        # Necesitamos decidir quién arranca el array
+        res, match_len = self.compare_with_lcp(sa_a[0], sa_b[0], 0)
+        if res == "a":
+            merged_sa.append(sa_a[0])
+            merged_lcp.append(0) # El primero siempre es 0
+            l_a = lcp_a[1] if 1 < len(lcp_a) else 0
+            l_b = match_len
+            i += 1
+        else:
+            merged_sa.append(sa_b[0])
+            merged_lcp.append(0)
+            l_b = lcp_b[1] if 1 < len(lcp_b) else 0
+            l_a = match_len
+            j += 1
+
+        while i < len(sa_a) and j < len(sa_b):
+            s_a, s_b = sa_a[i], sa_b[j]
+            
+            if l_a > l_b: # Caso 1
+                merged_sa.append(s_b); merged_lcp.append(l_b)
+                l_b = lcp_b[j+1] if j+1 < len(lcp_b) else 0
+                # l_a se mantiene igual (propiedad transitiva)
+                j += 1
+            elif l_a < l_b: # Caso 2
+                merged_sa.append(s_a); merged_lcp.append(l_a)
+                l_a = lcp_a[i+1] if i+1 < len(lcp_a) else 0
+                i += 1
+            else: # Caso 3: Empate de LCP, comparar letras
+                res, match_len = self.compare_with_lcp(s_a, s_b, l_a)
+                if res == "a":
+                    merged_sa.append(s_a); merged_lcp.append(l_a)
+                    l_a = lcp_a[i+1] if i+1 < len(lcp_a) else 0
+                    l_b = match_len
+                    i += 1
+                else:
+                    merged_sa.append(s_b); merged_lcp.append(l_b)
+                    l_b = lcp_b[j+1] if j+1 < len(lcp_b) else 0
+                    l_a = match_len
+                    j += 1
+
+        # Vaciar los elementos restantes (muy importante para la robustez)
+        while i < len(sa_a):
+            merged_sa.append(sa_a[i])
+            merged_lcp.append(l_a)
+            l_a = lcp_a[i+1] if i+1 < len(lcp_a) else 0
+            i += 1
+        while j < len(sa_b):
+            merged_sa.append(sa_b[j])
+            merged_lcp.append(l_b)
+            l_b = lcp_b[j+1] if j+1 < len(lcp_b) else 0
+            j += 1
+
+        return merged_sa, merged_lcp
+
+    def execute_sort(self, indices):
+        """Función recursiva de ordenamiento local"""
+        if len(indices) <= 1:
+            return indices, [0]
+        
+        mid = len(indices) // 2
+        sa_izq, lcp_izq = self.execute_sort(indices[:mid])
+        sa_der, lcp_der = self.execute_sort(indices[mid:])
+        
+        return self.merge(sa_izq, lcp_izq, sa_der, lcp_der)
+    
 
 # Ejemplo de uso para esta fase:
 if __name__ == "__main__":
