@@ -145,7 +145,7 @@ class LocalSort:
         self.n = len(text)
 
     def compare_with_lcp(self, idx_a, idx_b, shared_lcp):
-        """Motor de comparación (Fase 2 mejorada)"""
+        # Esto es el motor de comparación
         k = shared_lcp
         while idx_a + k < self.n and idx_b + k < self.n:
             if self.text[idx_a + k] != self.text[idx_b + k]:
@@ -231,11 +231,17 @@ class LocalSort:
         return self.merge(sa_izq, lcp_izq, sa_der, lcp_der)
     
 
-# Ejemplo de uso para esta fase:
-if __name__ == "__main__":
-    
-    try:
 
+# ==========================================
+# TEST DE INTEGRACIÓN: FASES 1, 2 Y 3 para que podamos probar lo que llevamos
+# ==========================================
+
+if __name__ == "__main__":
+    # 1. Ejecutar Fase 1: Carga de datos. Usen todos el mismo para que las pruebas nos queden igual.
+    data_manager = GenomicData()
+    
+    # Elegimos el archivo del genoma
+    try:
         root = Tk()
         root.withdraw() 
         ruta = filedialog.askopenfilename(
@@ -243,9 +249,32 @@ if __name__ == "__main__":
             # ¡Añadido soporte para .fna y otros formatos (Por si a caso)
             filetypes=[("Secuencias de ADN", "*.fasta *.fa *.fna *.txt")] 
         )
-
+    # Lo mandamos a procesar
         data = GenomicData()
         data.cargar_fna(ruta)
-        print(data.info_memoria())
+        print(data.info_memoria()) #Esto es para enterarnos de que la memoria no se acabó jaja
     except Exception as e:
         print(f"Error en Fase 1: {e}")
+    
+
+    data_manager.cargar_fna(ruta)
+    # 2. Preparamos los índices iniciales (desordenados)
+    indices_iniciales = list(range(data_manager.length))
+
+    # 3. Ejecutar Fase 3: LocalSort 
+    print("\nIniciando LocalSort...")
+    engine = LocalSort(data_manager.sequence)
+    
+    # Aquí usamos el Mergesort informado por LCP
+    sa_final, lcp_final = engine.execute_sort(indices_iniciales)
+
+    # 4. Verificación de resultados
+    print("\n--- RESULTADOS DE LA PRUEBA ---")
+    for i in range(min(15, len(sa_final))):
+        idx = sa_final[i]
+        lcp_val = lcp_final[i]
+        # Mostramos el sufijo (limitado a 20 letras para que quepa en pantalla)
+        sufijo = data_manager.sequence[idx:idx+20]
+        print(f"SA[{i:2}] = {idx:4} | LCP: {lcp_val:2} | Sufijo: {sufijo}")
+    
+ 

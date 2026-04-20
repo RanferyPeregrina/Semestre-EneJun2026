@@ -1,0 +1,17 @@
+
+
+
+
+
+
+Cómo deben ser los resultados de los árboles de ambos métodos:
+	Iguales
+Elegir un lugar del mundo. Específico.
+Quizá un edificio o un lugar así.
+
+A parte del lugar poner:
+	- Numero de caracteres que yo espero que salga de la codificación de ese lugar.
+		Con Huffman
+		Shannon
+		Aritmética
+	El alfabeto de la clase será las respuestas de la clase.

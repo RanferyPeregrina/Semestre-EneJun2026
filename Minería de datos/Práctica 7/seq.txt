@@ -1,0 +1,17 @@
+library(arulesSequences)
+library(arules)
+
+data("zaki")                 
+zaki
+
+freq <- cspade(
+  zaki,
+  parameter = list(support = 0.3, maxsize = 3, maxlen = 4),  # ajusta a tu caso
+  control   = list(tidLists = TRUE, verbose = TRUE)
+)
+
+
+as(head(freq, 10), "data.frame")
+
+rules <- ruleInduction(freq, confidence = 0.6)
+as(head(sort(rules, by = "lift"), 10), "data.frame")

@@ -1,0 +1,85 @@
+library(dplyr)
+library(readr)
+library(stringr)
+
+
+df <- read_csv(file.choose(), show_col_types = FALSE)
+
+
+df <- df %>%
+  mutate(
+    MOMENT = if (is.numeric(cdatetime)) as.integer(cdatetime) else as.integer(as.factor(cdatetime)),
+    EVENT  = str_to_upper(str_trim(crimedescr)),
+    CASE_ID = paste0("G", grid, "_B", beat)
+  ) %>%
+  filter(!is.na(MOMENT), !is.na(EVENT), !is.na(CASE_ID), !is.na(district)) %>%
+  arrange(CASE_ID, MOMENT)
+
+
+wsize <- 10
+
+
+gen_episodes <- function(data) {
+  data %>%
+    group_modify(~{
+      evs <- .x
+      if (nrow(evs) < 2) return(tibble())
+      
+      pairs <- combn(seq_len(nrow(evs)), 2)
+      diffs <- evs$MOMENT[pairs[2,]] - evs$MOMENT[pairs[1,]]
+      keep <- which(!is.na(diffs) & diffs > 0 & diffs <= wsize)
+      if (length(keep) == 0) return(tibble())
+      
+      tibble(
+        CASE_ID = evs$CASE_ID[pairs[1, keep]],            
+        district = evs$district[pairs[1, keep]],          
+        start_event = evs$EVENT[pairs[1, keep]],          
+        next_event = evs$EVENT[pairs[2, keep]],           
+        ep = paste(evs$EVENT[pairs[1, keep]], "->", evs$EVENT[pairs[2, keep]]),
+        moment_start = evs$MOMENT[pairs[1, keep]],        
+        moment_end = evs$MOMENT[pairs[2, keep]],          
+        diff = diffs[keep]
+        )
+    }) %>%
+    ungroup()
+}
+
+
+episodes_global <- gen_episodes(df)
+
+n_cases_global <- n_distinct(df$CASE_ID)
+episode_support_global <- episodes_global %>%
+  filter(ep != "") %>%
+  distinct(CASE_ID, ep) %>%
+  count(ep, name = "cases_with_ep") %>%
+  mutate(support = cases_with_ep / n_cases_global) %>%
+  arrange(desc(support))
+
+
+episodes_by_district <- df %>%
+  group_by(district) %>%
+  group_modify(~{
+    eps <- gen_episodes(.x)
+    if (nrow(eps) == 0) return(tibble())
+    n_cases <- n_distinct(.x$CASE_ID)
+    eps %>%
+      distinct(CASE_ID, ep) %>%
+      count(ep, name = "cases_with_ep") %>%
+      mutate(
+        district = unique(.x$district),
+        support = cases_with_ep / n_cases
+      )
+  }) %>%
+  ungroup() %>%
+  arrange(district, desc(support))
+
+
+write.csv(episodes_global, "episodios_detalle.csv", row.names = FALSE)
+write.csv(episode_support_global, "episodios_globales.csv", row.names = FALSE)
+write.csv(episodes_by_district, "episodios_por_distrito.csv", row.names = FALSE)
+
+
+cat("=== Global Top 15 Episodes ===\n")
+print(head(episode_support_global, 15))
+cat("\n=== District Top 15 Episodes ===\n")
+print(head(episodes_by_district, 15))

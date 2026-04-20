@@ -1,0 +1,287 @@
+\documentclass[a4paper,twoside]{article}
+
+\usepackage{epsfig}
+\usepackage{subcaption}
+\usepackage{calc}
+\usepackage{amssymb}
+\usepackage{amstext}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{multicol}
+\usepackage{pslatex}
+\usepackage{apalike}
+\usepackage{algorithm2e}
+\usepackage[bottom]{footmisc}
+\usepackage{SCITEPRESS}     % Please add other packages that you may need BEFORE the SCITEPRESS.sty package.
+
+\begin{document}
+
+\title{A Preliminary Usability Study of a Virtual Reality-Based Rehabilitation System Using IMU Sensors.}
+
+\author{\authorname{Ranfery Josua Peregrina Morales\sup{1}\orcidAuthor{0009-0005-3527-1921}, Victor Alejandro Ovalle Pantaleón\sup{2}\orcidAuthor{0009-0005-5970-6619}, Leticia Neira-Tovar\sup{3}\orcidAuthor{0000-0002-7346-0863} and Homero Morales Carrillo\sup{3}\orcidAuthor{0000-0003-0131-635X}}
+\affiliation{\sup{1}Facultad de Ingeniería Mecánica y Eléctrica, Universidad Autónoma de Nuevo León, Pedro de Alba, San Nicolás de los Garza, Nuevo León}
+\affiliation{\sup{2}Virtual Reality Lab.}
+\email{\{ranfery.peregrinamr@uanl.edu.mx},
+        {alejandro.ovallepntln@uanl.edu.mx},
+        {leticia.neiratv@uanl.edu.mx},
+        {hmoralesc@uanl.edu.mx}}
+
+}}
+
+\keywords{Rehabilitation, Therapy, Virtual Reality, Motion Capture, IMU, Unity Game Engine, Video Games, Sensors, Body Tracking.}
+
+\abstract{This paper presents a preliminary usability study of a motion-based rehabilitation system developed in the Unity3D Game Engine and integrated with SlimeVR inertial sensors. The system is designed to guide and monitor shoulder and knee exercises through real-time body tracking and dynamic repetition goals.
+A total of 30 university students participated in the evaluation, performing guided exercises and completing a structured questionnaire based on a 1–10 Likert scale. The evaluation focused on three dimensions: usability, subjective experience, and perceived functionality.
+Results indicate high user acceptance, with average usability scores above 9.3 and strong internal consistency (Cronbach’s alpha = 0.96). However, lower scores in error detection (8.67) and environmental immersion (8.87) highlight areas for improvement.
+This study does not evaluate clinical effectiveness but provides an engineering validation of IMU-based tracking systems as a viable alternative to camera-based approaches for interactive rehabilitation support.}
+
+\onecolumn \maketitle \normalsize \setcounter{footnote}{0} \vfill
+
+\section{\uppercase{Introduction}}
+\label{sec:introduction}
+
+\noindent Physical rehabilitation is a fundamental component in the functional recovery of patients with musculoskeletal injuries and motor disorders \cite{Kiani, 2026}. However, traditional therapeutic processes often face problems with patient adherence and motivation, mainly due to the repetitive and monotonous nature of the pre-scribed exercises \cite{Gu2023, Alenjareghi, 2026}. This lack of commitment can negatively affect the effectiveness of treatments and prolong recovery times. In recent years, the development of interactive technologies and virtual environments has allowed for the exploration of new strategies to increase user participation in rehabilitation activities \cite{Amin, 2025}. In particular, systems based on therapeutic video games and real-time feedback have proven to be promising tools for improving motivation, facilitating performance monitoring, and providing controlled environments for physical exercise \cite{Alam, 2025}.
+Several studies have implemented rehabilitation platforms supported by computer vision-based motion capture sensors, such as Kinect devices, which allow tracking user skeletal movements without the need for body sensors \cite{Alenjareghi, 2026}. These systems have been used to guide therapeutic exercises and assess range of motion in different body segments, showing favorable results in terms of usability and user acceptance.
+Despite this, camera-based systems have limitations related to lighting conditions, body part occlusion, and the restriction of keeping the user within a defined capture space. As an alternative, wearable inertial sensors have emerged as a viable option for body-tracking, allowing the capture of kinematic data without relying on direct user visibility or a specific environment.
+This article proposes the design and implementation of an interactive body-tracking system for physical rehabilitation exercises, developed with the Unity3D game engine and integrated with SlimeVR inertial sensors. The system was designed to guide and monitor the repetitive execution of exercises focused on shoulder and knee mobility, using dynamic goals that are progressively adjusted to the patient's performance.
+A preliminary evaluation was also conducted to analyze three key dimensions of interaction with the application: interface usability, subjective user experience, and perceived system functionality in terms of accuracy and responsiveness \cite{Qu, 2025}. A structured evaluation instrument based on surveys with Likert numerical rating scales was used for this purpose \cite{Juan, 2023}.
+The results of this study aim to provide evidence on the feasibility of using inertial movement units (IMUs) in interactive rehabilitation applications \cite{Grossman, 2026}, as well as to provide a reference for the design and evaluation of future therapeutic systems based on motion tracking \cite{MousaviHondori, 2014}.
+
+\section{\uppercase{Methodology}}
+
+This study involved the design, implementation, and evaluation of an interactive, motion-based rehabilitation system developed in the Unity3D Game Engine and integrated with inertial sensors. The methodology was divided into two main components: (1) the development of the interactive application and its body-tracking architecture, and (2) the experimental evaluation through user testing and structured surveys.
+
+\subsection{\uppercase{System Development and Architecture}}
+
+The sensor configuration consisted of five identical SlimeVR inertial sensors, placed on the following body segments: chest, both arms (above the elbow), and both legs (above the knee). This placement was selected to capture upper and lower limb movements relevant to shoulder and knee rehabilitation exercises. The open-source software SlimeVR Server was used to receive and process raw sensor data. To enable real-time data streaming into the Unity3D environment, the Virtual Motion Capture (VMC) protocol and Open Sound Control (OSC) were activated within the SlimeVR Server. A single VRM model was selected as the default avatar in both the SlimeVR Server and the Unity scene. All skeletal movements read by the server were transmitted live to the Unity scene, ensuring consistent visual feedback.  
+The motion-processing pipeline consisted of three stages: (1) acquisition of raw orientation data from the sensors, (2) transmission via the VMC protocol using OSC messages, and (3) real-time mapping of sensor data to a VRM avatar within the Unity environment. 
+Repetition detection was implemented by measuring the Euclidean distance between two specific body parts of the VRM model in the Unity scene. For shoulder exercises, the distance between the arm and the knee on the same side was used. Threshold values for repetition detection were empirically defined during initial testing to distinguish between resting and active positions. These thresholds were fixed for all participants and were not dynamically adapted to individual body proportions. A repetition was counted when the distance increased beyond a threshold (arm raised) and then decreased below a threshold (arm lowered), provided that the arm had previously been in a raised state. For knee exercises, the distance between the knee and the chest was used. A repetition was counted when this distance decreased below a threshold (knee lifted) and then increased above a threshold (knee lowered).  It is important to note that the system only detects movement completion based on positional thresholds and does not evaluate movement correctness or biomechanical accuracy. 
+At the start of each scene, a repetition goal was set to 15 repetitions. Upon reaching the goal, a dialog box asked the user whether to continue. If confirmed, the goal was doubled and the repetition counter reset. 
+The system includes a set of interactive scenes that structure the user’s experience, beginning with an instruction screen, followed by a main menu and two independent exercise modules focused on knee and shoulder rehabilitation. Each module was designed to guide the user with visual cues and dynamic objectives that progressively increase as the set number of repetitions is completed. Currently, the project focuses on two specific exercises designed to address common injuries among athletes at our institution 
+
+\subsubsection{\uppercase{Sensor Calibration and Data Processing}}
+Before each session, a calibration process was performed to align the orientation of all sensors with the user’s neutral standing posture. This step ensured that relative motion between body segments could be consistently interpreted during exercise execution.
+Sensor data were transmitted via the SlimeVR Server using the Virtual Motion Capture (VMC) protocol and processed in Unity through an Open Sound Control (OSC) interface. The system continuously updated the avatar’s skeletal structure at runtime based on incoming orientation data.
+To reduce noise and sudden fluctuations, a simple temporal smoothing approach was applied by averaging consecutive frames before evaluating movement thresholds.
+
+\subsubsection{\uppercase{Repetition Detection Logic}}
+Repetition detection was implemented by measuring the Euclidean distance between two specific body parts of the VRM model in the Unity scene. For shoulder exercises, the distance between the arm and the knee on the same side was used. Threshold values for repetition detection were empirically defined during initial testing to distinguish between resting and active positions. These thresholds were fixed for all participants and were not dynamically adapted to individual body proportions. A repetition was counted when the distance increased beyond a threshold (arm raised) and then decreased below a threshold (arm lowered), provided that the arm had previously been in a raised state. For knee exercises, the distance between the knee and the chest was used. A repetition was counted when this distance decreased below a threshold (knee lifted) and then increased above a threshold (knee lowered). 
+This approach prioritizes consistency in repetition counting, although it does not currently validate biomechanical correctness of the movement.
+ It is important to note that the system only detects movement completion based on positional thresholds and does not evaluate movement correctness or biomechanical accuracy. 
+At the start of each scene, a repetition goal was set to 15 repetitions. Upon reaching the goal, a dialog box asked the user whether to continue. If confirmed, the goal was doubled and the repetition counter reset. 
+
+\subsection{\uppercase{Instructions}}
+
+
+
+\noindent {\bf }Before entering the main screen, an image with three instructions will be shown. The goal is to ensure the user can correctly operate the program and avoid any inconvenience when using it.
+The system's interaction flow begins with an instructions screen designed to familiarize users with the available input methods and interaction modalities before accessing the main menu.
+This flow of operations between the sensor and the application is shown in Figure 1
+
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1\linewidth]{diagrama.pdf}
+    \caption{This flowchart illustrates the general process for using the sensor project.}
+    \label{fig:placeholder}
+\end{figure}
+
+
+\begin{itemize}
+\item If a 'mouse' icon appears, it must be used to operate the program. 
+\item If a 'keyboard' icon appears, it must be used to operate the program. 
+\item If a 'body' icon appears, the user can move and the program will detect their movements.
+\end{itemize}
+
+
+
+\subsection{\uppercase{Main menu interface}}
+
+It displays a scene with several objects that can be used for physical rehabilitation and offers two options: 'Play' and 'Exit'.
+'Play' allows the user to enter the game. 
+'Exit' returns the user to the file location where the program is stored. This screen is illustrated in Figure 2
+
+
+
+\noindent We have two options to choose from, and each leads the user to a different scene where specific instructions for performing the rehabilitation exercise are provided. Additionally, there is an extra button labeled ’Back’. When labeled ’Back’ button is pressed, the user returns to the project’s main screen, as shown in Figure 1.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{seleccioescena.pdf}
+    \caption{Scene Selection Module.}
+    \label{fig:placeholder}
+\end{figure}
+
+
+\subsection{\uppercase{Knee scene}}
+
+This is the knee scene. This scene is accessed by selecting the image labeled 'Knee exercise'. Each section has a specific function, and the only selectable button is 'Return to main menu', which, as its name indicates, returns the user to the main menu (See Figure 4).
+
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1\linewidth]{rodilla.pdf}
+    \caption{Knee scene Module.}
+    \label{fig:placeholder}
+\end{figure}
+
+
+\subsection{\uppercase{Shoulder Rehabilitation Scene}}
+In this section, movements oriented toward the rehabilitation of the upper limbs are shown (see Figure 7). Each section has a specific function, and the only selectable button is ’Return to main menu’, which, as its name indicates, returns the user to the main menu. This interface shows the number of correctly per formed repetitions. It is configured with a script that measures the distance between sensors. Additionally, it includes a goal that must be reached to complete the activity. 
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1\linewidth]{hombro.pdf}
+    \caption{Shoulder movement scene and movements to be coordinated.}
+    \label{fig:placeholder}
+\end{figure}
+
+\noindent This interface shows the number of correctly performed repetitions. It is configured with a script that measures the distance between sensors. Additionally, it includes a goal that must be reached to complete the activity (See Figure 5).
+
+\subsection{\uppercase{Objetive, repetition and time.}}
+ 
+ \begin{figure}[h!]
+     \centering
+     \includegraphics[width=0.4\linewidth]{tiempo.pdf}
+     \caption{Response Time.}
+     \label{fig:placeholder}
+ \end{figure}
+ 
+\noindent The program includes a timer that increments during execution, but it's not used to measure any performance metrics. It's there so the user can (optionally) assess the program's speed over time (See Figure 5).
+These instructions help the user perform the exercises correctly and include some motivational feedback (See Figure 7).
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.4\linewidth]{objetivo.pdf}
+    \caption{Repetition Count and Exercise.}
+    \label{fig:placeholder}
+\end{figure}
+
+\noindent This interface shows the number of correctly performed repetitions. It is configured with a script that measures the distance between sensors. Additionally, it includes a goal that must be reached to complete the activity
+
+
+This section shows the time required to perform the exercises. There is no time limit.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.4\linewidth]{comentario.pdf}
+    \caption{Feedback.}
+    \label{fig:placeholder}
+\end{figure}
+ 
+
+\noindent These instructions help the user perform the exercises correctly and include some motivational feedback.
+
+
+
+\subsection{\uppercase{Experimental Evaluation}}
+Testing sessions were conducted individually with each participant in a controlled indoor environment. Initially, a brief explanation of the system and the purpose of the exercise session was provided
+on how to use the system and then performed both exercise modules (knee and shoulder). 
+Upon completing the activity, participants completed an evaluation survey to provide feedback on their interaction with the system. Each participant completed both exercise modules in a single session. No time constraints were imposed, and participants were allowed to rest between repetitions. The total duration of each session ranged between 5 and 10 minutes. The instructor attended one of the evaluation sessions to assess the program’s performance.  
+
+
+\subsection{\uppercase{Participants}}
+The evaluation involved 30 university students engaged in sports activities. Participants volunteered to interact with the system and complete an evaluation survey after performing the guided exercises.
+\noindent
+Although the application is intended for rehabilitation scenarios, the participants in this preliminary evaluation were healthy individuals who simulated rehabilitation exercises under supervised conditions.
+\noindent
+The participants’ age range primarily corresponded to that of young adults typical of a university sports environment.
+Additionally, a sports instructor provided initial qualitative feedback during the development stage, suggesting adjustments to the exercise structure, including organizing repetitions into three sets of fifteen repetitions per limb instead of increasing repetitions exponentially.
+
+
+\subsection{\uppercase{Instrument}}
+
+After interacting with the system, participants completed a structured survey consisting of 36 items rated on a Likert scale from 1 to 10, where higher values represented a more positive evaluation.
+The instrument evaluated three main dimensions:
+
+\begin{itemize}
+    \item Usability, including clarity of instructions, ease of navigation, and interface organization.
+    \item Subjective experience, including comfort, motivation, and overall satisfaction.
+    \item Functionality, including perceived accuracy in detecting repetitions, system responsiveness, and stability during use.
+\end{itemize}
+The questionnaire was administered via an online survey platform and the responses were subsequently exported for quantitative analysis.
+
+\section{\uppercase{Results}}
+\subsection{\uppercase{Usability Results}}
+The usability evaluation revealed very positive perceptions among participants. Most usability-related items received average scores above 9.3 out of 10, indicating that users found the system easy to understand and interact with.
+Participants rated the clarity of the exercise objectives with an average score of 9.33, while the ease of understanding the required movements reached an average of 9.60. Similarly, the visual organization of the interface received an average score of 9.56, suggesting that the system's design is intuitive for user interaction.
+These results indicate that the interface design and interaction model allowed users to adapt to the system quickly with minimal difficulty.
+
+
+\subsection{\uppercase{Reliability of the Evaluation Instrument}}
+We calculated Cronbach's alpha to determine the linear relationship between the items evaluated through he survey.
+The instrument proved to be robust and consistent and evaluated very positively in the three main categories:
+\begin{itemize}
+    \item Subjective experience: 0.83 (Very good)
+    \item Functionality: 0.94 (Excellent)
+    \item Overall rating: 0.96 (Excellent)
+\end{itemize}
+
+
+
+
+\subsection{\uppercase{Data Mining: User Segmentation}}
+Using a K-Means algorithm, three user profiles were identified:
+
+\begin{itemize}
+    \item Approvers (n=19): They scored almost 10/10 across the board. They had no technical problems and the experience was excellent.)
+    \item Critical Observers (n=9): They enjoyed the experience (9.1 in subjectivity) but noticed technical details in the functionality (8.2). This group is key for improving the system.
+    \item  Skeptics (n=2): Users who gave scores close to 7/10. These are outliers, but they represent people who might need more assistance or a different interface. Dimensions Boxplots: Shows the distribution and outliers of the three main variables.
+\end{itemize}
+No correlation was observed between user characteristics and lower scores due to the limited sample size.  
+Further analysis of the two Skeptics revealed that their lower scores (approximately 7/10) were not due to the system's core functionality or the sensor hardware itself, but rather to wireless network instability. In both cases, intermittent packet loss between the SlimeVR sensors and the SlimeVR Server caused temporary freezes in motion tracking. Once the network condition was stabilized, the tracking resumed normal operation. 
+No similar issues were observed in the remaining 28 participants, who used the system under stable network conditions. This suggests that the system is robust when network requirements are met, but future work should include network health monitoring and user notifications to distinguish between system errors and environmental factors. 
+Further studies with larger and more diverse populations are required too. 
+
+\begin{figure}[h!]
+        \centering
+        \includegraphics[width=1\linewidth]{images/SurveyDistributionByDimention.png}
+        \caption{This graph illustrates the variance of the distribution of evaluations by dimention.}
+        \label{fig:placeholder}
+    \end{figure}
+Statistical significance was not calculated due to the preliminary nature of this study 
+
+\section{\uppercase{Discussion}}
+\subsection{\uppercase{Comparison with Kinect-Based Rehabilitation Systems}}
+
+The results obtained in this study indicate a high level of acceptance and usability by users for the proposed rehabilitation support system. Participants reported positive perceptions regarding interaction with the system, clarity of exercises, and overall comfort when using the inertial sensor configuration.
+These findings are consistent with previous research that explored rehabilitation systems based on motion
+tracking technologies such as Kinect for Xbox One\cite{Qu, 2025}. In that study, the authors also reported favorable usability results when evaluating an interactive rehabilitation simulator developed in Unity Game Engine, where participants positively evaluated the system's navigation, parameter management, and interaction during pilot testing with university students.
+However, there is an important technological distinction between both approaches. Kinect-based systems are based on camera-based skeletal tracking, allowing body movement to be detected without the need for wearable devices. Instead, the system proposed in this study uses SlimeVR inertial sensors, which attach to the user's body and provide direct motion data through sensor-based tracking.
+This difference introduces several practical implications. Camera-based tracking systems can simplify setup by eliminating handheld devices, but can be sensitive to environmental conditions such as lighting, occlusion, and camera position. Sensor-based tracking systems, on the other hand, provide more stable motion capture regardless of external visual conditions, although they require the user to wear and calibrate multiple sensors.
+The results of this preliminary evaluation suggest that inertial sensor tracking may offer a viable alternative for movement-based rehabilitation environments, offering reliable detection of exercise repetitions and responsive interaction with the virtual system.
+
+\subsection{\uppercase{Limitation Observed}}
+
+Despite the positive evaluation results, several limitations must be acknowledged. The participant group consisted of healthy university students simulating rehabilitation exercises rather than patients receiving actual therapeutic treatments. Therefore, the results primarily reflect usability and user acceptance rather than the clinical effectiveness of the rehabilitation.
+Furthermore, although a sports instructor provided initial qualitative feedback during the development phase, continuous professional supervision was not available throughout all testing sessions. Future studies should involve healthcare or rehabilitation professionals more extensively to validate the exercise design and therapeutic relevance.
+
+\subsection{\uppercase{Technical Limitations and Future Improvement}}
+One of the lowest-rated items was "error detection" (8.67/10). The current implementation only detects whether a repetition was completed based on distance thresholds, but it does not verify the correctness of the movement. This is a critical safety limitation for unsupervised rehabilitation. As a future improvement, we plan to incorporate angular constraints and joint position validation using the IMU orientation data, which is already available from the SlimeVR sensors. This would allow the system to detect incorrect execution and provide real-time corrective feedback. 
+
+\subsection{\uppercase{Scope of the Study}}
+It is important to emphasize that this study evaluates usability, user perception, and system functionality, rather than clinical rehabilitation outcomes. The results should not be interpreted as evidence of therapeutic effectiveness.The participant group consisted of healthy individuals simulating rehabilitation exercises, which limits the generalizability of the findings to clinical populations. Further studies involving patients and medical supervision are required to validate the system’s applicability in real rehabilitation scenarios.
+
+
+\section{\uppercase{Conclusions}}
+
+Based on the observations obtained from the survey ratings, we can identify the following areas for
+improvement in these statistics:
+
+\begin{itemize}
+    \item Error detection (8.67): The system could be improved in alerting users when a movement is incorrect.
+    \item Physical exertion (8.67): Some users felt the difficulty could be better adjusted.
+    \item Technical errors (8.77): Minor stability issues were observed.
+    \item Environmental realism (8.87): The virtual environment could be even more immersive
+\end{itemize}
+
+Future work will focus on evaluating the system with individuals undergoing real-world rehabilitation to assess its potential clinical impact. Additional improvements will include refining user instructions, enhancing interaction feedback, and expanding the range of exercises supported by the system.
+Further research could also focus on exploring hybrid tracking approaches that combine inertial sensors with camera-based tracking technologies to improve motion detection accuracy and expand rehabilitation monitoring capabilities.
+
+
+
+
+\bibliographystyle{apalike}
+{\small
+\bibliography{library}}
+\end{document}

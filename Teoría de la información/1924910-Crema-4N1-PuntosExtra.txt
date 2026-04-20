@@ -1,0 +1,12 @@
+Elegí este lugar porque es especial, en mis mayores triunfos y peores derrotas:
+
+ = = == = == = == = == = == = == = == = == = == = == = == = == = == = == = == = == = == = == = =
+"I Like Pizza" de Universidad.
+Av. Universidad # 601-2o Sector, El Roble, 66450 San Nicolás de los Garza, N.L.
+= = == = == = == = == = == = == = == = == = == = == = == = == = == = == = == = == = == = == = ==
+
+
+Numero de caracteres que yo espero que salga de la codificación de ese lugar.
+	Con Huffman: 633
+	Con Shannon: 825
+	Con Codificación aritmética: 30

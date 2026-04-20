@@ -1,0 +1,24 @@
+df <- read.csv(file.choose())
+trans <- as(df, "transactions")
+head(trans)
+library(arules)
+library(arulesViz)
+rules <- apriori(trans, parameter = list(supp = 0.01, conf = 0.1))
+inspect(rules[1:10])
+arules::itemFrequencyPlot(trans, topN = 20, main = 'Relative Item Frequency Plot',type = "relative",ylab = "Item Frequency (Relative)")
+rules_df <- as(rules, "data.frame")
+write.csv(rules_df, file = "association_rules.csv", row.names = FALSE)
+
+
+library(RColorBrewer)
+data("Groceries")
+rules <- apriori(Groceries, parameter = list(supp = 0.01, conf = 0.1))
+inspect(rules[1:10])
+arules::itemFrequencyPlot(Groceries, topN = 20, 
+                          col = brewer.pal(8, 'Pastel2'),
+                          main = 'Relative Item Frequency Plot',
+                          type = "relative",
+                          ylab = "Item Frequency (Relative)")
+
+ 
+

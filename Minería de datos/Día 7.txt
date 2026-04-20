@@ -1,0 +1,102 @@
+La práctica 7: Minería de secuencias y episodios (2 Partes)
+Parte: Secuencias
+
+De la clase anterior, se mencionaron que usamos reglase de asociación.
+El libro es Van Dher Hast.
+Punto 4.5 Secuencia de no sé qué.
+E l Arpirior no considera el orden de los eventos, y nos dan una definición de una secuencia
+Una secuencia es una subsecuencia de otra si existen (No sé qué).
+Por ejemplo, nos dan una regla de orden con estampas de tiempo de cómo la persona compró diferentes cosas. 
+Yo puedo poenr una regla que diga "Americano" entonces "Expresso". Si en algún momento Compró un "Americano" después compra un "Epxresso". Y pensamos ¿Hay algún registro de eso con el primer cliente? ¿Se cumple? ¿El segundo? ¿El tercero?
+Entonces medimos el Support. En donde sólo 1 de 3 registros presentó la regla: 1/3 es el support.
+Para todo el connunto de elementos hay que ver si estuvo presente o no con esa instancia.
+Hay que pensar también en "Instancias compuestas". Una instancia con eventos multiples. Y todos son las órdenes de búsqueda.
+
+Intentemos con:
+Capuchino entonces Muffin el support es:
+3/3, porque los 3 casos de personas compraron así.
+Hay que ver cómo ocurrieron las secuencias de los eventos para ver si son parte del Support o no.
+
+Las reglas se definen con una combinatoria de todos los elementos posibles.
+Si "T" entonces Muffin. ¿Lo hay? Sí. 1. 
+Pero también es posible la regla "Muffin entonces T"
+
+El sig episodio es: Minería de episodios frecuentes.
+Es otro problema similar a Apriorri, descrubrimiento de eventos frecuentos. La ventana de tiempo deslizante se utiliza para definir qué tan frecuentemente aparece un episodio.
+Tenemos una serie de Sloss de tiempo con actividades. Actividades {a,b,c etc}
+A entonces B , 3
+A entonces b, 4
+A entonces b, 5
+
+Las ventanas son las líneas de tamaño 5
+Si quiero una regla A entonces c, 5 ¿Cuántas veces se presentó? Hay que ver cuántas veces se presentó.
+Hay que contar todas las veces que en un estado de 5 se contó 
+
+Si yp pongo a entonces c
+Primero nada
+Segundo nada
+Tercer está a
+en el cuarto ya hay ac, después ab pero c está dentro. Y así.
+Las ventanas (Líneas) cubren desde un punto a otro. Hay que contar cuántos contienen a "a" y a "c".
+
+Se divide entre el total de ventanas de 5 que son posibles. En la imagen 32
+Esto es horrible porque hay que considerar 
+El mínimo de ventanas que hay que considerar es 3, el máximo es n -1 (31 en este caso).
+
+Es decir, considerar 
+	todas las ventanas de 3.
+	todas las ventanas de 4
+	todas las ventanas de 5...
+	todas las ventanas 6
+
+Para secuencias elegimos algo que nos haga a aprender más.
+Hoy es día 17. El estado 17 del país es: Nayarit.
+La parte de secuencias va a ser con comida tradicional de Nayarit.
+Conseguir un platillo de Nayarit y 5 recetas distintas.
+Cada receta será un "Cliente" y las actividades son los "Pasos" de la receta.
+Entonces haremos la minería con esas recetas.
+
+
+
+De los archivos de Teams: En R usamos:
+
+
+Es un set que ya viene ahí. El de Saki o Zaki o una pendejada así.Una matriz dispersa (Le faltan datos).
+Vamos a tomar un script de Teams. "seq.txt"
+Hay que tomar diferentes valores de Support, los Max.. y Maxlengh?
+Cuáles reglas prevalecieron etc.
+Esta es la parte de secuencias en R.
+
+
+
+La práctica tiene 2 partes, aquí viene la segunda ------------------------------------------
+Parte: Episodios
+
+Hay que pensar en un programa de televisión:
+-	No violencia
+-	No narcotráfico
+-	Nada cuestionable en general.
+Con eso hay que poner una lista de episodios.
+Los episodios decían del 10 hasta el 37. Cada uno es el episodio de nuestro programa
+a, b, c, d es la lista de episodios.
+Y así creamos la lista de episodios.
+En R, se pusieron un set de sacramentos (Teams). "Sacramentjanuary2006mo"
+Y pusieron un script de R en (Teams) también. "episodes.txt"
+No lo usamos pero es una tabla con "Tiempo" en la que llamaron al 911. Esos son los episodios.
+Todas las llamadas que entraron en el primer minuto, son "Ep 1", la siguiente estampa son "Ep 2" etc.
+Esto es similar a lo que tendríamos con el programa de televisión.
+
+Sacamos los episodios frecuentes por robo de vehículo.
+Le pusimos una ventana de... 10, es la variable solita que dice 10.
+Esos fueron los episodios frecuentes con tamaño de 10.
+Y tenemos que irle moviendo.
+Esa es la tarea. Ir moviendo el tamaño de la ventana e ir viendo qué onda y hacer un análisis de eso.
+Hay que ir haciéndolo con ventana 10, ventana 15... etc 
+					PREGUNTAR: Cuántos tamaños de ventana usamos.
+ =====================================================================================================================================================================
+Practica 8 
+
+
+=======================================================================================================================================================================================================================================
+
+
