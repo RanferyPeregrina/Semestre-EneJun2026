@@ -4,7 +4,7 @@ Parte: Secuencias
 De la clase anterior, se mencionaron que usamos reglase de asociación.
 El libro es Van Dher Hast.
 Punto 4.5 Secuencia de no sé qué.
-E l Arpirior no considera el orden de los eventos, y nos dan una definición de una secuencia
+El Arpirior no considera el orden de los eventos, y nos dan una definición de una secuencia
 Una secuencia es una subsecuencia de otra si existen (No sé qué).
 Por ejemplo, nos dan una regla de orden con estampas de tiempo de cómo la persona compró diferentes cosas. 
 Yo puedo poenr una regla que diga "Americano" entonces "Expresso". Si en algún momento Compró un "Americano" después compra un "Epxresso". Y pensamos ¿Hay algún registro de eso con el primer cliente? ¿Se cumple? ¿El segundo? ¿El tercero?
