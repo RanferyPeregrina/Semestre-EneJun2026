@@ -1,0 +1,43 @@
+Mover estas notas a:
+Teams > Entrenamientos > Full Tracking VR
+Hacer otro folder que se llame "Documentacion-VisionTracking"
+
+Probar con 4 cámaras que andan por ahí escondidas.
+	
+Identificar Kinect última versión:
+	- Servidor
+	- Disco guardado
+Identificar Sensores SlimeVR
+	- Disco
+	- Servidor
+En un folder que se llame "Proyectos Rehabilitación".
+Si no está el folder, lo hacemos
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Vamos a hacer 1 Proyecto nuevo 🥺:
+Ejercicio y ver que se puedan hacer con cámara.
+De piernas y brazos.
+Probablemente Python con OpenCV. 
+Va a ser en Unity también.
+
+
+
+
+Planear cuando lleguen Rodrigo y Hemisch planear la arquitectura para el juego.
+Movimientos de piernas, de brazos y de cintura y cadera.
+Se tienen que poder reconocer cuando se mueven a los lados las cintura, pies etc.
+
+En una propuesta los ejercicios de "Simisalud".
+Ejercicios de jugar boliche.
+Hacer los movimientos como si estuvieran jugando Boliche.
+
+Ejercicio de soccer.
+Hacer ejercicios como brincando unos troncos en el agua (Para el movimiento de la cadera los brazos y las piernas)
+
+Ejercicio de hacer remos. 
+Que se muevan, se sientan y muevan los brazos y columna.
+
+Y pensar en otras ideas.
+Para hacer la migración (adaptación) de Kinect/Sensores o hacer unos nuevos.
+Por ahora hay que crear la base.
+
