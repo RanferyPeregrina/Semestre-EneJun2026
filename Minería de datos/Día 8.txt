@@ -1,0 +1,118 @@
+Pratica 8: Análisis predictivo
+
+Revisamos un documento de materiales de clase
+Insturcciones Utilizar los sets y las usntriccioens de AM R
+
+Vienen métodos lineales como la regresión.
+Explica cómo se forma una regresión lineal simple y que requerimos mínimos cuadrados. 
+Cómo se mide el error... etc.
+	
+
+Para R, con AM R se puede hacer.
+Es un PDF con un chingo de instrucciones que tenemos que irle aplicando a tres datasets:
+
+dataeruptions viene en R, no deberíamos batallar.
+El dataset de erupciones lo pasaron a Teams.
+"old" tiene erupciones y tiempo entre erupciones.
+
+
+Se explora en R los datos que nos pasaron (Creo)
+El Summary nos muestra algo como:
+	Tenemos una cantidad de datos. Cada uno de esos datos me ayuda a ajustar la línea pero... Me da un grado de libertad. Ayuda a saber qué tan certero es el modelo.
+Nos muestra R cuadrada y  R Ajustada en función de la varianza. Es bueno. .80 es bueno
+
+Heterocedasticidad...
+Los residuos son del valor que predice el modelo contra el valor del set. Esa diferencia no tiene una fuente natural.
+Si la dispersión de los residuos es homogénea, quiere decir que se puede usar esa regresión para ese modelo.
+Si presente Heterocedasticidad tengo un problema porque significa que el modelo no es adecuado.
+
+Haremos una prueba de Breusch-Pagan
+Con R solo se hace bptest(modelo) al modelo que hayamos generado.
+"Si el valor p que corresponde a este estadístico..." y de ahí deducimos si es un buen modelo o no.
+
+Vamos a a necesitar lmtst (librería de R) *************************************
+
+Regresión lineal simple:
+Aquí usamos el dataset de mtcars. 
+En Datasets viene el mtcars. Tenemos 32 observaciones, rendimiento, etc. Un montón de cosas.
+
+En el modelo que estamos usando estamos tratando de predecir el rendimiento con el rendimiento con el tipo de transmisión.
+En nuestro modelo tenemos model<- lm(mpg~am, data=mtcars)
+Esta práctica es un poco engañosa porque ese comando es para predecir el rendimiento de un carro en base al tipo de transmisión. 
+Eso es complicado por varias razones, comenzando porque una de esas variables numérica.
+
+Regresión multiple.
+Tengo una variable dependiente y 3 independientes.
+
+Kitchen Sink.
+Es una regresión que trata sobre tirar todo "como caiga", todas las variables. No revisamos si contribye cada variable, el tipo de dato etc. Se utiliza cuando no tienes modelos más sofisticados de regresión.
+Pero tenemos un problema de sobreajuste. El modelo se entrena y funciona bien, pero sólo con esos datos.
+Otro problema es la multicolinealidad. Cuando tenemos una relación redundante entre variables y se repiten "Influencias".
+
+Entrenamiento de un modelo de regresión:
+Dice que pues se tiene que entrenar. Se repite mucho el mismo proceso o algo así.
+
+Como preparamos datos...
+Esto lo vimos al principio. Se limpian datos, se eliminan vacíos etc. Se escalan, se estandarizan, se categorizan las variables. 
+
+Selección de características.
+Es examinar las corrrelaciones. Manual o en automático. Con otras regresiones.
+
+Regresión Stepwise.
+Se seleccionan las variables que van a participar. Hacia el frente: Vacío y agregas una por una y revisas qué tanto contribuye y revisa la que más empata con una variable de slada
+Retroceso: Tengo todas y voy quitando una por una.
+Bidireccional: Voy agregando y quitando en función de cómo funciona la R Cuadrada del modelo y la suma de errores.
+
+Akaike:
+Mide la calidad relativa del modelo, compara varios modelos.
+En R Los modelos los hace la computadora, uno solo tiene que decirle "Oye evalúa Akaike" y R va a ir comparando modelos moviéndole poco a poco y nosotros elegimos el mejor.
+K es el numero de parámetros
+L es el valor máximo.
+Valor más bajo de Akaike es mejor.
+
+Regresión Stepwise:
+library data(Boston) full_model <- lm(medv~.,data=Boston)
+Crea un modelo bidireccional y así.
+Hay que tener cuidado, enm direction elegimos "both", bidireccional.
+Entonces hay que ver qué argumentos tiene "direction" para elegir uno distinto si fuera necesario.
+
+Regresión Multiple R
+Viene Lasso, que es regulariza (Penaliza) cosas del modelo para evitar el sobreajuste. Puede hacer que unos coeficientes se vuelvan cero. Quita variables.
+En library de R es glmnet
+
+Regresión de Ridge también penaliza.
+Alfa es 1, para penalización.
+
+Regresión con Predictor No Binario.
+En ese hay que considerar varias cosas, de la variable que vamos a recibir hay que ver cómo la vamos a considerar. A veces se elije la mediana, todo lo que esté debajo de la mediana y arriba de la mediana es alto. Ya hay 2 categorías.
+Podemos usar percentiles quizá. Para definir categorías.
+
+Regresión logística
+Aplica eso también, binaria y multinomial.
+
+Varianza VIF
+La varianza se genera porque las variables se relacionan entre sí otra vez. Y tendríamos afectaciones en los coeficientes.
+
+Regresión logística binaria.
+En ese código tomaron la mediana de los precios para determinar el precio alto. 
+
+Regresión multinimial
+Usaron percentiles en ese código. R Lo hace, no se calculan los percentiles a mano..
+
+KVecinos Más cercanos.
+No confundir con KMeans.
+En Clustering y medoides había un centro aparente y obtenía grupos. Aquí yo tengo datos y un dato nuevo tengo que predecir su categoría en base a los vecinos cercanos.
+
+Suma de Cuadrados de los grupos. WCSS
+El método del codo.
+En R hacen KNN con predicciones de las categorías y todo. En función de la mediana. Es para el set de precio. 
+
+Matríz de confusión
+Nos lo vamos a saltar... Porque en la práctica 9 hay "Evaluador de clasificadores".
+Validación Cruzada
+Nos lo vamos a saltar...
+
+Bosques aleatorios.
+Es como árboles de decisión. Buscábamos por mínima entropía o las Anovas.
+Los Bosques Aleatorios no eliminan ningún árbol (Por eso es un bosque jeje). Que cochinada.
+Ahí viene el código, usamos los datos de "old" y "precio".

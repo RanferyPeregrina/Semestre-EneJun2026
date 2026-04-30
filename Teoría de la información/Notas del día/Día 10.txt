@@ -1,0 +1,15 @@
+Codificación aritmética adaptativa
+
+Con la palabra ababaca
+Igual que en los ARboles de Huffman adaptativos vamos a hacer la codificación con los textos indidivudiales
+En la primer lectura existe: A
+Nivel 1 de codificación
+Alfa 0
+Beta 1
+l 1
+
+Para cada lectura
+Para cada nivel
+Para cada subintervalo en cada nivel
+Hay que hacer método 1 y método 2-
+
