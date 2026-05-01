@@ -1,0 +1,67 @@
+Ya se va a acabar el semestre.
+Vamos con Dictionaro Methods, capítulo 9 del Van Der Hast seguramente.
+
+"No importa cuán complicada sea su situación, no arrastre sus problemas", es parte de una vida saludable.
+
+
+
+
+En clase de "Teoría de la información y métodos de codificación" estamos aprendiendo a codificar un texto utilizando un método de diccionario especial, el del PDF que te pasé. Tengo que replicarlo en Python, un programa que dado un texto y un tamaño de ventana, calcule el 70% (O aproximado) para ese tamaño de texto, y separe las ventanas "histórico" y "lookahead" para construir una codificación con ventanas. 
+Tengo que calcular para esa ventana (que se va recorriendo según las reglas descritas en el PDF) el texto entero. Y obtener "La tripleta".
+Los 3 números que cuentan que se arman. (Camino recorrido, codificación exitosa antes de que se rompa el patrón de comparación entre lookahead y datos históricos, Texto exitoso coincidente, Carácter que rompió la codificación).
+Y me parece que tengo que entender que el proceso se repite mientras se va recorriendo la "Ventana". Ten en cuenta que todo lo que estoy diciendo ahora, o en mis notas, podría estar equivocado y tienes que compararlo y corregirme en base a lo que dice el documento para la codificación. NO asumas que yo sé lo que hago, de hecho asume que soy estúpido. Antes de ir a la programación en Python: Tengo que entender en los términos más simples posibles cada parte por parte cómo funciona el programa tomé estas notas de la clase pero también guíate del libro que te estoy pasando porque ahí vienen ilustraciones sobre cómo se recorrían los datos etc: 
+
+En capítulos anteriores la comprensión sin pérdidas era obtenida obteniendo un modelo de probabilidad que conducía a la codificación. Como con el árbol de Huffman, Shannon y codificación aritmética. Todos basados en el conjunto de probabilidades de los caracteres y con eso se alimentaban las frecuencias y obteníamos un código binario de salidas.
+Los métodos obtienen un diccionario con frases en las que confiamos que incluyan datos de la fuente para remplazar datos de la fuente enteros en una lista.
+Es momento de llevar a práctica la última unidad temática de Programación Estructurada. "Punteros".
+
+Qué representa un puntero. Es una dirección de memoria en donde vamos a guardar algo.
+Es una codificación directa a los espacios de memoria
+Ya no es a un carácter binario. Estamos todavía más abajo.
+
+Hay 2 esquemas principales.
+La diferencia básica entre LZ77 y LZ78 es el tamaño del diccionario. El dirccionario consiste en una ventana deslizante.
+Uno recorre el texto
+El otro tiene todas las frecuencias.
+Uno es adaptativo y el otro estático.
+
+Métodos de la ventana deslizante
+La ventana es un recuadro que selecciona
+lookahead se codifican con punteros a partir del histórico
+El histórico es dinámico hay que tener cuidado con eso
+
+NOTA SOBRE LA VENTANA Regutalarmente se debe buscar una compresión de 70% 30% donde 70 sea la ventana
+Si tuviera una de tamaño 20, el otro es 14
+
+En el caso más simple el histórico y el lookahead serán de longitud fija.
+El lookahead 
+
+Hay que ver en el LA qué caracteres o reglas están en el histórico.
+She sells sea shells by the seashore			La ventana inicia en "ells…" y termina en "by t"
+
+El offset desde donde inicia el lookahead hasta donde termina
+En este caso del 1 2 hasta el el 10
+
+La longitud es 2, porque solo encontramos "he" en el histórico. seguiría el espacio pero no está.
+Esa es la tripleta.
+
+La tripleta es (10, 2, [ESPACIO])
+En ese orden: (Camino recorrido, los caracteres que se codificaron bien, el carácter que rompe la codificación) o algo así.
+Vamos a querer ver TODOs los movimientos de la ventana.
+
+Como ya codifiqué "he", nos movemos 2 espacios.
+Ahora el histórico inicia con "ls sea she"... y al histórico entrarían otras 2 letras.
+
+¿Qué pasa si en el LA no está lo que buscamos, por ejemplo "XZ" "X" no está, ni "Z" tampoco. Es un problema
+Entonces el offset existe? No. Se queda vacío
+La longitud es 2, son 2 consecutivos que no se pudieron codificar.
+El carácter siguiente sería el espacio (En este caso donde XZ sustitiuye a he)
+
+Hay que probar todas las codificaciones posibles, con todas las combinaciones y elegir la que tenga el mejor radio de compresión.
+Empezando con ventas de 2 y 3, hasta... Todo le texto de largo. Sólo dejamos 1 carácter libre para mover la ventana.
+Si el offset está vacío, saltamos toda la ventana.
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ACTIVIDAD EN CLASE:
+El tamaño de la ventana es la suma de los dígitos de mi matrícula.
+1+9+2+4+9+1+0 = 26
+De ese 26 el 70% es histórico
+
