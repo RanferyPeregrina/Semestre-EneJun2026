@@ -35,8 +35,8 @@ Hay que contar todas las veces que en un estado de 5 se contó
 Si yp pongo a entonces c
 Primero nada
 Segundo nada
-Tercer está a
-en el cuarto ya hay ac, después ab pero c está dentro. Y así.
+Tercer está "a"
+en el cuarto ya hay "a" y "c", después ab pero c está dentro. Y así.
 Las ventanas (Líneas) cubren desde un punto a otro. Hay que contar cuántos contienen a "a" y a "c".
 
 Se divide entre el total de ventanas de 5 que son posibles. En la imagen 32
@@ -49,8 +49,6 @@ Es decir, considerar
 	todas las ventanas de 5...
 	todas las ventanas 6
 
-Para secuencias elegimos algo que nos haga a aprender más.
-Hoy es día 17. El estado 17 del país es: Nayarit.
 La parte de secuencias va a ser con comida tradicional de Nayarit.
 Conseguir un platillo de Nayarit y 5 recetas distintas.
 Cada receta será un "Cliente" y las actividades son los "Pasos" de la receta.
