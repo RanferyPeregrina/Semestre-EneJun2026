@@ -246,7 +246,7 @@ if __name__ == "__main__":
         root.withdraw() 
         ruta = filedialog.askopenfilename(
             title="Selecciona tu secuencia",
-            #Añadí soporte para .fna y otros formatos (Por si a caso)
+            # ¡Añadido soporte para .fna y otros formatos (Por si a caso)
             filetypes=[("Secuencias de ADN", "*.fasta *.fa *.fna *.txt")] 
         )
     # Lo mandamos a procesar
