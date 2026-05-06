@@ -6,8 +6,8 @@ def NormalizarTexto(Texto):
     Texto = Texto.replace("\n", " ")        #Sin saltos de línea
     while "  " in Texto:                    #Sin dobles espacios
         Texto = Texto.replace("  ", " ")       
-    # while " " in Texto:
-    #     Texto = Texto.replace(" ", "◻")
+    while " " in Texto:
+        Texto = Texto.replace(" ", "◻")
 
     return Texto
 
@@ -46,11 +46,13 @@ Final = TamañoVentana
 
 
 while DistanciaRestante >= 0:
+
     print(f'Quedan {DistanciaRestante} espacios para terminar\n---------------------------------------------------')
 
     Texto_Ventana = Texto[Inicio:Final] 
-    Historial = Texto_Ventana[Inicio:(int(len(Texto_Ventana) * 0.7))]
-    LookAhead = Texto_Ventana[(int(len(Texto_Ventana) * 0.7)):Final]
+    limite = round(len(Texto_Ventana) * 0.7)
+    Historial = Texto_Ventana[0:limite]
+    LookAhead = Texto_Ventana[limite:]
     #Esta es impresión por motivos de depuración --------------------
     print(f"Para el texto de la ventana: {Texto_Ventana}")
     Contador = CrearContador(TamañoVentana, 28)
@@ -70,13 +72,14 @@ while DistanciaRestante >= 0:
         LookAheadCorrecto += Letra
       
         if LookAheadCorrecto in Historial:
-            print(f'Termino: {LookAheadCorrecto} encontrado.')
-            Offset = len(Historial) - (Historial.find(Letra))
+            print(f'\nTermino: {LookAheadCorrecto} encontrado.')
+            Offset = len(Historial) - (Historial.find(LookAheadCorrecto))
             Tamaño += 1
         else:
-            if LookAheadCorrecto == '':
+            if len(LookAheadCorrecto) <= 1:
                 Tamaño = len(LookAhead)
                 Offset = 0
+                Letra = "Vacío..."
             print(f'Tamaño = {Tamaño}')
             print(f'Offset = {Offset}')
             print(f'Letra que rompió: {Letra}')
@@ -84,9 +87,11 @@ while DistanciaRestante >= 0:
 
 
 
-    
+    if Tamaño > DistanciaRestante:
+        Tamaño = DistanciaRestante
+
     Inicio += Tamaño
     Final += Tamaño
-    DistanciaRestante - Tamaño
-    input()
-            
+    if DistanciaRestante <= 0:
+        break
+    else: DistanciaRestante -= Tamaño
