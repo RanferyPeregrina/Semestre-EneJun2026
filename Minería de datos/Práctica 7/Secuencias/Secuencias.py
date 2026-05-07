@@ -54,21 +54,22 @@ def contar_coocurrencias(eventos, tamanio_ventana):
     return conteo
 
 # ============================================
-# 3. Probar ventanas (tamaño 3 hasta 10, por rendimiento)
+# 3. Probar ventanas desde tamaño 3 hasta 10, por ahora
 # ============================================
 n = len(eventos)
 resultados_por_tamanio = {}
 
-print("🔄 Procesando ventanas...")
-print(f"📐 Ventanas desde tamaño 3 hasta {min(10, n-1)}\n")
+print("Procesando ventanas...")
+print(f"Ventanas desde tamaño 3 hasta {min(10, n-1)}\n")
 
 for w in range(3, min(11, n)):
+# for w in range(3, n): Esto lo voy a dejar comentado para que mi computadora no explote.
     print(f"  Procesando ventana de tamaño {w}...")
     conteo = contar_coocurrencias(eventos, w)
     resultados_por_tamanio[w] = conteo
     print(f"    -> {len(conteo)} pares diferentes encontrados")
 
-print("\n✅ Procesamiento completado\n")
+print("\nProcesamiento completado\n")
 
 # ============================================
 # 4. Mostrar resultados en consola
@@ -82,7 +83,7 @@ for w, conteo in resultados_por_tamanio.items():
     for i, (par, freq) in enumerate(pares_ordenados[:15], 1):
         print(f"  {i:2d}. {par[0]} <-> {par[1]} : {freq} veces")
     total_ventanas = n - w + 1
-    print(f"\n📊 Total de ventanas evaluadas: {total_ventanas}")
+    print(f"\nTotal de ventanas evaluadas: {total_ventanas}")
 
 # ============================================
 # 5. Exportar a Excel con resultados
@@ -115,5 +116,5 @@ with pd.ExcelWriter(archivo_salida, engine='openpyxl') as writer:
     })
     df_original.to_excel(writer, sheet_name="Lista_original", index=False)
 
-print(f"\n✅ Resultados guardados en '{archivo_salida}'")
-print("\n💡 Nota: Se usaron las columnas por posición (primera y segunda) para evitar problemas de nombres.")
+print(f"\nResultados guardados en '{archivo_salida}'")
+print("\n Jeje, usé las columnas por posición (primera y segunda) para evitar problemas de nombres.")

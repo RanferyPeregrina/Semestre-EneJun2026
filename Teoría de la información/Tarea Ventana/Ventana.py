@@ -71,19 +71,24 @@ while DistanciaRestante >= 0:
     for Letra in LookAhead:
         LookAheadCorrecto += Letra
       
-        if LookAheadCorrecto in Historial:
-            print(f'\nTermino: {LookAheadCorrecto} encontrado.')
-            Offset = len(Historial) - (Historial.find(LookAheadCorrecto))
+        if LookAheadCorrecto in Historial:                                  #Si encuentra encuentra del Lookahead
+            print(f'\nTermino: {LookAheadCorrecto} encontrado.')            #Avisa
+            Offset = len(Historial) - (Historial.find(LookAheadCorrecto))   #Calcula cosas
             Tamaño += 1
         else:
-            if len(LookAheadCorrecto) <= 1:
-                Tamaño = len(LookAhead)
+            if len(LookAheadCorrecto) <= 1:                                 #Si no encuentra NADA
+                Tamaño = len(LookAhead)                                     #Calcula cosas
                 Offset = 0
                 Letra = "Vacío..."
-            print(f'Tamaño = {Tamaño}')
-            print(f'Offset = {Offset}')
-            print(f'Letra que rompió: {Letra}')
             break
+        if len(LookAheadCorrecto) == len(LookAhead):                         #Si encuentra completo el LookAhead
+            Tamaño = len(LookAheadCorrecto)                                 #Calcula cosas
+            Offset = len(Historial) - (Historial.find(LookAheadCorrecto))   #Calcula cosas
+            break
+
+    print(f'Tamaño = {Tamaño}')                                             #Imprime
+    print(f'Offset = {Offset}')
+    print(f'Letra que rompió: {Letra}')
 
 
 
