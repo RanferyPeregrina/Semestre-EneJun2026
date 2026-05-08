@@ -1,0 +1,18 @@
+Lista de cambios:
+El título.
+Cambié el orden de la escuela. 
+Antes:
+	Facultad, Universidad, Direccion, País
+	Laboratorio, UANL.
+Ahora:
+	Universidad, Direccion
+	Facultad
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Ranfery y Victor estamos asociados ahora al \sup{2}
+Doctora Neira, Dr Homero asociados al \sup{1}
+\sup{2} es la facultad.
+\sup{1} es la universidad.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Agregadas referencias
