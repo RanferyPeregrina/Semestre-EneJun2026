@@ -31,6 +31,9 @@ def CrearContador(Tamaño, EspacioPrevio):
     Contador = "".join(str((Tamaño - i) % 10) for i in range(Tamaño))
     Contador = (" " * EspacioPrevio) + Contador
     return Contador
+
+def CalcularRadioCompresion():
+    print("Inconclusa")
 # ==================================== AQUÍ COMIENZA EL FLUJO DEL PROGRAMA ======================================== 
 #Agarramos nuestro texto
 Texto = LeerArchivo()
@@ -39,6 +42,7 @@ DistanciaRestante = len(Texto)
 #Agarramos el tamño de ventana
 TamañoVentana = int(input("¿De qué tamaño es la ventana?:  "))
 DistanciaRestante -= TamañoVentana
+VentanaRecorrida = 0
 
 #Creamos la primer ventana
 Inicio = 0
@@ -46,7 +50,7 @@ Final = TamañoVentana
 
 
 while DistanciaRestante >= 0:
-
+    VentanaRecorrida += 1
     print(f'Quedan {DistanciaRestante} espacios para terminar\n---------------------------------------------------')
 
     Texto_Ventana = Texto[Inicio:Final] 
@@ -58,10 +62,10 @@ while DistanciaRestante >= 0:
     Contador = CrearContador(TamañoVentana, 28)
     print(Contador)
     print(f"El historial es:{Historial}")
-    Contador = CrearContador(len(Historial), 17)
+    Contador = CrearContador(len(Historial), 16)
     print(Contador)
     print(f"El Lookahead es:{LookAhead}")
-    Contador = CrearContador(len(LookAhead), 17)
+    Contador = CrearContador(len(LookAhead), 16)
     print(Contador)
     # -----------------------------------------------------------------
 
@@ -71,19 +75,25 @@ while DistanciaRestante >= 0:
     for Letra in LookAhead:
         LookAheadCorrecto += Letra
       
-        if LookAheadCorrecto in Historial:
-            print(f'\nTermino: {LookAheadCorrecto} encontrado.')
-            Offset = len(Historial) - (Historial.find(LookAheadCorrecto))
+        if LookAheadCorrecto in Historial:                                  #Si encuentra encuentra del Lookahead
+            print(f'\nTermino: {LookAheadCorrecto} encontrado.')            #Avisa
+            Offset = len(Historial) - (Historial.find(LookAheadCorrecto))   #Calcula cosas
             Tamaño += 1
         else:
-            if len(LookAheadCorrecto) <= 1:
-                Tamaño = len(LookAhead)
+            if len(LookAheadCorrecto) <= 1:                                 #Si no encuentra NADA
+                Tamaño = len(LookAhead)                                     #Calcula cosas
                 Offset = 0
                 Letra = "Vacío..."
-            print(f'Tamaño = {Tamaño}')
-            print(f'Offset = {Offset}')
-            print(f'Letra que rompió: {Letra}')
             break
+        if len(LookAheadCorrecto) == len(LookAhead):                        #Si encuentra completo el LookAhead
+            Tamaño = len(LookAheadCorrecto)                                 #Calcula cosas
+            Offset = len(Historial) - (Historial.find(LookAheadCorrecto))   #Calcula cosas
+            Letra = "Vacío..."
+            break
+
+    print(f'Tamaño = {Tamaño}')                                             #Imprime los resultados de cada iteración
+    print(f'Offset = {Offset}')
+    print(f'Letra que rompió: {Letra}')
 
 
 
@@ -95,3 +105,6 @@ while DistanciaRestante >= 0:
     if DistanciaRestante <= 0:
         break
     else: DistanciaRestante -= Tamaño
+
+print("=" * 30)
+print(f"Ventanas recorrida: {VentanaRecorrida} veces")

@@ -1,0 +1,9 @@
+Ranfery : 26
+Adrián: 41
+Elias:	32
+Blavir:	45
+
+Qué es cada cosa en esta formula:
+n = k +2s
+
+NO ENTENDÍ NADA

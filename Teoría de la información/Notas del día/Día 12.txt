@@ -1,0 +1,77 @@
+Hay que determinar la ventana deslizante con la suma de los dígitos
+Hay que compararla con la de los compañeros
+Saber cuál es el tamaño de ventana más efectivo para ese texto
+	La efectividad se mide con el radio de compresión.
+	
+La formula del radio de compresión:
+	Tamaño de texto / Tamaño de puntero
+
+El puntero es:
+	Hmmmm…
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Códigos de Reed Solomon
+
+Codifica grupos de bits, llamados dígitos, símbolos o coeficientes.
+Un dígito se declara libre de errores solamente si todos os bits lo son, de lo contrario se les declara como corruptos
+
+Para cada carácter hay yabn codificación y a la hora de construi palabras de la fuente voy a agarrar pequeñas secuencias binarias para codificiar.
+Como se hizo en el examen de medio curso. 
+Si yo enviara
+un mensaje 101110111, con uno que esté equivocado, hay un problema de codificación.
+
+En los arboles de Huffman el problema de codificación más común es el intercambio entre 0 y 1.
+El 0 siempre va a la derecha y hay gente que lo pone a la izquierda.
+Otro error común es malos punteros. Que es no seguir el espacio de codificación de los caracteres o la codificación de caracteres especiales.
+
+Otro problema inherente es el ordenamiento
+En Shannon cuando hay empate hay que tener un método de desempate y ese desempate 
+
+Si yo quiero enviar una cadena de texto tengo que enviar "n"bits para asegurarme que el código es correcto.
+
+n = k +2s
+
+Para poder saber cuál es la corrección a ese error hay que conocer el espacio de construcción de esa... [Ilegible]
+
+Para un mensaje que tiene k dígitos los cuales son de m0 a mk-1, se obtiene un polinomio de la forma:
+m(x) = m0 + m1x + m2x^2.... + m(k-1)x ^...
+
+Como construir un campo F
+Una tubla del tipo G,x,1 en donde G es el conjunto de elementos, x un operador binario y 1 pertenece a G es la identidad.
+
+Propiedades del conjunto G... vienen la foto.
+Lo que me está limitando es la cantidad de elementos que tengo el campo.
+El campo es de tantas dimensiones como la longitud del dígito.
+
+Sobre el campo: 
+Es una tupla de 5 cosas, vamos a tener el conjunto de varias cosas (Viene en la foto).
+Los diferentes lugares en el campo no están solos, cada elemento individual del dígito es parte de una secuencia que representa a una secuencia binaria.
+El operador multiplicativo funciona [Ilegible]
+
+Tenemos otro gurpo [Ilegible]
+
+las identidades son los resultades posibles que se pueden obtener del uso de los operadores (Hay 2, aditivo y multiplicativo)
+ningún elemento del campo puede estar fuera de esas identidades.
+
+Un campo puede incluir números reales, complejos e irracionales.
+En este caso, un número complejo es para aclarar el campo, si hay un elemento que no existe en el alfabeto de salida: Se vuelve complejo.
+(… Qué?)
+Cuando se expande el alfabeto de salida por algún motivo. Lo que quiere decir que la función de codificación no estaba bien definida.
+
+Para cada valor primo y natural R existe un campo finito con p^r números. Cualquier campo de esa magnitud es ismórfico con un campo de Galois.
+
+Para la foto de FZ2 (Foto) la compuerta es XOR.
+Si la [Ilegible] (Revisar foto siguiente: "Consiedrando a y b como elementos...")
+
+Para A yo tengo 2 coeficientes 1.
+Para b yo tengo un coeficiente 0 porque no tienes término y un coeficiente de 1
+A la hora de hacer la operación aditiva de los dos elementos del campo yo voy a hacer también la multiplicativa.
+Por ejemplo, tengo 	1 con 0, nos da: 1
+			1 con 1 da: 0
+(Porque estamos usando XOR como operador)
+
+Esto sirve para :
+Si yo tengo 2 cadenas, una con un error, pero los vecinos de ese error, tiene que estar bien, Y la expresión del campo de Galoid tiene que pasar por ahí.
+
+
+¿Qué truco barato de feria usó el libro para reducir la complejidad de salida? Cuando cambiábamos el carácter difuso con un volado jaja
