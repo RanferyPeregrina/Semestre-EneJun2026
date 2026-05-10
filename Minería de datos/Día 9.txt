@@ -1,0 +1,39 @@
+Practica 9
+Evaluación de clasificadores 
+El objetivo es: Utilizar la matríz de confusión para evaluar el desempeño de un clasificador.
+
+Viene lo de la matríz de confusión en AMR R".pdf
+Tenemos en cada matriz la clase verdadera y la predicha
+Hay true positivices - Los que acertaron
+Falsos negativos - Los que se percibieron como negativas pero deberían ser positivas.
+falsos positivos, los que se predijeron como bien pero que debían ser negativos.
+
+
+La práctica de clustering vamos 
+
+El número de clases que se determinen son el número de clases correctas.
+Determinadas por el método del codo.
+Se guardaba el objeto del cluster y se asignaba un vector de pertenencia.
+
+Con el programa con el que hicimos la otra mitad, también vamos a clasificar
+Y vamos a comprobar si la clasificación coincide con la determinada para cada instancia.
+
+También había que programarlo porque en Excel nunca íbamos a acabar....
+
+Supongamos que tenemos 4 clases. (Pero en la práctica real vamos a tener K por K)
+Y tenemos una serie de elementos que fueron clasificados ahí.
+Al poner las propiedades del objeto clustering vamos a tener un vector de características.
+Y tenemos que homologar la matriz de clustering como en la foto que tomé sobre eso. 
+
+Y en esa matriz vamos a anotar cuántos acertaron en cada cuadro.
+Y luego vamos a averiguar por que salieron diferentes los números.
+	Con diferentes me refiero a que salieron fuera de la diagonal principal. Porque la diagonal son los que cayeron coincidentes de Letra predicha y Letra acertada
+
+
+YA SE PUEDE ENTREGAR EL PIA =================================================
+Tiene que ir todo el equipo.
+Ya tenemos que buscar al inge en las horas de asesoría. Cada revisión es de 6 puntos.
+Primer revisión: Tener conjunto válido de datos.
+
+
+Con el cluster de la práctica 6 vamos a trabajar.
