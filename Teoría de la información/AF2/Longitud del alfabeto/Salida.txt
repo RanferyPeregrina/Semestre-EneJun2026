@@ -1,0 +1,2 @@
+Ingrese los símbolos del alfabeto A
+Letra 1 del alfabeto (Dejar vacío para finalizar): 

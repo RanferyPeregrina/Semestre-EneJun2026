@@ -3,7 +3,19 @@ Adrián: 41
 Elias:	32
 Blavir:	45
 
+--------------------------
+Sobre el programa de la tarea de la ventana:
+Al de hacer todo el recorrido de la ventana y tal, con cada matrícula hay que sacar cuál longitud fue la mejor.
+Para saber cuál fue la mejor hay que calcular el radio de compresión.
+	Nos dijeron que era: Tamaño de texto / Tamaño de puntero
+	¿Realmente es eso lo que tenemos que sacar?
+	¿Cómo sacabamos el tamaño del puntero?
+
+-------------------------
+Sobre el tema de los Campos de Galois
+
 Qué es cada cosa en esta formula:
 n = k +2s
 
 NO ENTENDÍ NADA
+¿Qué temas tengo que estudiar para no sentir que estan hablandome en otro idioma?
