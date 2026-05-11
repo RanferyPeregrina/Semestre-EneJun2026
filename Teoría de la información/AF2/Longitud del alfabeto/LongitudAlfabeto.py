@@ -1,4 +1,33 @@
 from itertools import product #El 'product' es como se llama esa cosa de hacer combinaciones posibles.
+from tkinter import Tk
+from tkinter.filedialog import askopenfilename
+import sys
+
+
+class Tee:#Esto es para que las cosas se guarden en un TXT al final jeje.
+    def __init__(self, *files):
+        self.files = files
+    def write(self, obj):
+        for f in self.files:
+            f.write(obj)
+            f.flush()  # Para que se guarde al momento
+    def flush(self):
+        for f in self.files:
+            f.flush()
+log_file = open("Salida.txt", "w", encoding="utf-8")
+original_stdout = sys.stdout
+sys.stdout = Tee(sys.stdout, log_file)
+
+def LeerTexto():
+    root = Tk()
+    root.withdraw()
+    Archivo = askopenfilename(title = "Elige el archivo de texto")
+    if Archivo:
+        with open(Archivo, "r", encoding="utf-8") as Archivo:
+            Texto = Archivo.read()
+    return Texto
+# Esto lo voy a copiar y pegar en todos los programas. 🦀, hasta aquí -----------------------------
+
 
 def PedirAlfabeto(NombreAlfabeto):
     Alfabeto = []
@@ -14,7 +43,6 @@ def PedirAlfabeto(NombreAlfabeto):
         else:
             Alfabeto.append(Simbolo)
     return Alfabeto
-
 
 def Generar_Mensajes(Alfabeto, L):
     
@@ -44,9 +72,17 @@ def Generar_Mensajes(Alfabeto, L):
 
 # ----- Aquí vive todo el programa -----
 
+
+# ---------------------------------------------------------------------------------------
+# Para usar un archivo como entrada, comenta esta parte
 Alfabeto_A = PedirAlfabeto("A")
 Alfabeto_B = PedirAlfabeto("B")
 L = int(input("Ingrese la longitud de los mensajes (L): "))
+# ---------------------------------------------------------------------------------------
+# Para usar un archivo como entrada, descomenta esta parte
+# Alfabeto_A = LeerTexto()
+# Alfabeto_B = LeerTexto()
+# ---------------------------------------------------------------------------------------
 
 for i in range(L):
     print("Para L = ",i+1)
