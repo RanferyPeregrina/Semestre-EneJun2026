@@ -1,0 +1,199 @@
+Algoritmo Boyer-Moore (búsqueda exacta)
+Opciones:
+1. Ingresar texto y patrón por consola
+2. Seleccionar archivo de texto y luego escribir patrón
+Elige opción (1/2): Texto completo: Patrón a buscar: 
+============================================================
+Texto : abababcabcbababcabbcabbababcabcbabababcabcbabbabcabcbabacbbcabcbabababcbacbabcbcabcbacbabcabcbabcabcbbcbab
+Patrón: ababaca
+============================================================
+
+--- Tabla de mal carácter (última ocurrencia) ---
+'a' -> 6
+'b' -> 3
+'c' -> 5
+
+--- Tabla de buen sufijo (desplazamiento por posición de fallo) ---
+Posición de fallo 0 (de izquierda): desplazar 6
+Posición de fallo 1 (de izquierda): desplazar 6
+Posición de fallo 2 (de izquierda): desplazar 6
+Posición de fallo 3 (de izquierda): desplazar 6
+Posición de fallo 4 (de izquierda): desplazar 6
+Posición de fallo 5 (de izquierda): desplazar 2
+Posición de fallo 6 (de izquierda): desplazar 1
+
+--- Iniciando búsqueda ---
+
+Comparando T[6]='c' con P[6]='a'
+  Desplazamiento por mal carácter: 1
+  Desplazamiento por buen sufijo : 1
+  → Me muevo 1 posiciones
+
+Comparando T[5]='b' con P[4]='a'
+  Desplazamiento por mal carácter: 1
+  Desplazamiento por buen sufijo : 6
+  → Me muevo 6 posiciones
+
+Comparando T[12]='b' con P[5]='c'
+  Desplazamiento por mal carácter: 2
+  Desplazamiento por buen sufijo : 2
+  → Me muevo 2 posiciones
+
+Comparando T[15]='c' con P[6]='a'
+  Desplazamiento por mal carácter: 1
+  Desplazamiento por buen sufijo : 1
+  → Me muevo 1 posiciones
+
+Comparando T[14]='b' con P[4]='a'
+  Desplazamiento por mal carácter: 1
+  Desplazamiento por buen sufijo : 6
+  → Me muevo 6 posiciones
+
+Comparando T[22]='b' con P[6]='a'
+  Desplazamiento por mal carácter: 3
+  Desplazamiento por buen sufijo : 1
+  → Me muevo 3 posiciones
+
+Comparando T[24]='b' con P[5]='c'
+  Desplazamiento por mal carácter: 2
+  Desplazamiento por buen sufijo : 2
+  → Me muevo 2 posiciones
+
+Comparando T[27]='c' con P[6]='a'
+  Desplazamiento por mal carácter: 1
+  Desplazamiento por buen sufijo : 1
+  → Me muevo 1 posiciones
+
+Comparando T[26]='b' con P[4]='a'
+  Desplazamiento por mal carácter: 1
+  Desplazamiento por buen sufijo : 6
+  → Me muevo 6 posiciones
+
+Comparando T[33]='b' con P[5]='c'
+  Desplazamiento por mal carácter: 2
+  Desplazamiento por buen sufijo : 2
+  → Me muevo 2 posiciones
+
+Comparando T[35]='b' con P[5]='c'
+  Desplazamiento por mal carácter: 2
+  Desplazamiento por buen sufijo : 2
+  → Me muevo 2 posiciones
+
+Comparando T[38]='c' con P[6]='a'
+  Desplazamiento por mal carácter: 1
+  Desplazamiento por buen sufijo : 1
+  → Me muevo 1 posiciones
+
+Comparando T[37]='b' con P[4]='a'
+  Desplazamiento por mal carácter: 1
+  Desplazamiento por buen sufijo : 6
+  → Me muevo 6 posiciones
+
+Comparando T[45]='b' con P[6]='a'
+  Desplazamiento por mal carácter: 3
+  Desplazamiento por buen sufijo : 1
+  → Me muevo 3 posiciones
+
+Comparando T[48]='c' con P[6]='a'
+  Desplazamiento por mal carácter: 1
+  Desplazamiento por buen sufijo : 1
+  → Me muevo 1 posiciones
+
+Comparando T[47]='b' con P[4]='a'
+  Desplazamiento por mal carácter: 1
+  Desplazamiento por buen sufijo : 6
+  → Me muevo 6 posiciones
+
+Comparando T[54]='b' con P[5]='c'
+  Desplazamiento por mal carácter: 2
+  Desplazamiento por buen sufijo : 2
+  → Me muevo 2 posiciones
+
+Comparando T[57]='b' con P[6]='a'
+  Desplazamiento por mal carácter: 3
+  Desplazamiento por buen sufijo : 1
+  → Me muevo 3 posiciones
+
+Comparando T[58]='b' con P[4]='a'
+  Desplazamiento por mal carácter: 1
+  Desplazamiento por buen sufijo : 6
+  → Me muevo 6 posiciones
+
+Comparando T[65]='b' con P[5]='c'
+  Desplazamiento por mal carácter: 2
+  Desplazamiento por buen sufijo : 2
+  → Me muevo 2 posiciones
+
+Comparando T[67]='b' con P[5]='c'
+  Desplazamiento por mal carácter: 2
+  Desplazamiento por buen sufijo : 2
+  → Me muevo 2 posiciones
+
+Comparando T[70]='c' con P[6]='a'
+  Desplazamiento por mal carácter: 1
+  Desplazamiento por buen sufijo : 1
+  → Me muevo 1 posiciones
+
+Comparando T[71]='b' con P[6]='a'
+  Desplazamiento por mal carácter: 3
+  Desplazamiento por buen sufijo : 1
+  → Me muevo 3 posiciones
+
+Comparando T[74]='b' con P[6]='a'
+  Desplazamiento por mal carácter: 3
+  Desplazamiento por buen sufijo : 1
+  → Me muevo 3 posiciones
+
+Comparando T[77]='c' con P[6]='a'
+  Desplazamiento por mal carácter: 1
+  Desplazamiento por buen sufijo : 1
+  → Me muevo 1 posiciones
+
+Comparando T[78]='b' con P[6]='a'
+  Desplazamiento por mal carácter: 3
+  Desplazamiento por buen sufijo : 1
+  → Me muevo 3 posiciones
+
+Comparando T[81]='b' con P[6]='a'
+  Desplazamiento por mal carácter: 3
+  Desplazamiento por buen sufijo : 1
+  → Me muevo 3 posiciones
+
+Comparando T[83]='b' con P[5]='c'
+  Desplazamiento por mal carácter: 2
+  Desplazamiento por buen sufijo : 2
+  → Me muevo 2 posiciones
+
+Comparando T[86]='b' con P[6]='a'
+  Desplazamiento por mal carácter: 3
+  Desplazamiento por buen sufijo : 1
+  → Me muevo 3 posiciones
+
+Comparando T[89]='c' con P[6]='a'
+  Desplazamiento por mal carácter: 1
+  Desplazamiento por buen sufijo : 1
+  → Me muevo 1 posiciones
+
+Comparando T[88]='b' con P[4]='a'
+  Desplazamiento por mal carácter: 1
+  Desplazamiento por buen sufijo : 6
+  → Me muevo 6 posiciones
+
+Comparando T[96]='c' con P[6]='a'
+  Desplazamiento por mal carácter: 1
+  Desplazamiento por buen sufijo : 1
+  → Me muevo 1 posiciones
+
+Comparando T[95]='b' con P[4]='a'
+  Desplazamiento por mal carácter: 1
+  Desplazamiento por buen sufijo : 6
+  → Me muevo 6 posiciones
+
+Comparando T[103]='b' con P[6]='a'
+  Desplazamiento por mal carácter: 3
+  Desplazamiento por buen sufijo : 1
+  → Me muevo 3 posiciones
+
+No se encontró el patrón.
+
+>>> PATRÓN NO ENCONTRADO <<<
