@@ -1,0 +1,26 @@
+Frecuencias óptimas:
+[0.25 0.25 0.25 0.25]
+
+Producto del vector de probabilidades con la matriz de confiabilidad:
+[[0.2375     0.00416667 0.00416667 0.00416667]
+ [0.00416667 0.2375     0.00416667 0.00416667]
+ [0.00416667 0.00416667 0.2375     0.00416667]
+ [0.00416667 0.00416667 0.00416667 0.2375    ]]
+
+Frecuencias de salida (suma por columna):
+[0.25 0.25 0.25 0.25]
+
+Fórmula:
+MATRIZ_CONFIABILIDAD[i, j] * log2(MATRIZ_CONFIABILIDAD[i, j] / (sum(FRECUENCIA_DE_ENTRADA[k] * MATRIZ_CONFIABILIDAD[k, j] for k in range(n))))
+[[ 1.82969945 -0.06511484 -0.06511484 -0.06511484]
+ [-0.06511484  1.82969945 -0.06511484 -0.06511484]
+ [-0.06511484 -0.06511484  1.82969945 -0.06511484]
+ [-0.06511484 -0.06511484 -0.06511484  1.82969945]]
+
+Suma por fila de la nueva matriz:
+[1.63435492 1.63435492 1.63435492 1.63435492]
+
+Cada frecuencia de entrada multiplicada por su valor en el vector anterior:
+[0.45742486 0.45742486 0.45742486 0.45742486]
+
+Información transmitida con frecuencias óptimas: 1.8297
