@@ -80,3 +80,6 @@ TextoBuscado = input("Ingresa el texto que buscas (Cadena buscada):  ")
 # ---------------------------------------------------------------------------------------
 
 kmp_explicito(TextoGrande, TextoBuscado)
+
+
+
