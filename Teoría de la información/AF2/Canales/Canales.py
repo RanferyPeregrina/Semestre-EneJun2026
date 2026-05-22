@@ -1,4 +1,33 @@
 import math
+from tkinter import Tk
+from tkinter.filedialog import askopenfilename
+import sys
+
+
+class Tee:#Esto es para que las cosas se guarden en un TXT al final jeje.
+    def __init__(self, *files):
+        self.files = files
+    def write(self, obj):
+        for f in self.files:
+            f.write(obj)
+            f.flush()  # Para que se guarde al momento
+    def flush(self):
+        for f in self.files:
+            f.flush()
+log_file = open("Salida.txt", "w", encoding="utf-8")
+original_stdout = sys.stdout
+sys.stdout = Tee(sys.stdout, log_file)
+
+def LeerTexto():
+    root = Tk()
+    root.withdraw()
+    Archivo = askopenfilename(title = "Elige el archivo de texto")
+    if Archivo:
+        with open(Archivo, "r", encoding="utf-8") as Archivo:
+            Texto = Archivo.read()
+    return Texto
+# Esto lo voy a copiar y pegar en todos los programas. 🦀, hasta aquí -----------------------------
+
 
 def PedirAlfabeto():
     Alfabeto = []
@@ -51,9 +80,11 @@ def Calcular_Entropia(Frecuencia):
     return Entropia
 
 
+#Descomenten esto para que les pida sus datos -----------------------------------------------------------------
 # Alfabeto = PedirAlfabeto()
 # Frecuencias = PedirFrecuencias(Alfabeto)
 # ProbabilidadAcertar = float(input("Ingrese la probabilidad de acertar la transmisión:  "))
+#--------------------------------------------------------------------------------------------------------------
 
 Alfabeto = ["a", "b", "c", "d"]
 Frecuencias = [0.17, 0.38, 0.20, 0.05]
@@ -104,6 +135,8 @@ print(f"\nLa entropia total es: {round(Entropia_Total, 5)}")
 #Paso 4: Calcular la capacidad del canal
 #Para calcular la capacidad del canal expandimos todos los canales al máximo donde no "achican" a otros canales.
 #Es decir, todos iguales. Entonces la entropía de salida alcanz su valor máximo con log2(m), donde "m" son todos los símbolos.
+print("= " * 30)
+print("Capacidad del canal")
 Entropia_Maxima = round(math.log2(len(Frecuencias)), 5)
 #Y a esa entropía máxima le restamos la entropía total obtenida.
 Capacidad_Canal = Entropia_Maxima - Entropia_Total
