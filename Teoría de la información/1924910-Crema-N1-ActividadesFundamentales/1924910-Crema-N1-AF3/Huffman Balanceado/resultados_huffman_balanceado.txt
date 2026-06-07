@@ -1,0 +1,101 @@
+============================================================
+     RESULTADOS DE HUFFMAN BALANCEADO
+============================================================
+
+TEXTO ORIGINAL:
+   Una corona di spine sarà il dress-code per la mia festa
+
+CONFIGURACION:
+   Umbral sin mejora: 25000 arboles
+   Penalizacion por desbalance: 0.5
+   Arboles evaluados: 25002
+
+FRECUENCIAS:
+   'a': 6 veces (0.1333)
+   'e': 5 veces (0.1111)
+   's': 5 veces (0.1111)
+   'i': 4 veces (0.0889)
+   'r': 4 veces (0.0889)
+   'd': 3 veces (0.0667)
+   'n': 3 veces (0.0667)
+   'o': 3 veces (0.0667)
+   'c': 2 veces (0.0444)
+   'l': 2 veces (0.0444)
+   'p': 2 veces (0.0444)
+   '-': 1 veces (0.0222)
+   'f': 1 veces (0.0222)
+   'm': 1 veces (0.0222)
+   't': 1 veces (0.0222)
+   'u': 1 veces (0.0222)
+   'à': 1 veces (0.0222)
+
+CODIGOS HUFFMAN (arbol balanceado):
+   'e' -> 111 (longitud: 3)
+   's' -> 110 (longitud: 3)
+   'a' -> 101 (longitud: 3)
+   'd' -> 1001 (longitud: 4)
+   'n' -> 1000 (longitud: 4)
+   'i' -> 0111 (longitud: 4)
+   'r' -> 0110 (longitud: 4)
+   'c' -> 01011 (longitud: 5)
+   'l' -> 01010 (longitud: 5)
+   'p' -> 01001 (longitud: 5)
+   '-' -> 010001 (longitud: 6)
+   'f' -> 010000 (longitud: 6)
+   'o' -> 001 (longitud: 3)
+   'm' -> 00011 (longitud: 5)
+   't' -> 00010 (longitud: 5)
+   'u' -> 00001 (longitud: 5)
+   'à' -> 00000 (longitud: 5)
+
+------------------------------------------------------------
+METRICAS DE BALANCE:
+   Profundidad maxima del codigo: 6 bits
+   Desbalance total del arbol: 8
+   (menor desbalance = arbol mas equilibrado)
+
+ENTROPIAS:
+   HE (Fuente):  3.825326 bits
+   HT (Arbol):   0.908106 bits
+   HIT (Total):  4.733432 bits
+
+METRICAS DE COMPRESION:
+   LMS (Longitud Media Simbolo): 3.8889 bits
+   LME (Longitud Media Ensamblaje): 8.0000 bits
+   RC (Relacion de Compresion): 2.0571
+
+============================================================
+ESTRUCTURA DEL ARBOL SELECCIONADO:
+nodo: b1 (p=1.0000)
+  nodo: ((e+s)+(a+(d+n))) (p=0.4889)
+    nodo: (e+s) (p=0.2222)
+      hoja: 'e' (p=0.1111, prof=1)
+      hoja: 's' (p=0.1111, prof=1)
+    nodo: (a+(d+n)) (p=0.2667)
+      hoja: 'a' (p=0.1333, prof=4)
+      nodo: (d+n) (p=0.1333)
+        hoja: 'd' (p=0.0667, prof=3)
+        hoja: 'n' (p=0.0667, prof=3)
+  nodo: (((i+r)+((c+l)+(p+(-+f))))+(o+((m+t)+(u+à)))) (p=0.5111)
+    nodo: ((i+r)+((c+l)+(p+(-+f)))) (p=0.3556)
+      nodo: (i+r) (p=0.1778)
+        hoja: 'i' (p=0.0889, prof=2)
+        hoja: 'r' (p=0.0889, prof=2)
+      nodo: ((c+l)+(p+(-+f))) (p=0.1778)
+        nodo: (c+l) (p=0.0889)
+          hoja: 'c' (p=0.0444, prof=5)
+          hoja: 'l' (p=0.0444, prof=5)
+        nodo: (p+(-+f)) (p=0.0889)
+          hoja: 'p' (p=0.0444, prof=7)
+          nodo: (-+f) (p=0.0444)
+            hoja: '-' (p=0.0222, prof=6)
+            hoja: 'f' (p=0.0222, prof=6)
+    nodo: (o+((m+t)+(u+à))) (p=0.1556)
+      hoja: 'o' (p=0.0667, prof=13)
+      nodo: ((m+t)+(u+à)) (p=0.0889)
+        nodo: (m+t) (p=0.0444)
+          hoja: 'm' (p=0.0222, prof=10)
+          hoja: 't' (p=0.0222, prof=10)
+        nodo: (u+à) (p=0.0444)
+          hoja: 'u' (p=0.0222, prof=11)
+          hoja: 'à' (p=0.0222, prof=11)

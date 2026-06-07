@@ -1,120 +1,202 @@
 import pandas as pd
-from itertools import combinations
-from collections import defaultdict
+from itertools import permutations
 
-# ============================================
-# 1. Leer datos desde Excel (sin filtrar por nombre)
-# ============================================
-archivo_excel = "Secuencias.xlsx"
-nombre_hoja = "Datos"
+# ==========================================
+# CONFIGURACIÓN
+# ==========================================
 
-# Leer todas las columnas
-df_raw = pd.read_excel(archivo_excel, sheet_name=nombre_hoja)
+ARCHIVO = "Secuencias.xlsx"
+HOJA = "Recetas simplificadas"
 
-# Mostrar los nombres de las columnas para depuración
-print("Nombres de columnas encontrados:")
-for i, col in enumerate(df_raw.columns):
-    print(f"   {i}: '{col}'")
+MIN_SUPPORT = 0.6
 
-# Suponemos que la primera columna es "Que ocurre" y la segunda "Código"
-# Si no es así, ajusta los índices (0 y 1)
-col_descripcion = df_raw.columns[0]   # primera columna
-col_codigo = df_raw.columns[1]        # segunda columna
+# ==========================================
+# LEER EXCEL
+# ==========================================
 
-print(f"\nColumna de descripción: '{col_descripcion}'")
-print(f"Columna de código: '{col_codigo}'")
+df = pd.read_excel(ARCHIVO, sheet_name=HOJA)
 
-# Extraer las listas
-descripciones = df_raw[col_descripcion].tolist()
-eventos = df_raw[col_codigo].tolist()
+id_col = df.columns[0]
+step_cols = df.columns[1:]
 
-# Eliminar filas con valores nulos en código
-datos_validos = [(desc, cod) for desc, cod in zip(descripciones, eventos) if pd.notna(cod)]
-descripciones = [d for d, c in datos_validos]
-eventos = [c for d, c in datos_validos]
+# ==========================================
+# CONSTRUIR SECUENCIAS
+# ==========================================
 
-print(f"\nArchivo: {archivo_excel}")
-print(f"Hoja: {nombre_hoja}")
-print(f"Total de eventos cargados: {len(eventos)}")
-print(f"Primeros 10 eventos: {eventos[:10]}")
-print(f"Eventos únicos: {len(set(eventos))}\n")
+recipes = []
 
-# ============================================
-# 2. Función para contar co-ocurrencias con ventana deslizante
-# ============================================
-def contar_coocurrencias(eventos, tamanio_ventana):
-    conteo = defaultdict(int)
-    n = len(eventos)
-    for i in range(n - tamanio_ventana + 1):
-        ventana = eventos[i:i + tamanio_ventana]
-        unicos = list(set(ventana))
-        for a, b in combinations(unicos, 2):
-            par = tuple(sorted([a, b]))
-            conteo[par] += 1
-    return conteo
+for _, row in df.iterrows():
 
-# ============================================
-# 3. Probar ventanas desde tamaño 3 hasta 10, por ahora
-# ============================================
-n = len(eventos)
-resultados_por_tamanio = {}
+    seq = []
 
-print("Procesando ventanas...")
-print(f"Ventanas desde tamaño 3 hasta {min(10, n-1)}\n")
+    for col in step_cols:
+        val = row[col]
+        if pd.notna(val):
+            step = str(val).strip()
+            if step != "":
+                seq.append(step)
+    recipes.append(seq)
 
-for w in range(3, min(11, n)):
-# for w in range(3, n): Esto lo voy a dejar comentado para que mi computadora no explote.
-    print(f"  Procesando ventana de tamaño {w}...")
-    conteo = contar_coocurrencias(eventos, w)
-    resultados_por_tamanio[w] = conteo
-    print(f"    -> {len(conteo)} pares diferentes encontrados")
+# ==========================================
+# OBTENER TODOS LOS EVENTOS ÚNICOS
+# ==========================================
 
-print("\nProcesamiento completado\n")
+all_steps = set()
 
-# ============================================
-# 4. Mostrar resultados en consola
-# ============================================
-for w, conteo in resultados_por_tamanio.items():
-    print(f"\n{'='*60}")
-    print(f"VENTANA DE TAMAÑO {w}")
-    print(f"{'='*60}")
-    pares_ordenados = sorted(conteo.items(), key=lambda x: x[1], reverse=True)
-    print("Top 15 pares más frecuentes:")
-    for i, (par, freq) in enumerate(pares_ordenados[:15], 1):
-        print(f"  {i:2d}. {par[0]} <-> {par[1]} : {freq} veces")
-    total_ventanas = n - w + 1
-    print(f"\nTotal de ventanas evaluadas: {total_ventanas}")
+for seq in recipes:
+    all_steps.update(seq)
 
-# ============================================
-# 5. Exportar a Excel con resultados
-# ============================================
-archivo_salida = "resultados_coocurrencias.xlsx"
-with pd.ExcelWriter(archivo_salida, engine='openpyxl') as writer:
-    # Resumen
-    resumen = []
-    for w, conteo in resultados_por_tamanio.items():
-        resumen.append({
-            "Tamaño_ventana": w,
-            "Total_pares_encontrados": len(conteo),
-            "Total_ventanas_evaluadas": n - w + 1
+all_steps = sorted(list(all_steps))
+n_unique = len(all_steps)
+
+print(f"\nEventos únicos encontrados: {n_unique}")
+
+# ==========================================
+# FUNCIÓN:
+# VERIFICAR SUBSECUENCIA
+# ==========================================
+
+def is_subsequence(pattern, sequence):
+
+    seq_idx = 0
+
+    for item in pattern:
+        found = False
+        while seq_idx < len(sequence):
+            if sequence[seq_idx] == item:
+                found = True
+                seq_idx += 1
+                break
+            seq_idx += 1
+        if not found:
+            return False
+
+    return True
+
+# ==========================================
+# GENERAR CANDIDATOS
+# ==========================================
+
+candidate_patterns = []
+
+# Desde tamaño 2 hasta n-1
+for size in range(2, 6):
+
+    print(f"Generando secuencias de tamaño {size}")
+    perms = permutations(all_steps, size)
+
+    for p in perms:
+        candidate_patterns.append(p)
+
+print(f"\nTotal de candidatos: {len(candidate_patterns)}")
+
+# ==========================================
+# CALCULAR SUPPORT
+# ==========================================
+
+total_recipes = len(recipes)
+frequent_patterns = []
+for pattern in candidate_patterns:
+    count = 0
+    presence = []
+
+    for recipe in recipes:
+        exists = is_subsequence(pattern, recipe)
+        presence.append(int(exists))
+        if exists:
+            count += 1
+
+    support = count / total_recipes
+
+    if support >= MIN_SUPPORT:
+        frequent_patterns.append({
+            "Pattern": " -> ".join(pattern),
+            "Length": len(pattern),
+            "Support_Count": count,
+            "Support": round(support, 4),
+            "Presence": presence
         })
-    pd.DataFrame(resumen).to_excel(writer, sheet_name="Resumen", index=False)
-    
-    # Hoja por cada ventana
-    for w, conteo in resultados_por_tamanio.items():
-        df = pd.DataFrame([
-            {"Evento_A": par[0], "Evento_B": par[1], "Frecuencia": freq}
-            for par, freq in conteo.items()
-        ]).sort_values("Frecuencia", ascending=False)
-        df.to_excel(writer, sheet_name=f"Ventana_{w}", index=False)
-    
-    # Hoja con la lista original (usando las descripciones reales)
-    df_original = pd.DataFrame({
-        "Indice": range(1, n+1),
-        col_descripcion: descripciones,  # <- usa el nombre real de la columna
-        "Codigo": eventos
-    })
-    df_original.to_excel(writer, sheet_name="Lista_original", index=False)
 
-print(f"\nResultados guardados en '{archivo_salida}'")
-print("\n Jeje, usé las columnas por posición (primera y segunda) para evitar problemas de nombres.")
+# ==========================================
+# CREAR TABLA DE SUPPORT
+# ==========================================
+
+support_rows = []
+
+for fp in frequent_patterns:
+
+    row = {
+        "Pattern": fp["Pattern"],
+        "Length": fp["Length"],
+        "Support_Count": fp["Support_Count"],
+        "Support": fp["Support"]
+    }
+
+    for i, val in enumerate(fp["Presence"]):
+        row[f"R{i+1}"] = val
+
+    support_rows.append(row)
+
+support_df = pd.DataFrame(support_rows)
+
+# ==========================================
+# CALCULAR REGLAS
+# ==========================================
+
+rules = []
+
+for fp in frequent_patterns:
+
+    items = fp["Pattern"].split(" -> ")
+
+    if len(items) < 2:
+        continue
+
+    antecedent = tuple(items[:-1])
+    consequent = items[-1]
+    antecedent_count = 0
+
+    for recipe in recipes:
+
+        if is_subsequence(antecedent, recipe):
+            antecedent_count += 1
+
+    if antecedent_count > 0:
+
+        confidence = fp["Support_Count"] / antecedent_count
+
+        rules.append({
+            "Rule": f'{" -> ".join(antecedent)} => {consequent}',
+            "Support": fp["Support"],
+            "Confidence": round(confidence, 4)
+        })
+
+rules_df = pd.DataFrame(rules)
+
+# ==========================================
+# EXPORTAR AL EXCEL
+# ==========================================
+
+output_file = "Resultados_Mineria_Secuencias.xlsx"
+
+with pd.ExcelWriter(output_file, engine="openpyxl") as writer:
+
+    # Secuencias frecuentes
+    support_df.to_excel(
+        writer,
+        sheet_name="Frequent_Sequences",
+        index=False
+    )
+
+    # Reglas
+    rules_df.to_excel(
+        writer,
+        sheet_name="Association_Rules",
+        index=False
+    )
+
+print("\n====================================")
+print("MINERÍA TERMINADA")
+print("====================================")
+
+print(f"\nArchivo generado: {output_file}")

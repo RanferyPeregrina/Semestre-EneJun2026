@@ -1,0 +1,10 @@
+Se solicitaba escoger la matrícula con el mejor radio de compresión:
+Los radios de compresión dieron:
+1924910 = 0.69
+1949877 = 0.74
+1995863 = 0.75
+1898123 = 0.72
+
+
+La mejor matrícula para comprimir con LZ77 el texto del pollito pío (Adjunto como "Ejemplo.txt")
+Es: 1995863 

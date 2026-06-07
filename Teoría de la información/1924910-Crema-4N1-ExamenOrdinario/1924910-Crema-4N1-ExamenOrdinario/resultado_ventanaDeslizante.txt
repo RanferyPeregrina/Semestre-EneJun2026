@@ -1,0 +1,6717 @@
+Para el texto de la ventana: darcyandthetwoh
+                             543210987654321
+El historial es:darcyandth
+                0987654321
+El Lookahead es:etwoh
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: andthetwoheardh
+                             543210987654321
+El historial es:andthetwoh
+                0987654321
+El Lookahead es:eardh
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 5
+Letra que rompió: a
+Para el texto de la ventana: ndthetwoheardhe
+                             543210987654321
+El historial es:ndthetwohe
+                0987654321
+El Lookahead es:ardhe
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: twoheardherswee
+                             543210987654321
+El historial es:twoheardhe
+                0987654321
+El Lookahead es:rswee
+                54321
+
+Termino: r encontrado.
+Tamaño = 1
+Offset = 4
+Letra que rompió: s
+Para el texto de la ventana: woheardhersweet
+                             543210987654321
+El historial es:woheardher
+                0987654321
+El Lookahead es:sweet
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: rdhersweetestma
+                             543210987654321
+El historial es:rdhersweet
+                0987654321
+El Lookahead es:estma
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: s
+Para el texto de la ventana: dhersweetestmak
+                             543210987654321
+El historial es:dhersweete
+                0987654321
+El Lookahead es:stmak
+                54321
+
+Termino: s encontrado.
+Tamaño = 1
+Offset = 6
+Letra que rompió: t
+Para el texto de la ventana: hersweetestmake
+                             543210987654321
+El historial es:hersweetes
+                0987654321
+El Lookahead es:tmake
+                54321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 3
+Letra que rompió: m
+Para el texto de la ventana: ersweetestmakes
+                             543210987654321
+El historial es:ersweetest
+                0987654321
+El Lookahead es:makes
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: etestmakesprais
+                             543210987654321
+El historial es:etestmakes
+                0987654321
+El Lookahead es:prais
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: makespraiseinel
+                             543210987654321
+El historial es:makesprais
+                0987654321
+El Lookahead es:einel
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: i
+Para el texto de la ventana: akespraiseineli
+                             543210987654321
+El historial es:akespraise
+                0987654321
+El Lookahead es:ineli
+                54321
+
+Termino: i encontrado.
+Tamaño = 1
+Offset = 3
+Letra que rompió: n
+Para el texto de la ventana: kespraiseineliz
+                             543210987654321
+El historial es:kespraisei
+                0987654321
+El Lookahead es:neliz
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: aiseinelizabeth
+                             543210987654321
+El historial es:aiseineliz
+                0987654321
+El Lookahead es:abeth
+                54321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: b
+Para el texto de la ventana: iseinelizabethc
+                             543210987654321
+El historial es:iseineliza
+                0987654321
+El Lookahead es:bethc
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: elizabethcried.
+                             543210987654321
+El historial es:elizabethc
+                0987654321
+El Lookahead es:ried.
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: bethcried.sensi
+                             543210987654321
+El historial es:bethcried.
+                0987654321
+El Lookahead es:sensi
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ried.sensibleon
+                             543210987654321
+El historial es:ried.sensi
+                0987654321
+El Lookahead es:bleon
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: sensibleontheis
+                             543210987654321
+El historial es:sensibleon
+                0987654321
+El Lookahead es:theis
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: bleontheisaandi
+                             543210987654321
+El historial es:bleontheis
+                0987654321
+El Lookahead es:aandi
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: theisaandionema
+                             543210987654321
+El historial es:theisaandi
+                0987654321
+El Lookahead es:onema
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: aandionemarypai
+                             543210987654321
+El historial es:aandionema
+                0987654321
+El Lookahead es:rypai
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: onemarypainfulo
+                             543210987654321
+El historial es:onemarypai
+                0987654321
+El Lookahead es:nfulo
+                54321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: f
+Para el texto de la ventana: nemarypainfulof
+                             543210987654321
+El historial es:nemarypain
+                0987654321
+El Lookahead es:fulof
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ypainfulof.them
+                             543210987654321
+El historial es:ypainfulof
+                0987654321
+El Lookahead es:.them
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: fulof.themydear
+                             543210987654321
+El historial es:fulof.them
+                0987654321
+El Lookahead es:ydear
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: .themydearbyyou
+                             543210987654321
+El historial es:.themydear
+                0987654321
+El Lookahead es:byyou
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ydearbyyoushoul
+                             543210987654321
+El historial es:ydearbyyou
+                0987654321
+El Lookahead es:shoul
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: byyoushouldandk
+                             543210987654321
+El historial es:byyoushoul
+                0987654321
+El Lookahead es:dandk
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: shouldandknownm
+                             543210987654321
+El historial es:shouldandk
+                0987654321
+El Lookahead es:nownm
+                54321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 3
+Letra que rompió: o
+Para el texto de la ventana: houldandknownma
+                             543210987654321
+El historial es:houldandkn
+                0987654321
+El Lookahead es:ownma
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: w
+Para el texto de la ventana: ouldandknownman
+                             543210987654321
+El historial es:ouldandkno
+                0987654321
+El Lookahead es:wnman
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ndknownmannersf
+                             543210987654321
+El historial es:ndknownman
+                0987654321
+El Lookahead es:nersf
+                54321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: e
+Para el texto de la ventana: dknownmannersfo
+                             543210987654321
+El historial es:dknownmann
+                0987654321
+El Lookahead es:ersfo
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: nmannersformore
+                             543210987654321
+El historial es:nmannersfo
+                0987654321
+El Lookahead es:rmore
+                54321
+
+Termino: r encontrado.
+Tamaño = 1
+Offset = 4
+Letra que rompió: m
+Para el texto de la ventana: mannersformore.
+                             543210987654321
+El historial es:mannersfor
+                0987654321
+El Lookahead es:more.
+                54321
+
+Termino: m encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: o
+Para el texto de la ventana: annersformore.t
+                             543210987654321
+El historial es:annersform
+                0987654321
+El Lookahead es:ore.t
+                54321
+
+Termino: o encontrado.
+
+Termino: or encontrado.
+Tamaño = 2
+Offset = 3
+Letra que rompió: e
+Para el texto de la ventana: nersformore.too
+                             543210987654321
+El historial es:nersformor
+                0987654321
+El Lookahead es:e.too
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: .
+Para el texto de la ventana: ersformore.toof
+                             543210987654321
+El historial es:ersformore
+                0987654321
+El Lookahead es:.toof
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: rmore.toofsucho
+                             543210987654321
+El historial es:rmore.toof
+                0987654321
+El Lookahead es:sucho
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: .toofsuchonhumo
+                             543210987654321
+El historial es:.toofsucho
+                0987654321
+El Lookahead es:nhumo
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: suchonhumourwer
+                             543210987654321
+El historial es:suchonhumo
+                0987654321
+El Lookahead es:urwer
+                54321
+
+Termino: u encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: r
+Para el texto de la ventana: uchonhumourwere
+                             543210987654321
+El historial es:uchonhumou
+                0987654321
+El Lookahead es:rwere
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: humourwereorder
+                             543210987654321
+El historial es:humourwere
+                0987654321
+El Lookahead es:order
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: r
+Para el texto de la ventana: umourwereorders
+                             543210987654321
+El historial es:umourwereo
+                0987654321
+El Lookahead es:rders
+                54321
+
+Termino: r encontrado.
+Tamaño = 1
+Offset = 6
+Letra que rompió: d
+Para el texto de la ventana: mourwereorderse
+                             543210987654321
+El historial es:mourwereor
+                0987654321
+El Lookahead es:derse
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ereordersevenal
+                             543210987654321
+El historial es:ereorderse
+                0987654321
+El Lookahead es:venal
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: dersevenallhuns
+                             543210987654321
+El historial es:dersevenal
+                0987654321
+El Lookahead es:lhuns
+                54321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 1
+Letra que rompió: h
+Para el texto de la ventana: ersevenallhunsf
+                             543210987654321
+El historial es:ersevenall
+                0987654321
+El Lookahead es:hunsf
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: enallhunsfordto
+                             543210987654321
+El historial es:enallhunsf
+                0987654321
+El Lookahead es:ordto
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: hunsfordtooksuc
+                             543210987654321
+El historial es:hunsfordto
+                0987654321
+El Lookahead es:oksuc
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 5
+Letra que rompió: k
+Para el texto de la ventana: unsfordtooksucc
+                             543210987654321
+El historial es:unsfordtoo
+                0987654321
+El Lookahead es:ksucc
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: rdtooksuccess.w
+                             543210987654321
+El historial es:rdtooksucc
+                0987654321
+El Lookahead es:ess.w
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ksuccess.wasfor
+                             543210987654321
+El historial es:ksuccess.w
+                0987654321
+El Lookahead es:asfor
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ess.wasforeliza
+                             543210987654321
+El historial es:ess.wasfor
+                0987654321
+El Lookahead es:eliza
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: l
+Para el texto de la ventana: ss.wasforelizab
+                             543210987654321
+El historial es:ss.wasfore
+                0987654321
+El Lookahead es:lizab
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: sforelizabethof
+                             543210987654321
+El historial es:sforelizab
+                0987654321
+El Lookahead es:ethof
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 6
+Letra que rompió: t
+Para el texto de la ventana: forelizabethofs
+                             543210987654321
+El historial es:forelizabe
+                0987654321
+El Lookahead es:thofs
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: izabethofsomewh
+                             543210987654321
+El historial es:izabethofs
+                0987654321
+El Lookahead es:omewh
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 3
+Letra que rompió: m
+Para el texto de la ventana: zabethofsomewha
+                             543210987654321
+El historial es:zabethofso
+                0987654321
+El Lookahead es:mewha
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: hofsomewhatofyo
+                             543210987654321
+El historial es:hofsomewha
+                0987654321
+El Lookahead es:tofyo
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: mewhatofyoufor.
+                             543210987654321
+El historial es:mewhatofyo
+                0987654321
+El Lookahead es:ufor.
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: tofyoufor.asist
+                             543210987654321
+El historial es:tofyoufor.
+                0987654321
+El Lookahead es:asist
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ufor.asisterhea
+                             543210987654321
+El historial es:ufor.asist
+                0987654321
+El Lookahead es:erhea
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: asisterheandhad
+                             543210987654321
+El historial es:asisterhea
+                0987654321
+El Lookahead es:ndhad
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: erheandhadorwet
+                             543210987654321
+El historial es:erheandhad
+                0987654321
+El Lookahead es:orwet
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ndhadorwethatsh
+                             543210987654321
+El historial es:ndhadorwet
+                0987654321
+El Lookahead es:hatsh
+                54321
+
+Termino: h encontrado.
+
+Termino: ha encontrado.
+Tamaño = 2
+Offset = 8
+Letra que rompió: t
+Para el texto de la ventana: hadorwethatshet
+                             543210987654321
+El historial es:hadorwetha
+                0987654321
+El Lookahead es:tshet
+                54321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 3
+Letra que rompió: s
+Para el texto de la ventana: adorwethatsheth
+                             543210987654321
+El historial es:adorwethat
+                0987654321
+El Lookahead es:sheth
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ethatshethatint
+                             543210987654321
+El historial es:ethatsheth
+                0987654321
+El Lookahead es:atint
+                54321
+
+Termino: a encontrado.
+
+Termino: at encontrado.
+Tamaño = 2
+Offset = 7
+Letra que rompió: i
+Para el texto de la ventana: hatshethatinthe
+                             543210987654321
+El historial es:hatshethat
+                0987654321
+El Lookahead es:inthe
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ethatinthesayth
+                             543210987654321
+El historial es:ethatinthe
+                0987654321
+El Lookahead es:sayth
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: inthesaythatof.
+                             543210987654321
+El historial es:inthesayth
+                0987654321
+El Lookahead es:atof.
+                54321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 4
+Letra que rompió: t
+Para el texto de la ventana: nthesaythatof.t
+                             543210987654321
+El historial es:nthesaytha
+                0987654321
+El Lookahead es:tof.t
+                54321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: o
+Para el texto de la ventana: thesaythatof.th
+                             543210987654321
+El historial es:thesaythat
+                0987654321
+El Lookahead es:of.th
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ythatof.themana
+                             543210987654321
+El historial es:ythatof.th
+                0987654321
+El Lookahead es:emana
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: of.themanandtha
+                             543210987654321
+El historial es:of.themana
+                0987654321
+El Lookahead es:ndtha
+                54321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 2
+Letra que rompió: d
+Para el texto de la ventana: f.themanandthat
+                             543210987654321
+El historial es:f.themanan
+                0987654321
+El Lookahead es:dthat
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: manandthatsheha
+                             543210987654321
+El historial es:manandthat
+                0987654321
+El Lookahead es:sheha
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: dthatshehadshef
+                             543210987654321
+El historial es:dthatsheha
+                0987654321
+El Lookahead es:dshef
+                54321
+
+Termino: d encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: s
+Para el texto de la ventana: thatshehadshefe
+                             543210987654321
+El historial es:thatshehad
+                0987654321
+El Lookahead es:shefe
+                54321
+
+Termino: s encontrado.
+
+Termino: sh encontrado.
+
+Termino: she encontrado.
+Tamaño = 3
+Offset = 6
+Letra que rompió: f
+Para el texto de la ventana: tshehadshefelti
+                             543210987654321
+El historial es:tshehadshe
+                0987654321
+El Lookahead es:felti
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: adshefelti.shou
+                             543210987654321
+El historial es:adshefelti
+                0987654321
+El Lookahead es:.shou
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: felti.shoulddon
+                             543210987654321
+El historial es:felti.shou
+                0987654321
+El Lookahead es:lddon
+                54321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 8
+Letra que rompió: d
+Para el texto de la ventana: elti.shoulddone
+                             543210987654321
+El historial es:elti.shoul
+                0987654321
+El Lookahead es:ddone
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: shoulddonewashe
+                             543210987654321
+El historial es:shoulddone
+                0987654321
+El Lookahead es:washe
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ddonewasheveryi
+                             543210987654321
+El historial es:ddonewashe
+                0987654321
+El Lookahead es:veryi
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: washeveryinthes
+                             543210987654321
+El historial es:washeveryi
+                0987654321
+El Lookahead es:nthes
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: veryinthesatmra
+                             543210987654321
+El historial es:veryinthes
+                0987654321
+El Lookahead es:atmra
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: nthesatmrapplyi
+                             543210987654321
+El historial es:nthesatmra
+                0987654321
+El Lookahead es:pplyi
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: atmrapplying.we
+                             543210987654321
+El historial es:atmrapplyi
+                0987654321
+El Lookahead es:ng.we
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: pplying.weandwi
+                             543210987654321
+El historial es:pplying.we
+                0987654321
+El Lookahead es:andwi
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ng.weandwithasu
+                             543210987654321
+El historial es:ng.weandwi
+                0987654321
+El Lookahead es:thasu
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: andwithasuchofn
+                             543210987654321
+El historial es:andwithasu
+                0987654321
+El Lookahead es:chofn
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: thasuchofnotall
+                             543210987654321
+El historial es:thasuchofn
+                0987654321
+El Lookahead es:otall
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 3
+Letra que rompió: t
+Para el texto de la ventana: hasuchofnotallb
+                             543210987654321
+El historial es:hasuchofno
+                0987654321
+El Lookahead es:tallb
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: hofnotallbingle
+                             543210987654321
+El historial es:hofnotallb
+                0987654321
+El Lookahead es:ingle
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: tallbingleynotb
+                             543210987654321
+El historial es:tallbingle
+                0987654321
+El Lookahead es:ynotb
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ingleynotbecare
+                             543210987654321
+El historial es:ingleynotb
+                0987654321
+El Lookahead es:ecare
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 6
+Letra que rompió: c
+Para el texto de la ventana: ngleynotbecareo
+                             543210987654321
+El historial es:ngleynotbe
+                0987654321
+El Lookahead es:careo
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: notbecareof.alr
+                             543210987654321
+El historial es:notbecareo
+                0987654321
+El Lookahead es:f.alr
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: careof.alreadyv
+                             543210987654321
+El historial es:careof.alr
+                0987654321
+El Lookahead es:eadyv
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: a
+Para el texto de la ventana: areof.alreadyve
+                             543210987654321
+El historial es:areof.alre
+                0987654321
+El Lookahead es:adyve
+                54321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: d
+Para el texto de la ventana: reof.alreadyver
+                             543210987654321
+El historial es:reof.alrea
+                0987654321
+El Lookahead es:dyver
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: alreadyveryhave
+                             543210987654321
+El historial es:alreadyver
+                0987654321
+El Lookahead es:yhave
+                54321
+
+Termino: y encontrado.
+Tamaño = 1
+Offset = 4
+Letra que rompió: h
+Para el texto de la ventana: lreadyveryhaveh
+                             543210987654321
+El historial es:lreadyvery
+                0987654321
+El Lookahead es:haveh
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: yveryhavehimsel
+                             543210987654321
+El historial es:yveryhaveh
+                0987654321
+El Lookahead es:imsel
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: havehimselfofas
+                             543210987654321
+El historial es:havehimsel
+                0987654321
+El Lookahead es:fofas
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: imselfofasheawh
+                             543210987654321
+El historial es:imselfofas
+                0987654321
+El Lookahead es:heawh
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: fofasheawhichfa
+                             543210987654321
+El historial es:fofasheawh
+                0987654321
+El Lookahead es:ichfa
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: heawhichfatherw
+                             543210987654321
+El historial es:heawhichfa
+                0987654321
+El Lookahead es:therw
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ichfatherwastak
+                             543210987654321
+El historial es:ichfatherw
+                0987654321
+El Lookahead es:astak
+                54321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 6
+Letra que rompió: s
+Para el texto de la ventana: chfatherwastake
+                             543210987654321
+El historial es:chfatherwa
+                0987654321
+El Lookahead es:stake
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: herwastake.arri
+                             543210987654321
+El historial es:herwastake
+                0987654321
+El Lookahead es:.arri
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: stake.arrivalof
+                             543210987654321
+El historial es:stake.arri
+                0987654321
+El Lookahead es:valof
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: .arrivalofiamhe
+                             543210987654321
+El historial es:.arrivalof
+                0987654321
+El Lookahead es:iamhe
+                54321
+
+Termino: i encontrado.
+Tamaño = 1
+Offset = 6
+Letra que rompió: a
+Para el texto de la ventana: arrivalofiamher
+                             543210987654321
+El historial es:arrivalofi
+                0987654321
+El Lookahead es:amher
+                54321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: m
+Para el texto de la ventana: rrivalofiamherf
+                             543210987654321
+El historial es:rrivalofia
+                0987654321
+El Lookahead es:mherf
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: lofiamherformer
+                             543210987654321
+El historial es:lofiamherf
+                0987654321
+El Lookahead es:ormer
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: r
+Para el texto de la ventana: ofiamherformerl
+                             543210987654321
+El historial es:ofiamherfo
+                0987654321
+El Lookahead es:rmerl
+                54321
+
+Termino: r encontrado.
+Tamaño = 1
+Offset = 3
+Letra que rompió: m
+Para el texto de la ventana: fiamherformerly
+                             543210987654321
+El historial es:fiamherfor
+                0987654321
+El Lookahead es:merly
+                54321
+
+Termino: m encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: e
+Para el texto de la ventana: iamherformerlyt
+                             543210987654321
+El historial es:iamherform
+                0987654321
+El Lookahead es:erlyt
+                54321
+
+Termino: e encontrado.
+
+Termino: er encontrado.
+Tamaño = 2
+Offset = 6
+Letra que rompió: l
+Para el texto de la ventana: mherformerlytoh
+                             543210987654321
+El historial es:mherformer
+                0987654321
+El Lookahead es:lytoh
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ormerlytohewhen
+                             543210987654321
+El historial es:ormerlytoh
+                0987654321
+El Lookahead es:ewhen
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: w
+Para el texto de la ventana: rmerlytohewhen.
+                             543210987654321
+El historial es:rmerlytohe
+                0987654321
+El Lookahead es:when.
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ytohewhen.heinn
+                             543210987654321
+El historial es:ytohewhen.
+                0987654321
+El Lookahead es:heinn
+                54321
+
+Termino: h encontrado.
+
+Termino: he encontrado.
+Tamaño = 2
+Offset = 7
+Letra que rompió: i
+Para el texto de la ventana: ohewhen.heinnot
+                             543210987654321
+El historial es:ohewhen.he
+                0987654321
+El Lookahead es:innot
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: en.heinnothisel
+                             543210987654321
+El historial es:en.heinnot
+                0987654321
+El Lookahead es:hisel
+                54321
+
+Termino: h encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: i
+Para el texto de la ventana: n.heinnothiseli
+                             543210987654321
+El historial es:n.heinnoth
+                0987654321
+El Lookahead es:iseli
+                54321
+
+Termino: i encontrado.
+Tamaño = 1
+Offset = 6
+Letra que rompió: s
+Para el texto de la ventana: .heinnothiseliz
+                             543210987654321
+El historial es:.heinnothi
+                0987654321
+El Lookahead es:seliz
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: nothiselizabeth
+                             543210987654321
+El historial es:nothiseliz
+                0987654321
+El Lookahead es:abeth
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: selizabethresol
+                             543210987654321
+El historial es:selizabeth
+                0987654321
+El Lookahead es:resol
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: abethresolvingg
+                             543210987654321
+El historial es:abethresol
+                0987654321
+El Lookahead es:vingg
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: resolvinggoinga
+                             543210987654321
+El historial es:resolvingg
+                0987654321
+El Lookahead es:oinga
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: i
+Para el texto de la ventana: esolvinggoingam
+                             543210987654321
+El historial es:esolvinggo
+                0987654321
+El Lookahead es:ingam
+                54321
+
+Termino: i encontrado.
+
+Termino: in encontrado.
+
+Termino: ing encontrado.
+Tamaño = 3
+Offset = 5
+Letra que rompió: a
+Para el texto de la ventana: lvinggoingamcou
+                             543210987654321
+El historial es:lvinggoing
+                0987654321
+El Lookahead es:amcou
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: goingamcouldnot
+                             543210987654321
+El historial es:goingamcou
+                0987654321
+El Lookahead es:ldnot
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: amcouldnotofsee
+                             543210987654321
+El historial es:amcouldnot
+                0987654321
+El Lookahead es:ofsee
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: f
+Para el texto de la ventana: mcouldnotofseei
+                             543210987654321
+El historial es:mcouldnoto
+                0987654321
+El Lookahead es:fseei
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: dnotofseeing.ma
+                             543210987654321
+El historial es:dnotofseei
+                0987654321
+El Lookahead es:ng.ma
+                54321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: g
+Para el texto de la ventana: notofseeing.mar
+                             543210987654321
+El historial es:notofseein
+                0987654321
+El Lookahead es:g.mar
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: seeing.marriedi
+                             543210987654321
+El historial es:seeing.mar
+                0987654321
+El Lookahead es:riedi
+                54321
+
+Termino: r encontrado.
+Tamaño = 1
+Offset = 1
+Letra que rompió: i
+Para el texto de la ventana: eeing.marriedin
+                             543210987654321
+El historial es:eeing.marr
+                0987654321
+El Lookahead es:iedin
+                54321
+
+Termino: i encontrado.
+Tamaño = 1
+Offset = 8
+Letra que rompió: e
+Para el texto de la ventana: eing.marriedinm
+                             543210987654321
+El historial es:eing.marri
+                0987654321
+El Lookahead es:edinm
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: d
+Para el texto de la ventana: ing.marriedinmr
+                             543210987654321
+El historial es:ing.marrie
+                0987654321
+El Lookahead es:dinmr
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: arriedinmrshapp
+                             543210987654321
+El historial es:arriedinmr
+                0987654321
+El Lookahead es:shapp
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: dinmrshappiness
+                             543210987654321
+El historial es:dinmrshapp
+                0987654321
+El Lookahead es:iness
+                54321
+
+Termino: i encontrado.
+
+Termino: in encontrado.
+Tamaño = 2
+Offset = 9
+Letra que rompió: e
+Para el texto de la ventana: nmrshappinessmi
+                             543210987654321
+El historial es:nmrshappin
+                0987654321
+El Lookahead es:essmi
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: appinessmistake
+                             543210987654321
+El historial es:appinessmi
+                0987654321
+El Lookahead es:stake
+                54321
+
+Termino: s encontrado.
+Tamaño = 1
+Offset = 4
+Letra que rompió: t
+Para el texto de la ventana: ppinessmistaken
+                             543210987654321
+El historial es:ppinessmis
+                0987654321
+El Lookahead es:taken
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ssmistakenheran
+                             543210987654321
+El historial es:ssmistaken
+                0987654321
+El Lookahead es:heran
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: takenherandthet
+                             543210987654321
+El historial es:takenheran
+                0987654321
+El Lookahead es:dthet
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: herandthethatit
+                             543210987654321
+El historial es:herandthet
+                0987654321
+El Lookahead es:hatit
+                54321
+
+Termino: h encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: a
+Para el texto de la ventana: erandthethatit.
+                             543210987654321
+El historial es:erandtheth
+                0987654321
+El Lookahead es:atit.
+                54321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 8
+Letra que rompió: t
+Para el texto de la ventana: randthethatit.w
+                             543210987654321
+El historial es:randthetha
+                0987654321
+El Lookahead es:tit.w
+                54321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 6
+Letra que rompió: i
+Para el texto de la ventana: andthethatit.wa
+                             543210987654321
+El historial es:andthethat
+                0987654321
+El Lookahead es:it.wa
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ethatit.wayeven
+                             543210987654321
+El historial es:ethatit.wa
+                0987654321
+El Lookahead es:yeven
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: it.wayevensuret
+                             543210987654321
+El historial es:it.wayeven
+                0987654321
+El Lookahead es:suret
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: yevensuretowitn
+                             543210987654321
+El historial es:yevensuret
+                0987654321
+El Lookahead es:owitn
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: suretowitnessed
+                             543210987654321
+El historial es:suretowitn
+                0987654321
+El Lookahead es:essed
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: s
+Para el texto de la ventana: uretowitnessede
+                             543210987654321
+El historial es:uretowitne
+                0987654321
+El Lookahead es:ssede
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: witnessedeverya
+                             543210987654321
+El historial es:witnessede
+                0987654321
+El Lookahead es:verya
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ssedeveryagreea
+                             543210987654321
+El historial es:ssedeverya
+                0987654321
+El Lookahead es:greea
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: veryagreeableon
+                             543210987654321
+El historial es:veryagreea
+                0987654321
+El Lookahead es:bleon
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: greeableonlette
+                             543210987654321
+El historial es:greeableon
+                0987654321
+El Lookahead es:lette
+                54321
+
+Termino: l encontrado.
+
+Termino: le encontrado.
+Tamaño = 2
+Offset = 4
+Letra que rompió: t
+Para el texto de la ventana: eeableonletters
+                             543210987654321
+El historial es:eeableonle
+                0987654321
+El Lookahead es:tters
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: eonlettersawjam
+                             543210987654321
+El historial es:eonletters
+                0987654321
+El Lookahead es:awjam
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ttersawjames.le
+                             543210987654321
+El historial es:ttersawjam
+                0987654321
+El Lookahead es:es.le
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 8
+Letra que rompió: s
+Para el texto de la ventana: tersawjames.lea
+                             543210987654321
+El historial es:tersawjame
+                0987654321
+El Lookahead es:s.lea
+                54321
+
+Termino: s encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: .
+Para el texto de la ventana: ersawjames.leas
+                             543210987654321
+El historial es:ersawjames
+                0987654321
+El Lookahead es:.leas
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: james.leastandh
+                             543210987654321
+El historial es:james.leas
+                0987654321
+El Lookahead es:tandh
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: .leastandheyout
+                             543210987654321
+El historial es:.leastandh
+                0987654321
+El Lookahead es:eyout
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 8
+Letra que rompió: y
+Para el texto de la ventana: leastandheyouth
+                             543210987654321
+El historial es:leastandhe
+                0987654321
+El Lookahead es:youth
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: andheyouthought
+                             543210987654321
+El historial es:andheyouth
+                0987654321
+El Lookahead es:ought
+                54321
+
+Termino: o encontrado.
+
+Termino: ou encontrado.
+Tamaño = 2
+Offset = 4
+Letra que rompió: g
+Para el texto de la ventana: dheyouthoughthe
+                             543210987654321
+El historial es:dheyouthou
+                0987654321
+El Lookahead es:ghthe
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: uthoughthetohou
+                             543210987654321
+El historial es:uthoughthe
+                0987654321
+El Lookahead es:tohou
+                54321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: o
+Para el texto de la ventana: thoughthetohous
+                             543210987654321
+El historial es:thoughthet
+                0987654321
+El Lookahead es:ohous
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 8
+Letra que rompió: h
+Para el texto de la ventana: houghthetohouse
+                             543210987654321
+El historial es:houghtheto
+                0987654321
+El Lookahead es:house
+                54321
+
+Termino: h encontrado.
+
+Termino: ho encontrado.
+
+Termino: hou encontrado.
+Tamaño = 3
+Offset = 10
+Letra que rompió: s
+Para el texto de la ventana: ghthetohouseaca
+                             543210987654321
+El historial es:ghthetohou
+                0987654321
+El Lookahead es:seaca
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: tohouseacannotb
+                             543210987654321
+El historial es:tohouseaca
+                0987654321
+El Lookahead es:nnotb
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: seacannotbecaus
+                             543210987654321
+El historial es:seacannotb
+                0987654321
+El Lookahead es:ecaus
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: c
+Para el texto de la ventana: eacannotbecause
+                             543210987654321
+El historial es:eacannotbe
+                0987654321
+El Lookahead es:cause
+                54321
+
+Termino: c encontrado.
+
+Termino: ca encontrado.
+Tamaño = 2
+Offset = 8
+Letra que rompió: u
+Para el texto de la ventana: cannotbecause.s
+                             543210987654321
+El historial es:cannotbeca
+                0987654321
+El Lookahead es:use.s
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: tbecause.stillq
+                             543210987654321
+El historial es:tbecause.s
+                0987654321
+El Lookahead es:tillq
+                54321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: i
+Para el texto de la ventana: because.stillqu
+                             543210987654321
+El historial es:because.st
+                0987654321
+El Lookahead es:illqu
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: se.stillquestio
+                             543210987654321
+El historial es:se.stillqu
+                0987654321
+El Lookahead es:estio
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: s
+Para el texto de la ventana: e.stillquestion
+                             543210987654321
+El historial es:e.stillque
+                0987654321
+El Lookahead es:stion
+                54321
+
+Termino: s encontrado.
+
+Termino: st encontrado.
+
+Termino: sti encontrado.
+Tamaño = 3
+Offset = 8
+Letra que rompió: o
+Para el texto de la ventana: tillquestionash
+                             543210987654321
+El historial es:tillquesti
+                0987654321
+El Lookahead es:onash
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: uestionashasand
+                             543210987654321
+El historial es:uestionash
+                0987654321
+El Lookahead es:asand
+                54321
+
+Termino: a encontrado.
+
+Termino: as encontrado.
+Tamaño = 2
+Offset = 3
+Letra que rompió: a
+Para el texto de la ventana: stionashasandwi
+                             543210987654321
+El historial es:stionashas
+                0987654321
+El Lookahead es:andwi
+                54321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 5
+Letra que rompió: n
+Para el texto de la ventana: tionashasandwit
+                             543210987654321
+El historial es:tionashasa
+                0987654321
+El Lookahead es:ndwit
+                54321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: d
+Para el texto de la ventana: ionashasandwith
+                             543210987654321
+El historial es:ionashasan
+                0987654321
+El Lookahead es:dwith
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: hasandwithanmeo
+                             543210987654321
+El historial es:hasandwith
+                0987654321
+El Lookahead es:anmeo
+                54321
+
+Termino: a encontrado.
+
+Termino: an encontrado.
+Tamaño = 2
+Offset = 7
+Letra que rompió: m
+Para el texto de la ventana: sandwithanmeonl
+                             543210987654321
+El historial es:sandwithan
+                0987654321
+El Lookahead es:meonl
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ithanmeonly.let
+                             543210987654321
+El historial es:ithanmeonl
+                0987654321
+El Lookahead es:y.let
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: meonly.lethadou
+                             543210987654321
+El historial es:meonly.let
+                0987654321
+El Lookahead es:hadou
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: y.lethadourselv
+                             543210987654321
+El historial es:y.lethadou
+                0987654321
+El Lookahead es:rselv
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: hadourselvesgre
+                             543210987654321
+El historial es:hadourselv
+                0987654321
+El Lookahead es:esgre
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 3
+Letra que rompió: s
+Para el texto de la ventana: adourselvesgrea
+                             543210987654321
+El historial es:adourselve
+                0987654321
+El Lookahead es:sgrea
+                54321
+
+Termino: s encontrado.
+Tamaño = 1
+Offset = 5
+Letra que rompió: g
+Para el texto de la ventana: dourselvesgreat
+                             543210987654321
+El historial es:dourselves
+                0987654321
+El Lookahead es:great
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: elvesgreatlyide
+                             543210987654321
+El historial es:elvesgreat
+                0987654321
+El Lookahead es:lyide
+                54321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: y
+Para el texto de la ventana: lvesgreatlyidea
+                             543210987654321
+El historial es:lvesgreatl
+                0987654321
+El Lookahead es:yidea
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: reatlyideauponh
+                             543210987654321
+El historial es:reatlyidea
+                0987654321
+El Lookahead es:uponh
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: yideauponhedid.
+                             543210987654321
+El historial es:yideauponh
+                0987654321
+El Lookahead es:edid.
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: d
+Para el texto de la ventana: ideauponhedid.a
+                             543210987654321
+El historial es:ideauponhe
+                0987654321
+El Lookahead es:did.a
+                54321
+
+Termino: d encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: i
+Para el texto de la ventana: deauponhedid.ag
+                             543210987654321
+El historial es:deauponhed
+                0987654321
+El Lookahead es:id.ag
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: onhedid.agreeab
+                             543210987654321
+El historial es:onhedid.ag
+                0987654321
+El Lookahead es:reeab
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: id.agreeablemrr
+                             543210987654321
+El historial es:id.agreeab
+                0987654321
+El Lookahead es:lemrr
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: reeablemrrestof
+                             543210987654321
+El historial es:reeablemrr
+                0987654321
+El Lookahead es:estof
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: s
+Para el texto de la ventana: eeablemrrestofa
+                             543210987654321
+El historial es:eeablemrre
+                0987654321
+El Lookahead es:stofa
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: emrrestofallthe
+                             543210987654321
+El historial es:emrrestofa
+                0987654321
+El Lookahead es:llthe
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: stofalltheprote
+                             543210987654321
+El historial es:stofallthe
+                0987654321
+El Lookahead es:prote
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: lltheprotection
+                             543210987654321
+El historial es:lltheprote
+                0987654321
+El Lookahead es:ction
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: protectionyouma
+                             543210987654321
+El historial es:protection
+                0987654321
+El Lookahead es:youma
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ctionyoumaymedi
+                             543210987654321
+El historial es:ctionyouma
+                0987654321
+El Lookahead es:ymedi
+                54321
+
+Termino: y encontrado.
+Tamaño = 1
+Offset = 5
+Letra que rompió: m
+Para el texto de la ventana: tionyoumaymedit
+                             543210987654321
+El historial es:tionyoumay
+                0987654321
+El Lookahead es:medit
+                54321
+
+Termino: m encontrado.
+Tamaño = 1
+Offset = 3
+Letra que rompió: e
+Para el texto de la ventana: ionyoumaymedita
+                             543210987654321
+El historial es:ionyoumaym
+                0987654321
+El Lookahead es:edita
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: umaymeditationl
+                             543210987654321
+El historial es:umaymedita
+                0987654321
+El Lookahead es:tionl
+                54321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 2
+Letra que rompió: i
+Para el texto de la ventana: maymeditationlo
+                             543210987654321
+El historial es:maymeditat
+                0987654321
+El Lookahead es:ionlo
+                54321
+
+Termino: i encontrado.
+Tamaño = 1
+Offset = 4
+Letra que rompió: o
+Para el texto de la ventana: aymeditationlon
+                             543210987654321
+El historial es:aymeditati
+                0987654321
+El Lookahead es:onlon
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: itationlongbour
+                             543210987654321
+El historial es:itationlon
+                0987654321
+El Lookahead es:gbour
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: onlongbournhave
+                             543210987654321
+El historial es:onlongbour
+                0987654321
+El Lookahead es:nhave
+                54321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: h
+Para el texto de la ventana: nlongbournhave.
+                             543210987654321
+El historial es:nlongbourn
+                0987654321
+El Lookahead es:have.
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: bournhave.mrbei
+                             543210987654321
+El historial es:bournhave.
+                0987654321
+El Lookahead es:mrbei
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: have.mrbeinfirs
+                             543210987654321
+El historial es:have.mrbei
+                0987654321
+El Lookahead es:nfirs
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: mrbeinfirstisto
+                             543210987654321
+El historial es:mrbeinfirs
+                0987654321
+El Lookahead es:tisto
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: nfirstistosheaf
+                             543210987654321
+El historial es:nfirstisto
+                0987654321
+El Lookahead es:sheaf
+                54321
+
+Termino: s encontrado.
+Tamaño = 1
+Offset = 6
+Letra que rompió: h
+Para el texto de la ventana: firstistosheafr
+                             543210987654321
+El historial es:firstistos
+                0987654321
+El Lookahead es:heafr
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: istosheafraidfe
+                             543210987654321
+El historial es:istosheafr
+                0987654321
+El Lookahead es:aidfe
+                54321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 3
+Letra que rompió: i
+Para el texto de la ventana: stosheafraidfew
+                             543210987654321
+El historial es:stosheafra
+                0987654321
+El Lookahead es:idfew
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: eafraidfewobeye
+                             543210987654321
+El historial es:eafraidfew
+                0987654321
+El Lookahead es:obeye
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: idfewobeyed.ino
+                             543210987654321
+El historial es:idfewobeye
+                0987654321
+El Lookahead es:d.ino
+                54321
+
+Termino: d encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: .
+Para el texto de la ventana: dfewobeyed.inot
+                             543210987654321
+El historial es:dfewobeyed
+                0987654321
+El Lookahead es:.inot
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: beyed.inottoiha
+                             543210987654321
+El historial es:beyed.inot
+                0987654321
+El Lookahead es:toiha
+                54321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 1
+Letra que rompió: o
+Para el texto de la ventana: eyed.inottoihad
+                             543210987654321
+El historial es:eyed.inott
+                0987654321
+El Lookahead es:oihad
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 3
+Letra que rompió: i
+Para el texto de la ventana: yed.inottoihada
+                             543210987654321
+El historial es:yed.inotto
+                0987654321
+El Lookahead es:ihada
+                54321
+
+Termino: i encontrado.
+Tamaño = 1
+Offset = 6
+Letra que rompió: h
+Para el texto de la ventana: ed.inottoihadab
+                             543210987654321
+El historial es:ed.inottoi
+                0987654321
+El Lookahead es:hadab
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ottoihadableton
+                             543210987654321
+El historial es:ottoihadab
+                0987654321
+El Lookahead es:leton
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: hadabletonotsuc
+                             543210987654321
+El historial es:hadableton
+                0987654321
+El Lookahead es:otsuc
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 2
+Letra que rompió: t
+Para el texto de la ventana: adabletonotsuch
+                             543210987654321
+El historial es:adabletono
+                0987654321
+El Lookahead es:tsuch
+                54321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 4
+Letra que rompió: s
+Para el texto de la ventana: dabletonotsuchh
+                             543210987654321
+El historial es:dabletonot
+                0987654321
+El Lookahead es:suchh
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: tonotsuchhis.fa
+                             543210987654321
+El historial es:tonotsuchh
+                0987654321
+El Lookahead es:is.fa
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: suchhis.familys
+                             543210987654321
+El historial es:suchhis.fa
+                0987654321
+El Lookahead es:milys
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: is.familyseeing
+                             543210987654321
+El historial es:is.familys
+                0987654321
+El Lookahead es:eeing
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: milyseeingihigh
+                             543210987654321
+El historial es:milyseeing
+                0987654321
+El Lookahead es:ihigh
+                54321
+
+Termino: i encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: h
+Para el texto de la ventana: ilyseeingihight
+                             543210987654321
+El historial es:ilyseeingi
+                0987654321
+El Lookahead es:hight
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: eingihightheunl
+                             543210987654321
+El historial es:eingihight
+                0987654321
+El Lookahead es:heunl
+                54321
+
+Termino: h encontrado.
+Tamaño = 1
+Offset = 5
+Letra que rompió: e
+Para el texto de la ventana: ingihightheunle
+                             543210987654321
+El historial es:ingihighth
+                0987654321
+El Lookahead es:eunle
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ightheunlesseli
+                             543210987654321
+El historial es:ightheunle
+                0987654321
+El Lookahead es:sseli
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: eunlesselizabet
+                             543210987654321
+El historial es:eunlesseli
+                0987654321
+El Lookahead es:zabet
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: sselizabethnotc
+                             543210987654321
+El historial es:sselizabet
+                0987654321
+El Lookahead es:hnotc
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: zabethnotcharlo
+                             543210987654321
+El historial es:zabethnotc
+                0987654321
+El Lookahead es:harlo
+                54321
+
+Termino: h encontrado.
+Tamaño = 1
+Offset = 5
+Letra que rompió: a
+Para el texto de la ventana: abethnotcharlot
+                             543210987654321
+El historial es:abethnotch
+                0987654321
+El Lookahead es:arlot
+                54321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: r
+Para el texto de la ventana: bethnotcharlott
+                             543210987654321
+El historial es:bethnotcha
+                0987654321
+El Lookahead es:rlott
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: otcharlottetook
+                             543210987654321
+El historial es:otcharlott
+                0987654321
+El Lookahead es:etook
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: rlottetook.iswi
+                             543210987654321
+El historial es:rlottetook
+                0987654321
+El Lookahead es:.iswi
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: etook.iswithout
+                             543210987654321
+El historial es:etook.iswi
+                0987654321
+El Lookahead es:thout
+                54321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: h
+Para el texto de la ventana: took.iswithoutw
+                             543210987654321
+El historial es:took.iswit
+                0987654321
+El Lookahead es:houtw
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: iswithoutwithmo
+                             543210987654321
+El historial es:iswithoutw
+                0987654321
+El Lookahead es:ithmo
+                54321
+
+Termino: i encontrado.
+
+Termino: it encontrado.
+
+Termino: ith encontrado.
+Tamaño = 3
+Offset = 7
+Letra que rompió: m
+Para el texto de la ventana: ithoutwithmorew
+                             543210987654321
+El historial es:ithoutwith
+                0987654321
+El Lookahead es:morew
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: twithmorewasall
+                             543210987654321
+El historial es:twithmorew
+                0987654321
+El Lookahead es:asall
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: morewasallhimse
+                             543210987654321
+El historial es:morewasall
+                0987654321
+El Lookahead es:himse
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: asallhimselfeli
+                             543210987654321
+El historial es:asallhimse
+                0987654321
+El Lookahead es:lfeli
+                54321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: f
+Para el texto de la ventana: sallhimselfeliz
+                             543210987654321
+El historial es:sallhimsel
+                0987654321
+El Lookahead es:feliz
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: imselfelizabeth
+                             543210987654321
+El historial es:imselfeliz
+                0987654321
+El Lookahead es:abeth
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: felizabethhasit
+                             543210987654321
+El historial es:felizabeth
+                0987654321
+El Lookahead es:hasit
+                54321
+
+Termino: h encontrado.
+Tamaño = 1
+Offset = 1
+Letra que rompió: a
+Para el texto de la ventana: elizabethhasita
+                             543210987654321
+El historial es:elizabethh
+                0987654321
+El Lookahead es:asita
+                54321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 6
+Letra que rompió: s
+Para el texto de la ventana: lizabethhasitan
+                             543210987654321
+El historial es:lizabethha
+                0987654321
+El Lookahead es:sitan
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ethhasitandthem
+                             543210987654321
+El historial es:ethhasitan
+                0987654321
+El Lookahead es:dthem
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: sitandthem.byth
+                             543210987654321
+El historial es:sitandthem
+                0987654321
+El Lookahead es:.byth
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: dthem.bytherefo
+                             543210987654321
+El historial es:dthem.byth
+                0987654321
+El Lookahead es:erefo
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: r
+Para el texto de la ventana: them.bytherefor
+                             543210987654321
+El historial es:them.bythe
+                0987654321
+El Lookahead es:refor
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: bythereforeinst
+                             543210987654321
+El historial es:bytherefor
+                0987654321
+El Lookahead es:einst
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 6
+Letra que rompió: i
+Para el texto de la ventana: ythereforeinsta
+                             543210987654321
+El historial es:ytherefore
+                0987654321
+El Lookahead es:insta
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: eforeinstantlyt
+                             543210987654321
+El historial es:eforeinsta
+                0987654321
+El Lookahead es:ntlyt
+                54321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 4
+Letra que rompió: t
+Para el texto de la ventana: foreinstantlyth
+                             543210987654321
+El historial es:foreinstan
+                0987654321
+El Lookahead es:tlyth
+                54321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 3
+Letra que rompió: l
+Para el texto de la ventana: oreinstantlytha
+                             543210987654321
+El historial es:oreinstant
+                0987654321
+El Lookahead es:lytha
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: stantlythatgood
+                             543210987654321
+El historial es:stantlytha
+                0987654321
+El Lookahead es:tgood
+                54321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: g
+Para el texto de la ventana: tantlythatgooda
+                             543210987654321
+El historial es:tantlythat
+                0987654321
+El Lookahead es:gooda
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ythatgoodallend
+                             543210987654321
+El historial es:ythatgooda
+                0987654321
+El Lookahead es:llend
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: goodallendaresa
+                             543210987654321
+El historial es:goodallend
+                0987654321
+El Lookahead es:aresa
+                54321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 6
+Letra que rompió: r
+Para el texto de la ventana: oodallendaresay
+                             543210987654321
+El historial es:oodallenda
+                0987654321
+El Lookahead es:resay
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: lendaresayretre
+                             543210987654321
+El historial es:lendaresay
+                0987654321
+El Lookahead es:retre
+                54321
+
+Termino: r encontrado.
+
+Termino: re encontrado.
+Tamaño = 2
+Offset = 5
+Letra que rompió: t
+Para el texto de la ventana: ndaresayretrenc
+                             543210987654321
+El historial es:ndaresayre
+                0987654321
+El Lookahead es:trenc
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: sayretrenched.h
+                             543210987654321
+El historial es:sayretrenc
+                0987654321
+El Lookahead es:hed.h
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: trenched.hebehi
+                             543210987654321
+El historial es:trenched.h
+                0987654321
+El Lookahead es:ebehi
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 8
+Letra que rompió: b
+Para el texto de la ventana: renched.hebehis
+                             543210987654321
+El historial es:renched.he
+                0987654321
+El Lookahead es:behis
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ed.hebehisagain
+                             543210987654321
+El historial es:ed.hebehis
+                0987654321
+El Lookahead es:again
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: behisagainisino
+                             543210987654321
+El historial es:behisagain
+                0987654321
+El Lookahead es:isino
+                54321
+
+Termino: i encontrado.
+
+Termino: is encontrado.
+Tamaño = 2
+Offset = 7
+Letra que rompió: i
+Para el texto de la ventana: hisagainisinonc
+                             543210987654321
+El historial es:hisagainis
+                0987654321
+El Lookahead es:inonc
+                54321
+
+Termino: i encontrado.
+
+Termino: in encontrado.
+Tamaño = 2
+Offset = 4
+Letra que rompió: o
+Para el texto de la ventana: sagainisinoncol
+                             543210987654321
+El historial es:sagainisin
+                0987654321
+El Lookahead es:oncol
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: nisinoncolonelm
+                             543210987654321
+El historial es:nisinoncol
+                0987654321
+El Lookahead es:onelm
+                54321
+
+Termino: o encontrado.
+
+Termino: on encontrado.
+Tamaño = 2
+Offset = 5
+Letra que rompió: e
+Para el texto de la ventana: sinoncolonelmis
+                             543210987654321
+El historial es:sinoncolon
+                0987654321
+El Lookahead es:elmis
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: colonelmissbing
+                             543210987654321
+El historial es:colonelmis
+                0987654321
+El Lookahead es:sbing
+                54321
+
+Termino: s encontrado.
+Tamaño = 1
+Offset = 1
+Letra que rompió: b
+Para el texto de la ventana: olonelmissbingl
+                             543210987654321
+El historial es:olonelmiss
+                0987654321
+El Lookahead es:bingl
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: lmissbingleysee
+                             543210987654321
+El historial es:lmissbingl
+                0987654321
+El Lookahead es:eysee
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: bingleyseen.not
+                             543210987654321
+El historial es:bingleysee
+                0987654321
+El Lookahead es:n.not
+                54321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 8
+Letra que rompió: .
+Para el texto de la ventana: ingleyseen.nott
+                             543210987654321
+El historial es:ingleyseen
+                0987654321
+El Lookahead es:.nott
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: yseen.nottobeop
+                             543210987654321
+El historial es:yseen.nott
+                0987654321
+El Lookahead es:obeop
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 3
+Letra que rompió: b
+Para el texto de la ventana: seen.nottobeope
+                             543210987654321
+El historial es:seen.notto
+                0987654321
+El Lookahead es:beope
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: nottobeopenedch
+                             543210987654321
+El historial es:nottobeope
+                0987654321
+El Lookahead es:nedch
+                54321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: e
+Para el texto de la ventana: ottobeopenedcha
+                             543210987654321
+El historial es:ottobeopen
+                0987654321
+El Lookahead es:edcha
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 5
+Letra que rompió: d
+Para el texto de la ventana: ttobeopenedchar
+                             543210987654321
+El historial es:ttobeopene
+                0987654321
+El Lookahead es:dchar
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: openedcharacter
+                             543210987654321
+El historial es:openedchar
+                0987654321
+El Lookahead es:acter
+                54321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 2
+Letra que rompió: c
+Para el texto de la ventana: penedcharacters
+                             543210987654321
+El historial es:penedchara
+                0987654321
+El Lookahead es:cters
+                54321
+
+Termino: c encontrado.
+Tamaño = 1
+Offset = 5
+Letra que rompió: t
+Para el texto de la ventana: enedcharactersg
+                             543210987654321
+El historial es:enedcharac
+                0987654321
+El Lookahead es:tersg
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: haractersgetmot
+                             543210987654321
+El historial es:haractersg
+                0987654321
+El Lookahead es:etmot
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 4
+Letra que rompió: t
+Para el texto de la ventana: aractersgetmoth
+                             543210987654321
+El historial es:aractersge
+                0987654321
+El Lookahead es:tmoth
+                54321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 6
+Letra que rompió: m
+Para el texto de la ventana: ractersgetmothe
+                             543210987654321
+El historial es:ractersget
+                0987654321
+El Lookahead es:mothe
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: rsgetmothertold
+                             543210987654321
+El historial es:rsgetmothe
+                0987654321
+El Lookahead es:rtold
+                54321
+
+Termino: r encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: t
+Para el texto de la ventana: sgetmothertoldm
+                             543210987654321
+El historial es:sgetmother
+                0987654321
+El Lookahead es:toldm
+                54321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: o
+Para el texto de la ventana: getmothertoldmy
+                             543210987654321
+El historial es:getmothert
+                0987654321
+El Lookahead es:oldmy
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 6
+Letra que rompió: l
+Para el texto de la ventana: etmothertoldmym
+                             543210987654321
+El historial es:etmotherto
+                0987654321
+El Lookahead es:ldmym
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: hertoldmymanaso
+                             543210987654321
+El historial es:hertoldmym
+                0987654321
+El Lookahead es:anaso
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ldmymanasome.si
+                             543210987654321
+El historial es:ldmymanaso
+                0987654321
+El Lookahead es:me.si
+                54321
+
+Termino: m encontrado.
+Tamaño = 1
+Offset = 8
+Letra que rompió: e
+Para el texto de la ventana: dmymanasome.sit
+                             543210987654321
+El historial es:dmymanasom
+                0987654321
+El Lookahead es:e.sit
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: nasome.situatio
+                             543210987654321
+El historial es:nasome.sit
+                0987654321
+El Lookahead es:uatio
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: e.situationvery
+                             543210987654321
+El historial es:e.situatio
+                0987654321
+El Lookahead es:nvery
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: uationveryhisaw
+                             543210987654321
+El historial es:uationvery
+                0987654321
+El Lookahead es:hisaw
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: nveryhisawayant
+                             543210987654321
+El historial es:nveryhisaw
+                0987654321
+El Lookahead es:ayant
+                54321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 2
+Letra que rompió: y
+Para el texto de la ventana: veryhisawayanti
+                             543210987654321
+El historial es:veryhisawa
+                0987654321
+El Lookahead es:yanti
+                54321
+
+Termino: y encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: a
+Para el texto de la ventana: eryhisawayantic
+                             543210987654321
+El historial es:eryhisaway
+                0987654321
+El Lookahead es:antic
+                54321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 4
+Letra que rompió: n
+Para el texto de la ventana: ryhisawayantici
+                             543210987654321
+El historial es:ryhisawaya
+                0987654321
+El Lookahead es:ntici
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: awayanticipatin
+                             543210987654321
+El historial es:awayantici
+                0987654321
+El Lookahead es:patin
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: nticipatingnatu
+                             543210987654321
+El historial es:nticipatin
+                0987654321
+El Lookahead es:gnatu
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: patingnaturease
+                             543210987654321
+El historial es:patingnatu
+                0987654321
+El Lookahead es:rease
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: gnatureaseensee
+                             543210987654321
+El historial es:gnaturease
+                0987654321
+El Lookahead es:ensee
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 4
+Letra que rompió: n
+Para el texto de la ventana: natureaseenseet
+                             543210987654321
+El historial es:natureasee
+                0987654321
+El Lookahead es:nseet
+                54321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: s
+Para el texto de la ventana: atureaseenseeto
+                             543210987654321
+El historial es:atureaseen
+                0987654321
+El Lookahead es:seeto
+                54321
+
+Termino: s encontrado.
+
+Termino: se encontrado.
+
+Termino: see encontrado.
+Tamaño = 3
+Offset = 4
+Letra que rompió: t
+Para el texto de la ventana: reaseenseetowar
+                             543210987654321
+El historial es:reaseensee
+                0987654321
+El Lookahead es:towar
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: enseetowards.sh
+                             543210987654321
+El historial es:enseetowar
+                0987654321
+El Lookahead es:ds.sh
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: towards.shoulds
+                             543210987654321
+El historial es:towards.sh
+                0987654321
+El Lookahead es:oulds
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: u
+Para el texto de la ventana: owards.shouldsu
+                             543210987654321
+El historial es:owards.sho
+                0987654321
+El Lookahead es:uldsu
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: s.shouldsurvivo
+                             543210987654321
+El historial es:s.shouldsu
+                0987654321
+El Lookahead es:rvivo
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: uldsurvivorofwa
+                             543210987654321
+El historial es:uldsurvivo
+                0987654321
+El Lookahead es:rofwa
+                54321
+
+Termino: r encontrado.
+Tamaño = 1
+Offset = 5
+Letra que rompió: o
+Para el texto de la ventana: ldsurvivorofwas
+                             543210987654321
+El historial es:ldsurvivor
+                0987654321
+El Lookahead es:ofwas
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 2
+Letra que rompió: f
+Para el texto de la ventana: dsurvivorofwasc
+                             543210987654321
+El historial es:dsurvivoro
+                0987654321
+El Lookahead es:fwasc
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ivorofwascaneye
+                             543210987654321
+El historial es:ivorofwasc
+                0987654321
+El Lookahead es:aneye
+                54321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 3
+Letra que rompió: n
+Para el texto de la ventana: vorofwascaneyes
+                             543210987654321
+El historial es:vorofwasca
+                0987654321
+El Lookahead es:neyes
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: wascaneyesproce
+                             543210987654321
+El historial es:wascaneyes
+                0987654321
+El Lookahead es:proce
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: neyesprocesswas
+                             543210987654321
+El historial es:neyesproce
+                0987654321
+El Lookahead es:sswas
+                54321
+
+Termino: s encontrado.
+Tamaño = 1
+Offset = 6
+Letra que rompió: s
+Para el texto de la ventana: eyesprocesswast
+                             543210987654321
+El historial es:eyesproces
+                0987654321
+El Lookahead es:swast
+                54321
+
+Termino: s encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: w
+Para el texto de la ventana: yesprocesswasth
+                             543210987654321
+El historial es:yesprocess
+                0987654321
+El Lookahead es:wasth
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ocesswastheaffe
+                             543210987654321
+El historial es:ocesswasth
+                0987654321
+El Lookahead es:eaffe
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 8
+Letra que rompió: a
+Para el texto de la ventana: cesswastheaffec
+                             543210987654321
+El historial es:cesswasthe
+                0987654321
+El Lookahead es:affec
+                54321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 5
+Letra que rompió: f
+Para el texto de la ventana: esswastheaffect
+                             543210987654321
+El historial es:esswasthea
+                0987654321
+El Lookahead es:ffect
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: stheaffectionop
+                             543210987654321
+El historial es:stheaffect
+                0987654321
+El Lookahead es:ionop
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ffectionopening
+                             543210987654321
+El historial es:ffectionop
+                0987654321
+El Lookahead es:ening
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 8
+Letra que rompió: n
+Para el texto de la ventana: fectionopening.
+                             543210987654321
+El historial es:fectionope
+                0987654321
+El Lookahead es:ning.
+                54321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 4
+Letra que rompió: i
+Para el texto de la ventana: ectionopening.t
+                             543210987654321
+El historial es:ectionopen
+                0987654321
+El Lookahead es:ing.t
+                54321
+
+Termino: i encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: n
+Para el texto de la ventana: ctionopening.to
+                             543210987654321
+El historial es:ctionopeni
+                0987654321
+El Lookahead es:ng.to
+                54321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 6
+Letra que rompió: g
+Para el texto de la ventana: tionopening.toc
+                             543210987654321
+El historial es:tionopenin
+                0987654321
+El Lookahead es:g.toc
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: pening.tocallin
+                             543210987654321
+El historial es:pening.toc
+                0987654321
+El Lookahead es:allin
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: g.tocallingherl
+                             543210987654321
+El historial es:g.tocallin
+                0987654321
+El Lookahead es:gherl
+                54321
+
+Termino: g encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: h
+Para el texto de la ventana: .tocallingherla
+                             543210987654321
+El historial es:.tocalling
+                0987654321
+El Lookahead es:herla
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: llingherladyshi
+                             543210987654321
+El historial es:llingherla
+                0987654321
+El Lookahead es:dyshi
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: herladyshiphisi
+                             543210987654321
+El historial es:herladyshi
+                0987654321
+El Lookahead es:phisi
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: dyshiphisineliz
+                             543210987654321
+El historial es:dyshiphisi
+                0987654321
+El Lookahead es:neliz
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: phisinelizabeth
+                             543210987654321
+El historial es:phisineliz
+                0987654321
+El Lookahead es:abeth
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: nelizabethbeayo
+                             543210987654321
+El historial es:nelizabeth
+                0987654321
+El Lookahead es:beayo
+                54321
+
+Termino: b encontrado.
+
+Termino: be encontrado.
+Tamaño = 2
+Offset = 4
+Letra que rompió: a
+Para el texto de la ventana: lizabethbeayouw
+                             543210987654321
+El historial es:lizabethbe
+                0987654321
+El Lookahead es:ayouw
+                54321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: y
+Para el texto de la ventana: izabethbeayouwe
+                             543210987654321
+El historial es:izabethbea
+                0987654321
+El Lookahead es:youwe
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: thbeayouwewould
+                             543210987654321
+El historial es:thbeayouwe
+                0987654321
+El Lookahead es:would
+                54321
+
+Termino: w encontrado.
+Tamaño = 1
+Offset = 2
+Letra que rompió: o
+Para el texto de la ventana: hbeayouwewouldw
+                             543210987654321
+El historial es:hbeayouwew
+                0987654321
+El Lookahead es:ouldw
+                54321
+
+Termino: o encontrado.
+
+Termino: ou encontrado.
+Tamaño = 2
+Offset = 5
+Letra que rompió: l
+Para el texto de la ventana: eayouwewouldwit
+                             543210987654321
+El historial es:eayouwewou
+                0987654321
+El Lookahead es:ldwit
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: wewouldwith.oft
+                             543210987654321
+El historial es:wewouldwit
+                0987654321
+El Lookahead es:h.oft
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ldwith.ofthesin
+                             543210987654321
+El historial es:ldwith.oft
+                0987654321
+El Lookahead es:hesin
+                54321
+
+Termino: h encontrado.
+Tamaño = 1
+Offset = 5
+Letra que rompió: e
+Para el texto de la ventana: dwith.ofthesinc
+                             543210987654321
+El historial es:dwith.ofth
+                0987654321
+El Lookahead es:esinc
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: .ofthesincebenn
+                             543210987654321
+El historial es:.ofthesinc
+                0987654321
+El Lookahead es:ebenn
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 5
+Letra que rompió: b
+Para el texto de la ventana: ofthesincebenne
+                             543210987654321
+El historial es:ofthesince
+                0987654321
+El Lookahead es:benne
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: sincebennetofmr
+                             543210987654321
+El historial es:sincebenne
+                0987654321
+El Lookahead es:tofmr
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: bennetofmrsmeiw
+                             543210987654321
+El historial es:bennetofmr
+                0987654321
+El Lookahead es:smeiw
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: tofmrsmeiwhat.i
+                             543210987654321
+El historial es:tofmrsmeiw
+                0987654321
+El Lookahead es:hat.i
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: smeiwhat.isorry
+                             543210987654321
+El historial es:smeiwhat.i
+                0987654321
+El Lookahead es:sorry
+                54321
+
+Termino: s encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: o
+Para el texto de la ventana: meiwhat.isorryi
+                             543210987654321
+El historial es:meiwhat.is
+                0987654321
+El Lookahead es:orryi
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: at.isorryintoth
+                             543210987654321
+El historial es:at.isorryi
+                0987654321
+El Lookahead es:ntoth
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: orryintothemeel
+                             543210987654321
+El historial es:orryintoth
+                0987654321
+El Lookahead es:emeel
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ntothemeelizabe
+                             543210987654321
+El historial es:ntothemeel
+                0987654321
+El Lookahead es:izabe
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: emeelizabethhis
+                             543210987654321
+El historial es:emeelizabe
+                0987654321
+El Lookahead es:thhis
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: izabethhisregar
+                             543210987654321
+El historial es:izabethhis
+                0987654321
+El Lookahead es:regar
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: thhisregardhers
+                             543210987654321
+El historial es:thhisregar
+                0987654321
+El Lookahead es:dhers
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: regardhers.heha
+                             543210987654321
+El historial es:regardhers
+                0987654321
+El Lookahead es:.heha
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: dhers.hehadanda
+                             543210987654321
+El historial es:dhers.heha
+                0987654321
+El Lookahead es:danda
+                54321
+
+Termino: d encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: a
+Para el texto de la ventana: hers.hehadandan
+                             543210987654321
+El historial es:hers.hehad
+                0987654321
+El Lookahead es:andan
+                54321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 2
+Letra que rompió: n
+Para el texto de la ventana: ers.hehadandane
+                             543210987654321
+El historial es:ers.hehada
+                0987654321
+El Lookahead es:ndane
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ehadandanetherf
+                             543210987654321
+El historial es:ehadandane
+                0987654321
+El Lookahead es:therf
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ndanetherfieldd
+                             543210987654321
+El historial es:ndanetherf
+                0987654321
+El Lookahead es:ieldd
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: therfielddarcyo
+                             543210987654321
+El historial es:therfieldd
+                0987654321
+El Lookahead es:arcyo
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ielddarcyopinio
+                             543210987654321
+El historial es:ielddarcyo
+                0987654321
+El Lookahead es:pinio
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: arcyopinionsgre
+                             543210987654321
+El historial es:arcyopinio
+                0987654321
+El Lookahead es:nsgre
+                54321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 3
+Letra que rompió: s
+Para el texto de la ventana: rcyopinionsgrea
+                             543210987654321
+El historial es:rcyopinion
+                0987654321
+El Lookahead es:sgrea
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: inionsgreatthes
+                             543210987654321
+El historial es:inionsgrea
+                0987654321
+El Lookahead es:tthes
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: sgreatthesuppos
+                             543210987654321
+El historial es:sgreatthes
+                0987654321
+El Lookahead es:uppos
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: tthesupposing.s
+                             543210987654321
+El historial es:tthesuppos
+                0987654321
+El Lookahead es:ing.s
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: upposing.satbee
+                             543210987654321
+El historial es:upposing.s
+                0987654321
+El Lookahead es:atbee
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ing.satbeensupp
+                             543210987654321
+El historial es:ing.satbee
+                0987654321
+El Lookahead es:nsupp
+                54321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: s
+Para el texto de la ventana: ng.satbeensuppo
+                             543210987654321
+El historial es:ng.satbeen
+                0987654321
+El Lookahead es:suppo
+                54321
+
+Termino: s encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: u
+Para el texto de la ventana: g.satbeensuppor
+                             543210987654321
+El historial es:g.satbeens
+                0987654321
+El Lookahead es:uppor
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: beensupportrati
+                             543210987654321
+El historial es:beensuppor
+                0987654321
+El Lookahead es:trati
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: upportrationall
+                             543210987654321
+El historial es:upportrati
+                0987654321
+El Lookahead es:onall
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: n
+Para el texto de la ventana: pportrationally
+                             543210987654321
+El historial es:pportratio
+                0987654321
+El Lookahead es:nally
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: rationallycould
+                             543210987654321
+El historial es:rationally
+                0987654321
+El Lookahead es:could
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: nallycouldnotwa
+                             543210987654321
+El historial es:nallycould
+                0987654321
+El Lookahead es:notwa
+                54321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: o
+Para el texto de la ventana: allycouldnotwas
+                             543210987654321
+El historial es:allycouldn
+                0987654321
+El Lookahead es:otwas
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 5
+Letra que rompió: t
+Para el texto de la ventana: llycouldnotwasa
+                             543210987654321
+El historial es:llycouldno
+                0987654321
+El Lookahead es:twasa
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: uldnotwasawas.i
+                             543210987654321
+El historial es:uldnotwasa
+                0987654321
+El Lookahead es:was.i
+                54321
+
+Termino: w encontrado.
+
+Termino: wa encontrado.
+
+Termino: was encontrado.
+Tamaño = 3
+Offset = 4
+Letra que rompió: .
+Para el texto de la ventana: notwasawas.inas
+                             543210987654321
+El historial es:notwasawas
+                0987654321
+El Lookahead es:.inas
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: sawas.inastowho
+                             543210987654321
+El historial es:sawas.inas
+                0987654321
+El Lookahead es:towho
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: .inastowholeshe
+                             543210987654321
+El historial es:.inastowho
+                0987654321
+El Lookahead es:leshe
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: towholeshehadno
+                             543210987654321
+El historial es:towholeshe
+                0987654321
+El Lookahead es:hadno
+                54321
+
+Termino: h encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: a
+Para el texto de la ventana: owholeshehadnot
+                             543210987654321
+El historial es:owholesheh
+                0987654321
+El Lookahead es:adnot
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: eshehadnotthose
+                             543210987654321
+El historial es:eshehadnot
+                0987654321
+El Lookahead es:those
+                54321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 1
+Letra que rompió: h
+Para el texto de la ventana: shehadnotthosem
+                             543210987654321
+El historial es:shehadnott
+                0987654321
+El Lookahead es:hosem
+                54321
+
+Termino: h encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: o
+Para el texto de la ventana: hehadnotthosemi
+                             543210987654321
+El historial es:hehadnotth
+                0987654321
+El Lookahead es:osemi
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 4
+Letra que rompió: s
+Para el texto de la ventana: ehadnotthosemin
+                             543210987654321
+El historial es:ehadnottho
+                0987654321
+El Lookahead es:semin
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: otthosemind.man
+                             543210987654321
+El historial es:otthosemin
+                0987654321
+El Lookahead es:d.man
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: semind.manyatla
+                             543210987654321
+El historial es:semind.man
+                0987654321
+El Lookahead es:yatla
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: d.manyatlastbou
+                             543210987654321
+El historial es:d.manyatla
+                0987654321
+El Lookahead es:stbou
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: yatlastbourghof
+                             543210987654321
+El historial es:yatlastbou
+                0987654321
+El Lookahead es:rghof
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: stbourghofoneco
+                             543210987654321
+El historial es:stbourghof
+                0987654321
+El Lookahead es:oneco
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: n
+Para el texto de la ventana: tbourghofonecon
+                             543210987654321
+El historial es:tbourghofo
+                0987654321
+El Lookahead es:necon
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ghofonecongratu
+                             543210987654321
+El historial es:ghofonecon
+                0987654321
+El Lookahead es:gratu
+                54321
+
+Termino: g encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: r
+Para el texto de la ventana: hofonecongratul
+                             543210987654321
+El historial es:hofonecong
+                0987654321
+El Lookahead es:ratul
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: econgratulation
+                             543210987654321
+El historial es:econgratul
+                0987654321
+El Lookahead es:ation
+                54321
+
+Termino: a encontrado.
+
+Termino: at encontrado.
+Tamaño = 2
+Offset = 4
+Letra que rompió: i
+Para el texto de la ventana: ongratulationsw
+                             543210987654321
+El historial es:ongratulat
+                0987654321
+El Lookahead es:ionsw
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: tulationswouldb
+                             543210987654321
+El historial es:tulationsw
+                0987654321
+El Lookahead es:ouldb
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 4
+Letra que rompió: u
+Para el texto de la ventana: ulationswouldbe
+                             543210987654321
+El historial es:ulationswo
+                0987654321
+El Lookahead es:uldbe
+                54321
+
+Termino: u encontrado.
+
+Termino: ul encontrado.
+Tamaño = 2
+Offset = 10
+Letra que rompió: d
+Para el texto de la ventana: ationswouldbe.a
+                             543210987654321
+El historial es:ationswoul
+                0987654321
+El Lookahead es:dbe.a
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: swouldbe.amreac
+                             543210987654321
+El historial es:swouldbe.a
+                0987654321
+El Lookahead es:mreac
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: dbe.amreachedto
+                             543210987654321
+El historial es:dbe.amreac
+                0987654321
+El Lookahead es:hedto
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: mreachedtoisand
+                             543210987654321
+El historial es:mreachedto
+                0987654321
+El Lookahead es:isand
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: hedtoisanditisa
+                             543210987654321
+El historial es:hedtoisand
+                0987654321
+El Lookahead es:itisa
+                54321
+
+Termino: i encontrado.
+Tamaño = 1
+Offset = 5
+Letra que rompió: t
+Para el texto de la ventana: edtoisanditisal
+                             543210987654321
+El historial es:edtoisandi
+                0987654321
+El Lookahead es:tisal
+                54321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 8
+Letra que rompió: i
+Para el texto de la ventana: dtoisanditisall
+                             543210987654321
+El historial es:dtoisandit
+                0987654321
+El Lookahead es:isall
+                54321
+
+Termino: i encontrado.
+
+Termino: is encontrado.
+
+Termino: isa encontrado.
+Tamaño = 3
+Offset = 7
+Letra que rompió: l
+Para el texto de la ventana: isanditisallhop
+                             543210987654321
+El historial es:isanditisa
+                0987654321
+El Lookahead es:llhop
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: itisallhopeinte
+                             543210987654321
+El historial es:itisallhop
+                0987654321
+El Lookahead es:einte
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: llhopeinteresti
+                             543210987654321
+El historial es:llhopeinte
+                0987654321
+El Lookahead es:resti
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: einterestingamo
+                             543210987654321
+El historial es:einteresti
+                0987654321
+El Lookahead es:ngamo
+                54321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 8
+Letra que rompió: g
+Para el texto de la ventana: interestingamos
+                             543210987654321
+El historial es:interestin
+                0987654321
+El Lookahead es:gamos
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: estingamost.mon
+                             543210987654321
+El historial es:estingamos
+                0987654321
+El Lookahead es:t.mon
+                54321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 8
+Letra que rompió: .
+Para el texto de la ventana: stingamost.mone
+                             543210987654321
+El historial es:stingamost
+                0987654321
+El Lookahead es:.mone
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: amost.moneynotk
+                             543210987654321
+El historial es:amost.mone
+                0987654321
+El Lookahead es:ynotk
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: .moneynotknowth
+                             543210987654321
+El historial es:.moneynotk
+                0987654321
+El Lookahead es:nowth
+                54321
+
+Termino: n encontrado.
+
+Termino: no encontrado.
+Tamaño = 2
+Offset = 4
+Letra que rompió: w
+Para el texto de la ventana: oneynotknowthat
+                             543210987654321
+El historial es:oneynotkno
+                0987654321
+El Lookahead es:wthat
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: otknowthatpardo
+                             543210987654321
+El historial es:otknowthat
+                0987654321
+El Lookahead es:pardo
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: wthatpardonfoot
+                             543210987654321
+El historial es:wthatpardo
+                0987654321
+El Lookahead es:nfoot
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: pardonfootlight
+                             543210987654321
+El historial es:pardonfoot
+                0987654321
+El Lookahead es:light
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: nfootlightsnoth
+                             543210987654321
+El historial es:nfootlight
+                0987654321
+El Lookahead es:snoth
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: lightsnothingbu
+                             543210987654321
+El historial es:lightsnoth
+                0987654321
+El Lookahead es:ingbu
+                54321
+
+Termino: i encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: n
+Para el texto de la ventana: ightsnothingbut
+                             543210987654321
+El historial es:ightsnothi
+                0987654321
+El Lookahead es:ngbut
+                54321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 5
+Letra que rompió: g
+Para el texto de la ventana: ghtsnothingbut.
+                             543210987654321
+El historial es:ghtsnothin
+                0987654321
+El Lookahead es:gbut.
+                54321
+
+Termino: g encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: b
+Para el texto de la ventana: htsnothingbut.w
+                             543210987654321
+El historial es:htsnothing
+                0987654321
+El Lookahead es:but.w
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: thingbut.wascom
+                             543210987654321
+El historial es:thingbut.w
+                0987654321
+El Lookahead es:ascom
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: but.wascomplime
+                             543210987654321
+El historial es:but.wascom
+                0987654321
+El Lookahead es:plime
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ascomplimenttoh
+                             543210987654321
+El historial es:ascomplime
+                0987654321
+El Lookahead es:nttoh
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: plimenttoherhad
+                             543210987654321
+El historial es:plimenttoh
+                0987654321
+El Lookahead es:erhad
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 6
+Letra que rompió: r
+Para el texto de la ventana: limenttoherhadn
+                             543210987654321
+El historial es:limenttohe
+                0987654321
+El Lookahead es:rhadn
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ttoherhadnotfor
+                             543210987654321
+El historial es:ttoherhadn
+                0987654321
+El Lookahead es:otfor
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 8
+Letra que rompió: t
+Para el texto de la ventana: toherhadnotforw
+                             543210987654321
+El historial es:toherhadno
+                0987654321
+El Lookahead es:tforw
+                54321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: f
+Para el texto de la ventana: oherhadnotforwe
+                             543210987654321
+El historial es:oherhadnot
+                0987654321
+El Lookahead es:forwe
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: adnotforwere.li
+                             543210987654321
+El historial es:adnotforwe
+                0987654321
+El Lookahead es:re.li
+                54321
+
+Termino: r encontrado.
+Tamaño = 1
+Offset = 3
+Letra que rompió: e
+Para el texto de la ventana: dnotforwere.lik
+                             543210987654321
+El historial es:dnotforwer
+                0987654321
+El Lookahead es:e.lik
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 2
+Letra que rompió: .
+Para el texto de la ventana: notforwere.like
+                             543210987654321
+El historial es:notforwere
+                0987654321
+El Lookahead es:.like
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: rwere.likelynot
+                             543210987654321
+El historial es:rwere.like
+                0987654321
+El Lookahead es:lynot
+                54321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 4
+Letra que rompió: y
+Para el texto de la ventana: were.likelynoto
+                             543210987654321
+El historial es:were.likel
+                0987654321
+El Lookahead es:ynoto
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: likelynotothera
+                             543210987654321
+El historial es:likelynoto
+                0987654321
+El Lookahead es:thera
+                54321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 2
+Letra que rompió: h
+Para el texto de la ventana: ikelynototherav
+                             543210987654321
+El historial es:ikelynotot
+                0987654321
+El Lookahead es:herav
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: nototheraveryof
+                             543210987654321
+El historial es:nototherav
+                0987654321
+El Lookahead es:eryof
+                54321
+
+Termino: e encontrado.
+
+Termino: er encontrado.
+Tamaño = 2
+Offset = 4
+Letra que rompió: y
+Para el texto de la ventana: totheraveryofth
+                             543210987654321
+El historial es:totheraver
+                0987654321
+El Lookahead es:yofth
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: raveryofthethin
+                             543210987654321
+El historial es:raveryofth
+                0987654321
+El Lookahead es:ethin
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: t
+Para el texto de la ventana: averyofthethink
+                             543210987654321
+El historial es:averyofthe
+                0987654321
+El Lookahead es:think
+                54321
+
+Termino: t encontrado.
+
+Termino: th encontrado.
+Tamaño = 2
+Offset = 3
+Letra que rompió: i
+Para el texto de la ventana: eryofthethinkre
+                             543210987654321
+El historial es:eryoftheth
+                0987654321
+El Lookahead es:inkre
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: thethinkremembe
+                             543210987654321
+El historial es:thethinkre
+                0987654321
+El Lookahead es:membe
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: inkrememberlife
+                             543210987654321
+El historial es:inkremembe
+                0987654321
+El Lookahead es:rlife
+                54321
+
+Termino: r encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: l
+Para el texto de la ventana: nkrememberlife.
+                             543210987654321
+El historial es:nkremember
+                0987654321
+El Lookahead es:life.
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: emberlife.herdr
+                             543210987654321
+El historial es:emberlife.
+                0987654321
+El Lookahead es:herdr
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: life.herdreadfu
+                             543210987654321
+El historial es:life.herdr
+                0987654321
+El Lookahead es:eadfu
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: a
+Para el texto de la ventana: ife.herdreadful
+                             543210987654321
+El historial es:ife.herdre
+                0987654321
+El Lookahead es:adful
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: erdreadfulwickh
+                             543210987654321
+El historial es:erdreadful
+                0987654321
+El Lookahead es:wickh
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: adfulwickhamwer
+                             543210987654321
+El historial es:adfulwickh
+                0987654321
+El Lookahead es:amwer
+                54321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: m
+Para el texto de la ventana: dfulwickhamwere
+                             543210987654321
+El historial es:dfulwickha
+                0987654321
+El Lookahead es:mwere
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ickhamwereandsi
+                             543210987654321
+El historial es:ickhamwere
+                0987654321
+El Lookahead es:andsi
+                54321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 6
+Letra que rompió: n
+Para el texto de la ventana: ckhamwereandsis
+                             543210987654321
+El historial es:ckhamwerea
+                0987654321
+El Lookahead es:ndsis
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: wereandsisterfi
+                             543210987654321
+El historial es:wereandsis
+                0987654321
+El Lookahead es:terfi
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ndsisterfirstof
+                             543210987654321
+El historial es:ndsisterfi
+                0987654321
+El Lookahead es:rstof
+                54321
+
+Termino: r encontrado.
+Tamaño = 1
+Offset = 3
+Letra que rompió: s
+Para el texto de la ventana: dsisterfirstofs
+                             543210987654321
+El historial es:dsisterfir
+                0987654321
+El Lookahead es:stofs
+                54321
+
+Termino: s encontrado.
+
+Termino: st encontrado.
+Tamaño = 2
+Offset = 7
+Letra que rompió: o
+Para el texto de la ventana: isterfirstofsom
+                             543210987654321
+El historial es:isterfirst
+                0987654321
+El Lookahead es:ofsom
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: firstofsomehous
+                             543210987654321
+El historial es:firstofsom
+                0987654321
+El Lookahead es:ehous
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ofsomehousekeep
+                             543210987654321
+El historial es:ofsomehous
+                0987654321
+El Lookahead es:ekeep
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 5
+Letra que rompió: k
+Para el texto de la ventana: fsomehousekeepe
+                             543210987654321
+El historial es:fsomehouse
+                0987654321
+El Lookahead es:keepe
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: housekeeperofhe
+                             543210987654321
+El historial es:housekeepe
+                0987654321
+El Lookahead es:rofhe
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: keeperofhehad.h
+                             543210987654321
+El historial es:keeperofhe
+                0987654321
+El Lookahead es:had.h
+                54321
+
+Termino: h encontrado.
+Tamaño = 1
+Offset = 2
+Letra que rompió: a
+Para el texto de la ventana: eeperofhehad.hi
+                             543210987654321
+El historial es:eeperofheh
+                0987654321
+El Lookahead es:ad.hi
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ofhehad.hisnott
+                             543210987654321
+El historial es:ofhehad.hi
+                0987654321
+El Lookahead es:snott
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ad.hisnotturnin
+                             543210987654321
+El historial es:ad.hisnott
+                0987654321
+El Lookahead es:urnin
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: snotturningrene
+                             543210987654321
+El historial es:snotturnin
+                0987654321
+El Lookahead es:grene
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: urningrenewedro
+                             543210987654321
+El historial es:urningrene
+                0987654321
+El Lookahead es:wedro
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: grenewedroomsno
+                             543210987654321
+El historial es:grenewedro
+                0987654321
+El Lookahead es:omsno
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 1
+Letra que rompió: m
+Para el texto de la ventana: renewedroomsnoo
+                             543210987654321
+El historial es:renewedroo
+                0987654321
+El Lookahead es:msnoo
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: edroomsnoonehis
+                             543210987654321
+El historial es:edroomsnoo
+                0987654321
+El Lookahead es:nehis
+                54321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 3
+Letra que rompió: e
+Para el texto de la ventana: droomsnoonehisi
+                             543210987654321
+El historial es:droomsnoon
+                0987654321
+El Lookahead es:ehisi
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: snoonehisinther
+                             543210987654321
+El historial es:snoonehisi
+                0987654321
+El Lookahead es:nther
+                54321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: t
+Para el texto de la ventana: noonehisinthere
+                             543210987654321
+El historial es:noonehisin
+                0987654321
+El Lookahead es:there
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: hisintherechanc
+                             543210987654321
+El historial es:hisinthere
+                0987654321
+El Lookahead es:chanc
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: therechanced.co
+                             543210987654321
+El historial es:therechanc
+                0987654321
+El Lookahead es:ed.co
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 8
+Letra que rompió: d
+Para el texto de la ventana: herechanced.cou
+                             543210987654321
+El historial es:herechance
+                0987654321
+El Lookahead es:d.cou
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: hanced.countryi
+                             543210987654321
+El historial es:hanced.cou
+                0987654321
+El Lookahead es:ntryi
+                54321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 8
+Letra que rompió: t
+Para el texto de la ventana: anced.countryit
+                             543210987654321
+El historial es:anced.coun
+                0987654321
+El Lookahead es:tryit
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: .countryitvicio
+                             543210987654321
+El historial es:.countryit
+                0987654321
+El Lookahead es:vicio
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: tryitviciousver
+                             543210987654321
+El historial es:tryitvicio
+                0987654321
+El Lookahead es:usver
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: viciousveryhadb
+                             543210987654321
+El historial es:viciousver
+                0987654321
+El Lookahead es:yhadb
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: usveryhadbeenhi
+                             543210987654321
+El historial es:usveryhadb
+                0987654321
+El Lookahead es:eenhi
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: e
+Para el texto de la ventana: sveryhadbeenhis
+                             543210987654321
+El historial es:sveryhadbe
+                0987654321
+El Lookahead es:enhis
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 8
+Letra que rompió: n
+Para el texto de la ventana: veryhadbeenhism
+                             543210987654321
+El historial es:veryhadbee
+                0987654321
+El Lookahead es:nhism
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: adbeenhismemory
+                             543210987654321
+El historial es:adbeenhism
+                0987654321
+El Lookahead es:emory
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: m
+Para el texto de la ventana: dbeenhismemoryt
+                             543210987654321
+El historial es:dbeenhisme
+                0987654321
+El Lookahead es:moryt
+                54321
+
+Termino: m encontrado.
+Tamaño = 1
+Offset = 2
+Letra que rompió: o
+Para el texto de la ventana: beenhismemoryth
+                             543210987654321
+El historial es:beenhismem
+                0987654321
+El Lookahead es:oryth
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ismemorythemorn
+                             543210987654321
+El historial es:ismemoryth
+                0987654321
+El Lookahead es:emorn
+                54321
+
+Termino: e encontrado.
+
+Termino: em encontrado.
+
+Termino: emo encontrado.
+
+Termino: emor encontrado.
+Tamaño = 4
+Offset = 7
+Letra que rompió: n
+Para el texto de la ventana: morythemorningt
+                             543210987654321
+El historial es:morythemor
+                0987654321
+El Lookahead es:ningt
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: hemorningto.did
+                             543210987654321
+El historial es:hemorningt
+                0987654321
+El Lookahead es:o.did
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: .
+Para el texto de la ventana: emorningto.dido
+                             543210987654321
+El historial es:emorningto
+                0987654321
+El Lookahead es:.dido
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ingto.didofrese
+                             543210987654321
+El historial es:ingto.dido
+                0987654321
+El Lookahead es:frese
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: .didofreservedl
+                             543210987654321
+El historial es:.didofrese
+                0987654321
+El Lookahead es:rvedl
+                54321
+
+Termino: r encontrado.
+Tamaño = 1
+Offset = 4
+Letra que rompió: v
+Para el texto de la ventana: didofreservedly
+                             543210987654321
+El historial es:didofreser
+                0987654321
+El Lookahead es:vedly
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: reservedlydiaef
+                             543210987654321
+El historial es:reservedly
+                0987654321
+El Lookahead es:diaef
+                54321
+
+Termino: d encontrado.
+Tamaño = 1
+Offset = 3
+Letra que rompió: i
+Para el texto de la ventana: eservedlydiaeff
+                             543210987654321
+El historial es:eservedlyd
+                0987654321
+El Lookahead es:iaeff
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: edlydiaeffectua
+                             543210987654321
+El historial es:edlydiaeff
+                0987654321
+El Lookahead es:ectua
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: c
+Para el texto de la ventana: dlydiaeffectual
+                             543210987654321
+El historial es:dlydiaeffe
+                0987654321
+El Lookahead es:ctual
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: aeffectualawayw
+                             543210987654321
+El historial es:aeffectual
+                0987654321
+El Lookahead es:awayw
+                54321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: w
+Para el texto de la ventana: effectualawaywi
+                             543210987654321
+El historial es:effectuala
+                0987654321
+El Lookahead es:waywi
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: tualawaywithout
+                             543210987654321
+El historial es:tualawaywi
+                0987654321
+El Lookahead es:thout
+                54321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: h
+Para el texto de la ventana: ualawaywithoutr
+                             543210987654321
+El historial es:ualawaywit
+                0987654321
+El Lookahead es:houtr
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: aywithoutrunnin
+                             543210987654321
+El historial es:aywithoutr
+                0987654321
+El Lookahead es:unnin
+                54321
+
+Termino: u encontrado.
+Tamaño = 1
+Offset = 3
+Letra que rompió: n
+Para el texto de la ventana: ywithoutrunning
+                             543210987654321
+El historial es:ywithoutru
+                0987654321
+El Lookahead es:nning
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: outrunning.poun
+                             543210987654321
+El historial es:outrunning
+                0987654321
+El Lookahead es:.poun
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: nning.poundswho
+                             543210987654321
+El historial es:nning.poun
+                0987654321
+El Lookahead es:dswho
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: .poundswholebef
+                             543210987654321
+El historial es:.poundswho
+                0987654321
+El Lookahead es:lebef
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: dswholebeforeil
+                             543210987654321
+El historial es:dswholebef
+                0987654321
+El Lookahead es:oreil
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 6
+Letra que rompió: r
+Para el texto de la ventana: swholebeforeill
+                             543210987654321
+El historial es:swholebefo
+                0987654321
+El Lookahead es:reill
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ebeforeillbespo
+                             543210987654321
+El historial es:ebeforeill
+                0987654321
+El Lookahead es:bespo
+                54321
+
+Termino: b encontrado.
+
+Termino: be encontrado.
+Tamaño = 2
+Offset = 9
+Letra que rompió: s
+Para el texto de la ventana: eforeillbespots
+                             543210987654321
+El historial es:eforeillbe
+                0987654321
+El Lookahead es:spots
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: illbespotsagain
+                             543210987654321
+El historial es:illbespots
+                0987654321
+El Lookahead es:again
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: spotsagaintoint
+                             543210987654321
+El historial es:spotsagain
+                0987654321
+El Lookahead es:toint
+                54321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: o
+Para el texto de la ventana: potsagaintointo
+                             543210987654321
+El historial es:potsagaint
+                0987654321
+El Lookahead es:ointo
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: i
+Para el texto de la ventana: otsagaintointoa
+                             543210987654321
+El historial es:otsagainto
+                0987654321
+El Lookahead es:intoa
+                54321
+
+Termino: i encontrado.
+
+Termino: in encontrado.
+
+Termino: int encontrado.
+
+Termino: into encontrado.
+Tamaño = 4
+Offset = 4
+Letra que rompió: a
+Para el texto de la ventana: gaintointoat.he
+                             543210987654321
+El historial es:gaintointo
+                0987654321
+El Lookahead es:at.he
+                54321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: t
+Para el texto de la ventana: aintointoat.her
+                             543210987654321
+El historial es:aintointoa
+                0987654321
+El Lookahead es:t.her
+                54321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: .
+Para el texto de la ventana: intointoat.herr
+                             543210987654321
+El historial es:intointoat
+                0987654321
+El Lookahead es:.herr
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ntoat.herrightm
+                             543210987654321
+El historial es:ntoat.herr
+                0987654321
+El Lookahead es:ightm
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: .herrightmindme
+                             543210987654321
+El historial es:.herrightm
+                0987654321
+El Lookahead es:indme
+                54321
+
+Termino: i encontrado.
+Tamaño = 1
+Offset = 5
+Letra que rompió: n
+Para el texto de la ventana: herrightmindmei
+                             543210987654321
+El historial es:herrightmi
+                0987654321
+El Lookahead es:ndmei
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ghtmindmeimatte
+                             543210987654321
+El historial es:ghtmindmei
+                0987654321
+El Lookahead es:matte
+                54321
+
+Termino: m encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: a
+Para el texto de la ventana: htmindmeimatter
+                             543210987654321
+El historial es:htmindmeim
+                0987654321
+El Lookahead es:atter
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: dmeimattersreal
+                             543210987654321
+El historial es:dmeimatter
+                0987654321
+El Lookahead es:sreal
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: attersrealgirl.
+                             543210987654321
+El historial es:attersreal
+                0987654321
+El Lookahead es:girl.
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: srealgirl.befor
+                             543210987654321
+El historial es:srealgirl.
+                0987654321
+El Lookahead es:befor
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: girl.beforeende
+                             543210987654321
+El historial es:girl.befor
+                0987654321
+El Lookahead es:eende
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 4
+Letra que rompió: e
+Para el texto de la ventana: irl.beforeendea
+                             543210987654321
+El historial es:irl.before
+                0987654321
+El Lookahead es:endea
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 5
+Letra que rompió: n
+Para el texto de la ventana: rl.beforeendeav
+                             543210987654321
+El historial es:rl.beforee
+                0987654321
+El Lookahead es:ndeav
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: foreendeavourlo
+                             543210987654321
+El historial es:foreendeav
+                0987654321
+El Lookahead es:ourlo
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: u
+Para el texto de la ventana: oreendeavourlon
+                             543210987654321
+El historial es:oreendeavo
+                0987654321
+El Lookahead es:urlon
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: deavourlongtheh
+                             543210987654321
+El historial es:deavourlon
+                0987654321
+El Lookahead es:gtheh
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: urlongthehimfla
+                             543210987654321
+El historial es:urlongtheh
+                0987654321
+El Lookahead es:imfla
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: gthehimflatterm
+                             543210987654321
+El historial es:gthehimfla
+                0987654321
+El Lookahead es:tterm
+                54321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: t
+Para el texto de la ventana: thehimflattermu
+                             543210987654321
+El historial es:thehimflat
+                0987654321
+El Lookahead es:termu
+                54321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: e
+Para el texto de la ventana: hehimflattermuc
+                             543210987654321
+El historial es:hehimflatt
+                0987654321
+El Lookahead es:ermuc
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: r
+Para el texto de la ventana: ehimflattermuch
+                             543210987654321
+El historial es:ehimflatte
+                0987654321
+El Lookahead es:rmuch
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: lattermuchequal
+                             543210987654321
+El historial es:lattermuch
+                0987654321
+El Lookahead es:equal
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 6
+Letra que rompió: q
+Para el texto de la ventana: attermuchequall
+                             543210987654321
+El historial es:attermuche
+                0987654321
+El Lookahead es:quall
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: muchequallyperc
+                             543210987654321
+El historial es:muchequall
+                0987654321
+El Lookahead es:yperc
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: quallyperceived
+                             543210987654321
+El historial es:quallyperc
+                0987654321
+El Lookahead es:eived
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 3
+Letra que rompió: i
+Para el texto de la ventana: uallyperceivedt
+                             543210987654321
+El historial es:uallyperce
+                0987654321
+El Lookahead es:ivedt
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: perceivedtowhic
+                             543210987654321
+El historial es:perceivedt
+                0987654321
+El Lookahead es:owhic
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ivedtowhich.ass
+                             543210987654321
+El historial es:ivedtowhic
+                0987654321
+El Lookahead es:h.ass
+                54321
+
+Termino: h encontrado.
+Tamaño = 1
+Offset = 3
+Letra que rompió: .
+Para el texto de la ventana: vedtowhich.asso
+                             543210987654321
+El historial es:vedtowhich
+                0987654321
+El Lookahead es:.asso
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: which.assoonwas
+                             543210987654321
+El historial es:which.asso
+                0987654321
+El Lookahead es:onwas
+                54321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 1
+Letra que rompió: n
+Para el texto de la ventana: hich.assoonwasa
+                             543210987654321
+El historial es:hich.assoo
+                0987654321
+El Lookahead es:nwasa
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: assoonwasalways
+                             543210987654321
+El historial es:assoonwasa
+                0987654321
+El Lookahead es:lways
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: nwasalwayspurse
+                             543210987654321
+El historial es:nwasalways
+                0987654321
+El Lookahead es:purse
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: lwayspurseshadc
+                             543210987654321
+El historial es:lwayspurse
+                0987654321
+El Lookahead es:shadc
+                54321
+
+Termino: s encontrado.
+Tamaño = 1
+Offset = 6
+Letra que rompió: h
+Para el texto de la ventana: wayspurseshadch
+                             543210987654321
+El historial es:wayspurses
+                0987654321
+El Lookahead es:hadch
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: urseshadchapter
+                             543210987654321
+El historial es:urseshadch
+                0987654321
+El Lookahead es:apter
+                54321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 4
+Letra que rompió: p
+Para el texto de la ventana: rseshadchaptert
+                             543210987654321
+El historial es:rseshadcha
+                0987654321
+El Lookahead es:ptert
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: adchaptertherem
+                             543210987654321
+El historial es:adchaptert
+                0987654321
+El Lookahead es:herem
+                54321
+
+Termino: h encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: e
+Para el texto de la ventana: dchapterthereme
+                             543210987654321
+El historial es:dchapterth
+                0987654321
+El Lookahead es:ereme
+                54321
+
+Termino: e encontrado.
+
+Termino: er encontrado.
+Tamaño = 2
+Offset = 4
+Letra que rompió: e
+Para el texto de la ventana: haptertheremei.
+                             543210987654321
+El historial es:hapterther
+                0987654321
+El Lookahead es:emei.
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 6
+Letra que rompió: m
+Para el texto de la ventana: aptertheremei.t
+                             543210987654321
+El historial es:apterthere
+                0987654321
+El Lookahead es:mei.t
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: theremei.thatse
+                             543210987654321
+El historial es:theremei.t
+                0987654321
+El Lookahead es:hatse
+                54321
+
+Termino: h encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: a
+Para el texto de la ventana: heremei.thatsen
+                             543210987654321
+El historial es:heremei.th
+                0987654321
+El Lookahead es:atsen
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ei.thatsensible
+                             543210987654321
+El historial es:ei.thatsen
+                0987654321
+El Lookahead es:sible
+                54321
+
+Termino: s encontrado.
+Tamaño = 1
+Offset = 3
+Letra que rompió: i
+Para el texto de la ventana: i.thatsensibled
+                             543210987654321
+El historial es:i.thatsens
+                0987654321
+El Lookahead es:ibled
+                54321
+
+Termino: i encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: b
+Para el texto de la ventana: .thatsensiblede
+                             543210987654321
+El historial es:.thatsensi
+                0987654321
+El Lookahead es:blede
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: sensibledegreeo
+                             543210987654321
+El historial es:sensiblede
+                0987654321
+El Lookahead es:greeo
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: bledegreeofmyto
+                             543210987654321
+El historial es:bledegreeo
+                0987654321
+El Lookahead es:fmyto
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: greeofmytowhich
+                             543210987654321
+El historial es:greeofmyto
+                0987654321
+El Lookahead es:which
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: fmytowhichbutto
+                             543210987654321
+El historial es:fmytowhich
+                0987654321
+El Lookahead es:butto
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: whichbuttothe.n
+                             543210987654321
+El historial es:whichbutto
+                0987654321
+El Lookahead es:the.n
+                54321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 3
+Letra que rompió: h
+Para el texto de la ventana: hichbuttothe.no
+                             543210987654321
+El historial es:hichbuttot
+                0987654321
+El Lookahead es:he.no
+                54321
+
+Termino: h encontrado.
+Tamaño = 1
+Offset = 10
+Letra que rompió: e
+Para el texto de la ventana: ichbuttothe.not
+                             543210987654321
+El historial es:ichbuttoth
+                0987654321
+El Lookahead es:e.not
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ttothe.notthink
+                             543210987654321
+El historial es:ttothe.not
+                0987654321
+El Lookahead es:think
+                54321
+
+Termino: t encontrado.
+
+Termino: th encontrado.
+Tamaño = 2
+Offset = 7
+Letra que rompió: i
+Para el texto de la ventana: othe.notthinkca
+                             543210987654321
+El historial es:othe.notth
+                0987654321
+El Lookahead es:inkca
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: notthinkcarrysh
+                             543210987654321
+El historial es:notthinkca
+                0987654321
+El Lookahead es:rrysh
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: inkcarrysheandt
+                             543210987654321
+El historial es:inkcarrysh
+                0987654321
+El Lookahead es:eandt
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: rrysheandtheove
+                             543210987654321
+El historial es:rrysheandt
+                0987654321
+El Lookahead es:heove
+                54321
+
+Termino: h encontrado.
+
+Termino: he encontrado.
+Tamaño = 2
+Offset = 6
+Letra que rompió: o
+Para el texto de la ventana: ysheandtheoverh
+                             543210987654321
+El historial es:ysheandthe
+                0987654321
+El Lookahead es:overh
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ndtheoverheardw
+                             543210987654321
+El historial es:ndtheoverh
+                0987654321
+El Lookahead es:eardw
+                54321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 6
+Letra que rompió: a
+Para el texto de la ventana: dtheoverheardwi
+                             543210987654321
+El historial es:dtheoverhe
+                0987654321
+El Lookahead es:ardwi
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: verheardwithami
+                             543210987654321
+El historial es:verheardwi
+                0987654321
+El Lookahead es:thami
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ardwithamiserly
+                             543210987654321
+El historial es:ardwithami
+                0987654321
+El Lookahead es:serly
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: thamiserlyagain
+                             543210987654321
+El historial es:thamiserly
+                0987654321
+El Lookahead es:again
+                54321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 8
+Letra que rompió: g
+Para el texto de la ventana: hamiserlyagain.
+                             543210987654321
+El historial es:hamiserlya
+                0987654321
+El Lookahead es:gain.
+                54321
+Tamaño = 5
+Offset = 0
+Letra que rompió: Vacío...
+==============================
+Ventanas recorrida: 611 veces
+Ventana 1: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 2: Tamaño=1, Offset=5, Letra='a'
+Ventana 3: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 4: Tamaño=1, Offset=4, Letra='s'
+Ventana 5: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 6: Tamaño=1, Offset=7, Letra='s'
+Ventana 7: Tamaño=1, Offset=6, Letra='t'
+Ventana 8: Tamaño=1, Offset=3, Letra='m'
+Ventana 9: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 10: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 11: Tamaño=1, Offset=7, Letra='i'
+Ventana 12: Tamaño=1, Offset=3, Letra='n'
+Ventana 13: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 14: Tamaño=1, Offset=10, Letra='b'
+Ventana 15: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 16: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 17: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 18: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 19: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 20: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 21: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 22: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 23: Tamaño=1, Offset=9, Letra='f'
+Ventana 24: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 25: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 26: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 27: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 28: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 29: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 30: Tamaño=1, Offset=3, Letra='o'
+Ventana 31: Tamaño=1, Offset=9, Letra='w'
+Ventana 32: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 33: Tamaño=1, Offset=10, Letra='e'
+Ventana 34: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 35: Tamaño=1, Offset=4, Letra='m'
+Ventana 36: Tamaño=1, Offset=10, Letra='o'
+Ventana 37: Tamaño=2, Offset=3, Letra='e'
+Ventana 38: Tamaño=1, Offset=9, Letra='.'
+Ventana 39: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 40: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 41: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 42: Tamaño=1, Offset=9, Letra='r'
+Ventana 43: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 44: Tamaño=1, Offset=7, Letra='r'
+Ventana 45: Tamaño=1, Offset=6, Letra='d'
+Ventana 46: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 47: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 48: Tamaño=1, Offset=1, Letra='h'
+Ventana 49: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 50: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 51: Tamaño=1, Offset=5, Letra='k'
+Ventana 52: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 53: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 54: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 55: Tamaño=1, Offset=10, Letra='l'
+Ventana 56: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 57: Tamaño=1, Offset=6, Letra='t'
+Ventana 58: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 59: Tamaño=1, Offset=3, Letra='m'
+Ventana 60: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 61: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 62: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 63: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 64: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 65: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 66: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 67: Tamaño=2, Offset=8, Letra='t'
+Ventana 68: Tamaño=1, Offset=3, Letra='s'
+Ventana 69: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 70: Tamaño=2, Offset=7, Letra='i'
+Ventana 71: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 72: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 73: Tamaño=1, Offset=4, Letra='t'
+Ventana 74: Tamaño=1, Offset=9, Letra='o'
+Ventana 75: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 76: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 77: Tamaño=1, Offset=2, Letra='d'
+Ventana 78: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 79: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 80: Tamaño=1, Offset=10, Letra='s'
+Ventana 81: Tamaño=3, Offset=6, Letra='f'
+Ventana 82: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 83: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 84: Tamaño=1, Offset=8, Letra='d'
+Ventana 85: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 86: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 87: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 88: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 89: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 90: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 91: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 92: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 93: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 94: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 95: Tamaño=1, Offset=3, Letra='t'
+Ventana 96: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 97: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 98: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 99: Tamaño=1, Offset=6, Letra='c'
+Ventana 100: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 101: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 102: Tamaño=1, Offset=7, Letra='a'
+Ventana 103: Tamaño=1, Offset=10, Letra='d'
+Ventana 104: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 105: Tamaño=1, Offset=4, Letra='h'
+Ventana 106: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 107: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 108: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 109: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 110: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 111: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 112: Tamaño=1, Offset=6, Letra='s'
+Ventana 113: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 114: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 115: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 116: Tamaño=1, Offset=6, Letra='a'
+Ventana 117: Tamaño=1, Offset=10, Letra='m'
+Ventana 118: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 119: Tamaño=1, Offset=9, Letra='r'
+Ventana 120: Tamaño=1, Offset=3, Letra='m'
+Ventana 121: Tamaño=1, Offset=7, Letra='e'
+Ventana 122: Tamaño=2, Offset=6, Letra='l'
+Ventana 123: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 124: Tamaño=1, Offset=7, Letra='w'
+Ventana 125: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 126: Tamaño=2, Offset=7, Letra='i'
+Ventana 127: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 128: Tamaño=1, Offset=7, Letra='i'
+Ventana 129: Tamaño=1, Offset=6, Letra='s'
+Ventana 130: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 131: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 132: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 133: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 134: Tamaño=1, Offset=7, Letra='i'
+Ventana 135: Tamaño=3, Offset=5, Letra='a'
+Ventana 136: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 137: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 138: Tamaño=1, Offset=7, Letra='f'
+Ventana 139: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 140: Tamaño=1, Offset=9, Letra='g'
+Ventana 141: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 142: Tamaño=1, Offset=1, Letra='i'
+Ventana 143: Tamaño=1, Offset=8, Letra='e'
+Ventana 144: Tamaño=1, Offset=10, Letra='d'
+Ventana 145: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 146: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 147: Tamaño=2, Offset=9, Letra='e'
+Ventana 148: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 149: Tamaño=1, Offset=4, Letra='t'
+Ventana 150: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 151: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 152: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 153: Tamaño=1, Offset=10, Letra='a'
+Ventana 154: Tamaño=1, Offset=8, Letra='t'
+Ventana 155: Tamaño=1, Offset=6, Letra='i'
+Ventana 156: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 157: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 158: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 159: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 160: Tamaño=1, Offset=7, Letra='s'
+Ventana 161: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 162: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 163: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 164: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 165: Tamaño=2, Offset=4, Letra='t'
+Ventana 166: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 167: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 168: Tamaño=1, Offset=8, Letra='s'
+Ventana 169: Tamaño=1, Offset=7, Letra='.'
+Ventana 170: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 171: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 172: Tamaño=1, Offset=8, Letra='y'
+Ventana 173: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 174: Tamaño=2, Offset=4, Letra='g'
+Ventana 175: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 176: Tamaño=1, Offset=9, Letra='o'
+Ventana 177: Tamaño=1, Offset=8, Letra='h'
+Ventana 178: Tamaño=3, Offset=10, Letra='s'
+Ventana 179: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 180: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 181: Tamaño=1, Offset=9, Letra='c'
+Ventana 182: Tamaño=2, Offset=8, Letra='u'
+Ventana 183: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 184: Tamaño=1, Offset=10, Letra='i'
+Ventana 185: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 186: Tamaño=1, Offset=9, Letra='s'
+Ventana 187: Tamaño=3, Offset=8, Letra='o'
+Ventana 188: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 189: Tamaño=2, Offset=3, Letra='a'
+Ventana 190: Tamaño=1, Offset=5, Letra='n'
+Ventana 191: Tamaño=1, Offset=7, Letra='d'
+Ventana 192: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 193: Tamaño=2, Offset=7, Letra='m'
+Ventana 194: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 195: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 196: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 197: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 198: Tamaño=1, Offset=3, Letra='s'
+Ventana 199: Tamaño=1, Offset=5, Letra='g'
+Ventana 200: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 201: Tamaño=1, Offset=9, Letra='y'
+Ventana 202: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 203: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 204: Tamaño=1, Offset=7, Letra='d'
+Ventana 205: Tamaño=1, Offset=9, Letra='i'
+Ventana 206: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 207: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 208: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 209: Tamaño=1, Offset=9, Letra='s'
+Ventana 210: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 211: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 212: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 213: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 214: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 215: Tamaño=1, Offset=5, Letra='m'
+Ventana 216: Tamaño=1, Offset=3, Letra='e'
+Ventana 217: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 218: Tamaño=1, Offset=2, Letra='i'
+Ventana 219: Tamaño=1, Offset=4, Letra='o'
+Ventana 220: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 221: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 222: Tamaño=1, Offset=9, Letra='h'
+Ventana 223: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 224: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 225: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 226: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 227: Tamaño=1, Offset=6, Letra='h'
+Ventana 228: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 229: Tamaño=1, Offset=3, Letra='i'
+Ventana 230: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 231: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 232: Tamaño=1, Offset=9, Letra='.'
+Ventana 233: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 234: Tamaño=1, Offset=1, Letra='o'
+Ventana 235: Tamaño=1, Offset=3, Letra='i'
+Ventana 236: Tamaño=1, Offset=6, Letra='h'
+Ventana 237: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 238: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 239: Tamaño=1, Offset=2, Letra='t'
+Ventana 240: Tamaño=1, Offset=4, Letra='s'
+Ventana 241: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 242: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 243: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 244: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 245: Tamaño=1, Offset=9, Letra='h'
+Ventana 246: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 247: Tamaño=1, Offset=5, Letra='e'
+Ventana 248: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 249: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 250: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 251: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 252: Tamaño=1, Offset=5, Letra='a'
+Ventana 253: Tamaño=1, Offset=10, Letra='r'
+Ventana 254: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 255: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 256: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 257: Tamaño=1, Offset=9, Letra='h'
+Ventana 258: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 259: Tamaño=3, Offset=7, Letra='m'
+Ventana 260: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 261: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 262: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 263: Tamaño=1, Offset=7, Letra='f'
+Ventana 264: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 265: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 266: Tamaño=1, Offset=1, Letra='a'
+Ventana 267: Tamaño=1, Offset=6, Letra='s'
+Ventana 268: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 269: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 270: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 271: Tamaño=1, Offset=7, Letra='r'
+Ventana 272: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 273: Tamaño=1, Offset=6, Letra='i'
+Ventana 274: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 275: Tamaño=1, Offset=4, Letra='t'
+Ventana 276: Tamaño=1, Offset=3, Letra='l'
+Ventana 277: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 278: Tamaño=1, Offset=9, Letra='g'
+Ventana 279: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 280: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 281: Tamaño=1, Offset=6, Letra='r'
+Ventana 282: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 283: Tamaño=2, Offset=5, Letra='t'
+Ventana 284: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 285: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 286: Tamaño=1, Offset=8, Letra='b'
+Ventana 287: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 288: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 289: Tamaño=2, Offset=7, Letra='i'
+Ventana 290: Tamaño=2, Offset=4, Letra='o'
+Ventana 291: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 292: Tamaño=2, Offset=5, Letra='e'
+Ventana 293: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 294: Tamaño=1, Offset=1, Letra='b'
+Ventana 295: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 296: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 297: Tamaño=1, Offset=8, Letra='.'
+Ventana 298: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 299: Tamaño=1, Offset=3, Letra='b'
+Ventana 300: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 301: Tamaño=1, Offset=10, Letra='e'
+Ventana 302: Tamaño=1, Offset=5, Letra='d'
+Ventana 303: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 304: Tamaño=1, Offset=2, Letra='c'
+Ventana 305: Tamaño=1, Offset=5, Letra='t'
+Ventana 306: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 307: Tamaño=1, Offset=4, Letra='t'
+Ventana 308: Tamaño=1, Offset=6, Letra='m'
+Ventana 309: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 310: Tamaño=1, Offset=10, Letra='t'
+Ventana 311: Tamaño=1, Offset=7, Letra='o'
+Ventana 312: Tamaño=1, Offset=6, Letra='l'
+Ventana 313: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 314: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 315: Tamaño=1, Offset=8, Letra='e'
+Ventana 316: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 317: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 318: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 319: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 320: Tamaño=1, Offset=2, Letra='y'
+Ventana 321: Tamaño=1, Offset=7, Letra='a'
+Ventana 322: Tamaño=1, Offset=4, Letra='n'
+Ventana 323: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 324: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 325: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 326: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 327: Tamaño=1, Offset=4, Letra='n'
+Ventana 328: Tamaño=1, Offset=10, Letra='s'
+Ventana 329: Tamaño=3, Offset=4, Letra='t'
+Ventana 330: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 331: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 332: Tamaño=1, Offset=9, Letra='u'
+Ventana 333: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 334: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 335: Tamaño=1, Offset=5, Letra='o'
+Ventana 336: Tamaño=1, Offset=2, Letra='f'
+Ventana 337: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 338: Tamaño=1, Offset=3, Letra='n'
+Ventana 339: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 340: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 341: Tamaño=1, Offset=6, Letra='s'
+Ventana 342: Tamaño=1, Offset=7, Letra='w'
+Ventana 343: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 344: Tamaño=1, Offset=8, Letra='a'
+Ventana 345: Tamaño=1, Offset=5, Letra='f'
+Ventana 346: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 347: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 348: Tamaño=1, Offset=8, Letra='n'
+Ventana 349: Tamaño=1, Offset=4, Letra='i'
+Ventana 350: Tamaño=1, Offset=7, Letra='n'
+Ventana 351: Tamaño=1, Offset=6, Letra='g'
+Ventana 352: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 353: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 354: Tamaño=1, Offset=10, Letra='h'
+Ventana 355: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 356: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 357: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 358: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 359: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 360: Tamaño=2, Offset=4, Letra='a'
+Ventana 361: Tamaño=1, Offset=7, Letra='y'
+Ventana 362: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 363: Tamaño=1, Offset=2, Letra='o'
+Ventana 364: Tamaño=2, Offset=5, Letra='l'
+Ventana 365: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 366: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 367: Tamaño=1, Offset=5, Letra='e'
+Ventana 368: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 369: Tamaño=1, Offset=5, Letra='b'
+Ventana 370: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 371: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 372: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 373: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 374: Tamaño=1, Offset=10, Letra='o'
+Ventana 375: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 376: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 377: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 378: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 379: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 380: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 381: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 382: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 383: Tamaño=1, Offset=10, Letra='a'
+Ventana 384: Tamaño=1, Offset=2, Letra='n'
+Ventana 385: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 386: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 387: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 388: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 389: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 390: Tamaño=1, Offset=3, Letra='s'
+Ventana 391: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 392: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 393: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 394: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 395: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 396: Tamaño=1, Offset=9, Letra='s'
+Ventana 397: Tamaño=1, Offset=7, Letra='u'
+Ventana 398: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 399: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 400: Tamaño=1, Offset=7, Letra='n'
+Ventana 401: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 402: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 403: Tamaño=1, Offset=10, Letra='o'
+Ventana 404: Tamaño=1, Offset=5, Letra='t'
+Ventana 405: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 406: Tamaño=3, Offset=4, Letra='.'
+Ventana 407: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 408: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 409: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 410: Tamaño=1, Offset=7, Letra='a'
+Ventana 411: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 412: Tamaño=1, Offset=1, Letra='h'
+Ventana 413: Tamaño=1, Offset=9, Letra='o'
+Ventana 414: Tamaño=1, Offset=4, Letra='s'
+Ventana 415: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 416: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 417: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 418: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 419: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 420: Tamaño=1, Offset=7, Letra='n'
+Ventana 421: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 422: Tamaño=1, Offset=10, Letra='r'
+Ventana 423: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 424: Tamaño=2, Offset=4, Letra='i'
+Ventana 425: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 426: Tamaño=1, Offset=4, Letra='u'
+Ventana 427: Tamaño=2, Offset=10, Letra='d'
+Ventana 428: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 429: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 430: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 431: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 432: Tamaño=1, Offset=5, Letra='t'
+Ventana 433: Tamaño=1, Offset=8, Letra='i'
+Ventana 434: Tamaño=3, Offset=7, Letra='l'
+Ventana 435: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 436: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 437: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 438: Tamaño=1, Offset=8, Letra='g'
+Ventana 439: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 440: Tamaño=1, Offset=8, Letra='.'
+Ventana 441: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 442: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 443: Tamaño=2, Offset=4, Letra='w'
+Ventana 444: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 445: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 446: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 447: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 448: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 449: Tamaño=1, Offset=9, Letra='n'
+Ventana 450: Tamaño=1, Offset=5, Letra='g'
+Ventana 451: Tamaño=1, Offset=10, Letra='b'
+Ventana 452: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 453: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 454: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 455: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 456: Tamaño=1, Offset=6, Letra='r'
+Ventana 457: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 458: Tamaño=1, Offset=8, Letra='t'
+Ventana 459: Tamaño=1, Offset=10, Letra='f'
+Ventana 460: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 461: Tamaño=1, Offset=3, Letra='e'
+Ventana 462: Tamaño=1, Offset=2, Letra='.'
+Ventana 463: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 464: Tamaño=1, Offset=4, Letra='y'
+Ventana 465: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 466: Tamaño=1, Offset=2, Letra='h'
+Ventana 467: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 468: Tamaño=2, Offset=4, Letra='y'
+Ventana 469: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 470: Tamaño=1, Offset=7, Letra='t'
+Ventana 471: Tamaño=2, Offset=3, Letra='i'
+Ventana 472: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 473: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 474: Tamaño=1, Offset=7, Letra='l'
+Ventana 475: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 476: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 477: Tamaño=1, Offset=7, Letra='a'
+Ventana 478: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 479: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 480: Tamaño=1, Offset=10, Letra='m'
+Ventana 481: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 482: Tamaño=1, Offset=6, Letra='n'
+Ventana 483: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 484: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 485: Tamaño=1, Offset=3, Letra='s'
+Ventana 486: Tamaño=2, Offset=7, Letra='o'
+Ventana 487: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 488: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 489: Tamaño=1, Offset=5, Letra='k'
+Ventana 490: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 491: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 492: Tamaño=1, Offset=2, Letra='a'
+Ventana 493: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 494: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 495: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 496: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 497: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 498: Tamaño=1, Offset=1, Letra='m'
+Ventana 499: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 500: Tamaño=1, Offset=3, Letra='e'
+Ventana 501: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 502: Tamaño=1, Offset=9, Letra='t'
+Ventana 503: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 504: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 505: Tamaño=1, Offset=8, Letra='d'
+Ventana 506: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 507: Tamaño=1, Offset=8, Letra='t'
+Ventana 508: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 509: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 510: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 511: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 512: Tamaño=1, Offset=7, Letra='e'
+Ventana 513: Tamaño=1, Offset=8, Letra='n'
+Ventana 514: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 515: Tamaño=1, Offset=7, Letra='m'
+Ventana 516: Tamaño=1, Offset=2, Letra='o'
+Ventana 517: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 518: Tamaño=4, Offset=7, Letra='n'
+Ventana 519: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 520: Tamaño=1, Offset=7, Letra='.'
+Ventana 521: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 522: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 523: Tamaño=1, Offset=4, Letra='v'
+Ventana 524: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 525: Tamaño=1, Offset=3, Letra='i'
+Ventana 526: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 527: Tamaño=1, Offset=10, Letra='c'
+Ventana 528: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 529: Tamaño=1, Offset=10, Letra='w'
+Ventana 530: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 531: Tamaño=1, Offset=10, Letra='h'
+Ventana 532: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 533: Tamaño=1, Offset=3, Letra='n'
+Ventana 534: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 535: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 536: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 537: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 538: Tamaño=1, Offset=6, Letra='r'
+Ventana 539: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 540: Tamaño=2, Offset=9, Letra='s'
+Ventana 541: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 542: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 543: Tamaño=1, Offset=7, Letra='o'
+Ventana 544: Tamaño=1, Offset=9, Letra='i'
+Ventana 545: Tamaño=4, Offset=4, Letra='a'
+Ventana 546: Tamaño=1, Offset=9, Letra='t'
+Ventana 547: Tamaño=1, Offset=7, Letra='.'
+Ventana 548: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 549: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 550: Tamaño=1, Offset=5, Letra='n'
+Ventana 551: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 552: Tamaño=1, Offset=7, Letra='a'
+Ventana 553: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 554: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 555: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 556: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 557: Tamaño=1, Offset=4, Letra='e'
+Ventana 558: Tamaño=1, Offset=5, Letra='n'
+Ventana 559: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 560: Tamaño=1, Offset=9, Letra='u'
+Ventana 561: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 562: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 563: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 564: Tamaño=1, Offset=9, Letra='t'
+Ventana 565: Tamaño=1, Offset=10, Letra='e'
+Ventana 566: Tamaño=1, Offset=9, Letra='r'
+Ventana 567: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 568: Tamaño=1, Offset=6, Letra='q'
+Ventana 569: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 570: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 571: Tamaño=1, Offset=3, Letra='i'
+Ventana 572: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 573: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 574: Tamaño=1, Offset=3, Letra='.'
+Ventana 575: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 576: Tamaño=1, Offset=1, Letra='n'
+Ventana 577: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 578: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 579: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 580: Tamaño=1, Offset=6, Letra='h'
+Ventana 581: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 582: Tamaño=1, Offset=4, Letra='p'
+Ventana 583: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 584: Tamaño=1, Offset=7, Letra='e'
+Ventana 585: Tamaño=2, Offset=4, Letra='e'
+Ventana 586: Tamaño=1, Offset=6, Letra='m'
+Ventana 587: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 588: Tamaño=1, Offset=9, Letra='a'
+Ventana 589: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 590: Tamaño=1, Offset=3, Letra='i'
+Ventana 591: Tamaño=1, Offset=10, Letra='b'
+Ventana 592: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 593: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 594: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 595: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 596: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 597: Tamaño=1, Offset=3, Letra='h'
+Ventana 598: Tamaño=1, Offset=10, Letra='e'
+Ventana 599: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 600: Tamaño=2, Offset=7, Letra='i'
+Ventana 601: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 602: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 603: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 604: Tamaño=2, Offset=6, Letra='o'
+Ventana 605: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 606: Tamaño=1, Offset=6, Letra='a'
+Ventana 607: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 608: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 609: Tamaño=5, Offset=0, Letra='Vacío...'
+Ventana 610: Tamaño=1, Offset=8, Letra='g'
+Ventana 611: Tamaño=5, Offset=0, Letra='Vacío...'
+
+Tamaño original: 2106 caracteres
+Radio de compresión: 0.63

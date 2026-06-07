@@ -1,0 +1,6494 @@
++ 1 + 9 + 9 + 5 + 8 + 6 + 3 
+Tamaño de ventana calculado: 41
+
+Para el texto de la ventana: in◻radio◻c'è◻un◻pulcino◻in◻radio◻c'è◻un◻p
+                             10987654321098765432109876543210987654321
+El historial es:in◻radio◻c'è◻un◻pulcino◻in◻ra
+                98765432109876543210987654321
+El Lookahead es:dio◻c'è◻un◻p
+                210987654321
+
+Termino: d encontrado.
+
+Termino: di encontrado.
+
+Termino: dio encontrado.
+
+Termino: dio◻ encontrado.
+
+Termino: dio◻c encontrado.
+
+Termino: dio◻c' encontrado.
+
+Termino: dio◻c'è encontrado.
+
+Termino: dio◻c'è◻ encontrado.
+
+Termino: dio◻c'è◻u encontrado.
+
+Termino: dio◻c'è◻un encontrado.
+
+Termino: dio◻c'è◻un◻ encontrado.
+
+Termino: dio◻c'è◻un◻p encontrado.
+Tamaño = 12
+Offset = 24
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻un◻pulcino◻in◻radio◻c'è◻un◻pulcino◻è◻il◻
+                             10987654321098765432109876543210987654321
+El historial es:◻un◻pulcino◻in◻radio◻c'è◻un◻p
+                98765432109876543210987654321
+El Lookahead es:ulcino◻è◻il◻
+                210987654321
+
+Termino: u encontrado.
+
+Termino: ul encontrado.
+
+Termino: ulc encontrado.
+
+Termino: ulci encontrado.
+
+Termino: ulcin encontrado.
+
+Termino: ulcino encontrado.
+
+Termino: ulcino◻ encontrado.
+Tamaño = 7
+Offset = 24
+Letra que rompió: è
+Para el texto de la ventana: cino◻in◻radio◻c'è◻un◻pulcino◻è◻il◻pulcino
+                             10987654321098765432109876543210987654321
+El historial es:cino◻in◻radio◻c'è◻un◻pulcino◻
+                98765432109876543210987654321
+El Lookahead es:è◻il◻pulcino
+                210987654321
+
+Termino: è encontrado.
+
+Termino: è◻ encontrado.
+Tamaño = 2
+Offset = 13
+Letra que rompió: i
+Para el texto de la ventana: no◻in◻radio◻c'è◻un◻pulcino◻è◻il◻pulcino◻p
+                             10987654321098765432109876543210987654321
+El historial es:no◻in◻radio◻c'è◻un◻pulcino◻è◻
+                98765432109876543210987654321
+El Lookahead es:il◻pulcino◻p
+                210987654321
+
+Termino: i encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: l
+Para el texto de la ventana: o◻in◻radio◻c'è◻un◻pulcino◻è◻il◻pulcino◻pi
+                             10987654321098765432109876543210987654321
+El historial es:o◻in◻radio◻c'è◻un◻pulcino◻è◻i
+                98765432109876543210987654321
+El Lookahead es:l◻pulcino◻pi
+                210987654321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: ◻
+Para el texto de la ventana: ◻in◻radio◻c'è◻un◻pulcino◻è◻il◻pulcino◻pio
+                             10987654321098765432109876543210987654321
+El historial es:◻in◻radio◻c'è◻un◻pulcino◻è◻il
+                98765432109876543210987654321
+El Lookahead es:◻pulcino◻pio
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻p encontrado.
+
+Termino: ◻pu encontrado.
+
+Termino: ◻pul encontrado.
+
+Termino: ◻pulc encontrado.
+
+Termino: ◻pulci encontrado.
+
+Termino: ◻pulcin encontrado.
+
+Termino: ◻pulcino encontrado.
+
+Termino: ◻pulcino◻ encontrado.
+Tamaño = 9
+Offset = 13
+Letra que rompió: p
+Para el texto de la ventana: ◻c'è◻un◻pulcino◻è◻il◻pulcino◻pio,◻è◻il◻pu
+                             10987654321098765432109876543210987654321
+El historial es:◻c'è◻un◻pulcino◻è◻il◻pulcino◻
+                98765432109876543210987654321
+El Lookahead es:pio,◻è◻il◻pu
+                210987654321
+
+Termino: p encontrado.
+Tamaño = 1
+Offset = 21
+Letra que rompió: i
+Para el texto de la ventana: c'è◻un◻pulcino◻è◻il◻pulcino◻pio,◻è◻il◻pul
+                             10987654321098765432109876543210987654321
+El historial es:c'è◻un◻pulcino◻è◻il◻pulcino◻p
+                98765432109876543210987654321
+El Lookahead es:io,◻è◻il◻pul
+                210987654321
+
+Termino: i encontrado.
+Tamaño = 1
+Offset = 18
+Letra que rompió: o
+Para el texto de la ventana: 'è◻un◻pulcino◻è◻il◻pulcino◻pio,◻è◻il◻pulc
+                             10987654321098765432109876543210987654321
+El historial es:'è◻un◻pulcino◻è◻il◻pulcino◻pi
+                98765432109876543210987654321
+El Lookahead es:o,◻è◻il◻pulc
+                210987654321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 17
+Letra que rompió: ,
+Para el texto de la ventana: è◻un◻pulcino◻è◻il◻pulcino◻pio,◻è◻il◻pulci
+                             10987654321098765432109876543210987654321
+El historial es:è◻un◻pulcino◻è◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:,◻è◻il◻pulci
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻è◻il◻pulcino◻pio,◻è◻il◻pulcino◻pio◻e◻il◻
+                             10987654321098765432109876543210987654321
+El historial es:◻è◻il◻pulcino◻pio,◻è◻il◻pulci
+                98765432109876543210987654321
+El Lookahead es:no◻pio◻e◻il◻
+                210987654321
+
+Termino: n encontrado.
+
+Termino: no encontrado.
+
+Termino: no◻ encontrado.
+
+Termino: no◻p encontrado.
+
+Termino: no◻pi encontrado.
+
+Termino: no◻pio encontrado.
+Tamaño = 6
+Offset = 18
+Letra que rompió: ◻
+Para el texto de la ventana: pulcino◻pio,◻è◻il◻pulcino◻pio◻e◻il◻pulcin
+                             10987654321098765432109876543210987654321
+El historial es:pulcino◻pio,◻è◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:◻e◻il◻pulcin
+                210987654321
+
+Termino: ◻ encontrado.
+Tamaño = 1
+Offset = 22
+Letra que rompió: e
+Para el texto de la ventana: ulcino◻pio,◻è◻il◻pulcino◻pio◻e◻il◻pulcino
+                             10987654321098765432109876543210987654321
+El historial es:ulcino◻pio,◻è◻il◻pulcino◻pio◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻pulcino
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: è◻il◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻p
+                             10987654321098765432109876543210987654321
+El historial es:è◻il◻pulcino◻pio◻e◻il◻pulcino
+                98765432109876543210987654321
+El Lookahead es:◻pio,◻e◻il◻p
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻p encontrado.
+
+Termino: ◻pi encontrado.
+
+Termino: ◻pio encontrado.
+Tamaño = 4
+Offset = 17
+Letra que rompió: ,
+Para el texto de la ventana: ◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                             10987654321098765432109876543210987654321
+El historial es:◻pulcino◻pio◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:,◻e◻il◻pulci
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻e◻il◻pulcino◻pio,◻e◻il◻pulcino◻pio◻e◻il◻
+                             10987654321098765432109876543210987654321
+El historial es:◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                98765432109876543210987654321
+El Lookahead es:no◻pio◻e◻il◻
+                210987654321
+
+Termino: n encontrado.
+
+Termino: no encontrado.
+
+Termino: no◻ encontrado.
+
+Termino: no◻p encontrado.
+
+Termino: no◻pi encontrado.
+
+Termino: no◻pio encontrado.
+Tamaño = 6
+Offset = 18
+Letra que rompió: ◻
+Para el texto de la ventana: pulcino◻pio,◻e◻il◻pulcino◻pio◻e◻il◻pulcin
+                             10987654321098765432109876543210987654321
+El historial es:pulcino◻pio,◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:◻e◻il◻pulcin
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻e encontrado.
+
+Termino: ◻e◻ encontrado.
+
+Termino: ◻e◻i encontrado.
+
+Termino: ◻e◻il encontrado.
+
+Termino: ◻e◻il◻ encontrado.
+
+Termino: ◻e◻il◻p encontrado.
+
+Termino: ◻e◻il◻pu encontrado.
+
+Termino: ◻e◻il◻pul encontrado.
+
+Termino: ◻e◻il◻pulc encontrado.
+
+Termino: ◻e◻il◻pulci encontrado.
+
+Termino: ◻e◻il◻pulcin encontrado.
+Tamaño = 12
+Offset = 17
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻e◻il◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻
+                             10987654321098765432109876543210987654321
+El historial es:◻e◻il◻pulcino◻pio◻e◻il◻pulcin
+                98765432109876543210987654321
+El Lookahead es:o◻pio,◻e◻il◻
+                210987654321
+
+Termino: o encontrado.
+
+Termino: o◻ encontrado.
+
+Termino: o◻p encontrado.
+
+Termino: o◻pi encontrado.
+
+Termino: o◻pio encontrado.
+Tamaño = 5
+Offset = 17
+Letra que rompió: ,
+Para el texto de la ventana: ◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                             10987654321098765432109876543210987654321
+El historial es:◻pulcino◻pio◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:,◻e◻il◻pulci
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻e◻il◻pulcino◻pio,◻e◻il◻pulcino◻pio◻in◻ra
+                             10987654321098765432109876543210987654321
+El historial es:◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                98765432109876543210987654321
+El Lookahead es:no◻pio◻in◻ra
+                210987654321
+
+Termino: n encontrado.
+
+Termino: no encontrado.
+
+Termino: no◻ encontrado.
+
+Termino: no◻p encontrado.
+
+Termino: no◻pi encontrado.
+
+Termino: no◻pio encontrado.
+Tamaño = 6
+Offset = 18
+Letra que rompió: ◻
+Para el texto de la ventana: pulcino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'
+                             10987654321098765432109876543210987654321
+El historial es:pulcino◻pio,◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:◻in◻radio◻c'
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻i encontrado.
+Tamaño = 2
+Offset = 15
+Letra que rompió: n
+Para el texto de la ventana: lcino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻
+                             10987654321098765432109876543210987654321
+El historial es:lcino◻pio,◻e◻il◻pulcino◻pio◻i
+                98765432109876543210987654321
+El Lookahead es:n◻radio◻c'è◻
+                210987654321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: ◻
+Para el texto de la ventana: cino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻u
+                             10987654321098765432109876543210987654321
+El historial es:cino◻pio,◻e◻il◻pulcino◻pio◻in
+                98765432109876543210987654321
+El Lookahead es:◻radio◻c'è◻u
+                210987654321
+
+Termino: ◻ encontrado.
+Tamaño = 1
+Offset = 25
+Letra que rompió: r
+Para el texto de la ventana: ino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻un
+                             10987654321098765432109876543210987654321
+El historial es:ino◻pio,◻e◻il◻pulcino◻pio◻in◻
+                98765432109876543210987654321
+El Lookahead es:radio◻c'è◻un
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: l◻pulcino◻pio◻in◻radio◻c'è◻una◻gallina◻in
+                             10987654321098765432109876543210987654321
+El historial es:l◻pulcino◻pio◻in◻radio◻c'è◻un
+                98765432109876543210987654321
+El Lookahead es:a◻gallina◻in
+                210987654321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 11
+Letra que rompió: ◻
+Para el texto de la ventana: ◻pulcino◻pio◻in◻radio◻c'è◻una◻gallina◻in◻
+                             10987654321098765432109876543210987654321
+El historial es:◻pulcino◻pio◻in◻radio◻c'è◻una
+                98765432109876543210987654321
+El Lookahead es:◻gallina◻in◻
+                210987654321
+
+Termino: ◻ encontrado.
+Tamaño = 1
+Offset = 29
+Letra que rompió: g
+Para el texto de la ventana: pulcino◻pio◻in◻radio◻c'è◻una◻gallina◻in◻r
+                             10987654321098765432109876543210987654321
+El historial es:pulcino◻pio◻in◻radio◻c'è◻una◻
+                98765432109876543210987654321
+El Lookahead es:gallina◻in◻r
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: in◻radio◻c'è◻una◻gallina◻in◻radio◻c'è◻una
+                             10987654321098765432109876543210987654321
+El historial es:in◻radio◻c'è◻una◻gallina◻in◻r
+                98765432109876543210987654321
+El Lookahead es:adio◻c'è◻una
+                210987654321
+
+Termino: a encontrado.
+
+Termino: ad encontrado.
+
+Termino: adi encontrado.
+
+Termino: adio encontrado.
+
+Termino: adio◻ encontrado.
+
+Termino: adio◻c encontrado.
+
+Termino: adio◻c' encontrado.
+
+Termino: adio◻c'è encontrado.
+
+Termino: adio◻c'è◻ encontrado.
+
+Termino: adio◻c'è◻u encontrado.
+
+Termino: adio◻c'è◻un encontrado.
+
+Termino: adio◻c'è◻una encontrado.
+Tamaño = 12
+Offset = 25
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻una◻gallina◻in◻radio◻c'è◻una◻gallina◻e◻l
+                             10987654321098765432109876543210987654321
+El historial es:◻una◻gallina◻in◻radio◻c'è◻una
+                98765432109876543210987654321
+El Lookahead es:◻gallina◻e◻l
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻g encontrado.
+
+Termino: ◻ga encontrado.
+
+Termino: ◻gal encontrado.
+
+Termino: ◻gall encontrado.
+
+Termino: ◻galli encontrado.
+
+Termino: ◻gallin encontrado.
+
+Termino: ◻gallina encontrado.
+
+Termino: ◻gallina◻ encontrado.
+Tamaño = 9
+Offset = 25
+Letra que rompió: e
+Para el texto de la ventana: ina◻in◻radio◻c'è◻una◻gallina◻e◻la◻gallina
+                             10987654321098765432109876543210987654321
+El historial es:ina◻in◻radio◻c'è◻una◻gallina◻
+                98765432109876543210987654321
+El Lookahead es:e◻la◻gallina
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻c'è◻una◻gallina◻e◻la◻gallina◻cò,◻e◻il◻pu
+                             10987654321098765432109876543210987654321
+El historial es:◻c'è◻una◻gallina◻e◻la◻gallina
+                98765432109876543210987654321
+El Lookahead es:◻cò,◻e◻il◻pu
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻c encontrado.
+Tamaño = 2
+Offset = 29
+Letra que rompió: ò
+Para el texto de la ventana: 'è◻una◻gallina◻e◻la◻gallina◻cò,◻e◻il◻pulc
+                             10987654321098765432109876543210987654321
+El historial es:'è◻una◻gallina◻e◻la◻gallina◻c
+                98765432109876543210987654321
+El Lookahead es:ò,◻e◻il◻pulc
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: na◻e◻la◻gallina◻cò,◻e◻il◻pulcino◻pio◻e◻il
+                             10987654321098765432109876543210987654321
+El historial es:na◻e◻la◻gallina◻cò,◻e◻il◻pulc
+                98765432109876543210987654321
+El Lookahead es:ino◻pio◻e◻il
+                210987654321
+
+Termino: i encontrado.
+
+Termino: in encontrado.
+Tamaño = 2
+Offset = 17
+Letra que rompió: o
+Para el texto de la ventana: ◻e◻la◻gallina◻cò,◻e◻il◻pulcino◻pio◻e◻il◻p
+                             10987654321098765432109876543210987654321
+El historial es:◻e◻la◻gallina◻cò,◻e◻il◻pulcin
+                98765432109876543210987654321
+El Lookahead es:o◻pio◻e◻il◻p
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: a◻cò,◻e◻il◻pulcino◻pio◻e◻il◻pulcino◻pio,◻
+                             10987654321098765432109876543210987654321
+El historial es:a◻cò,◻e◻il◻pulcino◻pio◻e◻il◻p
+                98765432109876543210987654321
+El Lookahead es:ulcino◻pio,◻
+                210987654321
+
+Termino: u encontrado.
+
+Termino: ul encontrado.
+
+Termino: ulc encontrado.
+
+Termino: ulci encontrado.
+
+Termino: ulcin encontrado.
+
+Termino: ulcino encontrado.
+
+Termino: ulcino◻ encontrado.
+
+Termino: ulcino◻p encontrado.
+
+Termino: ulcino◻pi encontrado.
+
+Termino: ulcino◻pio encontrado.
+Tamaño = 10
+Offset = 17
+Letra que rompió: ,
+Para el texto de la ventana: ◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                             10987654321098765432109876543210987654321
+El historial es:◻pulcino◻pio◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:,◻e◻il◻pulci
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻e◻il◻pulcino◻pio,◻e◻il◻pulcino◻pio◻e◻il◻
+                             10987654321098765432109876543210987654321
+El historial es:◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                98765432109876543210987654321
+El Lookahead es:no◻pio◻e◻il◻
+                210987654321
+
+Termino: n encontrado.
+
+Termino: no encontrado.
+
+Termino: no◻ encontrado.
+
+Termino: no◻p encontrado.
+
+Termino: no◻pi encontrado.
+
+Termino: no◻pio encontrado.
+Tamaño = 6
+Offset = 18
+Letra que rompió: ◻
+Para el texto de la ventana: pulcino◻pio,◻e◻il◻pulcino◻pio◻e◻il◻pulcin
+                             10987654321098765432109876543210987654321
+El historial es:pulcino◻pio,◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:◻e◻il◻pulcin
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻e encontrado.
+
+Termino: ◻e◻ encontrado.
+
+Termino: ◻e◻i encontrado.
+
+Termino: ◻e◻il encontrado.
+
+Termino: ◻e◻il◻ encontrado.
+
+Termino: ◻e◻il◻p encontrado.
+
+Termino: ◻e◻il◻pu encontrado.
+
+Termino: ◻e◻il◻pul encontrado.
+
+Termino: ◻e◻il◻pulc encontrado.
+
+Termino: ◻e◻il◻pulci encontrado.
+
+Termino: ◻e◻il◻pulcin encontrado.
+Tamaño = 12
+Offset = 17
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻e◻il◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻
+                             10987654321098765432109876543210987654321
+El historial es:◻e◻il◻pulcino◻pio◻e◻il◻pulcin
+                98765432109876543210987654321
+El Lookahead es:o◻pio,◻e◻il◻
+                210987654321
+
+Termino: o encontrado.
+
+Termino: o◻ encontrado.
+
+Termino: o◻p encontrado.
+
+Termino: o◻pi encontrado.
+
+Termino: o◻pio encontrado.
+Tamaño = 5
+Offset = 17
+Letra que rompió: ,
+Para el texto de la ventana: ◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                             10987654321098765432109876543210987654321
+El historial es:◻pulcino◻pio◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:,◻e◻il◻pulci
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻e◻il◻pulcino◻pio,◻e◻il◻pulcino◻pio◻in◻ra
+                             10987654321098765432109876543210987654321
+El historial es:◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                98765432109876543210987654321
+El Lookahead es:no◻pio◻in◻ra
+                210987654321
+
+Termino: n encontrado.
+
+Termino: no encontrado.
+
+Termino: no◻ encontrado.
+
+Termino: no◻p encontrado.
+
+Termino: no◻pi encontrado.
+
+Termino: no◻pio encontrado.
+Tamaño = 6
+Offset = 18
+Letra que rompió: ◻
+Para el texto de la ventana: pulcino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'
+                             10987654321098765432109876543210987654321
+El historial es:pulcino◻pio,◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:◻in◻radio◻c'
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻i encontrado.
+Tamaño = 2
+Offset = 15
+Letra que rompió: n
+Para el texto de la ventana: lcino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻
+                             10987654321098765432109876543210987654321
+El historial es:lcino◻pio,◻e◻il◻pulcino◻pio◻i
+                98765432109876543210987654321
+El Lookahead es:n◻radio◻c'è◻
+                210987654321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: ◻
+Para el texto de la ventana: cino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻a
+                             10987654321098765432109876543210987654321
+El historial es:cino◻pio,◻e◻il◻pulcino◻pio◻in
+                98765432109876543210987654321
+El Lookahead es:◻radio◻c'è◻a
+                210987654321
+
+Termino: ◻ encontrado.
+Tamaño = 1
+Offset = 25
+Letra que rompió: r
+Para el texto de la ventana: ino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻an
+                             10987654321098765432109876543210987654321
+El historial es:ino◻pio,◻e◻il◻pulcino◻pio◻in◻
+                98765432109876543210987654321
+El Lookahead es:radio◻c'è◻an
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: l◻pulcino◻pio◻in◻radio◻c'è◻anche◻un◻gallo
+                             10987654321098765432109876543210987654321
+El historial es:l◻pulcino◻pio◻in◻radio◻c'è◻an
+                98765432109876543210987654321
+El Lookahead es:che◻un◻gallo
+                210987654321
+
+Termino: c encontrado.
+Tamaño = 1
+Offset = 24
+Letra que rompió: h
+Para el texto de la ventana: ◻pulcino◻pio◻in◻radio◻c'è◻anche◻un◻gallo◻
+                             10987654321098765432109876543210987654321
+El historial es:◻pulcino◻pio◻in◻radio◻c'è◻anc
+                98765432109876543210987654321
+El Lookahead es:he◻un◻gallo◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻in◻radio◻c'è◻anche◻un◻gallo◻in◻radio◻c'è
+                             10987654321098765432109876543210987654321
+El historial es:◻in◻radio◻c'è◻anche◻un◻gallo◻
+                98765432109876543210987654321
+El Lookahead es:in◻radio◻c'è
+                210987654321
+
+Termino: i encontrado.
+
+Termino: in encontrado.
+
+Termino: in◻ encontrado.
+
+Termino: in◻r encontrado.
+
+Termino: in◻ra encontrado.
+
+Termino: in◻rad encontrado.
+
+Termino: in◻radi encontrado.
+
+Termino: in◻radio encontrado.
+
+Termino: in◻radio◻ encontrado.
+
+Termino: in◻radio◻c encontrado.
+
+Termino: in◻radio◻c' encontrado.
+
+Termino: in◻radio◻c'è encontrado.
+Tamaño = 12
+Offset = 28
+Letra que rompió: Vacío...
+Para el texto de la ventana: è◻anche◻un◻gallo◻in◻radio◻c'è◻anche◻un◻ga
+                             10987654321098765432109876543210987654321
+El historial es:è◻anche◻un◻gallo◻in◻radio◻c'è
+                98765432109876543210987654321
+El Lookahead es:◻anche◻un◻ga
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻a encontrado.
+
+Termino: ◻an encontrado.
+
+Termino: ◻anc encontrado.
+
+Termino: ◻anch encontrado.
+
+Termino: ◻anche encontrado.
+
+Termino: ◻anche◻ encontrado.
+
+Termino: ◻anche◻u encontrado.
+
+Termino: ◻anche◻un encontrado.
+
+Termino: ◻anche◻un◻ encontrado.
+
+Termino: ◻anche◻un◻g encontrado.
+
+Termino: ◻anche◻un◻ga encontrado.
+Tamaño = 12
+Offset = 28
+Letra que rompió: Vacío...
+Para el texto de la ventana: allo◻in◻radio◻c'è◻anche◻un◻gallo◻e◻il◻gal
+                             10987654321098765432109876543210987654321
+El historial es:allo◻in◻radio◻c'è◻anche◻un◻ga
+                98765432109876543210987654321
+El Lookahead es:llo◻e◻il◻gal
+                210987654321
+
+Termino: l encontrado.
+
+Termino: ll encontrado.
+
+Termino: llo encontrado.
+
+Termino: llo◻ encontrado.
+Tamaño = 4
+Offset = 28
+Letra que rompió: e
+Para el texto de la ventana: ◻in◻radio◻c'è◻anche◻un◻gallo◻e◻il◻gallo◻c
+                             10987654321098765432109876543210987654321
+El historial es:◻in◻radio◻c'è◻anche◻un◻gallo◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻gallo◻c
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+Tamaño = 2
+Offset = 11
+Letra que rompió: i
+Para el texto de la ventana: n◻radio◻c'è◻anche◻un◻gallo◻e◻il◻gallo◻cor
+                             10987654321098765432109876543210987654321
+El historial es:n◻radio◻c'è◻anche◻un◻gallo◻e◻
+                98765432109876543210987654321
+El Lookahead es:il◻gallo◻cor
+                210987654321
+
+Termino: i encontrado.
+Tamaño = 1
+Offset = 24
+Letra que rompió: l
+Para el texto de la ventana: ◻radio◻c'è◻anche◻un◻gallo◻e◻il◻gallo◻coro
+                             10987654321098765432109876543210987654321
+El historial es:◻radio◻c'è◻anche◻un◻gallo◻e◻i
+                98765432109876543210987654321
+El Lookahead es:l◻gallo◻coro
+                210987654321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 7
+Letra que rompió: ◻
+Para el texto de la ventana: radio◻c'è◻anche◻un◻gallo◻e◻il◻gallo◻coroc
+                             10987654321098765432109876543210987654321
+El historial es:radio◻c'è◻anche◻un◻gallo◻e◻il
+                98765432109876543210987654321
+El Lookahead es:◻gallo◻coroc
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻g encontrado.
+
+Termino: ◻ga encontrado.
+
+Termino: ◻gal encontrado.
+
+Termino: ◻gall encontrado.
+
+Termino: ◻gallo encontrado.
+
+Termino: ◻gallo◻ encontrado.
+Tamaño = 7
+Offset = 11
+Letra que rompió: c
+Para el texto de la ventana: 'è◻anche◻un◻gallo◻e◻il◻gallo◻corococò◻e◻l
+                             10987654321098765432109876543210987654321
+El historial es:'è◻anche◻un◻gallo◻e◻il◻gallo◻
+                98765432109876543210987654321
+El Lookahead es:corococò◻e◻l
+                210987654321
+
+Termino: c encontrado.
+Tamaño = 1
+Offset = 24
+Letra que rompió: o
+Para el texto de la ventana: è◻anche◻un◻gallo◻e◻il◻gallo◻corococò◻e◻la
+                             10987654321098765432109876543210987654321
+El historial es:è◻anche◻un◻gallo◻e◻il◻gallo◻c
+                98765432109876543210987654321
+El Lookahead es:orococò◻e◻la
+                210987654321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 14
+Letra que rompió: r
+Para el texto de la ventana: ◻anche◻un◻gallo◻e◻il◻gallo◻corococò◻e◻la◻
+                             10987654321098765432109876543210987654321
+El historial es:◻anche◻un◻gallo◻e◻il◻gallo◻co
+                98765432109876543210987654321
+El Lookahead es:rococò◻e◻la◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: llo◻e◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e
+                             10987654321098765432109876543210987654321
+El historial es:llo◻e◻il◻gallo◻corococò◻e◻la◻
+                98765432109876543210987654321
+El Lookahead es:gallina◻cò◻e
+                210987654321
+
+Termino: g encontrado.
+
+Termino: ga encontrado.
+
+Termino: gal encontrado.
+
+Termino: gall encontrado.
+Tamaño = 4
+Offset = 20
+Letra que rompió: i
+Para el texto de la ventana: e◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e◻il◻
+                             10987654321098765432109876543210987654321
+El historial es:e◻il◻gallo◻corococò◻e◻la◻gall
+                98765432109876543210987654321
+El Lookahead es:ina◻cò◻e◻il◻
+                210987654321
+
+Termino: i encontrado.
+Tamaño = 1
+Offset = 27
+Letra que rompió: n
+Para el texto de la ventana: ◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e◻il◻p
+                             10987654321098765432109876543210987654321
+El historial es:◻il◻gallo◻corococò◻e◻la◻galli
+                98765432109876543210987654321
+El Lookahead es:na◻cò◻e◻il◻p
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: rococò◻e◻la◻gallina◻cò◻e◻il◻pulcino◻pio,◻
+                             10987654321098765432109876543210987654321
+El historial es:rococò◻e◻la◻gallina◻cò◻e◻il◻p
+                98765432109876543210987654321
+El Lookahead es:ulcino◻pio,◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: gallina◻cò◻e◻il◻pulcino◻pio,◻e◻il◻pulcino
+                             10987654321098765432109876543210987654321
+El historial es:gallina◻cò◻e◻il◻pulcino◻pio,◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻pulcino
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+
+Termino: e◻i encontrado.
+
+Termino: e◻il encontrado.
+
+Termino: e◻il◻ encontrado.
+
+Termino: e◻il◻p encontrado.
+
+Termino: e◻il◻pu encontrado.
+
+Termino: e◻il◻pul encontrado.
+
+Termino: e◻il◻pulc encontrado.
+
+Termino: e◻il◻pulci encontrado.
+
+Termino: e◻il◻pulcin encontrado.
+
+Termino: e◻il◻pulcino encontrado.
+Tamaño = 12
+Offset = 18
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻il◻pulcino◻pio,◻e◻il◻pulcino◻pio◻e◻il◻pu
+                             10987654321098765432109876543210987654321
+El historial es:◻il◻pulcino◻pio,◻e◻il◻pulcino
+                98765432109876543210987654321
+El Lookahead es:◻pio◻e◻il◻pu
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻p encontrado.
+
+Termino: ◻pi encontrado.
+
+Termino: ◻pio encontrado.
+Tamaño = 4
+Offset = 18
+Letra que rompió: ◻
+Para el texto de la ventana: pulcino◻pio,◻e◻il◻pulcino◻pio◻e◻il◻pulcin
+                             10987654321098765432109876543210987654321
+El historial es:pulcino◻pio,◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:◻e◻il◻pulcin
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻e encontrado.
+
+Termino: ◻e◻ encontrado.
+
+Termino: ◻e◻i encontrado.
+
+Termino: ◻e◻il encontrado.
+
+Termino: ◻e◻il◻ encontrado.
+
+Termino: ◻e◻il◻p encontrado.
+
+Termino: ◻e◻il◻pu encontrado.
+
+Termino: ◻e◻il◻pul encontrado.
+
+Termino: ◻e◻il◻pulc encontrado.
+
+Termino: ◻e◻il◻pulci encontrado.
+
+Termino: ◻e◻il◻pulcin encontrado.
+Tamaño = 12
+Offset = 17
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻e◻il◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻
+                             10987654321098765432109876543210987654321
+El historial es:◻e◻il◻pulcino◻pio◻e◻il◻pulcin
+                98765432109876543210987654321
+El Lookahead es:o◻pio,◻e◻il◻
+                210987654321
+
+Termino: o encontrado.
+
+Termino: o◻ encontrado.
+
+Termino: o◻p encontrado.
+
+Termino: o◻pi encontrado.
+
+Termino: o◻pio encontrado.
+Tamaño = 5
+Offset = 17
+Letra que rompió: ,
+Para el texto de la ventana: ◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                             10987654321098765432109876543210987654321
+El historial es:◻pulcino◻pio◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:,◻e◻il◻pulci
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻e◻il◻pulcino◻pio,◻e◻il◻pulcino◻pio◻in◻ra
+                             10987654321098765432109876543210987654321
+El historial es:◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                98765432109876543210987654321
+El Lookahead es:no◻pio◻in◻ra
+                210987654321
+
+Termino: n encontrado.
+
+Termino: no encontrado.
+
+Termino: no◻ encontrado.
+
+Termino: no◻p encontrado.
+
+Termino: no◻pi encontrado.
+
+Termino: no◻pio encontrado.
+Tamaño = 6
+Offset = 18
+Letra que rompió: ◻
+Para el texto de la ventana: pulcino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'
+                             10987654321098765432109876543210987654321
+El historial es:pulcino◻pio,◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:◻in◻radio◻c'
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻i encontrado.
+Tamaño = 2
+Offset = 15
+Letra que rompió: n
+Para el texto de la ventana: lcino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻
+                             10987654321098765432109876543210987654321
+El historial es:lcino◻pio,◻e◻il◻pulcino◻pio◻i
+                98765432109876543210987654321
+El Lookahead es:n◻radio◻c'è◻
+                210987654321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: ◻
+Para el texto de la ventana: cino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻u
+                             10987654321098765432109876543210987654321
+El historial es:cino◻pio,◻e◻il◻pulcino◻pio◻in
+                98765432109876543210987654321
+El Lookahead es:◻radio◻c'è◻u
+                210987654321
+
+Termino: ◻ encontrado.
+Tamaño = 1
+Offset = 25
+Letra que rompió: r
+Para el texto de la ventana: ino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻un
+                             10987654321098765432109876543210987654321
+El historial es:ino◻pio,◻e◻il◻pulcino◻pio◻in◻
+                98765432109876543210987654321
+El Lookahead es:radio◻c'è◻un
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: l◻pulcino◻pio◻in◻radio◻c'è◻un◻tacchino◻in
+                             10987654321098765432109876543210987654321
+El historial es:l◻pulcino◻pio◻in◻radio◻c'è◻un
+                98765432109876543210987654321
+El Lookahead es:◻tacchino◻in
+                210987654321
+
+Termino: ◻ encontrado.
+Tamaño = 1
+Offset = 28
+Letra que rompió: t
+Para el texto de la ventana: ◻pulcino◻pio◻in◻radio◻c'è◻un◻tacchino◻in◻
+                             10987654321098765432109876543210987654321
+El historial es:◻pulcino◻pio◻in◻radio◻c'è◻un◻
+                98765432109876543210987654321
+El Lookahead es:tacchino◻in◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻in◻radio◻c'è◻un◻tacchino◻in◻radio◻c'è◻un
+                             10987654321098765432109876543210987654321
+El historial es:◻in◻radio◻c'è◻un◻tacchino◻in◻
+                98765432109876543210987654321
+El Lookahead es:radio◻c'è◻un
+                210987654321
+
+Termino: r encontrado.
+
+Termino: ra encontrado.
+
+Termino: rad encontrado.
+
+Termino: radi encontrado.
+
+Termino: radio encontrado.
+
+Termino: radio◻ encontrado.
+
+Termino: radio◻c encontrado.
+
+Termino: radio◻c' encontrado.
+
+Termino: radio◻c'è encontrado.
+
+Termino: radio◻c'è◻ encontrado.
+
+Termino: radio◻c'è◻u encontrado.
+
+Termino: radio◻c'è◻un encontrado.
+Tamaño = 12
+Offset = 25
+Letra que rompió: Vacío...
+Para el texto de la ventana: è◻un◻tacchino◻in◻radio◻c'è◻un◻tacchino◻e◻
+                             10987654321098765432109876543210987654321
+El historial es:è◻un◻tacchino◻in◻radio◻c'è◻un
+                98765432109876543210987654321
+El Lookahead es:◻tacchino◻e◻
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻t encontrado.
+
+Termino: ◻ta encontrado.
+
+Termino: ◻tac encontrado.
+
+Termino: ◻tacc encontrado.
+
+Termino: ◻tacch encontrado.
+
+Termino: ◻tacchi encontrado.
+
+Termino: ◻tacchin encontrado.
+
+Termino: ◻tacchino encontrado.
+
+Termino: ◻tacchino◻ encontrado.
+Tamaño = 10
+Offset = 25
+Letra que rompió: e
+Para el texto de la ventana: ino◻in◻radio◻c'è◻un◻tacchino◻e◻il◻tacchin
+                             10987654321098765432109876543210987654321
+El historial es:ino◻in◻radio◻c'è◻un◻tacchino◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻tacchin
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻c'è◻un◻tacchino◻e◻il◻tacchino◻glu◻glu◻gl
+                             10987654321098765432109876543210987654321
+El historial es:◻c'è◻un◻tacchino◻e◻il◻tacchin
+                98765432109876543210987654321
+El Lookahead es:o◻glu◻glu◻gl
+                210987654321
+
+Termino: o encontrado.
+
+Termino: o◻ encontrado.
+Tamaño = 2
+Offset = 14
+Letra que rompió: g
+Para el texto de la ventana: 'è◻un◻tacchino◻e◻il◻tacchino◻glu◻glu◻glu◻
+                             10987654321098765432109876543210987654321
+El historial es:'è◻un◻tacchino◻e◻il◻tacchino◻
+                98765432109876543210987654321
+El Lookahead es:glu◻glu◻glu◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: no◻e◻il◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻c
+                             10987654321098765432109876543210987654321
+El historial es:no◻e◻il◻tacchino◻glu◻glu◻glu◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻gallo◻c
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+
+Termino: e◻i encontrado.
+
+Termino: e◻il encontrado.
+
+Termino: e◻il◻ encontrado.
+Tamaño = 5
+Offset = 26
+Letra que rompió: g
+Para el texto de la ventana: il◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻coroco
+                             10987654321098765432109876543210987654321
+El historial es:il◻tacchino◻glu◻glu◻glu◻e◻il◻
+                98765432109876543210987654321
+El Lookahead es:gallo◻coroco
+                210987654321
+
+Termino: g encontrado.
+Tamaño = 1
+Offset = 17
+Letra que rompió: a
+Para el texto de la ventana: l◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻corococ
+                             10987654321098765432109876543210987654321
+El historial es:l◻tacchino◻glu◻glu◻glu◻e◻il◻g
+                98765432109876543210987654321
+El Lookahead es:allo◻corococ
+                210987654321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: l
+Para el texto de la ventana: ◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻corococò
+                             10987654321098765432109876543210987654321
+El historial es:◻tacchino◻glu◻glu◻glu◻e◻il◻ga
+                98765432109876543210987654321
+El Lookahead es:llo◻corococò
+                210987654321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 18
+Letra que rompió: l
+Para el texto de la ventana: tacchino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻
+                             10987654321098765432109876543210987654321
+El historial es:tacchino◻glu◻glu◻glu◻e◻il◻gal
+                98765432109876543210987654321
+El Lookahead es:lo◻corococò◻
+                210987654321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 19
+Letra que rompió: o
+Para el texto de la ventana: acchino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e
+                             10987654321098765432109876543210987654321
+El historial es:acchino◻glu◻glu◻glu◻e◻il◻gall
+                98765432109876543210987654321
+El Lookahead es:o◻corococò◻e
+                210987654321
+
+Termino: o encontrado.
+
+Termino: o◻ encontrado.
+Tamaño = 2
+Offset = 23
+Letra que rompió: c
+Para el texto de la ventana: chino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e◻l
+                             10987654321098765432109876543210987654321
+El historial es:chino◻glu◻glu◻glu◻e◻il◻gallo◻
+                98765432109876543210987654321
+El Lookahead es:corococò◻e◻l
+                210987654321
+
+Termino: c encontrado.
+Tamaño = 1
+Offset = 29
+Letra que rompió: o
+Para el texto de la ventana: hino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e◻la
+                             10987654321098765432109876543210987654321
+El historial es:hino◻glu◻glu◻glu◻e◻il◻gallo◻c
+                98765432109876543210987654321
+El Lookahead es:orococò◻e◻la
+                210987654321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: r
+Para el texto de la ventana: ino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e◻la◻
+                             10987654321098765432109876543210987654321
+El historial es:ino◻glu◻glu◻glu◻e◻il◻gallo◻co
+                98765432109876543210987654321
+El Lookahead es:rococò◻e◻la◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: glu◻e◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e
+                             10987654321098765432109876543210987654321
+El historial es:glu◻e◻il◻gallo◻corococò◻e◻la◻
+                98765432109876543210987654321
+El Lookahead es:gallina◻cò◻e
+                210987654321
+
+Termino: g encontrado.
+
+Termino: ga encontrado.
+
+Termino: gal encontrado.
+
+Termino: gall encontrado.
+Tamaño = 4
+Offset = 20
+Letra que rompió: i
+Para el texto de la ventana: e◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e◻il◻
+                             10987654321098765432109876543210987654321
+El historial es:e◻il◻gallo◻corococò◻e◻la◻gall
+                98765432109876543210987654321
+El Lookahead es:ina◻cò◻e◻il◻
+                210987654321
+
+Termino: i encontrado.
+Tamaño = 1
+Offset = 27
+Letra que rompió: n
+Para el texto de la ventana: ◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e◻il◻p
+                             10987654321098765432109876543210987654321
+El historial es:◻il◻gallo◻corococò◻e◻la◻galli
+                98765432109876543210987654321
+El Lookahead es:na◻cò◻e◻il◻p
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: rococò◻e◻la◻gallina◻cò◻e◻il◻pulcino◻pio◻e
+                             10987654321098765432109876543210987654321
+El historial es:rococò◻e◻la◻gallina◻cò◻e◻il◻p
+                98765432109876543210987654321
+El Lookahead es:ulcino◻pio◻e
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: gallina◻cò◻e◻il◻pulcino◻pio◻e◻il◻pulcino◻
+                             10987654321098765432109876543210987654321
+El historial es:gallina◻cò◻e◻il◻pulcino◻pio◻e
+                98765432109876543210987654321
+El Lookahead es:◻il◻pulcino◻
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻i encontrado.
+
+Termino: ◻il encontrado.
+
+Termino: ◻il◻ encontrado.
+
+Termino: ◻il◻p encontrado.
+
+Termino: ◻il◻pu encontrado.
+
+Termino: ◻il◻pul encontrado.
+
+Termino: ◻il◻pulc encontrado.
+
+Termino: ◻il◻pulci encontrado.
+
+Termino: ◻il◻pulcin encontrado.
+
+Termino: ◻il◻pulcino encontrado.
+
+Termino: ◻il◻pulcino◻ encontrado.
+Tamaño = 12
+Offset = 17
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻il◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻pu
+                             10987654321098765432109876543210987654321
+El historial es:◻il◻pulcino◻pio◻e◻il◻pulcino◻
+                98765432109876543210987654321
+El Lookahead es:pio,◻e◻il◻pu
+                210987654321
+
+Termino: p encontrado.
+
+Termino: pi encontrado.
+
+Termino: pio encontrado.
+Tamaño = 3
+Offset = 17
+Letra que rompió: ,
+Para el texto de la ventana: ◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                             10987654321098765432109876543210987654321
+El historial es:◻pulcino◻pio◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:,◻e◻il◻pulci
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻e◻il◻pulcino◻pio,◻e◻il◻pulcino◻pio◻in◻ra
+                             10987654321098765432109876543210987654321
+El historial es:◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                98765432109876543210987654321
+El Lookahead es:no◻pio◻in◻ra
+                210987654321
+
+Termino: n encontrado.
+
+Termino: no encontrado.
+
+Termino: no◻ encontrado.
+
+Termino: no◻p encontrado.
+
+Termino: no◻pi encontrado.
+
+Termino: no◻pio encontrado.
+Tamaño = 6
+Offset = 18
+Letra que rompió: ◻
+Para el texto de la ventana: pulcino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'
+                             10987654321098765432109876543210987654321
+El historial es:pulcino◻pio,◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:◻in◻radio◻c'
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻i encontrado.
+Tamaño = 2
+Offset = 15
+Letra que rompió: n
+Para el texto de la ventana: lcino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻
+                             10987654321098765432109876543210987654321
+El historial es:lcino◻pio,◻e◻il◻pulcino◻pio◻i
+                98765432109876543210987654321
+El Lookahead es:n◻radio◻c'è◻
+                210987654321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: ◻
+Para el texto de la ventana: cino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻u
+                             10987654321098765432109876543210987654321
+El historial es:cino◻pio,◻e◻il◻pulcino◻pio◻in
+                98765432109876543210987654321
+El Lookahead es:◻radio◻c'è◻u
+                210987654321
+
+Termino: ◻ encontrado.
+Tamaño = 1
+Offset = 25
+Letra que rompió: r
+Para el texto de la ventana: ino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻un
+                             10987654321098765432109876543210987654321
+El historial es:ino◻pio,◻e◻il◻pulcino◻pio◻in◻
+                98765432109876543210987654321
+El Lookahead es:radio◻c'è◻un
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: l◻pulcino◻pio◻in◻radio◻c'è◻un◻piccione◻in
+                             10987654321098765432109876543210987654321
+El historial es:l◻pulcino◻pio◻in◻radio◻c'è◻un
+                98765432109876543210987654321
+El Lookahead es:◻piccione◻in
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻p encontrado.
+
+Termino: ◻pi encontrado.
+Tamaño = 3
+Offset = 20
+Letra que rompió: c
+Para el texto de la ventana: ulcino◻pio◻in◻radio◻c'è◻un◻piccione◻in◻ra
+                             10987654321098765432109876543210987654321
+El historial es:ulcino◻pio◻in◻radio◻c'è◻un◻pi
+                98765432109876543210987654321
+El Lookahead es:ccione◻in◻ra
+                210987654321
+
+Termino: c encontrado.
+Tamaño = 1
+Offset = 27
+Letra que rompió: c
+Para el texto de la ventana: lcino◻pio◻in◻radio◻c'è◻un◻piccione◻in◻rad
+                             10987654321098765432109876543210987654321
+El historial es:lcino◻pio◻in◻radio◻c'è◻un◻pic
+                98765432109876543210987654321
+El Lookahead es:cione◻in◻rad
+                210987654321
+
+Termino: c encontrado.
+
+Termino: ci encontrado.
+Tamaño = 2
+Offset = 28
+Letra que rompió: o
+Para el texto de la ventana: ino◻pio◻in◻radio◻c'è◻un◻piccione◻in◻radio
+                             10987654321098765432109876543210987654321
+El historial es:ino◻pio◻in◻radio◻c'è◻un◻picci
+                98765432109876543210987654321
+El Lookahead es:one◻in◻radio
+                210987654321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 27
+Letra que rompió: n
+Para el texto de la ventana: no◻pio◻in◻radio◻c'è◻un◻piccione◻in◻radio◻
+                             10987654321098765432109876543210987654321
+El historial es:no◻pio◻in◻radio◻c'è◻un◻piccio
+                98765432109876543210987654321
+El Lookahead es:ne◻in◻radio◻
+                210987654321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 29
+Letra que rompió: e
+Para el texto de la ventana: o◻pio◻in◻radio◻c'è◻un◻piccione◻in◻radio◻c
+                             10987654321098765432109876543210987654321
+El historial es:o◻pio◻in◻radio◻c'è◻un◻piccion
+                98765432109876543210987654321
+El Lookahead es:e◻in◻radio◻c
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: io◻c'è◻un◻piccione◻in◻radio◻c'è◻un◻piccio
+                             10987654321098765432109876543210987654321
+El historial es:io◻c'è◻un◻piccione◻in◻radio◻c
+                98765432109876543210987654321
+El Lookahead es:'è◻un◻piccio
+                210987654321
+
+Termino: ' encontrado.
+
+Termino: 'è encontrado.
+
+Termino: 'è◻ encontrado.
+
+Termino: 'è◻u encontrado.
+
+Termino: 'è◻un encontrado.
+
+Termino: 'è◻un◻ encontrado.
+
+Termino: 'è◻un◻p encontrado.
+
+Termino: 'è◻un◻pi encontrado.
+
+Termino: 'è◻un◻pic encontrado.
+
+Termino: 'è◻un◻picc encontrado.
+
+Termino: 'è◻un◻picci encontrado.
+
+Termino: 'è◻un◻piccio encontrado.
+Tamaño = 12
+Offset = 25
+Letra que rompió: Vacío...
+Para el texto de la ventana: ccione◻in◻radio◻c'è◻un◻piccione◻e◻il◻picc
+                             10987654321098765432109876543210987654321
+El historial es:ccione◻in◻radio◻c'è◻un◻piccio
+                98765432109876543210987654321
+El Lookahead es:ne◻e◻il◻picc
+                210987654321
+
+Termino: n encontrado.
+
+Termino: ne encontrado.
+
+Termino: ne◻ encontrado.
+Tamaño = 3
+Offset = 25
+Letra que rompió: e
+Para el texto de la ventana: one◻in◻radio◻c'è◻un◻piccione◻e◻il◻piccion
+                             10987654321098765432109876543210987654321
+El historial es:one◻in◻radio◻c'è◻un◻piccione◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻piccion
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+
+Termino: e◻i encontrado.
+Tamaño = 3
+Offset = 27
+Letra que rompió: l
+Para el texto de la ventana: ◻in◻radio◻c'è◻un◻piccione◻e◻il◻piccione◻t
+                             10987654321098765432109876543210987654321
+El historial es:◻in◻radio◻c'è◻un◻piccione◻e◻i
+                98765432109876543210987654321
+El Lookahead es:l◻piccione◻t
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: è◻un◻piccione◻e◻il◻piccione◻tru◻e◻il◻tacc
+                             10987654321098765432109876543210987654321
+El historial es:è◻un◻piccione◻e◻il◻piccione◻t
+                98765432109876543210987654321
+El Lookahead es:ru◻e◻il◻tacc
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: e◻e◻il◻piccione◻tru◻e◻il◻tacchino◻glu◻glu
+                             10987654321098765432109876543210987654321
+El historial es:e◻e◻il◻piccione◻tru◻e◻il◻tacc
+                98765432109876543210987654321
+El Lookahead es:hino◻glu◻glu
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: one◻tru◻e◻il◻tacchino◻glu◻glu◻glu◻e◻il◻ga
+                             10987654321098765432109876543210987654321
+El historial es:one◻tru◻e◻il◻tacchino◻glu◻glu
+                98765432109876543210987654321
+El Lookahead es:◻glu◻e◻il◻ga
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻g encontrado.
+
+Termino: ◻gl encontrado.
+
+Termino: ◻glu encontrado.
+
+Termino: ◻glu◻ encontrado.
+Tamaño = 5
+Offset = 8
+Letra que rompió: e
+Para el texto de la ventana: ru◻e◻il◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻c
+                             10987654321098765432109876543210987654321
+El historial es:ru◻e◻il◻tacchino◻glu◻glu◻glu◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻gallo◻c
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+
+Termino: e◻i encontrado.
+
+Termino: e◻il encontrado.
+
+Termino: e◻il◻ encontrado.
+Tamaño = 5
+Offset = 26
+Letra que rompió: g
+Para el texto de la ventana: il◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻coroco
+                             10987654321098765432109876543210987654321
+El historial es:il◻tacchino◻glu◻glu◻glu◻e◻il◻
+                98765432109876543210987654321
+El Lookahead es:gallo◻coroco
+                210987654321
+
+Termino: g encontrado.
+Tamaño = 1
+Offset = 17
+Letra que rompió: a
+Para el texto de la ventana: l◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻corococ
+                             10987654321098765432109876543210987654321
+El historial es:l◻tacchino◻glu◻glu◻glu◻e◻il◻g
+                98765432109876543210987654321
+El Lookahead es:allo◻corococ
+                210987654321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: l
+Para el texto de la ventana: ◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻corococò
+                             10987654321098765432109876543210987654321
+El historial es:◻tacchino◻glu◻glu◻glu◻e◻il◻ga
+                98765432109876543210987654321
+El Lookahead es:llo◻corococò
+                210987654321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 18
+Letra que rompió: l
+Para el texto de la ventana: tacchino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻
+                             10987654321098765432109876543210987654321
+El historial es:tacchino◻glu◻glu◻glu◻e◻il◻gal
+                98765432109876543210987654321
+El Lookahead es:lo◻corococò◻
+                210987654321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 19
+Letra que rompió: o
+Para el texto de la ventana: acchino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e
+                             10987654321098765432109876543210987654321
+El historial es:acchino◻glu◻glu◻glu◻e◻il◻gall
+                98765432109876543210987654321
+El Lookahead es:o◻corococò◻e
+                210987654321
+
+Termino: o encontrado.
+
+Termino: o◻ encontrado.
+Tamaño = 2
+Offset = 23
+Letra que rompió: c
+Para el texto de la ventana: chino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e◻l
+                             10987654321098765432109876543210987654321
+El historial es:chino◻glu◻glu◻glu◻e◻il◻gallo◻
+                98765432109876543210987654321
+El Lookahead es:corococò◻e◻l
+                210987654321
+
+Termino: c encontrado.
+Tamaño = 1
+Offset = 29
+Letra que rompió: o
+Para el texto de la ventana: hino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e◻la
+                             10987654321098765432109876543210987654321
+El historial es:hino◻glu◻glu◻glu◻e◻il◻gallo◻c
+                98765432109876543210987654321
+El Lookahead es:orococò◻e◻la
+                210987654321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: r
+Para el texto de la ventana: ino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e◻la◻
+                             10987654321098765432109876543210987654321
+El historial es:ino◻glu◻glu◻glu◻e◻il◻gallo◻co
+                98765432109876543210987654321
+El Lookahead es:rococò◻e◻la◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: glu◻e◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e
+                             10987654321098765432109876543210987654321
+El historial es:glu◻e◻il◻gallo◻corococò◻e◻la◻
+                98765432109876543210987654321
+El Lookahead es:gallina◻cò◻e
+                210987654321
+
+Termino: g encontrado.
+
+Termino: ga encontrado.
+
+Termino: gal encontrado.
+
+Termino: gall encontrado.
+Tamaño = 4
+Offset = 20
+Letra que rompió: i
+Para el texto de la ventana: e◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e◻il◻
+                             10987654321098765432109876543210987654321
+El historial es:e◻il◻gallo◻corococò◻e◻la◻gall
+                98765432109876543210987654321
+El Lookahead es:ina◻cò◻e◻il◻
+                210987654321
+
+Termino: i encontrado.
+Tamaño = 1
+Offset = 27
+Letra que rompió: n
+Para el texto de la ventana: ◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e◻il◻p
+                             10987654321098765432109876543210987654321
+El historial es:◻il◻gallo◻corococò◻e◻la◻galli
+                98765432109876543210987654321
+El Lookahead es:na◻cò◻e◻il◻p
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: rococò◻e◻la◻gallina◻cò◻e◻il◻pulcino◻pio,◻
+                             10987654321098765432109876543210987654321
+El historial es:rococò◻e◻la◻gallina◻cò◻e◻il◻p
+                98765432109876543210987654321
+El Lookahead es:ulcino◻pio,◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: gallina◻cò◻e◻il◻pulcino◻pio,◻e◻il◻pulcino
+                             10987654321098765432109876543210987654321
+El historial es:gallina◻cò◻e◻il◻pulcino◻pio,◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻pulcino
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+
+Termino: e◻i encontrado.
+
+Termino: e◻il encontrado.
+
+Termino: e◻il◻ encontrado.
+
+Termino: e◻il◻p encontrado.
+
+Termino: e◻il◻pu encontrado.
+
+Termino: e◻il◻pul encontrado.
+
+Termino: e◻il◻pulc encontrado.
+
+Termino: e◻il◻pulci encontrado.
+
+Termino: e◻il◻pulcin encontrado.
+
+Termino: e◻il◻pulcino encontrado.
+Tamaño = 12
+Offset = 18
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻il◻pulcino◻pio,◻e◻il◻pulcino◻pio◻e◻il◻pu
+                             10987654321098765432109876543210987654321
+El historial es:◻il◻pulcino◻pio,◻e◻il◻pulcino
+                98765432109876543210987654321
+El Lookahead es:◻pio◻e◻il◻pu
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻p encontrado.
+
+Termino: ◻pi encontrado.
+
+Termino: ◻pio encontrado.
+Tamaño = 4
+Offset = 18
+Letra que rompió: ◻
+Para el texto de la ventana: pulcino◻pio,◻e◻il◻pulcino◻pio◻e◻il◻pulcin
+                             10987654321098765432109876543210987654321
+El historial es:pulcino◻pio,◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:◻e◻il◻pulcin
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻e encontrado.
+
+Termino: ◻e◻ encontrado.
+
+Termino: ◻e◻i encontrado.
+
+Termino: ◻e◻il encontrado.
+
+Termino: ◻e◻il◻ encontrado.
+
+Termino: ◻e◻il◻p encontrado.
+
+Termino: ◻e◻il◻pu encontrado.
+
+Termino: ◻e◻il◻pul encontrado.
+
+Termino: ◻e◻il◻pulc encontrado.
+
+Termino: ◻e◻il◻pulci encontrado.
+
+Termino: ◻e◻il◻pulcin encontrado.
+Tamaño = 12
+Offset = 17
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻e◻il◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻
+                             10987654321098765432109876543210987654321
+El historial es:◻e◻il◻pulcino◻pio◻e◻il◻pulcin
+                98765432109876543210987654321
+El Lookahead es:o◻pio,◻e◻il◻
+                210987654321
+
+Termino: o encontrado.
+
+Termino: o◻ encontrado.
+
+Termino: o◻p encontrado.
+
+Termino: o◻pi encontrado.
+
+Termino: o◻pio encontrado.
+Tamaño = 5
+Offset = 17
+Letra que rompió: ,
+Para el texto de la ventana: ◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                             10987654321098765432109876543210987654321
+El historial es:◻pulcino◻pio◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:,◻e◻il◻pulci
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻e◻il◻pulcino◻pio,◻e◻il◻pulcino◻pio◻in◻ra
+                             10987654321098765432109876543210987654321
+El historial es:◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                98765432109876543210987654321
+El Lookahead es:no◻pio◻in◻ra
+                210987654321
+
+Termino: n encontrado.
+
+Termino: no encontrado.
+
+Termino: no◻ encontrado.
+
+Termino: no◻p encontrado.
+
+Termino: no◻pi encontrado.
+
+Termino: no◻pio encontrado.
+Tamaño = 6
+Offset = 18
+Letra que rompió: ◻
+Para el texto de la ventana: pulcino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'
+                             10987654321098765432109876543210987654321
+El historial es:pulcino◻pio,◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:◻in◻radio◻c'
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻i encontrado.
+Tamaño = 2
+Offset = 15
+Letra que rompió: n
+Para el texto de la ventana: lcino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻
+                             10987654321098765432109876543210987654321
+El historial es:lcino◻pio,◻e◻il◻pulcino◻pio◻i
+                98765432109876543210987654321
+El Lookahead es:n◻radio◻c'è◻
+                210987654321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: ◻
+Para el texto de la ventana: cino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻a
+                             10987654321098765432109876543210987654321
+El historial es:cino◻pio,◻e◻il◻pulcino◻pio◻in
+                98765432109876543210987654321
+El Lookahead es:◻radio◻c'è◻a
+                210987654321
+
+Termino: ◻ encontrado.
+Tamaño = 1
+Offset = 25
+Letra que rompió: r
+Para el texto de la ventana: ino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻an
+                             10987654321098765432109876543210987654321
+El historial es:ino◻pio,◻e◻il◻pulcino◻pio◻in◻
+                98765432109876543210987654321
+El Lookahead es:radio◻c'è◻an
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: l◻pulcino◻pio◻in◻radio◻c'è◻anche◻un◻gatto
+                             10987654321098765432109876543210987654321
+El historial es:l◻pulcino◻pio◻in◻radio◻c'è◻an
+                98765432109876543210987654321
+El Lookahead es:che◻un◻gatto
+                210987654321
+
+Termino: c encontrado.
+Tamaño = 1
+Offset = 24
+Letra que rompió: h
+Para el texto de la ventana: ◻pulcino◻pio◻in◻radio◻c'è◻anche◻un◻gatto◻
+                             10987654321098765432109876543210987654321
+El historial es:◻pulcino◻pio◻in◻radio◻c'è◻anc
+                98765432109876543210987654321
+El Lookahead es:he◻un◻gatto◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻in◻radio◻c'è◻anche◻un◻gatto◻in◻radio◻c'è
+                             10987654321098765432109876543210987654321
+El historial es:◻in◻radio◻c'è◻anche◻un◻gatto◻
+                98765432109876543210987654321
+El Lookahead es:in◻radio◻c'è
+                210987654321
+
+Termino: i encontrado.
+
+Termino: in encontrado.
+
+Termino: in◻ encontrado.
+
+Termino: in◻r encontrado.
+
+Termino: in◻ra encontrado.
+
+Termino: in◻rad encontrado.
+
+Termino: in◻radi encontrado.
+
+Termino: in◻radio encontrado.
+
+Termino: in◻radio◻ encontrado.
+
+Termino: in◻radio◻c encontrado.
+
+Termino: in◻radio◻c' encontrado.
+
+Termino: in◻radio◻c'è encontrado.
+Tamaño = 12
+Offset = 28
+Letra que rompió: Vacío...
+Para el texto de la ventana: è◻anche◻un◻gatto◻in◻radio◻c'è◻anche◻un◻ga
+                             10987654321098765432109876543210987654321
+El historial es:è◻anche◻un◻gatto◻in◻radio◻c'è
+                98765432109876543210987654321
+El Lookahead es:◻anche◻un◻ga
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻a encontrado.
+
+Termino: ◻an encontrado.
+
+Termino: ◻anc encontrado.
+
+Termino: ◻anch encontrado.
+
+Termino: ◻anche encontrado.
+
+Termino: ◻anche◻ encontrado.
+
+Termino: ◻anche◻u encontrado.
+
+Termino: ◻anche◻un encontrado.
+
+Termino: ◻anche◻un◻ encontrado.
+
+Termino: ◻anche◻un◻g encontrado.
+
+Termino: ◻anche◻un◻ga encontrado.
+Tamaño = 12
+Offset = 28
+Letra que rompió: Vacío...
+Para el texto de la ventana: atto◻in◻radio◻c'è◻anche◻un◻gatto◻e◻il◻gat
+                             10987654321098765432109876543210987654321
+El historial es:atto◻in◻radio◻c'è◻anche◻un◻ga
+                98765432109876543210987654321
+El Lookahead es:tto◻e◻il◻gat
+                210987654321
+
+Termino: t encontrado.
+
+Termino: tt encontrado.
+
+Termino: tto encontrado.
+
+Termino: tto◻ encontrado.
+Tamaño = 4
+Offset = 28
+Letra que rompió: e
+Para el texto de la ventana: ◻in◻radio◻c'è◻anche◻un◻gatto◻e◻il◻gatto◻m
+                             10987654321098765432109876543210987654321
+El historial es:◻in◻radio◻c'è◻anche◻un◻gatto◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻gatto◻m
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+Tamaño = 2
+Offset = 11
+Letra que rompió: i
+Para el texto de la ventana: n◻radio◻c'è◻anche◻un◻gatto◻e◻il◻gatto◻mia
+                             10987654321098765432109876543210987654321
+El historial es:n◻radio◻c'è◻anche◻un◻gatto◻e◻
+                98765432109876543210987654321
+El Lookahead es:il◻gatto◻mia
+                210987654321
+
+Termino: i encontrado.
+Tamaño = 1
+Offset = 24
+Letra que rompió: l
+Para el texto de la ventana: ◻radio◻c'è◻anche◻un◻gatto◻e◻il◻gatto◻miao
+                             10987654321098765432109876543210987654321
+El historial es:◻radio◻c'è◻anche◻un◻gatto◻e◻i
+                98765432109876543210987654321
+El Lookahead es:l◻gatto◻miao
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: nche◻un◻gatto◻e◻il◻gatto◻miao,◻il◻piccion
+                             10987654321098765432109876543210987654321
+El historial es:nche◻un◻gatto◻e◻il◻gatto◻miao
+                98765432109876543210987654321
+El Lookahead es:,◻il◻piccion
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: o◻e◻il◻gatto◻miao,◻il◻piccione◻tru◻e◻il◻t
+                             10987654321098765432109876543210987654321
+El historial es:o◻e◻il◻gatto◻miao,◻il◻piccion
+                98765432109876543210987654321
+El Lookahead es:e◻tru◻e◻il◻t
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+Tamaño = 2
+Offset = 27
+Letra que rompió: t
+Para el texto de la ventana: e◻il◻gatto◻miao,◻il◻piccione◻tru◻e◻il◻tac
+                             10987654321098765432109876543210987654321
+El historial es:e◻il◻gatto◻miao,◻il◻piccione◻
+                98765432109876543210987654321
+El Lookahead es:tru◻e◻il◻tac
+                210987654321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 22
+Letra que rompió: r
+Para el texto de la ventana: ◻il◻gatto◻miao,◻il◻piccione◻tru◻e◻il◻tacc
+                             10987654321098765432109876543210987654321
+El historial es:◻il◻gatto◻miao,◻il◻piccione◻t
+                98765432109876543210987654321
+El Lookahead es:ru◻e◻il◻tacc
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ao,◻il◻piccione◻tru◻e◻il◻tacchino◻glu◻glu
+                             10987654321098765432109876543210987654321
+El historial es:ao,◻il◻piccione◻tru◻e◻il◻tacc
+                98765432109876543210987654321
+El Lookahead es:hino◻glu◻glu
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: one◻tru◻e◻il◻tacchino◻glu◻glu◻glu◻e◻il◻ga
+                             10987654321098765432109876543210987654321
+El historial es:one◻tru◻e◻il◻tacchino◻glu◻glu
+                98765432109876543210987654321
+El Lookahead es:◻glu◻e◻il◻ga
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻g encontrado.
+
+Termino: ◻gl encontrado.
+
+Termino: ◻glu encontrado.
+
+Termino: ◻glu◻ encontrado.
+Tamaño = 5
+Offset = 8
+Letra que rompió: e
+Para el texto de la ventana: ru◻e◻il◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻c
+                             10987654321098765432109876543210987654321
+El historial es:ru◻e◻il◻tacchino◻glu◻glu◻glu◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻gallo◻c
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+
+Termino: e◻i encontrado.
+
+Termino: e◻il encontrado.
+
+Termino: e◻il◻ encontrado.
+Tamaño = 5
+Offset = 26
+Letra que rompió: g
+Para el texto de la ventana: il◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻coroco
+                             10987654321098765432109876543210987654321
+El historial es:il◻tacchino◻glu◻glu◻glu◻e◻il◻
+                98765432109876543210987654321
+El Lookahead es:gallo◻coroco
+                210987654321
+
+Termino: g encontrado.
+Tamaño = 1
+Offset = 17
+Letra que rompió: a
+Para el texto de la ventana: l◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻corococ
+                             10987654321098765432109876543210987654321
+El historial es:l◻tacchino◻glu◻glu◻glu◻e◻il◻g
+                98765432109876543210987654321
+El Lookahead es:allo◻corococ
+                210987654321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: l
+Para el texto de la ventana: ◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻corococò
+                             10987654321098765432109876543210987654321
+El historial es:◻tacchino◻glu◻glu◻glu◻e◻il◻ga
+                98765432109876543210987654321
+El Lookahead es:llo◻corococò
+                210987654321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 18
+Letra que rompió: l
+Para el texto de la ventana: tacchino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻
+                             10987654321098765432109876543210987654321
+El historial es:tacchino◻glu◻glu◻glu◻e◻il◻gal
+                98765432109876543210987654321
+El Lookahead es:lo◻corococò◻
+                210987654321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 19
+Letra que rompió: o
+Para el texto de la ventana: acchino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e
+                             10987654321098765432109876543210987654321
+El historial es:acchino◻glu◻glu◻glu◻e◻il◻gall
+                98765432109876543210987654321
+El Lookahead es:o◻corococò◻e
+                210987654321
+
+Termino: o encontrado.
+
+Termino: o◻ encontrado.
+Tamaño = 2
+Offset = 23
+Letra que rompió: c
+Para el texto de la ventana: chino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e◻l
+                             10987654321098765432109876543210987654321
+El historial es:chino◻glu◻glu◻glu◻e◻il◻gallo◻
+                98765432109876543210987654321
+El Lookahead es:corococò◻e◻l
+                210987654321
+
+Termino: c encontrado.
+Tamaño = 1
+Offset = 29
+Letra que rompió: o
+Para el texto de la ventana: hino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e◻la
+                             10987654321098765432109876543210987654321
+El historial es:hino◻glu◻glu◻glu◻e◻il◻gallo◻c
+                98765432109876543210987654321
+El Lookahead es:orococò◻e◻la
+                210987654321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: r
+Para el texto de la ventana: ino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e◻la◻
+                             10987654321098765432109876543210987654321
+El historial es:ino◻glu◻glu◻glu◻e◻il◻gallo◻co
+                98765432109876543210987654321
+El Lookahead es:rococò◻e◻la◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: glu◻e◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e
+                             10987654321098765432109876543210987654321
+El historial es:glu◻e◻il◻gallo◻corococò◻e◻la◻
+                98765432109876543210987654321
+El Lookahead es:gallina◻cò◻e
+                210987654321
+
+Termino: g encontrado.
+
+Termino: ga encontrado.
+
+Termino: gal encontrado.
+
+Termino: gall encontrado.
+Tamaño = 4
+Offset = 20
+Letra que rompió: i
+Para el texto de la ventana: e◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e◻il◻
+                             10987654321098765432109876543210987654321
+El historial es:e◻il◻gallo◻corococò◻e◻la◻gall
+                98765432109876543210987654321
+El Lookahead es:ina◻cò◻e◻il◻
+                210987654321
+
+Termino: i encontrado.
+Tamaño = 1
+Offset = 27
+Letra que rompió: n
+Para el texto de la ventana: ◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e◻il◻p
+                             10987654321098765432109876543210987654321
+El historial es:◻il◻gallo◻corococò◻e◻la◻galli
+                98765432109876543210987654321
+El Lookahead es:na◻cò◻e◻il◻p
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: rococò◻e◻la◻gallina◻cò◻e◻il◻pulcino◻pio◻e
+                             10987654321098765432109876543210987654321
+El historial es:rococò◻e◻la◻gallina◻cò◻e◻il◻p
+                98765432109876543210987654321
+El Lookahead es:ulcino◻pio◻e
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: gallina◻cò◻e◻il◻pulcino◻pio◻e◻il◻pulcino◻
+                             10987654321098765432109876543210987654321
+El historial es:gallina◻cò◻e◻il◻pulcino◻pio◻e
+                98765432109876543210987654321
+El Lookahead es:◻il◻pulcino◻
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻i encontrado.
+
+Termino: ◻il encontrado.
+
+Termino: ◻il◻ encontrado.
+
+Termino: ◻il◻p encontrado.
+
+Termino: ◻il◻pu encontrado.
+
+Termino: ◻il◻pul encontrado.
+
+Termino: ◻il◻pulc encontrado.
+
+Termino: ◻il◻pulci encontrado.
+
+Termino: ◻il◻pulcin encontrado.
+
+Termino: ◻il◻pulcino encontrado.
+
+Termino: ◻il◻pulcino◻ encontrado.
+Tamaño = 12
+Offset = 17
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻il◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻pu
+                             10987654321098765432109876543210987654321
+El historial es:◻il◻pulcino◻pio◻e◻il◻pulcino◻
+                98765432109876543210987654321
+El Lookahead es:pio,◻e◻il◻pu
+                210987654321
+
+Termino: p encontrado.
+
+Termino: pi encontrado.
+
+Termino: pio encontrado.
+Tamaño = 3
+Offset = 17
+Letra que rompió: ,
+Para el texto de la ventana: ◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                             10987654321098765432109876543210987654321
+El historial es:◻pulcino◻pio◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:,◻e◻il◻pulci
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻e◻il◻pulcino◻pio,◻e◻il◻pulcino◻pio◻in◻ra
+                             10987654321098765432109876543210987654321
+El historial es:◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                98765432109876543210987654321
+El Lookahead es:no◻pio◻in◻ra
+                210987654321
+
+Termino: n encontrado.
+
+Termino: no encontrado.
+
+Termino: no◻ encontrado.
+
+Termino: no◻p encontrado.
+
+Termino: no◻pi encontrado.
+
+Termino: no◻pio encontrado.
+Tamaño = 6
+Offset = 18
+Letra que rompió: ◻
+Para el texto de la ventana: pulcino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'
+                             10987654321098765432109876543210987654321
+El historial es:pulcino◻pio,◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:◻in◻radio◻c'
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻i encontrado.
+Tamaño = 2
+Offset = 15
+Letra que rompió: n
+Para el texto de la ventana: lcino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻
+                             10987654321098765432109876543210987654321
+El historial es:lcino◻pio,◻e◻il◻pulcino◻pio◻i
+                98765432109876543210987654321
+El Lookahead es:n◻radio◻c'è◻
+                210987654321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: ◻
+Para el texto de la ventana: cino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻a
+                             10987654321098765432109876543210987654321
+El historial es:cino◻pio,◻e◻il◻pulcino◻pio◻in
+                98765432109876543210987654321
+El Lookahead es:◻radio◻c'è◻a
+                210987654321
+
+Termino: ◻ encontrado.
+Tamaño = 1
+Offset = 25
+Letra que rompió: r
+Para el texto de la ventana: ino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻an
+                             10987654321098765432109876543210987654321
+El historial es:ino◻pio,◻e◻il◻pulcino◻pio◻in◻
+                98765432109876543210987654321
+El Lookahead es:radio◻c'è◻an
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: l◻pulcino◻pio◻in◻radio◻c'è◻anche◻un◻cane◻
+                             10987654321098765432109876543210987654321
+El historial es:l◻pulcino◻pio◻in◻radio◻c'è◻an
+                98765432109876543210987654321
+El Lookahead es:che◻un◻cane◻
+                210987654321
+
+Termino: c encontrado.
+Tamaño = 1
+Offset = 24
+Letra que rompió: h
+Para el texto de la ventana: ◻pulcino◻pio◻in◻radio◻c'è◻anche◻un◻cane◻i
+                             10987654321098765432109876543210987654321
+El historial es:◻pulcino◻pio◻in◻radio◻c'è◻anc
+                98765432109876543210987654321
+El Lookahead es:he◻un◻cane◻i
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻in◻radio◻c'è◻anche◻un◻cane◻in◻radio◻c'è◻
+                             10987654321098765432109876543210987654321
+El historial es:◻in◻radio◻c'è◻anche◻un◻cane◻i
+                98765432109876543210987654321
+El Lookahead es:n◻radio◻c'è◻
+                210987654321
+
+Termino: n encontrado.
+
+Termino: n◻ encontrado.
+
+Termino: n◻r encontrado.
+
+Termino: n◻ra encontrado.
+
+Termino: n◻rad encontrado.
+
+Termino: n◻radi encontrado.
+
+Termino: n◻radio encontrado.
+
+Termino: n◻radio◻ encontrado.
+
+Termino: n◻radio◻c encontrado.
+
+Termino: n◻radio◻c' encontrado.
+
+Termino: n◻radio◻c'è encontrado.
+
+Termino: n◻radio◻c'è◻ encontrado.
+Tamaño = 12
+Offset = 27
+Letra que rompió: Vacío...
+Para el texto de la ventana: è◻anche◻un◻cane◻in◻radio◻c'è◻anche◻un◻can
+                             10987654321098765432109876543210987654321
+El historial es:è◻anche◻un◻cane◻in◻radio◻c'è◻
+                98765432109876543210987654321
+El Lookahead es:anche◻un◻can
+                210987654321
+
+Termino: a encontrado.
+
+Termino: an encontrado.
+
+Termino: anc encontrado.
+
+Termino: anch encontrado.
+
+Termino: anche encontrado.
+
+Termino: anche◻ encontrado.
+
+Termino: anche◻u encontrado.
+
+Termino: anche◻un encontrado.
+
+Termino: anche◻un◻ encontrado.
+
+Termino: anche◻un◻c encontrado.
+
+Termino: anche◻un◻ca encontrado.
+
+Termino: anche◻un◻can encontrado.
+Tamaño = 12
+Offset = 27
+Letra que rompió: Vacío...
+Para el texto de la ventana: ane◻in◻radio◻c'è◻anche◻un◻cane◻e◻il◻cane◻
+                             10987654321098765432109876543210987654321
+El historial es:ane◻in◻radio◻c'è◻anche◻un◻can
+                98765432109876543210987654321
+El Lookahead es:e◻e◻il◻cane◻
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+Tamaño = 2
+Offset = 27
+Letra que rompió: e
+Para el texto de la ventana: e◻in◻radio◻c'è◻anche◻un◻cane◻e◻il◻cane◻ba
+                             10987654321098765432109876543210987654321
+El historial es:e◻in◻radio◻c'è◻anche◻un◻cane◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻cane◻ba
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+
+Termino: e◻i encontrado.
+Tamaño = 3
+Offset = 29
+Letra que rompió: l
+Para el texto de la ventana: n◻radio◻c'è◻anche◻un◻cane◻e◻il◻cane◻bau◻b
+                             10987654321098765432109876543210987654321
+El historial es:n◻radio◻c'è◻anche◻un◻cane◻e◻i
+                98765432109876543210987654321
+El Lookahead es:l◻cane◻bau◻b
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: anche◻un◻cane◻e◻il◻cane◻bau◻bau◻e◻il◻gatt
+                             10987654321098765432109876543210987654321
+El historial es:anche◻un◻cane◻e◻il◻cane◻bau◻b
+                98765432109876543210987654321
+El Lookahead es:au◻e◻il◻gatt
+                210987654321
+
+Termino: a encontrado.
+
+Termino: au encontrado.
+
+Termino: au◻ encontrado.
+Tamaño = 3
+Offset = 4
+Letra que rompió: e
+Para el texto de la ventana: he◻un◻cane◻e◻il◻cane◻bau◻bau◻e◻il◻gatto◻m
+                             10987654321098765432109876543210987654321
+El historial es:he◻un◻cane◻e◻il◻cane◻bau◻bau◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻gatto◻m
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+
+Termino: e◻i encontrado.
+
+Termino: e◻il encontrado.
+
+Termino: e◻il◻ encontrado.
+Tamaño = 5
+Offset = 18
+Letra que rompió: g
+Para el texto de la ventana: ◻cane◻e◻il◻cane◻bau◻bau◻e◻il◻gatto◻miao,◻
+                             10987654321098765432109876543210987654321
+El historial es:◻cane◻e◻il◻cane◻bau◻bau◻e◻il◻
+                98765432109876543210987654321
+El Lookahead es:gatto◻miao,◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ane◻bau◻bau◻e◻il◻gatto◻miao,◻e◻il◻piccion
+                             10987654321098765432109876543210987654321
+El historial es:ane◻bau◻bau◻e◻il◻gatto◻miao,◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻piccion
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+
+Termino: e◻i encontrado.
+
+Termino: e◻il encontrado.
+
+Termino: e◻il◻ encontrado.
+Tamaño = 5
+Offset = 17
+Letra que rompió: p
+Para el texto de la ventana: au◻bau◻e◻il◻gatto◻miao,◻e◻il◻piccione◻tru
+                             10987654321098765432109876543210987654321
+El historial es:au◻bau◻e◻il◻gatto◻miao,◻e◻il◻
+                98765432109876543210987654321
+El Lookahead es:piccione◻tru
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: gatto◻miao,◻e◻il◻piccione◻tru◻e◻il◻tacchi
+                             10987654321098765432109876543210987654321
+El historial es:gatto◻miao,◻e◻il◻piccione◻tru
+                98765432109876543210987654321
+El Lookahead es:◻e◻il◻tacchi
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻e encontrado.
+
+Termino: ◻e◻ encontrado.
+
+Termino: ◻e◻i encontrado.
+
+Termino: ◻e◻il encontrado.
+
+Termino: ◻e◻il◻ encontrado.
+Tamaño = 6
+Offset = 18
+Letra que rompió: t
+Para el texto de la ventana: miao,◻e◻il◻piccione◻tru◻e◻il◻tacchino◻glu
+                             10987654321098765432109876543210987654321
+El historial es:miao,◻e◻il◻piccione◻tru◻e◻il◻
+                98765432109876543210987654321
+El Lookahead es:tacchino◻glu
+                210987654321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: a
+Para el texto de la ventana: iao,◻e◻il◻piccione◻tru◻e◻il◻tacchino◻glu◻
+                             10987654321098765432109876543210987654321
+El historial es:iao,◻e◻il◻piccione◻tru◻e◻il◻t
+                98765432109876543210987654321
+El Lookahead es:acchino◻glu◻
+                210987654321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 28
+Letra que rompió: c
+Para el texto de la ventana: ao,◻e◻il◻piccione◻tru◻e◻il◻tacchino◻glu◻g
+                             10987654321098765432109876543210987654321
+El historial es:ao,◻e◻il◻piccione◻tru◻e◻il◻ta
+                98765432109876543210987654321
+El Lookahead es:cchino◻glu◻g
+                210987654321
+
+Termino: c encontrado.
+
+Termino: cc encontrado.
+Tamaño = 2
+Offset = 18
+Letra que rompió: h
+Para el texto de la ventana: ,◻e◻il◻piccione◻tru◻e◻il◻tacchino◻glu◻glu
+                             10987654321098765432109876543210987654321
+El historial es:,◻e◻il◻piccione◻tru◻e◻il◻tacc
+                98765432109876543210987654321
+El Lookahead es:hino◻glu◻glu
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: one◻tru◻e◻il◻tacchino◻glu◻glu◻glu◻e◻il◻ga
+                             10987654321098765432109876543210987654321
+El historial es:one◻tru◻e◻il◻tacchino◻glu◻glu
+                98765432109876543210987654321
+El Lookahead es:◻glu◻e◻il◻ga
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻g encontrado.
+
+Termino: ◻gl encontrado.
+
+Termino: ◻glu encontrado.
+
+Termino: ◻glu◻ encontrado.
+Tamaño = 5
+Offset = 8
+Letra que rompió: e
+Para el texto de la ventana: ru◻e◻il◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻c
+                             10987654321098765432109876543210987654321
+El historial es:ru◻e◻il◻tacchino◻glu◻glu◻glu◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻gallo◻c
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+
+Termino: e◻i encontrado.
+
+Termino: e◻il encontrado.
+
+Termino: e◻il◻ encontrado.
+Tamaño = 5
+Offset = 26
+Letra que rompió: g
+Para el texto de la ventana: il◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻coroco
+                             10987654321098765432109876543210987654321
+El historial es:il◻tacchino◻glu◻glu◻glu◻e◻il◻
+                98765432109876543210987654321
+El Lookahead es:gallo◻coroco
+                210987654321
+
+Termino: g encontrado.
+Tamaño = 1
+Offset = 17
+Letra que rompió: a
+Para el texto de la ventana: l◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻corococ
+                             10987654321098765432109876543210987654321
+El historial es:l◻tacchino◻glu◻glu◻glu◻e◻il◻g
+                98765432109876543210987654321
+El Lookahead es:allo◻corococ
+                210987654321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: l
+Para el texto de la ventana: ◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻corococò
+                             10987654321098765432109876543210987654321
+El historial es:◻tacchino◻glu◻glu◻glu◻e◻il◻ga
+                98765432109876543210987654321
+El Lookahead es:llo◻corococò
+                210987654321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 18
+Letra que rompió: l
+Para el texto de la ventana: tacchino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻
+                             10987654321098765432109876543210987654321
+El historial es:tacchino◻glu◻glu◻glu◻e◻il◻gal
+                98765432109876543210987654321
+El Lookahead es:lo◻corococò◻
+                210987654321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 19
+Letra que rompió: o
+Para el texto de la ventana: acchino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e
+                             10987654321098765432109876543210987654321
+El historial es:acchino◻glu◻glu◻glu◻e◻il◻gall
+                98765432109876543210987654321
+El Lookahead es:o◻corococò◻e
+                210987654321
+
+Termino: o encontrado.
+
+Termino: o◻ encontrado.
+Tamaño = 2
+Offset = 23
+Letra que rompió: c
+Para el texto de la ventana: chino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e◻l
+                             10987654321098765432109876543210987654321
+El historial es:chino◻glu◻glu◻glu◻e◻il◻gallo◻
+                98765432109876543210987654321
+El Lookahead es:corococò◻e◻l
+                210987654321
+
+Termino: c encontrado.
+Tamaño = 1
+Offset = 29
+Letra que rompió: o
+Para el texto de la ventana: hino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e◻la
+                             10987654321098765432109876543210987654321
+El historial es:hino◻glu◻glu◻glu◻e◻il◻gallo◻c
+                98765432109876543210987654321
+El Lookahead es:orococò◻e◻la
+                210987654321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: r
+Para el texto de la ventana: ino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e◻la◻
+                             10987654321098765432109876543210987654321
+El historial es:ino◻glu◻glu◻glu◻e◻il◻gallo◻co
+                98765432109876543210987654321
+El Lookahead es:rococò◻e◻la◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: glu◻e◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e
+                             10987654321098765432109876543210987654321
+El historial es:glu◻e◻il◻gallo◻corococò◻e◻la◻
+                98765432109876543210987654321
+El Lookahead es:gallina◻cò◻e
+                210987654321
+
+Termino: g encontrado.
+
+Termino: ga encontrado.
+
+Termino: gal encontrado.
+
+Termino: gall encontrado.
+Tamaño = 4
+Offset = 20
+Letra que rompió: i
+Para el texto de la ventana: e◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e◻il◻
+                             10987654321098765432109876543210987654321
+El historial es:e◻il◻gallo◻corococò◻e◻la◻gall
+                98765432109876543210987654321
+El Lookahead es:ina◻cò◻e◻il◻
+                210987654321
+
+Termino: i encontrado.
+Tamaño = 1
+Offset = 27
+Letra que rompió: n
+Para el texto de la ventana: ◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e◻il◻p
+                             10987654321098765432109876543210987654321
+El historial es:◻il◻gallo◻corococò◻e◻la◻galli
+                98765432109876543210987654321
+El Lookahead es:na◻cò◻e◻il◻p
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: rococò◻e◻la◻gallina◻cò◻e◻il◻pulcino◻pio,◻
+                             10987654321098765432109876543210987654321
+El historial es:rococò◻e◻la◻gallina◻cò◻e◻il◻p
+                98765432109876543210987654321
+El Lookahead es:ulcino◻pio,◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: gallina◻cò◻e◻il◻pulcino◻pio,◻e◻il◻pulcino
+                             10987654321098765432109876543210987654321
+El historial es:gallina◻cò◻e◻il◻pulcino◻pio,◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻pulcino
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+
+Termino: e◻i encontrado.
+
+Termino: e◻il encontrado.
+
+Termino: e◻il◻ encontrado.
+
+Termino: e◻il◻p encontrado.
+
+Termino: e◻il◻pu encontrado.
+
+Termino: e◻il◻pul encontrado.
+
+Termino: e◻il◻pulc encontrado.
+
+Termino: e◻il◻pulci encontrado.
+
+Termino: e◻il◻pulcin encontrado.
+
+Termino: e◻il◻pulcino encontrado.
+Tamaño = 12
+Offset = 18
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻il◻pulcino◻pio,◻e◻il◻pulcino◻pio◻e◻il◻pu
+                             10987654321098765432109876543210987654321
+El historial es:◻il◻pulcino◻pio,◻e◻il◻pulcino
+                98765432109876543210987654321
+El Lookahead es:◻pio◻e◻il◻pu
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻p encontrado.
+
+Termino: ◻pi encontrado.
+
+Termino: ◻pio encontrado.
+Tamaño = 4
+Offset = 18
+Letra que rompió: ◻
+Para el texto de la ventana: pulcino◻pio,◻e◻il◻pulcino◻pio◻e◻il◻pulcin
+                             10987654321098765432109876543210987654321
+El historial es:pulcino◻pio,◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:◻e◻il◻pulcin
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻e encontrado.
+
+Termino: ◻e◻ encontrado.
+
+Termino: ◻e◻i encontrado.
+
+Termino: ◻e◻il encontrado.
+
+Termino: ◻e◻il◻ encontrado.
+
+Termino: ◻e◻il◻p encontrado.
+
+Termino: ◻e◻il◻pu encontrado.
+
+Termino: ◻e◻il◻pul encontrado.
+
+Termino: ◻e◻il◻pulc encontrado.
+
+Termino: ◻e◻il◻pulci encontrado.
+
+Termino: ◻e◻il◻pulcin encontrado.
+Tamaño = 12
+Offset = 17
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻e◻il◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻
+                             10987654321098765432109876543210987654321
+El historial es:◻e◻il◻pulcino◻pio◻e◻il◻pulcin
+                98765432109876543210987654321
+El Lookahead es:o◻pio,◻e◻il◻
+                210987654321
+
+Termino: o encontrado.
+
+Termino: o◻ encontrado.
+
+Termino: o◻p encontrado.
+
+Termino: o◻pi encontrado.
+
+Termino: o◻pio encontrado.
+Tamaño = 5
+Offset = 17
+Letra que rompió: ,
+Para el texto de la ventana: ◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                             10987654321098765432109876543210987654321
+El historial es:◻pulcino◻pio◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:,◻e◻il◻pulci
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻e◻il◻pulcino◻pio,◻e◻il◻pulcino◻pio◻in◻ra
+                             10987654321098765432109876543210987654321
+El historial es:◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                98765432109876543210987654321
+El Lookahead es:no◻pio◻in◻ra
+                210987654321
+
+Termino: n encontrado.
+
+Termino: no encontrado.
+
+Termino: no◻ encontrado.
+
+Termino: no◻p encontrado.
+
+Termino: no◻pi encontrado.
+
+Termino: no◻pio encontrado.
+Tamaño = 6
+Offset = 18
+Letra que rompió: ◻
+Para el texto de la ventana: pulcino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'
+                             10987654321098765432109876543210987654321
+El historial es:pulcino◻pio,◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:◻in◻radio◻c'
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻i encontrado.
+Tamaño = 2
+Offset = 15
+Letra que rompió: n
+Para el texto de la ventana: lcino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻
+                             10987654321098765432109876543210987654321
+El historial es:lcino◻pio,◻e◻il◻pulcino◻pio◻i
+                98765432109876543210987654321
+El Lookahead es:n◻radio◻c'è◻
+                210987654321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: ◻
+Para el texto de la ventana: cino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻u
+                             10987654321098765432109876543210987654321
+El historial es:cino◻pio,◻e◻il◻pulcino◻pio◻in
+                98765432109876543210987654321
+El Lookahead es:◻radio◻c'è◻u
+                210987654321
+
+Termino: ◻ encontrado.
+Tamaño = 1
+Offset = 25
+Letra que rompió: r
+Para el texto de la ventana: ino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻un
+                             10987654321098765432109876543210987654321
+El historial es:ino◻pio,◻e◻il◻pulcino◻pio◻in◻
+                98765432109876543210987654321
+El Lookahead es:radio◻c'è◻un
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: l◻pulcino◻pio◻in◻radio◻c'è◻una◻capra◻in◻r
+                             10987654321098765432109876543210987654321
+El historial es:l◻pulcino◻pio◻in◻radio◻c'è◻un
+                98765432109876543210987654321
+El Lookahead es:a◻capra◻in◻r
+                210987654321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 11
+Letra que rompió: ◻
+Para el texto de la ventana: ◻pulcino◻pio◻in◻radio◻c'è◻una◻capra◻in◻ra
+                             10987654321098765432109876543210987654321
+El historial es:◻pulcino◻pio◻in◻radio◻c'è◻una
+                98765432109876543210987654321
+El Lookahead es:◻capra◻in◻ra
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻c encontrado.
+Tamaño = 2
+Offset = 8
+Letra que rompió: a
+Para el texto de la ventana: ulcino◻pio◻in◻radio◻c'è◻una◻capra◻in◻radi
+                             10987654321098765432109876543210987654321
+El historial es:ulcino◻pio◻in◻radio◻c'è◻una◻c
+                98765432109876543210987654321
+El Lookahead es:apra◻in◻radi
+                210987654321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 14
+Letra que rompió: p
+Para el texto de la ventana: lcino◻pio◻in◻radio◻c'è◻una◻capra◻in◻radio
+                             10987654321098765432109876543210987654321
+El historial es:lcino◻pio◻in◻radio◻c'è◻una◻ca
+                98765432109876543210987654321
+El Lookahead es:pra◻in◻radio
+                210987654321
+
+Termino: p encontrado.
+Tamaño = 1
+Offset = 23
+Letra que rompió: r
+Para el texto de la ventana: cino◻pio◻in◻radio◻c'è◻una◻capra◻in◻radio◻
+                             10987654321098765432109876543210987654321
+El historial es:cino◻pio◻in◻radio◻c'è◻una◻cap
+                98765432109876543210987654321
+El Lookahead es:ra◻in◻radio◻
+                210987654321
+
+Termino: r encontrado.
+
+Termino: ra encontrado.
+Tamaño = 2
+Offset = 17
+Letra que rompió: ◻
+Para el texto de la ventana: no◻pio◻in◻radio◻c'è◻una◻capra◻in◻radio◻c'
+                             10987654321098765432109876543210987654321
+El historial es:no◻pio◻in◻radio◻c'è◻una◻capra
+                98765432109876543210987654321
+El Lookahead es:◻in◻radio◻c'
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻i encontrado.
+
+Termino: ◻in encontrado.
+
+Termino: ◻in◻ encontrado.
+
+Termino: ◻in◻r encontrado.
+
+Termino: ◻in◻ra encontrado.
+
+Termino: ◻in◻rad encontrado.
+
+Termino: ◻in◻radi encontrado.
+
+Termino: ◻in◻radio encontrado.
+
+Termino: ◻in◻radio◻ encontrado.
+
+Termino: ◻in◻radio◻c encontrado.
+
+Termino: ◻in◻radio◻c' encontrado.
+Tamaño = 12
+Offset = 23
+Letra que rompió: Vacío...
+Para el texto de la ventana: dio◻c'è◻una◻capra◻in◻radio◻c'è◻una◻capra◻
+                             10987654321098765432109876543210987654321
+El historial es:dio◻c'è◻una◻capra◻in◻radio◻c'
+                98765432109876543210987654321
+El Lookahead es:è◻una◻capra◻
+                210987654321
+
+Termino: è encontrado.
+
+Termino: è◻ encontrado.
+
+Termino: è◻u encontrado.
+
+Termino: è◻un encontrado.
+
+Termino: è◻una encontrado.
+
+Termino: è◻una◻ encontrado.
+
+Termino: è◻una◻c encontrado.
+
+Termino: è◻una◻ca encontrado.
+
+Termino: è◻una◻cap encontrado.
+
+Termino: è◻una◻capr encontrado.
+
+Termino: è◻una◻capra encontrado.
+
+Termino: è◻una◻capra◻ encontrado.
+Tamaño = 12
+Offset = 23
+Letra que rompió: Vacío...
+Para el texto de la ventana: capra◻in◻radio◻c'è◻una◻capra◻e◻la◻capra◻m
+                             10987654321098765432109876543210987654321
+El historial es:capra◻in◻radio◻c'è◻una◻capra◻
+                98765432109876543210987654321
+El Lookahead es:e◻la◻capra◻m
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: io◻c'è◻una◻capra◻e◻la◻capra◻meee◻e◻il◻can
+                             10987654321098765432109876543210987654321
+El historial es:io◻c'è◻una◻capra◻e◻la◻capra◻m
+                98765432109876543210987654321
+El Lookahead es:eee◻e◻il◻can
+                210987654321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 12
+Letra que rompió: e
+Para el texto de la ventana: o◻c'è◻una◻capra◻e◻la◻capra◻meee◻e◻il◻cane
+                             10987654321098765432109876543210987654321
+El historial es:o◻c'è◻una◻capra◻e◻la◻capra◻me
+                98765432109876543210987654321
+El Lookahead es:ee◻e◻il◻cane
+                210987654321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 13
+Letra que rompió: e
+Para el texto de la ventana: ◻c'è◻una◻capra◻e◻la◻capra◻meee◻e◻il◻cane◻
+                             10987654321098765432109876543210987654321
+El historial es:◻c'è◻una◻capra◻e◻la◻capra◻mee
+                98765432109876543210987654321
+El Lookahead es:e◻e◻il◻cane◻
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+Tamaño = 2
+Offset = 14
+Letra que rompió: e
+Para el texto de la ventana: 'è◻una◻capra◻e◻la◻capra◻meee◻e◻il◻cane◻ba
+                             10987654321098765432109876543210987654321
+El historial es:'è◻una◻capra◻e◻la◻capra◻meee◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻cane◻ba
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+Tamaño = 2
+Offset = 16
+Letra que rompió: i
+Para el texto de la ventana: ◻una◻capra◻e◻la◻capra◻meee◻e◻il◻cane◻bau◻
+                             10987654321098765432109876543210987654321
+El historial es:◻una◻capra◻e◻la◻capra◻meee◻e◻
+                98765432109876543210987654321
+El Lookahead es:il◻cane◻bau◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻la◻capra◻meee◻e◻il◻cane◻bau◻bau◻e◻il◻gat
+                             10987654321098765432109876543210987654321
+El historial es:◻la◻capra◻meee◻e◻il◻cane◻bau◻
+                98765432109876543210987654321
+El Lookahead es:bau◻e◻il◻gat
+                210987654321
+
+Termino: b encontrado.
+
+Termino: ba encontrado.
+
+Termino: bau encontrado.
+
+Termino: bau◻ encontrado.
+Tamaño = 4
+Offset = 4
+Letra que rompió: e
+Para el texto de la ventana: capra◻meee◻e◻il◻cane◻bau◻bau◻e◻il◻gatto◻m
+                             10987654321098765432109876543210987654321
+El historial es:capra◻meee◻e◻il◻cane◻bau◻bau◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻gatto◻m
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+
+Termino: e◻i encontrado.
+
+Termino: e◻il encontrado.
+
+Termino: e◻il◻ encontrado.
+Tamaño = 5
+Offset = 18
+Letra que rompió: g
+Para el texto de la ventana: ◻meee◻e◻il◻cane◻bau◻bau◻e◻il◻gatto◻miao,◻
+                             10987654321098765432109876543210987654321
+El historial es:◻meee◻e◻il◻cane◻bau◻bau◻e◻il◻
+                98765432109876543210987654321
+El Lookahead es:gatto◻miao,◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ane◻bau◻bau◻e◻il◻gatto◻miao,◻e◻il◻piccion
+                             10987654321098765432109876543210987654321
+El historial es:ane◻bau◻bau◻e◻il◻gatto◻miao,◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻piccion
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+
+Termino: e◻i encontrado.
+
+Termino: e◻il encontrado.
+
+Termino: e◻il◻ encontrado.
+Tamaño = 5
+Offset = 17
+Letra que rompió: p
+Para el texto de la ventana: au◻bau◻e◻il◻gatto◻miao,◻e◻il◻piccione◻tru
+                             10987654321098765432109876543210987654321
+El historial es:au◻bau◻e◻il◻gatto◻miao,◻e◻il◻
+                98765432109876543210987654321
+El Lookahead es:piccione◻tru
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: gatto◻miao,◻e◻il◻piccione◻tru◻e◻il◻tacchi
+                             10987654321098765432109876543210987654321
+El historial es:gatto◻miao,◻e◻il◻piccione◻tru
+                98765432109876543210987654321
+El Lookahead es:◻e◻il◻tacchi
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻e encontrado.
+
+Termino: ◻e◻ encontrado.
+
+Termino: ◻e◻i encontrado.
+
+Termino: ◻e◻il encontrado.
+
+Termino: ◻e◻il◻ encontrado.
+Tamaño = 6
+Offset = 18
+Letra que rompió: t
+Para el texto de la ventana: miao,◻e◻il◻piccione◻tru◻e◻il◻tacchino◻glu
+                             10987654321098765432109876543210987654321
+El historial es:miao,◻e◻il◻piccione◻tru◻e◻il◻
+                98765432109876543210987654321
+El Lookahead es:tacchino◻glu
+                210987654321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: a
+Para el texto de la ventana: iao,◻e◻il◻piccione◻tru◻e◻il◻tacchino◻glu◻
+                             10987654321098765432109876543210987654321
+El historial es:iao,◻e◻il◻piccione◻tru◻e◻il◻t
+                98765432109876543210987654321
+El Lookahead es:acchino◻glu◻
+                210987654321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 28
+Letra que rompió: c
+Para el texto de la ventana: ao,◻e◻il◻piccione◻tru◻e◻il◻tacchino◻glu◻g
+                             10987654321098765432109876543210987654321
+El historial es:ao,◻e◻il◻piccione◻tru◻e◻il◻ta
+                98765432109876543210987654321
+El Lookahead es:cchino◻glu◻g
+                210987654321
+
+Termino: c encontrado.
+
+Termino: cc encontrado.
+Tamaño = 2
+Offset = 18
+Letra que rompió: h
+Para el texto de la ventana: ,◻e◻il◻piccione◻tru◻e◻il◻tacchino◻glu◻glu
+                             10987654321098765432109876543210987654321
+El historial es:,◻e◻il◻piccione◻tru◻e◻il◻tacc
+                98765432109876543210987654321
+El Lookahead es:hino◻glu◻glu
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: one◻tru◻e◻il◻tacchino◻glu◻glu◻glu◻e◻il◻ga
+                             10987654321098765432109876543210987654321
+El historial es:one◻tru◻e◻il◻tacchino◻glu◻glu
+                98765432109876543210987654321
+El Lookahead es:◻glu◻e◻il◻ga
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻g encontrado.
+
+Termino: ◻gl encontrado.
+
+Termino: ◻glu encontrado.
+
+Termino: ◻glu◻ encontrado.
+Tamaño = 5
+Offset = 8
+Letra que rompió: e
+Para el texto de la ventana: ru◻e◻il◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻c
+                             10987654321098765432109876543210987654321
+El historial es:ru◻e◻il◻tacchino◻glu◻glu◻glu◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻gallo◻c
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+
+Termino: e◻i encontrado.
+
+Termino: e◻il encontrado.
+
+Termino: e◻il◻ encontrado.
+Tamaño = 5
+Offset = 26
+Letra que rompió: g
+Para el texto de la ventana: il◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻coroco
+                             10987654321098765432109876543210987654321
+El historial es:il◻tacchino◻glu◻glu◻glu◻e◻il◻
+                98765432109876543210987654321
+El Lookahead es:gallo◻coroco
+                210987654321
+
+Termino: g encontrado.
+Tamaño = 1
+Offset = 17
+Letra que rompió: a
+Para el texto de la ventana: l◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻corococ
+                             10987654321098765432109876543210987654321
+El historial es:l◻tacchino◻glu◻glu◻glu◻e◻il◻g
+                98765432109876543210987654321
+El Lookahead es:allo◻corococ
+                210987654321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: l
+Para el texto de la ventana: ◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻corococò
+                             10987654321098765432109876543210987654321
+El historial es:◻tacchino◻glu◻glu◻glu◻e◻il◻ga
+                98765432109876543210987654321
+El Lookahead es:llo◻corococò
+                210987654321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 18
+Letra que rompió: l
+Para el texto de la ventana: tacchino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻
+                             10987654321098765432109876543210987654321
+El historial es:tacchino◻glu◻glu◻glu◻e◻il◻gal
+                98765432109876543210987654321
+El Lookahead es:lo◻corococò◻
+                210987654321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 19
+Letra que rompió: o
+Para el texto de la ventana: acchino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e
+                             10987654321098765432109876543210987654321
+El historial es:acchino◻glu◻glu◻glu◻e◻il◻gall
+                98765432109876543210987654321
+El Lookahead es:o◻corococò◻e
+                210987654321
+
+Termino: o encontrado.
+
+Termino: o◻ encontrado.
+Tamaño = 2
+Offset = 23
+Letra que rompió: c
+Para el texto de la ventana: chino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e◻l
+                             10987654321098765432109876543210987654321
+El historial es:chino◻glu◻glu◻glu◻e◻il◻gallo◻
+                98765432109876543210987654321
+El Lookahead es:corococò◻e◻l
+                210987654321
+
+Termino: c encontrado.
+Tamaño = 1
+Offset = 29
+Letra que rompió: o
+Para el texto de la ventana: hino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e◻la
+                             10987654321098765432109876543210987654321
+El historial es:hino◻glu◻glu◻glu◻e◻il◻gallo◻c
+                98765432109876543210987654321
+El Lookahead es:orococò◻e◻la
+                210987654321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: r
+Para el texto de la ventana: ino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e◻la◻
+                             10987654321098765432109876543210987654321
+El historial es:ino◻glu◻glu◻glu◻e◻il◻gallo◻co
+                98765432109876543210987654321
+El Lookahead es:rococò◻e◻la◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: glu◻e◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e
+                             10987654321098765432109876543210987654321
+El historial es:glu◻e◻il◻gallo◻corococò◻e◻la◻
+                98765432109876543210987654321
+El Lookahead es:gallina◻cò◻e
+                210987654321
+
+Termino: g encontrado.
+
+Termino: ga encontrado.
+
+Termino: gal encontrado.
+
+Termino: gall encontrado.
+Tamaño = 4
+Offset = 20
+Letra que rompió: i
+Para el texto de la ventana: e◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e◻il◻
+                             10987654321098765432109876543210987654321
+El historial es:e◻il◻gallo◻corococò◻e◻la◻gall
+                98765432109876543210987654321
+El Lookahead es:ina◻cò◻e◻il◻
+                210987654321
+
+Termino: i encontrado.
+Tamaño = 1
+Offset = 27
+Letra que rompió: n
+Para el texto de la ventana: ◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e◻il◻p
+                             10987654321098765432109876543210987654321
+El historial es:◻il◻gallo◻corococò◻e◻la◻galli
+                98765432109876543210987654321
+El Lookahead es:na◻cò◻e◻il◻p
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: rococò◻e◻la◻gallina◻cò◻e◻il◻pulcino◻pio◻e
+                             10987654321098765432109876543210987654321
+El historial es:rococò◻e◻la◻gallina◻cò◻e◻il◻p
+                98765432109876543210987654321
+El Lookahead es:ulcino◻pio◻e
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: gallina◻cò◻e◻il◻pulcino◻pio◻e◻il◻pulcino◻
+                             10987654321098765432109876543210987654321
+El historial es:gallina◻cò◻e◻il◻pulcino◻pio◻e
+                98765432109876543210987654321
+El Lookahead es:◻il◻pulcino◻
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻i encontrado.
+
+Termino: ◻il encontrado.
+
+Termino: ◻il◻ encontrado.
+
+Termino: ◻il◻p encontrado.
+
+Termino: ◻il◻pu encontrado.
+
+Termino: ◻il◻pul encontrado.
+
+Termino: ◻il◻pulc encontrado.
+
+Termino: ◻il◻pulci encontrado.
+
+Termino: ◻il◻pulcin encontrado.
+
+Termino: ◻il◻pulcino encontrado.
+
+Termino: ◻il◻pulcino◻ encontrado.
+Tamaño = 12
+Offset = 17
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻il◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻pu
+                             10987654321098765432109876543210987654321
+El historial es:◻il◻pulcino◻pio◻e◻il◻pulcino◻
+                98765432109876543210987654321
+El Lookahead es:pio,◻e◻il◻pu
+                210987654321
+
+Termino: p encontrado.
+
+Termino: pi encontrado.
+
+Termino: pio encontrado.
+Tamaño = 3
+Offset = 17
+Letra que rompió: ,
+Para el texto de la ventana: ◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                             10987654321098765432109876543210987654321
+El historial es:◻pulcino◻pio◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:,◻e◻il◻pulci
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻e◻il◻pulcino◻pio,◻e◻il◻pulcino◻pio◻in◻ra
+                             10987654321098765432109876543210987654321
+El historial es:◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                98765432109876543210987654321
+El Lookahead es:no◻pio◻in◻ra
+                210987654321
+
+Termino: n encontrado.
+
+Termino: no encontrado.
+
+Termino: no◻ encontrado.
+
+Termino: no◻p encontrado.
+
+Termino: no◻pi encontrado.
+
+Termino: no◻pio encontrado.
+Tamaño = 6
+Offset = 18
+Letra que rompió: ◻
+Para el texto de la ventana: pulcino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'
+                             10987654321098765432109876543210987654321
+El historial es:pulcino◻pio,◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:◻in◻radio◻c'
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻i encontrado.
+Tamaño = 2
+Offset = 15
+Letra que rompió: n
+Para el texto de la ventana: lcino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻
+                             10987654321098765432109876543210987654321
+El historial es:lcino◻pio,◻e◻il◻pulcino◻pio◻i
+                98765432109876543210987654321
+El Lookahead es:n◻radio◻c'è◻
+                210987654321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: ◻
+Para el texto de la ventana: cino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻u
+                             10987654321098765432109876543210987654321
+El historial es:cino◻pio,◻e◻il◻pulcino◻pio◻in
+                98765432109876543210987654321
+El Lookahead es:◻radio◻c'è◻u
+                210987654321
+
+Termino: ◻ encontrado.
+Tamaño = 1
+Offset = 25
+Letra que rompió: r
+Para el texto de la ventana: ino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻un
+                             10987654321098765432109876543210987654321
+El historial es:ino◻pio,◻e◻il◻pulcino◻pio◻in◻
+                98765432109876543210987654321
+El Lookahead es:radio◻c'è◻un
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: l◻pulcino◻pio◻in◻radio◻c'è◻un◻agnello◻in◻
+                             10987654321098765432109876543210987654321
+El historial es:l◻pulcino◻pio◻in◻radio◻c'è◻un
+                98765432109876543210987654321
+El Lookahead es:◻agnello◻in◻
+                210987654321
+
+Termino: ◻ encontrado.
+Tamaño = 1
+Offset = 28
+Letra que rompió: a
+Para el texto de la ventana: ◻pulcino◻pio◻in◻radio◻c'è◻un◻agnello◻in◻r
+                             10987654321098765432109876543210987654321
+El historial es:◻pulcino◻pio◻in◻radio◻c'è◻un◻
+                98765432109876543210987654321
+El Lookahead es:agnello◻in◻r
+                210987654321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 12
+Letra que rompió: g
+Para el texto de la ventana: pulcino◻pio◻in◻radio◻c'è◻un◻agnello◻in◻ra
+                             10987654321098765432109876543210987654321
+El historial es:pulcino◻pio◻in◻radio◻c'è◻un◻a
+                98765432109876543210987654321
+El Lookahead es:gnello◻in◻ra
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: in◻radio◻c'è◻un◻agnello◻in◻radio◻c'è◻un◻a
+                             10987654321098765432109876543210987654321
+El historial es:in◻radio◻c'è◻un◻agnello◻in◻ra
+                98765432109876543210987654321
+El Lookahead es:dio◻c'è◻un◻a
+                210987654321
+
+Termino: d encontrado.
+
+Termino: di encontrado.
+
+Termino: dio encontrado.
+
+Termino: dio◻ encontrado.
+
+Termino: dio◻c encontrado.
+
+Termino: dio◻c' encontrado.
+
+Termino: dio◻c'è encontrado.
+
+Termino: dio◻c'è◻ encontrado.
+
+Termino: dio◻c'è◻u encontrado.
+
+Termino: dio◻c'è◻un encontrado.
+
+Termino: dio◻c'è◻un◻ encontrado.
+
+Termino: dio◻c'è◻un◻a encontrado.
+Tamaño = 12
+Offset = 24
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻un◻agnello◻in◻radio◻c'è◻un◻agnello◻e◻l'a
+                             10987654321098765432109876543210987654321
+El historial es:◻un◻agnello◻in◻radio◻c'è◻un◻a
+                98765432109876543210987654321
+El Lookahead es:gnello◻e◻l'a
+                210987654321
+
+Termino: g encontrado.
+
+Termino: gn encontrado.
+
+Termino: gne encontrado.
+
+Termino: gnel encontrado.
+
+Termino: gnell encontrado.
+
+Termino: gnello encontrado.
+
+Termino: gnello◻ encontrado.
+Tamaño = 7
+Offset = 24
+Letra que rompió: e
+Para el texto de la ventana: ello◻in◻radio◻c'è◻un◻agnello◻e◻l'agnello◻
+                             10987654321098765432109876543210987654321
+El historial es:ello◻in◻radio◻c'è◻un◻agnello◻
+                98765432109876543210987654321
+El Lookahead es:e◻l'agnello◻
+                210987654321
+
+Termino: e encontrado.
+Tamaño = 1
+Offset = 29
+Letra que rompió: ◻
+Para el texto de la ventana: llo◻in◻radio◻c'è◻un◻agnello◻e◻l'agnello◻b
+                             10987654321098765432109876543210987654321
+El historial es:llo◻in◻radio◻c'è◻un◻agnello◻e
+                98765432109876543210987654321
+El Lookahead es:◻l'agnello◻b
+                210987654321
+
+Termino: ◻ encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: l
+Para el texto de la ventana: lo◻in◻radio◻c'è◻un◻agnello◻e◻l'agnello◻be
+                             10987654321098765432109876543210987654321
+El historial es:lo◻in◻radio◻c'è◻un◻agnello◻e◻
+                98765432109876543210987654321
+El Lookahead es:l'agnello◻be
+                210987654321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 29
+Letra que rompió: '
+Para el texto de la ventana: o◻in◻radio◻c'è◻un◻agnello◻e◻l'agnello◻bee
+                             10987654321098765432109876543210987654321
+El historial es:o◻in◻radio◻c'è◻un◻agnello◻e◻l
+                98765432109876543210987654321
+El Lookahead es:'agnello◻bee
+                210987654321
+
+Termino: ' encontrado.
+Tamaño = 1
+Offset = 17
+Letra que rompió: a
+Para el texto de la ventana: ◻in◻radio◻c'è◻un◻agnello◻e◻l'agnello◻bee◻
+                             10987654321098765432109876543210987654321
+El historial es:◻in◻radio◻c'è◻un◻agnello◻e◻l'
+                98765432109876543210987654321
+El Lookahead es:agnello◻bee◻
+                210987654321
+
+Termino: a encontrado.
+
+Termino: ag encontrado.
+
+Termino: agn encontrado.
+
+Termino: agne encontrado.
+
+Termino: agnel encontrado.
+
+Termino: agnell encontrado.
+
+Termino: agnello encontrado.
+
+Termino: agnello◻ encontrado.
+Tamaño = 8
+Offset = 12
+Letra que rompió: b
+Para el texto de la ventana: o◻c'è◻un◻agnello◻e◻l'agnello◻bee◻e◻la◻cap
+                             10987654321098765432109876543210987654321
+El historial es:o◻c'è◻un◻agnello◻e◻l'agnello◻
+                98765432109876543210987654321
+El Lookahead es:bee◻e◻la◻cap
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ello◻e◻l'agnello◻bee◻e◻la◻capra◻meee◻e◻il
+                             10987654321098765432109876543210987654321
+El historial es:ello◻e◻l'agnello◻bee◻e◻la◻cap
+                98765432109876543210987654321
+El Lookahead es:ra◻meee◻e◻il
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ello◻bee◻e◻la◻capra◻meee◻e◻il◻cane◻bau◻ba
+                             10987654321098765432109876543210987654321
+El historial es:ello◻bee◻e◻la◻capra◻meee◻e◻il
+                98765432109876543210987654321
+El Lookahead es:◻cane◻bau◻ba
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻c encontrado.
+
+Termino: ◻ca encontrado.
+Tamaño = 3
+Offset = 16
+Letra que rompió: n
+Para el texto de la ventana: o◻bee◻e◻la◻capra◻meee◻e◻il◻cane◻bau◻bau◻e
+                             10987654321098765432109876543210987654321
+El historial es:o◻bee◻e◻la◻capra◻meee◻e◻il◻ca
+                98765432109876543210987654321
+El Lookahead es:ne◻bau◻bau◻e
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: apra◻meee◻e◻il◻cane◻bau◻bau◻e◻il◻gatto◻mi
+                             10987654321098765432109876543210987654321
+El historial es:apra◻meee◻e◻il◻cane◻bau◻bau◻e
+                98765432109876543210987654321
+El Lookahead es:◻il◻gatto◻mi
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻i encontrado.
+
+Termino: ◻il encontrado.
+
+Termino: ◻il◻ encontrado.
+Tamaño = 4
+Offset = 18
+Letra que rompió: g
+Para el texto de la ventana: ◻meee◻e◻il◻cane◻bau◻bau◻e◻il◻gatto◻miao◻e
+                             10987654321098765432109876543210987654321
+El historial es:◻meee◻e◻il◻cane◻bau◻bau◻e◻il◻
+                98765432109876543210987654321
+El Lookahead es:gatto◻miao◻e
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ane◻bau◻bau◻e◻il◻gatto◻miao◻e◻il◻piccione
+                             10987654321098765432109876543210987654321
+El historial es:ane◻bau◻bau◻e◻il◻gatto◻miao◻e
+                98765432109876543210987654321
+El Lookahead es:◻il◻piccione
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻i encontrado.
+
+Termino: ◻il encontrado.
+
+Termino: ◻il◻ encontrado.
+Tamaño = 4
+Offset = 16
+Letra que rompió: p
+Para el texto de la ventana: bau◻bau◻e◻il◻gatto◻miao◻e◻il◻piccione◻tru
+                             10987654321098765432109876543210987654321
+El historial es:bau◻bau◻e◻il◻gatto◻miao◻e◻il◻
+                98765432109876543210987654321
+El Lookahead es:piccione◻tru
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻gatto◻miao◻e◻il◻piccione◻tru◻e◻il◻tacchi
+                             10987654321098765432109876543210987654321
+El historial es:◻gatto◻miao◻e◻il◻piccione◻tru
+                98765432109876543210987654321
+El Lookahead es:◻e◻il◻tacchi
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻e encontrado.
+
+Termino: ◻e◻ encontrado.
+
+Termino: ◻e◻i encontrado.
+
+Termino: ◻e◻il encontrado.
+
+Termino: ◻e◻il◻ encontrado.
+Tamaño = 6
+Offset = 18
+Letra que rompió: t
+Para el texto de la ventana: ◻miao◻e◻il◻piccione◻tru◻e◻il◻tacchino◻glu
+                             10987654321098765432109876543210987654321
+El historial es:◻miao◻e◻il◻piccione◻tru◻e◻il◻
+                98765432109876543210987654321
+El Lookahead es:tacchino◻glu
+                210987654321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: a
+Para el texto de la ventana: miao◻e◻il◻piccione◻tru◻e◻il◻tacchino◻glu◻
+                             10987654321098765432109876543210987654321
+El historial es:miao◻e◻il◻piccione◻tru◻e◻il◻t
+                98765432109876543210987654321
+El Lookahead es:acchino◻glu◻
+                210987654321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 27
+Letra que rompió: c
+Para el texto de la ventana: iao◻e◻il◻piccione◻tru◻e◻il◻tacchino◻glu◻g
+                             10987654321098765432109876543210987654321
+El historial es:iao◻e◻il◻piccione◻tru◻e◻il◻ta
+                98765432109876543210987654321
+El Lookahead es:cchino◻glu◻g
+                210987654321
+
+Termino: c encontrado.
+
+Termino: cc encontrado.
+Tamaño = 2
+Offset = 18
+Letra que rompió: h
+Para el texto de la ventana: o◻e◻il◻piccione◻tru◻e◻il◻tacchino◻glu◻glu
+                             10987654321098765432109876543210987654321
+El historial es:o◻e◻il◻piccione◻tru◻e◻il◻tacc
+                98765432109876543210987654321
+El Lookahead es:hino◻glu◻glu
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: one◻tru◻e◻il◻tacchino◻glu◻glu◻glu◻e◻il◻ga
+                             10987654321098765432109876543210987654321
+El historial es:one◻tru◻e◻il◻tacchino◻glu◻glu
+                98765432109876543210987654321
+El Lookahead es:◻glu◻e◻il◻ga
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻g encontrado.
+
+Termino: ◻gl encontrado.
+
+Termino: ◻glu encontrado.
+
+Termino: ◻glu◻ encontrado.
+Tamaño = 5
+Offset = 8
+Letra que rompió: e
+Para el texto de la ventana: ru◻e◻il◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻c
+                             10987654321098765432109876543210987654321
+El historial es:ru◻e◻il◻tacchino◻glu◻glu◻glu◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻gallo◻c
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+
+Termino: e◻i encontrado.
+
+Termino: e◻il encontrado.
+
+Termino: e◻il◻ encontrado.
+Tamaño = 5
+Offset = 26
+Letra que rompió: g
+Para el texto de la ventana: il◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻coroco
+                             10987654321098765432109876543210987654321
+El historial es:il◻tacchino◻glu◻glu◻glu◻e◻il◻
+                98765432109876543210987654321
+El Lookahead es:gallo◻coroco
+                210987654321
+
+Termino: g encontrado.
+Tamaño = 1
+Offset = 17
+Letra que rompió: a
+Para el texto de la ventana: l◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻corococ
+                             10987654321098765432109876543210987654321
+El historial es:l◻tacchino◻glu◻glu◻glu◻e◻il◻g
+                98765432109876543210987654321
+El Lookahead es:allo◻corococ
+                210987654321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: l
+Para el texto de la ventana: ◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻corococò
+                             10987654321098765432109876543210987654321
+El historial es:◻tacchino◻glu◻glu◻glu◻e◻il◻ga
+                98765432109876543210987654321
+El Lookahead es:llo◻corococò
+                210987654321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 18
+Letra que rompió: l
+Para el texto de la ventana: tacchino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻
+                             10987654321098765432109876543210987654321
+El historial es:tacchino◻glu◻glu◻glu◻e◻il◻gal
+                98765432109876543210987654321
+El Lookahead es:lo◻corococò◻
+                210987654321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 19
+Letra que rompió: o
+Para el texto de la ventana: acchino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e
+                             10987654321098765432109876543210987654321
+El historial es:acchino◻glu◻glu◻glu◻e◻il◻gall
+                98765432109876543210987654321
+El Lookahead es:o◻corococò◻e
+                210987654321
+
+Termino: o encontrado.
+
+Termino: o◻ encontrado.
+Tamaño = 2
+Offset = 23
+Letra que rompió: c
+Para el texto de la ventana: chino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e◻l
+                             10987654321098765432109876543210987654321
+El historial es:chino◻glu◻glu◻glu◻e◻il◻gallo◻
+                98765432109876543210987654321
+El Lookahead es:corococò◻e◻l
+                210987654321
+
+Termino: c encontrado.
+Tamaño = 1
+Offset = 29
+Letra que rompió: o
+Para el texto de la ventana: hino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e◻la
+                             10987654321098765432109876543210987654321
+El historial es:hino◻glu◻glu◻glu◻e◻il◻gallo◻c
+                98765432109876543210987654321
+El Lookahead es:orococò◻e◻la
+                210987654321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: r
+Para el texto de la ventana: ino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e◻la◻
+                             10987654321098765432109876543210987654321
+El historial es:ino◻glu◻glu◻glu◻e◻il◻gallo◻co
+                98765432109876543210987654321
+El Lookahead es:rococò◻e◻la◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: glu◻e◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e
+                             10987654321098765432109876543210987654321
+El historial es:glu◻e◻il◻gallo◻corococò◻e◻la◻
+                98765432109876543210987654321
+El Lookahead es:gallina◻cò◻e
+                210987654321
+
+Termino: g encontrado.
+
+Termino: ga encontrado.
+
+Termino: gal encontrado.
+
+Termino: gall encontrado.
+Tamaño = 4
+Offset = 20
+Letra que rompió: i
+Para el texto de la ventana: e◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e◻il◻
+                             10987654321098765432109876543210987654321
+El historial es:e◻il◻gallo◻corococò◻e◻la◻gall
+                98765432109876543210987654321
+El Lookahead es:ina◻cò◻e◻il◻
+                210987654321
+
+Termino: i encontrado.
+Tamaño = 1
+Offset = 27
+Letra que rompió: n
+Para el texto de la ventana: ◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e◻il◻p
+                             10987654321098765432109876543210987654321
+El historial es:◻il◻gallo◻corococò◻e◻la◻galli
+                98765432109876543210987654321
+El Lookahead es:na◻cò◻e◻il◻p
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: rococò◻e◻la◻gallina◻cò◻e◻il◻pulcino◻pio,◻
+                             10987654321098765432109876543210987654321
+El historial es:rococò◻e◻la◻gallina◻cò◻e◻il◻p
+                98765432109876543210987654321
+El Lookahead es:ulcino◻pio,◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: gallina◻cò◻e◻il◻pulcino◻pio,◻e◻il◻pulcino
+                             10987654321098765432109876543210987654321
+El historial es:gallina◻cò◻e◻il◻pulcino◻pio,◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻pulcino
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+
+Termino: e◻i encontrado.
+
+Termino: e◻il encontrado.
+
+Termino: e◻il◻ encontrado.
+
+Termino: e◻il◻p encontrado.
+
+Termino: e◻il◻pu encontrado.
+
+Termino: e◻il◻pul encontrado.
+
+Termino: e◻il◻pulc encontrado.
+
+Termino: e◻il◻pulci encontrado.
+
+Termino: e◻il◻pulcin encontrado.
+
+Termino: e◻il◻pulcino encontrado.
+Tamaño = 12
+Offset = 18
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻il◻pulcino◻pio,◻e◻il◻pulcino◻pio◻e◻il◻pu
+                             10987654321098765432109876543210987654321
+El historial es:◻il◻pulcino◻pio,◻e◻il◻pulcino
+                98765432109876543210987654321
+El Lookahead es:◻pio◻e◻il◻pu
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻p encontrado.
+
+Termino: ◻pi encontrado.
+
+Termino: ◻pio encontrado.
+Tamaño = 4
+Offset = 18
+Letra que rompió: ◻
+Para el texto de la ventana: pulcino◻pio,◻e◻il◻pulcino◻pio◻e◻il◻pulcin
+                             10987654321098765432109876543210987654321
+El historial es:pulcino◻pio,◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:◻e◻il◻pulcin
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻e encontrado.
+
+Termino: ◻e◻ encontrado.
+
+Termino: ◻e◻i encontrado.
+
+Termino: ◻e◻il encontrado.
+
+Termino: ◻e◻il◻ encontrado.
+
+Termino: ◻e◻il◻p encontrado.
+
+Termino: ◻e◻il◻pu encontrado.
+
+Termino: ◻e◻il◻pul encontrado.
+
+Termino: ◻e◻il◻pulc encontrado.
+
+Termino: ◻e◻il◻pulci encontrado.
+
+Termino: ◻e◻il◻pulcin encontrado.
+Tamaño = 12
+Offset = 17
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻e◻il◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻
+                             10987654321098765432109876543210987654321
+El historial es:◻e◻il◻pulcino◻pio◻e◻il◻pulcin
+                98765432109876543210987654321
+El Lookahead es:o◻pio,◻e◻il◻
+                210987654321
+
+Termino: o encontrado.
+
+Termino: o◻ encontrado.
+
+Termino: o◻p encontrado.
+
+Termino: o◻pi encontrado.
+
+Termino: o◻pio encontrado.
+Tamaño = 5
+Offset = 17
+Letra que rompió: ,
+Para el texto de la ventana: ◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                             10987654321098765432109876543210987654321
+El historial es:◻pulcino◻pio◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:,◻e◻il◻pulci
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻e◻il◻pulcino◻pio,◻e◻il◻pulcino◻pio◻in◻ra
+                             10987654321098765432109876543210987654321
+El historial es:◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                98765432109876543210987654321
+El Lookahead es:no◻pio◻in◻ra
+                210987654321
+
+Termino: n encontrado.
+
+Termino: no encontrado.
+
+Termino: no◻ encontrado.
+
+Termino: no◻p encontrado.
+
+Termino: no◻pi encontrado.
+
+Termino: no◻pio encontrado.
+Tamaño = 6
+Offset = 18
+Letra que rompió: ◻
+Para el texto de la ventana: pulcino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'
+                             10987654321098765432109876543210987654321
+El historial es:pulcino◻pio,◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:◻in◻radio◻c'
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻i encontrado.
+Tamaño = 2
+Offset = 15
+Letra que rompió: n
+Para el texto de la ventana: lcino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻
+                             10987654321098765432109876543210987654321
+El historial es:lcino◻pio,◻e◻il◻pulcino◻pio◻i
+                98765432109876543210987654321
+El Lookahead es:n◻radio◻c'è◻
+                210987654321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: ◻
+Para el texto de la ventana: cino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻u
+                             10987654321098765432109876543210987654321
+El historial es:cino◻pio,◻e◻il◻pulcino◻pio◻in
+                98765432109876543210987654321
+El Lookahead es:◻radio◻c'è◻u
+                210987654321
+
+Termino: ◻ encontrado.
+Tamaño = 1
+Offset = 25
+Letra que rompió: r
+Para el texto de la ventana: ino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻un
+                             10987654321098765432109876543210987654321
+El historial es:ino◻pio,◻e◻il◻pulcino◻pio◻in◻
+                98765432109876543210987654321
+El Lookahead es:radio◻c'è◻un
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: l◻pulcino◻pio◻in◻radio◻c'è◻una◻mucca◻in◻r
+                             10987654321098765432109876543210987654321
+El historial es:l◻pulcino◻pio◻in◻radio◻c'è◻un
+                98765432109876543210987654321
+El Lookahead es:a◻mucca◻in◻r
+                210987654321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 11
+Letra que rompió: ◻
+Para el texto de la ventana: ◻pulcino◻pio◻in◻radio◻c'è◻una◻mucca◻in◻ra
+                             10987654321098765432109876543210987654321
+El historial es:◻pulcino◻pio◻in◻radio◻c'è◻una
+                98765432109876543210987654321
+El Lookahead es:◻mucca◻in◻ra
+                210987654321
+
+Termino: ◻ encontrado.
+Tamaño = 1
+Offset = 29
+Letra que rompió: m
+Para el texto de la ventana: pulcino◻pio◻in◻radio◻c'è◻una◻mucca◻in◻rad
+                             10987654321098765432109876543210987654321
+El historial es:pulcino◻pio◻in◻radio◻c'è◻una◻
+                98765432109876543210987654321
+El Lookahead es:mucca◻in◻rad
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: in◻radio◻c'è◻una◻mucca◻in◻radio◻c'è◻una◻m
+                             10987654321098765432109876543210987654321
+El historial es:in◻radio◻c'è◻una◻mucca◻in◻rad
+                98765432109876543210987654321
+El Lookahead es:io◻c'è◻una◻m
+                210987654321
+
+Termino: i encontrado.
+
+Termino: io encontrado.
+
+Termino: io◻ encontrado.
+
+Termino: io◻c encontrado.
+
+Termino: io◻c' encontrado.
+
+Termino: io◻c'è encontrado.
+
+Termino: io◻c'è◻ encontrado.
+
+Termino: io◻c'è◻u encontrado.
+
+Termino: io◻c'è◻un encontrado.
+
+Termino: io◻c'è◻una encontrado.
+
+Termino: io◻c'è◻una◻ encontrado.
+
+Termino: io◻c'è◻una◻m encontrado.
+Tamaño = 12
+Offset = 23
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻una◻mucca◻in◻radio◻c'è◻una◻mucca◻e◻la◻mu
+                             10987654321098765432109876543210987654321
+El historial es:◻una◻mucca◻in◻radio◻c'è◻una◻m
+                98765432109876543210987654321
+El Lookahead es:ucca◻e◻la◻mu
+                210987654321
+
+Termino: u encontrado.
+
+Termino: uc encontrado.
+
+Termino: ucc encontrado.
+
+Termino: ucca encontrado.
+
+Termino: ucca◻ encontrado.
+Tamaño = 5
+Offset = 23
+Letra que rompió: e
+Para el texto de la ventana: mucca◻in◻radio◻c'è◻una◻mucca◻e◻la◻mucca◻m
+                             10987654321098765432109876543210987654321
+El historial es:mucca◻in◻radio◻c'è◻una◻mucca◻
+                98765432109876543210987654321
+El Lookahead es:e◻la◻mucca◻m
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: io◻c'è◻una◻mucca◻e◻la◻mucca◻moo,◻l'agnell
+                             10987654321098765432109876543210987654321
+El historial es:io◻c'è◻una◻mucca◻e◻la◻mucca◻m
+                98765432109876543210987654321
+El Lookahead es:oo,◻l'agnell
+                210987654321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 28
+Letra que rompió: o
+Para el texto de la ventana: o◻c'è◻una◻mucca◻e◻la◻mucca◻moo,◻l'agnello
+                             10987654321098765432109876543210987654321
+El historial es:o◻c'è◻una◻mucca◻e◻la◻mucca◻mo
+                98765432109876543210987654321
+El Lookahead es:o,◻l'agnello
+                210987654321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 29
+Letra que rompió: ,
+Para el texto de la ventana: ◻c'è◻una◻mucca◻e◻la◻mucca◻moo,◻l'agnello◻
+                             10987654321098765432109876543210987654321
+El historial es:◻c'è◻una◻mucca◻e◻la◻mucca◻moo
+                98765432109876543210987654321
+El Lookahead es:,◻l'agnello◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ca◻e◻la◻mucca◻moo,◻l'agnello◻bee◻e◻la◻cap
+                             10987654321098765432109876543210987654321
+El historial es:ca◻e◻la◻mucca◻moo,◻l'agnello◻
+                98765432109876543210987654321
+El Lookahead es:bee◻e◻la◻cap
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: a◻moo,◻l'agnello◻bee◻e◻la◻capra◻meee,◻il◻
+                             10987654321098765432109876543210987654321
+El historial es:a◻moo,◻l'agnello◻bee◻e◻la◻cap
+                98765432109876543210987654321
+El Lookahead es:ra◻meee,◻il◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ello◻bee◻e◻la◻capra◻meee,◻il◻cane◻bau◻bau
+                             10987654321098765432109876543210987654321
+El historial es:ello◻bee◻e◻la◻capra◻meee,◻il◻
+                98765432109876543210987654321
+El Lookahead es:cane◻bau◻bau
+                210987654321
+
+Termino: c encontrado.
+
+Termino: ca encontrado.
+Tamaño = 2
+Offset = 15
+Letra que rompió: n
+Para el texto de la ventana: lo◻bee◻e◻la◻capra◻meee,◻il◻cane◻bau◻bau◻i
+                             10987654321098765432109876543210987654321
+El historial es:lo◻bee◻e◻la◻capra◻meee,◻il◻ca
+                98765432109876543210987654321
+El Lookahead es:ne◻bau◻bau◻i
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: capra◻meee,◻il◻cane◻bau◻bau◻il◻gatto◻miao
+                             10987654321098765432109876543210987654321
+El historial es:capra◻meee,◻il◻cane◻bau◻bau◻i
+                98765432109876543210987654321
+El Lookahead es:l◻gatto◻miao
+                210987654321
+
+Termino: l encontrado.
+
+Termino: l◻ encontrado.
+Tamaño = 2
+Offset = 16
+Letra que rompió: g
+Para el texto de la ventana: pra◻meee,◻il◻cane◻bau◻bau◻il◻gatto◻miao,◻
+                             10987654321098765432109876543210987654321
+El historial es:pra◻meee,◻il◻cane◻bau◻bau◻il◻
+                98765432109876543210987654321
+El Lookahead es:gatto◻miao,◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻cane◻bau◻bau◻il◻gatto◻miao,◻e◻il◻piccion
+                             10987654321098765432109876543210987654321
+El historial es:◻cane◻bau◻bau◻il◻gatto◻miao,◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻piccion
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+Tamaño = 2
+Offset = 25
+Letra que rompió: i
+Para el texto de la ventana: ane◻bau◻bau◻il◻gatto◻miao,◻e◻il◻piccione◻
+                             10987654321098765432109876543210987654321
+El historial es:ane◻bau◻bau◻il◻gatto◻miao,◻e◻
+                98765432109876543210987654321
+El Lookahead es:il◻piccione◻
+                210987654321
+
+Termino: i encontrado.
+
+Termino: il encontrado.
+
+Termino: il◻ encontrado.
+Tamaño = 3
+Offset = 17
+Letra que rompió: p
+Para el texto de la ventana: ◻bau◻bau◻il◻gatto◻miao,◻e◻il◻piccione◻tru
+                             10987654321098765432109876543210987654321
+El historial es:◻bau◻bau◻il◻gatto◻miao,◻e◻il◻
+                98765432109876543210987654321
+El Lookahead es:piccione◻tru
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: gatto◻miao,◻e◻il◻piccione◻tru◻e◻il◻tacchi
+                             10987654321098765432109876543210987654321
+El historial es:gatto◻miao,◻e◻il◻piccione◻tru
+                98765432109876543210987654321
+El Lookahead es:◻e◻il◻tacchi
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻e encontrado.
+
+Termino: ◻e◻ encontrado.
+
+Termino: ◻e◻i encontrado.
+
+Termino: ◻e◻il encontrado.
+
+Termino: ◻e◻il◻ encontrado.
+Tamaño = 6
+Offset = 18
+Letra que rompió: t
+Para el texto de la ventana: miao,◻e◻il◻piccione◻tru◻e◻il◻tacchino◻glu
+                             10987654321098765432109876543210987654321
+El historial es:miao,◻e◻il◻piccione◻tru◻e◻il◻
+                98765432109876543210987654321
+El Lookahead es:tacchino◻glu
+                210987654321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: a
+Para el texto de la ventana: iao,◻e◻il◻piccione◻tru◻e◻il◻tacchino◻glu◻
+                             10987654321098765432109876543210987654321
+El historial es:iao,◻e◻il◻piccione◻tru◻e◻il◻t
+                98765432109876543210987654321
+El Lookahead es:acchino◻glu◻
+                210987654321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 28
+Letra que rompió: c
+Para el texto de la ventana: ao,◻e◻il◻piccione◻tru◻e◻il◻tacchino◻glu◻g
+                             10987654321098765432109876543210987654321
+El historial es:ao,◻e◻il◻piccione◻tru◻e◻il◻ta
+                98765432109876543210987654321
+El Lookahead es:cchino◻glu◻g
+                210987654321
+
+Termino: c encontrado.
+
+Termino: cc encontrado.
+Tamaño = 2
+Offset = 18
+Letra que rompió: h
+Para el texto de la ventana: ,◻e◻il◻piccione◻tru◻e◻il◻tacchino◻glu◻glu
+                             10987654321098765432109876543210987654321
+El historial es:,◻e◻il◻piccione◻tru◻e◻il◻tacc
+                98765432109876543210987654321
+El Lookahead es:hino◻glu◻glu
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: one◻tru◻e◻il◻tacchino◻glu◻glu◻glu◻e◻il◻ga
+                             10987654321098765432109876543210987654321
+El historial es:one◻tru◻e◻il◻tacchino◻glu◻glu
+                98765432109876543210987654321
+El Lookahead es:◻glu◻e◻il◻ga
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻g encontrado.
+
+Termino: ◻gl encontrado.
+
+Termino: ◻glu encontrado.
+
+Termino: ◻glu◻ encontrado.
+Tamaño = 5
+Offset = 8
+Letra que rompió: e
+Para el texto de la ventana: ru◻e◻il◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻c
+                             10987654321098765432109876543210987654321
+El historial es:ru◻e◻il◻tacchino◻glu◻glu◻glu◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻gallo◻c
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+
+Termino: e◻i encontrado.
+
+Termino: e◻il encontrado.
+
+Termino: e◻il◻ encontrado.
+Tamaño = 5
+Offset = 26
+Letra que rompió: g
+Para el texto de la ventana: il◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻coroco
+                             10987654321098765432109876543210987654321
+El historial es:il◻tacchino◻glu◻glu◻glu◻e◻il◻
+                98765432109876543210987654321
+El Lookahead es:gallo◻coroco
+                210987654321
+
+Termino: g encontrado.
+Tamaño = 1
+Offset = 17
+Letra que rompió: a
+Para el texto de la ventana: l◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻corococ
+                             10987654321098765432109876543210987654321
+El historial es:l◻tacchino◻glu◻glu◻glu◻e◻il◻g
+                98765432109876543210987654321
+El Lookahead es:allo◻corococ
+                210987654321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: l
+Para el texto de la ventana: ◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻corococò
+                             10987654321098765432109876543210987654321
+El historial es:◻tacchino◻glu◻glu◻glu◻e◻il◻ga
+                98765432109876543210987654321
+El Lookahead es:llo◻corococò
+                210987654321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 18
+Letra que rompió: l
+Para el texto de la ventana: tacchino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻
+                             10987654321098765432109876543210987654321
+El historial es:tacchino◻glu◻glu◻glu◻e◻il◻gal
+                98765432109876543210987654321
+El Lookahead es:lo◻corococò◻
+                210987654321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 19
+Letra que rompió: o
+Para el texto de la ventana: acchino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e
+                             10987654321098765432109876543210987654321
+El historial es:acchino◻glu◻glu◻glu◻e◻il◻gall
+                98765432109876543210987654321
+El Lookahead es:o◻corococò◻e
+                210987654321
+
+Termino: o encontrado.
+
+Termino: o◻ encontrado.
+Tamaño = 2
+Offset = 23
+Letra que rompió: c
+Para el texto de la ventana: chino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e◻l
+                             10987654321098765432109876543210987654321
+El historial es:chino◻glu◻glu◻glu◻e◻il◻gallo◻
+                98765432109876543210987654321
+El Lookahead es:corococò◻e◻l
+                210987654321
+
+Termino: c encontrado.
+Tamaño = 1
+Offset = 29
+Letra que rompió: o
+Para el texto de la ventana: hino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e◻la
+                             10987654321098765432109876543210987654321
+El historial es:hino◻glu◻glu◻glu◻e◻il◻gallo◻c
+                98765432109876543210987654321
+El Lookahead es:orococò◻e◻la
+                210987654321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: r
+Para el texto de la ventana: ino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e◻la◻
+                             10987654321098765432109876543210987654321
+El historial es:ino◻glu◻glu◻glu◻e◻il◻gallo◻co
+                98765432109876543210987654321
+El Lookahead es:rococò◻e◻la◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: glu◻e◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e
+                             10987654321098765432109876543210987654321
+El historial es:glu◻e◻il◻gallo◻corococò◻e◻la◻
+                98765432109876543210987654321
+El Lookahead es:gallina◻cò◻e
+                210987654321
+
+Termino: g encontrado.
+
+Termino: ga encontrado.
+
+Termino: gal encontrado.
+
+Termino: gall encontrado.
+Tamaño = 4
+Offset = 20
+Letra que rompió: i
+Para el texto de la ventana: e◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e◻il◻
+                             10987654321098765432109876543210987654321
+El historial es:e◻il◻gallo◻corococò◻e◻la◻gall
+                98765432109876543210987654321
+El Lookahead es:ina◻cò◻e◻il◻
+                210987654321
+
+Termino: i encontrado.
+Tamaño = 1
+Offset = 27
+Letra que rompió: n
+Para el texto de la ventana: ◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e◻il◻p
+                             10987654321098765432109876543210987654321
+El historial es:◻il◻gallo◻corococò◻e◻la◻galli
+                98765432109876543210987654321
+El Lookahead es:na◻cò◻e◻il◻p
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: rococò◻e◻la◻gallina◻cò◻e◻il◻pulcino◻pio◻e
+                             10987654321098765432109876543210987654321
+El historial es:rococò◻e◻la◻gallina◻cò◻e◻il◻p
+                98765432109876543210987654321
+El Lookahead es:ulcino◻pio◻e
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: gallina◻cò◻e◻il◻pulcino◻pio◻e◻il◻pulcino◻
+                             10987654321098765432109876543210987654321
+El historial es:gallina◻cò◻e◻il◻pulcino◻pio◻e
+                98765432109876543210987654321
+El Lookahead es:◻il◻pulcino◻
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻i encontrado.
+
+Termino: ◻il encontrado.
+
+Termino: ◻il◻ encontrado.
+
+Termino: ◻il◻p encontrado.
+
+Termino: ◻il◻pu encontrado.
+
+Termino: ◻il◻pul encontrado.
+
+Termino: ◻il◻pulc encontrado.
+
+Termino: ◻il◻pulci encontrado.
+
+Termino: ◻il◻pulcin encontrado.
+
+Termino: ◻il◻pulcino encontrado.
+
+Termino: ◻il◻pulcino◻ encontrado.
+Tamaño = 12
+Offset = 17
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻il◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻pu
+                             10987654321098765432109876543210987654321
+El historial es:◻il◻pulcino◻pio◻e◻il◻pulcino◻
+                98765432109876543210987654321
+El Lookahead es:pio,◻e◻il◻pu
+                210987654321
+
+Termino: p encontrado.
+
+Termino: pi encontrado.
+
+Termino: pio encontrado.
+Tamaño = 3
+Offset = 17
+Letra que rompió: ,
+Para el texto de la ventana: ◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                             10987654321098765432109876543210987654321
+El historial es:◻pulcino◻pio◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:,◻e◻il◻pulci
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻e◻il◻pulcino◻pio,◻e◻il◻pulcino◻pio◻e◻il◻
+                             10987654321098765432109876543210987654321
+El historial es:◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                98765432109876543210987654321
+El Lookahead es:no◻pio◻e◻il◻
+                210987654321
+
+Termino: n encontrado.
+
+Termino: no encontrado.
+
+Termino: no◻ encontrado.
+
+Termino: no◻p encontrado.
+
+Termino: no◻pi encontrado.
+
+Termino: no◻pio encontrado.
+Tamaño = 6
+Offset = 18
+Letra que rompió: ◻
+Para el texto de la ventana: pulcino◻pio,◻e◻il◻pulcino◻pio◻e◻il◻pulcin
+                             10987654321098765432109876543210987654321
+El historial es:pulcino◻pio,◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:◻e◻il◻pulcin
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻e encontrado.
+
+Termino: ◻e◻ encontrado.
+
+Termino: ◻e◻i encontrado.
+
+Termino: ◻e◻il encontrado.
+
+Termino: ◻e◻il◻ encontrado.
+
+Termino: ◻e◻il◻p encontrado.
+
+Termino: ◻e◻il◻pu encontrado.
+
+Termino: ◻e◻il◻pul encontrado.
+
+Termino: ◻e◻il◻pulc encontrado.
+
+Termino: ◻e◻il◻pulci encontrado.
+
+Termino: ◻e◻il◻pulcin encontrado.
+Tamaño = 12
+Offset = 17
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻e◻il◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻
+                             10987654321098765432109876543210987654321
+El historial es:◻e◻il◻pulcino◻pio◻e◻il◻pulcin
+                98765432109876543210987654321
+El Lookahead es:o◻pio,◻e◻il◻
+                210987654321
+
+Termino: o encontrado.
+
+Termino: o◻ encontrado.
+
+Termino: o◻p encontrado.
+
+Termino: o◻pi encontrado.
+
+Termino: o◻pio encontrado.
+Tamaño = 5
+Offset = 17
+Letra que rompió: ,
+Para el texto de la ventana: ◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                             10987654321098765432109876543210987654321
+El historial es:◻pulcino◻pio◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:,◻e◻il◻pulci
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻e◻il◻pulcino◻pio,◻e◻il◻pulcino◻pio◻in◻ra
+                             10987654321098765432109876543210987654321
+El historial es:◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                98765432109876543210987654321
+El Lookahead es:no◻pio◻in◻ra
+                210987654321
+
+Termino: n encontrado.
+
+Termino: no encontrado.
+
+Termino: no◻ encontrado.
+
+Termino: no◻p encontrado.
+
+Termino: no◻pi encontrado.
+
+Termino: no◻pio encontrado.
+Tamaño = 6
+Offset = 18
+Letra que rompió: ◻
+Para el texto de la ventana: pulcino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'
+                             10987654321098765432109876543210987654321
+El historial es:pulcino◻pio,◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:◻in◻radio◻c'
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻i encontrado.
+Tamaño = 2
+Offset = 15
+Letra que rompió: n
+Para el texto de la ventana: lcino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻
+                             10987654321098765432109876543210987654321
+El historial es:lcino◻pio,◻e◻il◻pulcino◻pio◻i
+                98765432109876543210987654321
+El Lookahead es:n◻radio◻c'è◻
+                210987654321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: ◻
+Para el texto de la ventana: cino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻a
+                             10987654321098765432109876543210987654321
+El historial es:cino◻pio,◻e◻il◻pulcino◻pio◻in
+                98765432109876543210987654321
+El Lookahead es:◻radio◻c'è◻a
+                210987654321
+
+Termino: ◻ encontrado.
+Tamaño = 1
+Offset = 25
+Letra que rompió: r
+Para el texto de la ventana: ino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻an
+                             10987654321098765432109876543210987654321
+El historial es:ino◻pio,◻e◻il◻pulcino◻pio◻in◻
+                98765432109876543210987654321
+El Lookahead es:radio◻c'è◻an
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: l◻pulcino◻pio◻in◻radio◻c'è◻anche◻un◻toro◻
+                             10987654321098765432109876543210987654321
+El historial es:l◻pulcino◻pio◻in◻radio◻c'è◻an
+                98765432109876543210987654321
+El Lookahead es:che◻un◻toro◻
+                210987654321
+
+Termino: c encontrado.
+Tamaño = 1
+Offset = 24
+Letra que rompió: h
+Para el texto de la ventana: ◻pulcino◻pio◻in◻radio◻c'è◻anche◻un◻toro◻i
+                             10987654321098765432109876543210987654321
+El historial es:◻pulcino◻pio◻in◻radio◻c'è◻anc
+                98765432109876543210987654321
+El Lookahead es:he◻un◻toro◻i
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻in◻radio◻c'è◻anche◻un◻toro◻in◻radio◻c'è◻
+                             10987654321098765432109876543210987654321
+El historial es:◻in◻radio◻c'è◻anche◻un◻toro◻i
+                98765432109876543210987654321
+El Lookahead es:n◻radio◻c'è◻
+                210987654321
+
+Termino: n encontrado.
+
+Termino: n◻ encontrado.
+
+Termino: n◻r encontrado.
+
+Termino: n◻ra encontrado.
+
+Termino: n◻rad encontrado.
+
+Termino: n◻radi encontrado.
+
+Termino: n◻radio encontrado.
+
+Termino: n◻radio◻ encontrado.
+
+Termino: n◻radio◻c encontrado.
+
+Termino: n◻radio◻c' encontrado.
+
+Termino: n◻radio◻c'è encontrado.
+
+Termino: n◻radio◻c'è◻ encontrado.
+Tamaño = 12
+Offset = 27
+Letra que rompió: Vacío...
+Para el texto de la ventana: è◻anche◻un◻toro◻in◻radio◻c'è◻anche◻un◻tor
+                             10987654321098765432109876543210987654321
+El historial es:è◻anche◻un◻toro◻in◻radio◻c'è◻
+                98765432109876543210987654321
+El Lookahead es:anche◻un◻tor
+                210987654321
+
+Termino: a encontrado.
+
+Termino: an encontrado.
+
+Termino: anc encontrado.
+
+Termino: anch encontrado.
+
+Termino: anche encontrado.
+
+Termino: anche◻ encontrado.
+
+Termino: anche◻u encontrado.
+
+Termino: anche◻un encontrado.
+
+Termino: anche◻un◻ encontrado.
+
+Termino: anche◻un◻t encontrado.
+
+Termino: anche◻un◻to encontrado.
+
+Termino: anche◻un◻tor encontrado.
+Tamaño = 12
+Offset = 27
+Letra que rompió: Vacío...
+Para el texto de la ventana: oro◻in◻radio◻c'è◻anche◻un◻toro◻e◻il◻toro◻
+                             10987654321098765432109876543210987654321
+El historial es:oro◻in◻radio◻c'è◻anche◻un◻tor
+                98765432109876543210987654321
+El Lookahead es:o◻e◻il◻toro◻
+                210987654321
+
+Termino: o encontrado.
+
+Termino: o◻ encontrado.
+Tamaño = 2
+Offset = 27
+Letra que rompió: e
+Para el texto de la ventana: o◻in◻radio◻c'è◻anche◻un◻toro◻e◻il◻toro◻mu
+                             10987654321098765432109876543210987654321
+El historial es:o◻in◻radio◻c'è◻anche◻un◻toro◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻toro◻mu
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+Tamaño = 2
+Offset = 10
+Letra que rompió: i
+Para el texto de la ventana: in◻radio◻c'è◻anche◻un◻toro◻e◻il◻toro◻muu◻
+                             10987654321098765432109876543210987654321
+El historial es:in◻radio◻c'è◻anche◻un◻toro◻e◻
+                98765432109876543210987654321
+El Lookahead es:il◻toro◻muu◻
+                210987654321
+
+Termino: i encontrado.
+Tamaño = 1
+Offset = 29
+Letra que rompió: l
+Para el texto de la ventana: n◻radio◻c'è◻anche◻un◻toro◻e◻il◻toro◻muu◻e
+                             10987654321098765432109876543210987654321
+El historial es:n◻radio◻c'è◻anche◻un◻toro◻e◻i
+                98765432109876543210987654321
+El Lookahead es:l◻toro◻muu◻e
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: anche◻un◻toro◻e◻il◻toro◻muu◻e◻la◻mucca◻mo
+                             10987654321098765432109876543210987654321
+El historial es:anche◻un◻toro◻e◻il◻toro◻muu◻e
+                98765432109876543210987654321
+El Lookahead es:◻la◻mucca◻mo
+                210987654321
+
+Termino: ◻ encontrado.
+Tamaño = 1
+Offset = 24
+Letra que rompió: l
+Para el texto de la ventana: nche◻un◻toro◻e◻il◻toro◻muu◻e◻la◻mucca◻moo
+                             10987654321098765432109876543210987654321
+El historial es:nche◻un◻toro◻e◻il◻toro◻muu◻e◻
+                98765432109876543210987654321
+El Lookahead es:la◻mucca◻moo
+                210987654321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 13
+Letra que rompió: a
+Para el texto de la ventana: che◻un◻toro◻e◻il◻toro◻muu◻e◻la◻mucca◻moo◻
+                             10987654321098765432109876543210987654321
+El historial es:che◻un◻toro◻e◻il◻toro◻muu◻e◻l
+                98765432109876543210987654321
+El Lookahead es:a◻mucca◻moo◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: e◻il◻toro◻muu◻e◻la◻mucca◻moo◻l'agnello◻be
+                             10987654321098765432109876543210987654321
+El historial es:e◻il◻toro◻muu◻e◻la◻mucca◻moo◻
+                98765432109876543210987654321
+El Lookahead es:l'agnello◻be
+                210987654321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: '
+Para el texto de la ventana: ◻il◻toro◻muu◻e◻la◻mucca◻moo◻l'agnello◻bee
+                             10987654321098765432109876543210987654321
+El historial es:◻il◻toro◻muu◻e◻la◻mucca◻moo◻l
+                98765432109876543210987654321
+El Lookahead es:'agnello◻bee
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻e◻la◻mucca◻moo◻l'agnello◻bee◻e◻la◻capra◻
+                             10987654321098765432109876543210987654321
+El historial es:◻e◻la◻mucca◻moo◻l'agnello◻bee
+                98765432109876543210987654321
+El Lookahead es:◻e◻la◻capra◻
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻e encontrado.
+
+Termino: ◻e◻ encontrado.
+
+Termino: ◻e◻l encontrado.
+
+Termino: ◻e◻la encontrado.
+
+Termino: ◻e◻la◻ encontrado.
+Tamaño = 6
+Offset = 29
+Letra que rompió: c
+Para el texto de la ventana: mucca◻moo◻l'agnello◻bee◻e◻la◻capra◻meee◻e
+                             10987654321098765432109876543210987654321
+El historial es:mucca◻moo◻l'agnello◻bee◻e◻la◻
+                98765432109876543210987654321
+El Lookahead es:capra◻meee◻e
+                210987654321
+
+Termino: c encontrado.
+
+Termino: ca encontrado.
+Tamaño = 2
+Offset = 26
+Letra que rompió: p
+Para el texto de la ventana: cca◻moo◻l'agnello◻bee◻e◻la◻capra◻meee◻e◻i
+                             10987654321098765432109876543210987654321
+El historial es:cca◻moo◻l'agnello◻bee◻e◻la◻ca
+                98765432109876543210987654321
+El Lookahead es:pra◻meee◻e◻i
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: nello◻bee◻e◻la◻capra◻meee◻e◻il◻cane◻bau◻b
+                             10987654321098765432109876543210987654321
+El historial es:nello◻bee◻e◻la◻capra◻meee◻e◻i
+                98765432109876543210987654321
+El Lookahead es:l◻cane◻bau◻b
+                210987654321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 27
+Letra que rompió: ◻
+Para el texto de la ventana: ello◻bee◻e◻la◻capra◻meee◻e◻il◻cane◻bau◻ba
+                             10987654321098765432109876543210987654321
+El historial es:ello◻bee◻e◻la◻capra◻meee◻e◻il
+                98765432109876543210987654321
+El Lookahead es:◻cane◻bau◻ba
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻c encontrado.
+
+Termino: ◻ca encontrado.
+Tamaño = 3
+Offset = 16
+Letra que rompió: n
+Para el texto de la ventana: o◻bee◻e◻la◻capra◻meee◻e◻il◻cane◻bau◻bau◻e
+                             10987654321098765432109876543210987654321
+El historial es:o◻bee◻e◻la◻capra◻meee◻e◻il◻ca
+                98765432109876543210987654321
+El Lookahead es:ne◻bau◻bau◻e
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: apra◻meee◻e◻il◻cane◻bau◻bau◻e◻il◻gatto◻mi
+                             10987654321098765432109876543210987654321
+El historial es:apra◻meee◻e◻il◻cane◻bau◻bau◻e
+                98765432109876543210987654321
+El Lookahead es:◻il◻gatto◻mi
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻i encontrado.
+
+Termino: ◻il encontrado.
+
+Termino: ◻il◻ encontrado.
+Tamaño = 4
+Offset = 18
+Letra que rompió: g
+Para el texto de la ventana: ◻meee◻e◻il◻cane◻bau◻bau◻e◻il◻gatto◻miao◻e
+                             10987654321098765432109876543210987654321
+El historial es:◻meee◻e◻il◻cane◻bau◻bau◻e◻il◻
+                98765432109876543210987654321
+El Lookahead es:gatto◻miao◻e
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ane◻bau◻bau◻e◻il◻gatto◻miao◻e◻il◻piccione
+                             10987654321098765432109876543210987654321
+El historial es:ane◻bau◻bau◻e◻il◻gatto◻miao◻e
+                98765432109876543210987654321
+El Lookahead es:◻il◻piccione
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻i encontrado.
+
+Termino: ◻il encontrado.
+
+Termino: ◻il◻ encontrado.
+Tamaño = 4
+Offset = 16
+Letra que rompió: p
+Para el texto de la ventana: bau◻bau◻e◻il◻gatto◻miao◻e◻il◻piccione◻tru
+                             10987654321098765432109876543210987654321
+El historial es:bau◻bau◻e◻il◻gatto◻miao◻e◻il◻
+                98765432109876543210987654321
+El Lookahead es:piccione◻tru
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻gatto◻miao◻e◻il◻piccione◻tru◻e◻il◻tacchi
+                             10987654321098765432109876543210987654321
+El historial es:◻gatto◻miao◻e◻il◻piccione◻tru
+                98765432109876543210987654321
+El Lookahead es:◻e◻il◻tacchi
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻e encontrado.
+
+Termino: ◻e◻ encontrado.
+
+Termino: ◻e◻i encontrado.
+
+Termino: ◻e◻il encontrado.
+
+Termino: ◻e◻il◻ encontrado.
+Tamaño = 6
+Offset = 18
+Letra que rompió: t
+Para el texto de la ventana: ◻miao◻e◻il◻piccione◻tru◻e◻il◻tacchino◻glu
+                             10987654321098765432109876543210987654321
+El historial es:◻miao◻e◻il◻piccione◻tru◻e◻il◻
+                98765432109876543210987654321
+El Lookahead es:tacchino◻glu
+                210987654321
+
+Termino: t encontrado.
+Tamaño = 1
+Offset = 9
+Letra que rompió: a
+Para el texto de la ventana: miao◻e◻il◻piccione◻tru◻e◻il◻tacchino◻glu◻
+                             10987654321098765432109876543210987654321
+El historial es:miao◻e◻il◻piccione◻tru◻e◻il◻t
+                98765432109876543210987654321
+El Lookahead es:acchino◻glu◻
+                210987654321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 27
+Letra que rompió: c
+Para el texto de la ventana: iao◻e◻il◻piccione◻tru◻e◻il◻tacchino◻glu◻g
+                             10987654321098765432109876543210987654321
+El historial es:iao◻e◻il◻piccione◻tru◻e◻il◻ta
+                98765432109876543210987654321
+El Lookahead es:cchino◻glu◻g
+                210987654321
+
+Termino: c encontrado.
+
+Termino: cc encontrado.
+Tamaño = 2
+Offset = 18
+Letra que rompió: h
+Para el texto de la ventana: o◻e◻il◻piccione◻tru◻e◻il◻tacchino◻glu◻glu
+                             10987654321098765432109876543210987654321
+El historial es:o◻e◻il◻piccione◻tru◻e◻il◻tacc
+                98765432109876543210987654321
+El Lookahead es:hino◻glu◻glu
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: one◻tru◻e◻il◻tacchino◻glu◻glu◻glu◻e◻il◻ga
+                             10987654321098765432109876543210987654321
+El historial es:one◻tru◻e◻il◻tacchino◻glu◻glu
+                98765432109876543210987654321
+El Lookahead es:◻glu◻e◻il◻ga
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻g encontrado.
+
+Termino: ◻gl encontrado.
+
+Termino: ◻glu encontrado.
+
+Termino: ◻glu◻ encontrado.
+Tamaño = 5
+Offset = 8
+Letra que rompió: e
+Para el texto de la ventana: ru◻e◻il◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻c
+                             10987654321098765432109876543210987654321
+El historial es:ru◻e◻il◻tacchino◻glu◻glu◻glu◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻gallo◻c
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+
+Termino: e◻i encontrado.
+
+Termino: e◻il encontrado.
+
+Termino: e◻il◻ encontrado.
+Tamaño = 5
+Offset = 26
+Letra que rompió: g
+Para el texto de la ventana: il◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻coroco
+                             10987654321098765432109876543210987654321
+El historial es:il◻tacchino◻glu◻glu◻glu◻e◻il◻
+                98765432109876543210987654321
+El Lookahead es:gallo◻coroco
+                210987654321
+
+Termino: g encontrado.
+Tamaño = 1
+Offset = 17
+Letra que rompió: a
+Para el texto de la ventana: l◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻corococ
+                             10987654321098765432109876543210987654321
+El historial es:l◻tacchino◻glu◻glu◻glu◻e◻il◻g
+                98765432109876543210987654321
+El Lookahead es:allo◻corococ
+                210987654321
+
+Termino: a encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: l
+Para el texto de la ventana: ◻tacchino◻glu◻glu◻glu◻e◻il◻gallo◻corococò
+                             10987654321098765432109876543210987654321
+El historial es:◻tacchino◻glu◻glu◻glu◻e◻il◻ga
+                98765432109876543210987654321
+El Lookahead es:llo◻corococò
+                210987654321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 18
+Letra que rompió: l
+Para el texto de la ventana: tacchino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻
+                             10987654321098765432109876543210987654321
+El historial es:tacchino◻glu◻glu◻glu◻e◻il◻gal
+                98765432109876543210987654321
+El Lookahead es:lo◻corococò◻
+                210987654321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 19
+Letra que rompió: o
+Para el texto de la ventana: acchino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e
+                             10987654321098765432109876543210987654321
+El historial es:acchino◻glu◻glu◻glu◻e◻il◻gall
+                98765432109876543210987654321
+El Lookahead es:o◻corococò◻e
+                210987654321
+
+Termino: o encontrado.
+
+Termino: o◻ encontrado.
+Tamaño = 2
+Offset = 23
+Letra que rompió: c
+Para el texto de la ventana: chino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e◻l
+                             10987654321098765432109876543210987654321
+El historial es:chino◻glu◻glu◻glu◻e◻il◻gallo◻
+                98765432109876543210987654321
+El Lookahead es:corococò◻e◻l
+                210987654321
+
+Termino: c encontrado.
+Tamaño = 1
+Offset = 29
+Letra que rompió: o
+Para el texto de la ventana: hino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e◻la
+                             10987654321098765432109876543210987654321
+El historial es:hino◻glu◻glu◻glu◻e◻il◻gallo◻c
+                98765432109876543210987654321
+El Lookahead es:orococò◻e◻la
+                210987654321
+
+Termino: o encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: r
+Para el texto de la ventana: ino◻glu◻glu◻glu◻e◻il◻gallo◻corococò◻e◻la◻
+                             10987654321098765432109876543210987654321
+El historial es:ino◻glu◻glu◻glu◻e◻il◻gallo◻co
+                98765432109876543210987654321
+El Lookahead es:rococò◻e◻la◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: glu◻e◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e
+                             10987654321098765432109876543210987654321
+El historial es:glu◻e◻il◻gallo◻corococò◻e◻la◻
+                98765432109876543210987654321
+El Lookahead es:gallina◻cò◻e
+                210987654321
+
+Termino: g encontrado.
+
+Termino: ga encontrado.
+
+Termino: gal encontrado.
+
+Termino: gall encontrado.
+Tamaño = 4
+Offset = 20
+Letra que rompió: i
+Para el texto de la ventana: e◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e◻il◻
+                             10987654321098765432109876543210987654321
+El historial es:e◻il◻gallo◻corococò◻e◻la◻gall
+                98765432109876543210987654321
+El Lookahead es:ina◻cò◻e◻il◻
+                210987654321
+
+Termino: i encontrado.
+Tamaño = 1
+Offset = 27
+Letra que rompió: n
+Para el texto de la ventana: ◻il◻gallo◻corococò◻e◻la◻gallina◻cò◻e◻il◻p
+                             10987654321098765432109876543210987654321
+El historial es:◻il◻gallo◻corococò◻e◻la◻galli
+                98765432109876543210987654321
+El Lookahead es:na◻cò◻e◻il◻p
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: rococò◻e◻la◻gallina◻cò◻e◻il◻pulcino◻pio,◻
+                             10987654321098765432109876543210987654321
+El historial es:rococò◻e◻la◻gallina◻cò◻e◻il◻p
+                98765432109876543210987654321
+El Lookahead es:ulcino◻pio,◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: gallina◻cò◻e◻il◻pulcino◻pio,◻e◻il◻pulcino
+                             10987654321098765432109876543210987654321
+El historial es:gallina◻cò◻e◻il◻pulcino◻pio,◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻pulcino
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+
+Termino: e◻i encontrado.
+
+Termino: e◻il encontrado.
+
+Termino: e◻il◻ encontrado.
+
+Termino: e◻il◻p encontrado.
+
+Termino: e◻il◻pu encontrado.
+
+Termino: e◻il◻pul encontrado.
+
+Termino: e◻il◻pulc encontrado.
+
+Termino: e◻il◻pulci encontrado.
+
+Termino: e◻il◻pulcin encontrado.
+
+Termino: e◻il◻pulcino encontrado.
+Tamaño = 12
+Offset = 18
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻il◻pulcino◻pio,◻e◻il◻pulcino◻pio◻e◻il◻pu
+                             10987654321098765432109876543210987654321
+El historial es:◻il◻pulcino◻pio,◻e◻il◻pulcino
+                98765432109876543210987654321
+El Lookahead es:◻pio◻e◻il◻pu
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻p encontrado.
+
+Termino: ◻pi encontrado.
+
+Termino: ◻pio encontrado.
+Tamaño = 4
+Offset = 18
+Letra que rompió: ◻
+Para el texto de la ventana: pulcino◻pio,◻e◻il◻pulcino◻pio◻e◻il◻pulcin
+                             10987654321098765432109876543210987654321
+El historial es:pulcino◻pio,◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:◻e◻il◻pulcin
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻e encontrado.
+
+Termino: ◻e◻ encontrado.
+
+Termino: ◻e◻i encontrado.
+
+Termino: ◻e◻il encontrado.
+
+Termino: ◻e◻il◻ encontrado.
+
+Termino: ◻e◻il◻p encontrado.
+
+Termino: ◻e◻il◻pu encontrado.
+
+Termino: ◻e◻il◻pul encontrado.
+
+Termino: ◻e◻il◻pulc encontrado.
+
+Termino: ◻e◻il◻pulci encontrado.
+
+Termino: ◻e◻il◻pulcin encontrado.
+Tamaño = 12
+Offset = 17
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻e◻il◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻
+                             10987654321098765432109876543210987654321
+El historial es:◻e◻il◻pulcino◻pio◻e◻il◻pulcin
+                98765432109876543210987654321
+El Lookahead es:o◻pio,◻e◻il◻
+                210987654321
+
+Termino: o encontrado.
+
+Termino: o◻ encontrado.
+
+Termino: o◻p encontrado.
+
+Termino: o◻pi encontrado.
+
+Termino: o◻pio encontrado.
+Tamaño = 5
+Offset = 17
+Letra que rompió: ,
+Para el texto de la ventana: ◻pulcino◻pio◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                             10987654321098765432109876543210987654321
+El historial es:◻pulcino◻pio◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:,◻e◻il◻pulci
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻e◻il◻pulcino◻pio,◻e◻il◻pulcino◻pio◻in◻ra
+                             10987654321098765432109876543210987654321
+El historial es:◻e◻il◻pulcino◻pio,◻e◻il◻pulci
+                98765432109876543210987654321
+El Lookahead es:no◻pio◻in◻ra
+                210987654321
+
+Termino: n encontrado.
+
+Termino: no encontrado.
+
+Termino: no◻ encontrado.
+
+Termino: no◻p encontrado.
+
+Termino: no◻pi encontrado.
+
+Termino: no◻pio encontrado.
+Tamaño = 6
+Offset = 18
+Letra que rompió: ◻
+Para el texto de la ventana: pulcino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'
+                             10987654321098765432109876543210987654321
+El historial es:pulcino◻pio,◻e◻il◻pulcino◻pio
+                98765432109876543210987654321
+El Lookahead es:◻in◻radio◻c'
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻i encontrado.
+Tamaño = 2
+Offset = 15
+Letra que rompió: n
+Para el texto de la ventana: lcino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻
+                             10987654321098765432109876543210987654321
+El historial es:lcino◻pio,◻e◻il◻pulcino◻pio◻i
+                98765432109876543210987654321
+El Lookahead es:n◻radio◻c'è◻
+                210987654321
+
+Termino: n encontrado.
+Tamaño = 1
+Offset = 26
+Letra que rompió: ◻
+Para el texto de la ventana: cino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻u
+                             10987654321098765432109876543210987654321
+El historial es:cino◻pio,◻e◻il◻pulcino◻pio◻in
+                98765432109876543210987654321
+El Lookahead es:◻radio◻c'è◻u
+                210987654321
+
+Termino: ◻ encontrado.
+Tamaño = 1
+Offset = 25
+Letra que rompió: r
+Para el texto de la ventana: ino◻pio,◻e◻il◻pulcino◻pio◻in◻radio◻c'è◻un
+                             10987654321098765432109876543210987654321
+El historial es:ino◻pio,◻e◻il◻pulcino◻pio◻in◻
+                98765432109876543210987654321
+El Lookahead es:radio◻c'è◻un
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: l◻pulcino◻pio◻in◻radio◻c'è◻un◻trattore◻in
+                             10987654321098765432109876543210987654321
+El historial es:l◻pulcino◻pio◻in◻radio◻c'è◻un
+                98765432109876543210987654321
+El Lookahead es:◻trattore◻in
+                210987654321
+
+Termino: ◻ encontrado.
+Tamaño = 1
+Offset = 28
+Letra que rompió: t
+Para el texto de la ventana: ◻pulcino◻pio◻in◻radio◻c'è◻un◻trattore◻in◻
+                             10987654321098765432109876543210987654321
+El historial es:◻pulcino◻pio◻in◻radio◻c'è◻un◻
+                98765432109876543210987654321
+El Lookahead es:trattore◻in◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻in◻radio◻c'è◻un◻trattore◻in◻radio◻c'è◻un
+                             10987654321098765432109876543210987654321
+El historial es:◻in◻radio◻c'è◻un◻trattore◻in◻
+                98765432109876543210987654321
+El Lookahead es:radio◻c'è◻un
+                210987654321
+
+Termino: r encontrado.
+
+Termino: ra encontrado.
+
+Termino: rad encontrado.
+
+Termino: radi encontrado.
+
+Termino: radio encontrado.
+
+Termino: radio◻ encontrado.
+
+Termino: radio◻c encontrado.
+
+Termino: radio◻c' encontrado.
+
+Termino: radio◻c'è encontrado.
+
+Termino: radio◻c'è◻ encontrado.
+
+Termino: radio◻c'è◻u encontrado.
+
+Termino: radio◻c'è◻un encontrado.
+Tamaño = 12
+Offset = 25
+Letra que rompió: Vacío...
+Para el texto de la ventana: è◻un◻trattore◻in◻radio◻c'è◻un◻trattore◻e◻
+                             10987654321098765432109876543210987654321
+El historial es:è◻un◻trattore◻in◻radio◻c'è◻un
+                98765432109876543210987654321
+El Lookahead es:◻trattore◻e◻
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻t encontrado.
+
+Termino: ◻tr encontrado.
+
+Termino: ◻tra encontrado.
+
+Termino: ◻trat encontrado.
+
+Termino: ◻tratt encontrado.
+
+Termino: ◻tratto encontrado.
+
+Termino: ◻trattor encontrado.
+
+Termino: ◻trattore encontrado.
+
+Termino: ◻trattore◻ encontrado.
+Tamaño = 10
+Offset = 25
+Letra que rompió: e
+Para el texto de la ventana: ore◻in◻radio◻c'è◻un◻trattore◻e◻il◻trattor
+                             10987654321098765432109876543210987654321
+El historial es:ore◻in◻radio◻c'è◻un◻trattore◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻trattor
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+
+Termino: e◻i encontrado.
+Tamaño = 3
+Offset = 27
+Letra que rompió: l
+Para el texto de la ventana: ◻in◻radio◻c'è◻un◻trattore◻e◻il◻trattore◻b
+                             10987654321098765432109876543210987654321
+El historial es:◻in◻radio◻c'è◻un◻trattore◻e◻i
+                98765432109876543210987654321
+El Lookahead es:l◻trattore◻b
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: è◻un◻trattore◻e◻il◻trattore◻bruum,◻il◻tra
+                             10987654321098765432109876543210987654321
+El historial es:è◻un◻trattore◻e◻il◻trattore◻b
+                98765432109876543210987654321
+El Lookahead es:ruum,◻il◻tra
+                210987654321
+
+Termino: r encontrado.
+Tamaño = 1
+Offset = 23
+Letra que rompió: u
+Para el texto de la ventana: ◻un◻trattore◻e◻il◻trattore◻bruum,◻il◻trat
+                             10987654321098765432109876543210987654321
+El historial es:◻un◻trattore◻e◻il◻trattore◻br
+                98765432109876543210987654321
+El Lookahead es:uum,◻il◻trat
+                210987654321
+
+Termino: u encontrado.
+Tamaño = 1
+Offset = 28
+Letra que rompió: u
+Para el texto de la ventana: un◻trattore◻e◻il◻trattore◻bruum,◻il◻tratt
+                             10987654321098765432109876543210987654321
+El historial es:un◻trattore◻e◻il◻trattore◻bru
+                98765432109876543210987654321
+El Lookahead es:um,◻il◻tratt
+                210987654321
+
+Termino: u encontrado.
+Tamaño = 1
+Offset = 29
+Letra que rompió: m
+Para el texto de la ventana: n◻trattore◻e◻il◻trattore◻bruum,◻il◻tratto
+                             10987654321098765432109876543210987654321
+El historial es:n◻trattore◻e◻il◻trattore◻bruu
+                98765432109876543210987654321
+El Lookahead es:m,◻il◻tratto
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻il◻trattore◻bruum,◻il◻trattore◻bruum,◻il
+                             10987654321098765432109876543210987654321
+El historial es:◻il◻trattore◻bruum,◻il◻tratto
+                98765432109876543210987654321
+El Lookahead es:re◻bruum,◻il
+                210987654321
+
+Termino: r encontrado.
+
+Termino: re encontrado.
+
+Termino: re◻ encontrado.
+
+Termino: re◻b encontrado.
+
+Termino: re◻br encontrado.
+
+Termino: re◻bru encontrado.
+
+Termino: re◻bruu encontrado.
+
+Termino: re◻bruum encontrado.
+
+Termino: re◻bruum, encontrado.
+
+Termino: re◻bruum,◻ encontrado.
+
+Termino: re◻bruum,◻i encontrado.
+
+Termino: re◻bruum,◻il encontrado.
+Tamaño = 12
+Offset = 19
+Letra que rompió: Vacío...
+Para el texto de la ventana: ◻bruum,◻il◻trattore◻bruum,◻il◻trattore◻br
+                             10987654321098765432109876543210987654321
+El historial es:◻bruum,◻il◻trattore◻bruum,◻il
+                98765432109876543210987654321
+El Lookahead es:◻trattore◻br
+                210987654321
+
+Termino: ◻ encontrado.
+
+Termino: ◻t encontrado.
+
+Termino: ◻tr encontrado.
+
+Termino: ◻tra encontrado.
+
+Termino: ◻trat encontrado.
+
+Termino: ◻tratt encontrado.
+
+Termino: ◻tratto encontrado.
+
+Termino: ◻trattor encontrado.
+
+Termino: ◻trattore encontrado.
+
+Termino: ◻trattore◻ encontrado.
+
+Termino: ◻trattore◻b encontrado.
+
+Termino: ◻trattore◻br encontrado.
+Tamaño = 12
+Offset = 19
+Letra que rompió: Vacío...
+Para el texto de la ventana: rattore◻bruum,◻il◻trattore◻bruum◻e◻il◻pul
+                             10987654321098765432109876543210987654321
+El historial es:rattore◻bruum,◻il◻trattore◻br
+                98765432109876543210987654321
+El Lookahead es:uum◻e◻il◻pul
+                210987654321
+
+Termino: u encontrado.
+
+Termino: uu encontrado.
+
+Termino: uum encontrado.
+Tamaño = 3
+Offset = 19
+Letra que rompió: ◻
+Para el texto de la ventana: tore◻bruum,◻il◻trattore◻bruum◻e◻il◻pulcin
+                             10987654321098765432109876543210987654321
+El historial es:tore◻bruum,◻il◻trattore◻bruum
+                98765432109876543210987654321
+El Lookahead es:◻e◻il◻pulcin
+                210987654321
+
+Termino: ◻ encontrado.
+Tamaño = 1
+Offset = 25
+Letra que rompió: e
+Para el texto de la ventana: ore◻bruum,◻il◻trattore◻bruum◻e◻il◻pulcino
+                             10987654321098765432109876543210987654321
+El historial es:ore◻bruum,◻il◻trattore◻bruum◻
+                98765432109876543210987654321
+El Lookahead es:e◻il◻pulcino
+                210987654321
+
+Termino: e encontrado.
+
+Termino: e◻ encontrado.
+Tamaño = 2
+Offset = 27
+Letra que rompió: i
+Para el texto de la ventana: e◻bruum,◻il◻trattore◻bruum◻e◻il◻pulcino,◻
+                             10987654321098765432109876543210987654321
+El historial es:e◻bruum,◻il◻trattore◻bruum◻e◻
+                98765432109876543210987654321
+El Lookahead es:il◻pulcino,◻
+                210987654321
+
+Termino: i encontrado.
+
+Termino: il encontrado.
+
+Termino: il◻ encontrado.
+Tamaño = 3
+Offset = 20
+Letra que rompió: p
+Para el texto de la ventana: ruum,◻il◻trattore◻bruum◻e◻il◻pulcino,◻oh◻
+                             10987654321098765432109876543210987654321
+El historial es:ruum,◻il◻trattore◻bruum◻e◻il◻
+                98765432109876543210987654321
+El Lookahead es:pulcino,◻oh◻
+                210987654321
+Tamaño = 12
+Offset = 0
+Letra que rompió: Vacío...
+Para el texto de la ventana: um,◻il◻trattore◻bruum◻e◻il◻pulcino,◻oh◻oh
+                             10987654321098765432109876543210987654321
+El historial es:um,◻il◻trattore◻bruum◻e◻il◻pu
+                98765432109876543210987654321
+El Lookahead es:lcino,◻oh◻oh
+                210987654321
+
+Termino: l encontrado.
+Tamaño = 1
+Offset = 24
+Letra que rompió: c
+==============================
+Ventanas recorrida: 422 veces
+Ventana 1: Tamaño=12, Offset=24, Letra='Vacío...'
+Ventana 2: Tamaño=7, Offset=24, Letra='è'
+Ventana 3: Tamaño=2, Offset=13, Letra='i'
+Ventana 4: Tamaño=1, Offset=26, Letra='l'
+Ventana 5: Tamaño=1, Offset=9, Letra='◻'
+Ventana 6: Tamaño=9, Offset=13, Letra='p'
+Ventana 7: Tamaño=1, Offset=21, Letra='i'
+Ventana 8: Tamaño=1, Offset=18, Letra='o'
+Ventana 9: Tamaño=1, Offset=17, Letra=','
+Ventana 10: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 11: Tamaño=6, Offset=18, Letra='◻'
+Ventana 12: Tamaño=1, Offset=22, Letra='e'
+Ventana 13: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 14: Tamaño=4, Offset=17, Letra=','
+Ventana 15: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 16: Tamaño=6, Offset=18, Letra='◻'
+Ventana 17: Tamaño=12, Offset=17, Letra='Vacío...'
+Ventana 18: Tamaño=5, Offset=17, Letra=','
+Ventana 19: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 20: Tamaño=6, Offset=18, Letra='◻'
+Ventana 21: Tamaño=2, Offset=15, Letra='n'
+Ventana 22: Tamaño=1, Offset=26, Letra='◻'
+Ventana 23: Tamaño=1, Offset=25, Letra='r'
+Ventana 24: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 25: Tamaño=1, Offset=11, Letra='◻'
+Ventana 26: Tamaño=1, Offset=29, Letra='g'
+Ventana 27: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 28: Tamaño=12, Offset=25, Letra='Vacío...'
+Ventana 29: Tamaño=9, Offset=25, Letra='e'
+Ventana 30: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 31: Tamaño=2, Offset=29, Letra='ò'
+Ventana 32: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 33: Tamaño=2, Offset=17, Letra='o'
+Ventana 34: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 35: Tamaño=10, Offset=17, Letra=','
+Ventana 36: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 37: Tamaño=6, Offset=18, Letra='◻'
+Ventana 38: Tamaño=12, Offset=17, Letra='Vacío...'
+Ventana 39: Tamaño=5, Offset=17, Letra=','
+Ventana 40: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 41: Tamaño=6, Offset=18, Letra='◻'
+Ventana 42: Tamaño=2, Offset=15, Letra='n'
+Ventana 43: Tamaño=1, Offset=26, Letra='◻'
+Ventana 44: Tamaño=1, Offset=25, Letra='r'
+Ventana 45: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 46: Tamaño=1, Offset=24, Letra='h'
+Ventana 47: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 48: Tamaño=12, Offset=28, Letra='Vacío...'
+Ventana 49: Tamaño=12, Offset=28, Letra='Vacío...'
+Ventana 50: Tamaño=4, Offset=28, Letra='e'
+Ventana 51: Tamaño=2, Offset=11, Letra='i'
+Ventana 52: Tamaño=1, Offset=24, Letra='l'
+Ventana 53: Tamaño=1, Offset=7, Letra='◻'
+Ventana 54: Tamaño=7, Offset=11, Letra='c'
+Ventana 55: Tamaño=1, Offset=24, Letra='o'
+Ventana 56: Tamaño=1, Offset=14, Letra='r'
+Ventana 57: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 58: Tamaño=4, Offset=20, Letra='i'
+Ventana 59: Tamaño=1, Offset=27, Letra='n'
+Ventana 60: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 61: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 62: Tamaño=12, Offset=18, Letra='Vacío...'
+Ventana 63: Tamaño=4, Offset=18, Letra='◻'
+Ventana 64: Tamaño=12, Offset=17, Letra='Vacío...'
+Ventana 65: Tamaño=5, Offset=17, Letra=','
+Ventana 66: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 67: Tamaño=6, Offset=18, Letra='◻'
+Ventana 68: Tamaño=2, Offset=15, Letra='n'
+Ventana 69: Tamaño=1, Offset=26, Letra='◻'
+Ventana 70: Tamaño=1, Offset=25, Letra='r'
+Ventana 71: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 72: Tamaño=1, Offset=28, Letra='t'
+Ventana 73: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 74: Tamaño=12, Offset=25, Letra='Vacío...'
+Ventana 75: Tamaño=10, Offset=25, Letra='e'
+Ventana 76: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 77: Tamaño=2, Offset=14, Letra='g'
+Ventana 78: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 79: Tamaño=5, Offset=26, Letra='g'
+Ventana 80: Tamaño=1, Offset=17, Letra='a'
+Ventana 81: Tamaño=1, Offset=26, Letra='l'
+Ventana 82: Tamaño=1, Offset=18, Letra='l'
+Ventana 83: Tamaño=1, Offset=19, Letra='o'
+Ventana 84: Tamaño=2, Offset=23, Letra='c'
+Ventana 85: Tamaño=1, Offset=29, Letra='o'
+Ventana 86: Tamaño=1, Offset=26, Letra='r'
+Ventana 87: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 88: Tamaño=4, Offset=20, Letra='i'
+Ventana 89: Tamaño=1, Offset=27, Letra='n'
+Ventana 90: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 91: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 92: Tamaño=12, Offset=17, Letra='Vacío...'
+Ventana 93: Tamaño=3, Offset=17, Letra=','
+Ventana 94: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 95: Tamaño=6, Offset=18, Letra='◻'
+Ventana 96: Tamaño=2, Offset=15, Letra='n'
+Ventana 97: Tamaño=1, Offset=26, Letra='◻'
+Ventana 98: Tamaño=1, Offset=25, Letra='r'
+Ventana 99: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 100: Tamaño=3, Offset=20, Letra='c'
+Ventana 101: Tamaño=1, Offset=27, Letra='c'
+Ventana 102: Tamaño=2, Offset=28, Letra='o'
+Ventana 103: Tamaño=1, Offset=27, Letra='n'
+Ventana 104: Tamaño=1, Offset=29, Letra='e'
+Ventana 105: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 106: Tamaño=12, Offset=25, Letra='Vacío...'
+Ventana 107: Tamaño=3, Offset=25, Letra='e'
+Ventana 108: Tamaño=3, Offset=27, Letra='l'
+Ventana 109: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 110: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 111: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 112: Tamaño=5, Offset=8, Letra='e'
+Ventana 113: Tamaño=5, Offset=26, Letra='g'
+Ventana 114: Tamaño=1, Offset=17, Letra='a'
+Ventana 115: Tamaño=1, Offset=26, Letra='l'
+Ventana 116: Tamaño=1, Offset=18, Letra='l'
+Ventana 117: Tamaño=1, Offset=19, Letra='o'
+Ventana 118: Tamaño=2, Offset=23, Letra='c'
+Ventana 119: Tamaño=1, Offset=29, Letra='o'
+Ventana 120: Tamaño=1, Offset=26, Letra='r'
+Ventana 121: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 122: Tamaño=4, Offset=20, Letra='i'
+Ventana 123: Tamaño=1, Offset=27, Letra='n'
+Ventana 124: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 125: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 126: Tamaño=12, Offset=18, Letra='Vacío...'
+Ventana 127: Tamaño=4, Offset=18, Letra='◻'
+Ventana 128: Tamaño=12, Offset=17, Letra='Vacío...'
+Ventana 129: Tamaño=5, Offset=17, Letra=','
+Ventana 130: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 131: Tamaño=6, Offset=18, Letra='◻'
+Ventana 132: Tamaño=2, Offset=15, Letra='n'
+Ventana 133: Tamaño=1, Offset=26, Letra='◻'
+Ventana 134: Tamaño=1, Offset=25, Letra='r'
+Ventana 135: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 136: Tamaño=1, Offset=24, Letra='h'
+Ventana 137: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 138: Tamaño=12, Offset=28, Letra='Vacío...'
+Ventana 139: Tamaño=12, Offset=28, Letra='Vacío...'
+Ventana 140: Tamaño=4, Offset=28, Letra='e'
+Ventana 141: Tamaño=2, Offset=11, Letra='i'
+Ventana 142: Tamaño=1, Offset=24, Letra='l'
+Ventana 143: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 144: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 145: Tamaño=2, Offset=27, Letra='t'
+Ventana 146: Tamaño=1, Offset=22, Letra='r'
+Ventana 147: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 148: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 149: Tamaño=5, Offset=8, Letra='e'
+Ventana 150: Tamaño=5, Offset=26, Letra='g'
+Ventana 151: Tamaño=1, Offset=17, Letra='a'
+Ventana 152: Tamaño=1, Offset=26, Letra='l'
+Ventana 153: Tamaño=1, Offset=18, Letra='l'
+Ventana 154: Tamaño=1, Offset=19, Letra='o'
+Ventana 155: Tamaño=2, Offset=23, Letra='c'
+Ventana 156: Tamaño=1, Offset=29, Letra='o'
+Ventana 157: Tamaño=1, Offset=26, Letra='r'
+Ventana 158: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 159: Tamaño=4, Offset=20, Letra='i'
+Ventana 160: Tamaño=1, Offset=27, Letra='n'
+Ventana 161: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 162: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 163: Tamaño=12, Offset=17, Letra='Vacío...'
+Ventana 164: Tamaño=3, Offset=17, Letra=','
+Ventana 165: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 166: Tamaño=6, Offset=18, Letra='◻'
+Ventana 167: Tamaño=2, Offset=15, Letra='n'
+Ventana 168: Tamaño=1, Offset=26, Letra='◻'
+Ventana 169: Tamaño=1, Offset=25, Letra='r'
+Ventana 170: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 171: Tamaño=1, Offset=24, Letra='h'
+Ventana 172: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 173: Tamaño=12, Offset=27, Letra='Vacío...'
+Ventana 174: Tamaño=12, Offset=27, Letra='Vacío...'
+Ventana 175: Tamaño=2, Offset=27, Letra='e'
+Ventana 176: Tamaño=3, Offset=29, Letra='l'
+Ventana 177: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 178: Tamaño=3, Offset=4, Letra='e'
+Ventana 179: Tamaño=5, Offset=18, Letra='g'
+Ventana 180: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 181: Tamaño=5, Offset=17, Letra='p'
+Ventana 182: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 183: Tamaño=6, Offset=18, Letra='t'
+Ventana 184: Tamaño=1, Offset=9, Letra='a'
+Ventana 185: Tamaño=1, Offset=28, Letra='c'
+Ventana 186: Tamaño=2, Offset=18, Letra='h'
+Ventana 187: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 188: Tamaño=5, Offset=8, Letra='e'
+Ventana 189: Tamaño=5, Offset=26, Letra='g'
+Ventana 190: Tamaño=1, Offset=17, Letra='a'
+Ventana 191: Tamaño=1, Offset=26, Letra='l'
+Ventana 192: Tamaño=1, Offset=18, Letra='l'
+Ventana 193: Tamaño=1, Offset=19, Letra='o'
+Ventana 194: Tamaño=2, Offset=23, Letra='c'
+Ventana 195: Tamaño=1, Offset=29, Letra='o'
+Ventana 196: Tamaño=1, Offset=26, Letra='r'
+Ventana 197: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 198: Tamaño=4, Offset=20, Letra='i'
+Ventana 199: Tamaño=1, Offset=27, Letra='n'
+Ventana 200: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 201: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 202: Tamaño=12, Offset=18, Letra='Vacío...'
+Ventana 203: Tamaño=4, Offset=18, Letra='◻'
+Ventana 204: Tamaño=12, Offset=17, Letra='Vacío...'
+Ventana 205: Tamaño=5, Offset=17, Letra=','
+Ventana 206: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 207: Tamaño=6, Offset=18, Letra='◻'
+Ventana 208: Tamaño=2, Offset=15, Letra='n'
+Ventana 209: Tamaño=1, Offset=26, Letra='◻'
+Ventana 210: Tamaño=1, Offset=25, Letra='r'
+Ventana 211: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 212: Tamaño=1, Offset=11, Letra='◻'
+Ventana 213: Tamaño=2, Offset=8, Letra='a'
+Ventana 214: Tamaño=1, Offset=14, Letra='p'
+Ventana 215: Tamaño=1, Offset=23, Letra='r'
+Ventana 216: Tamaño=2, Offset=17, Letra='◻'
+Ventana 217: Tamaño=12, Offset=23, Letra='Vacío...'
+Ventana 218: Tamaño=12, Offset=23, Letra='Vacío...'
+Ventana 219: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 220: Tamaño=1, Offset=12, Letra='e'
+Ventana 221: Tamaño=1, Offset=13, Letra='e'
+Ventana 222: Tamaño=2, Offset=14, Letra='e'
+Ventana 223: Tamaño=2, Offset=16, Letra='i'
+Ventana 224: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 225: Tamaño=4, Offset=4, Letra='e'
+Ventana 226: Tamaño=5, Offset=18, Letra='g'
+Ventana 227: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 228: Tamaño=5, Offset=17, Letra='p'
+Ventana 229: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 230: Tamaño=6, Offset=18, Letra='t'
+Ventana 231: Tamaño=1, Offset=9, Letra='a'
+Ventana 232: Tamaño=1, Offset=28, Letra='c'
+Ventana 233: Tamaño=2, Offset=18, Letra='h'
+Ventana 234: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 235: Tamaño=5, Offset=8, Letra='e'
+Ventana 236: Tamaño=5, Offset=26, Letra='g'
+Ventana 237: Tamaño=1, Offset=17, Letra='a'
+Ventana 238: Tamaño=1, Offset=26, Letra='l'
+Ventana 239: Tamaño=1, Offset=18, Letra='l'
+Ventana 240: Tamaño=1, Offset=19, Letra='o'
+Ventana 241: Tamaño=2, Offset=23, Letra='c'
+Ventana 242: Tamaño=1, Offset=29, Letra='o'
+Ventana 243: Tamaño=1, Offset=26, Letra='r'
+Ventana 244: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 245: Tamaño=4, Offset=20, Letra='i'
+Ventana 246: Tamaño=1, Offset=27, Letra='n'
+Ventana 247: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 248: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 249: Tamaño=12, Offset=17, Letra='Vacío...'
+Ventana 250: Tamaño=3, Offset=17, Letra=','
+Ventana 251: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 252: Tamaño=6, Offset=18, Letra='◻'
+Ventana 253: Tamaño=2, Offset=15, Letra='n'
+Ventana 254: Tamaño=1, Offset=26, Letra='◻'
+Ventana 255: Tamaño=1, Offset=25, Letra='r'
+Ventana 256: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 257: Tamaño=1, Offset=28, Letra='a'
+Ventana 258: Tamaño=1, Offset=12, Letra='g'
+Ventana 259: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 260: Tamaño=12, Offset=24, Letra='Vacío...'
+Ventana 261: Tamaño=7, Offset=24, Letra='e'
+Ventana 262: Tamaño=1, Offset=29, Letra='◻'
+Ventana 263: Tamaño=1, Offset=26, Letra='l'
+Ventana 264: Tamaño=1, Offset=29, Letra='''
+Ventana 265: Tamaño=1, Offset=17, Letra='a'
+Ventana 266: Tamaño=8, Offset=12, Letra='b'
+Ventana 267: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 268: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 269: Tamaño=3, Offset=16, Letra='n'
+Ventana 270: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 271: Tamaño=4, Offset=18, Letra='g'
+Ventana 272: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 273: Tamaño=4, Offset=16, Letra='p'
+Ventana 274: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 275: Tamaño=6, Offset=18, Letra='t'
+Ventana 276: Tamaño=1, Offset=9, Letra='a'
+Ventana 277: Tamaño=1, Offset=27, Letra='c'
+Ventana 278: Tamaño=2, Offset=18, Letra='h'
+Ventana 279: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 280: Tamaño=5, Offset=8, Letra='e'
+Ventana 281: Tamaño=5, Offset=26, Letra='g'
+Ventana 282: Tamaño=1, Offset=17, Letra='a'
+Ventana 283: Tamaño=1, Offset=26, Letra='l'
+Ventana 284: Tamaño=1, Offset=18, Letra='l'
+Ventana 285: Tamaño=1, Offset=19, Letra='o'
+Ventana 286: Tamaño=2, Offset=23, Letra='c'
+Ventana 287: Tamaño=1, Offset=29, Letra='o'
+Ventana 288: Tamaño=1, Offset=26, Letra='r'
+Ventana 289: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 290: Tamaño=4, Offset=20, Letra='i'
+Ventana 291: Tamaño=1, Offset=27, Letra='n'
+Ventana 292: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 293: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 294: Tamaño=12, Offset=18, Letra='Vacío...'
+Ventana 295: Tamaño=4, Offset=18, Letra='◻'
+Ventana 296: Tamaño=12, Offset=17, Letra='Vacío...'
+Ventana 297: Tamaño=5, Offset=17, Letra=','
+Ventana 298: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 299: Tamaño=6, Offset=18, Letra='◻'
+Ventana 300: Tamaño=2, Offset=15, Letra='n'
+Ventana 301: Tamaño=1, Offset=26, Letra='◻'
+Ventana 302: Tamaño=1, Offset=25, Letra='r'
+Ventana 303: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 304: Tamaño=1, Offset=11, Letra='◻'
+Ventana 305: Tamaño=1, Offset=29, Letra='m'
+Ventana 306: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 307: Tamaño=12, Offset=23, Letra='Vacío...'
+Ventana 308: Tamaño=5, Offset=23, Letra='e'
+Ventana 309: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 310: Tamaño=1, Offset=28, Letra='o'
+Ventana 311: Tamaño=1, Offset=29, Letra=','
+Ventana 312: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 313: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 314: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 315: Tamaño=2, Offset=15, Letra='n'
+Ventana 316: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 317: Tamaño=2, Offset=16, Letra='g'
+Ventana 318: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 319: Tamaño=2, Offset=25, Letra='i'
+Ventana 320: Tamaño=3, Offset=17, Letra='p'
+Ventana 321: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 322: Tamaño=6, Offset=18, Letra='t'
+Ventana 323: Tamaño=1, Offset=9, Letra='a'
+Ventana 324: Tamaño=1, Offset=28, Letra='c'
+Ventana 325: Tamaño=2, Offset=18, Letra='h'
+Ventana 326: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 327: Tamaño=5, Offset=8, Letra='e'
+Ventana 328: Tamaño=5, Offset=26, Letra='g'
+Ventana 329: Tamaño=1, Offset=17, Letra='a'
+Ventana 330: Tamaño=1, Offset=26, Letra='l'
+Ventana 331: Tamaño=1, Offset=18, Letra='l'
+Ventana 332: Tamaño=1, Offset=19, Letra='o'
+Ventana 333: Tamaño=2, Offset=23, Letra='c'
+Ventana 334: Tamaño=1, Offset=29, Letra='o'
+Ventana 335: Tamaño=1, Offset=26, Letra='r'
+Ventana 336: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 337: Tamaño=4, Offset=20, Letra='i'
+Ventana 338: Tamaño=1, Offset=27, Letra='n'
+Ventana 339: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 340: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 341: Tamaño=12, Offset=17, Letra='Vacío...'
+Ventana 342: Tamaño=3, Offset=17, Letra=','
+Ventana 343: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 344: Tamaño=6, Offset=18, Letra='◻'
+Ventana 345: Tamaño=12, Offset=17, Letra='Vacío...'
+Ventana 346: Tamaño=5, Offset=17, Letra=','
+Ventana 347: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 348: Tamaño=6, Offset=18, Letra='◻'
+Ventana 349: Tamaño=2, Offset=15, Letra='n'
+Ventana 350: Tamaño=1, Offset=26, Letra='◻'
+Ventana 351: Tamaño=1, Offset=25, Letra='r'
+Ventana 352: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 353: Tamaño=1, Offset=24, Letra='h'
+Ventana 354: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 355: Tamaño=12, Offset=27, Letra='Vacío...'
+Ventana 356: Tamaño=12, Offset=27, Letra='Vacío...'
+Ventana 357: Tamaño=2, Offset=27, Letra='e'
+Ventana 358: Tamaño=2, Offset=10, Letra='i'
+Ventana 359: Tamaño=1, Offset=29, Letra='l'
+Ventana 360: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 361: Tamaño=1, Offset=24, Letra='l'
+Ventana 362: Tamaño=1, Offset=13, Letra='a'
+Ventana 363: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 364: Tamaño=1, Offset=26, Letra='''
+Ventana 365: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 366: Tamaño=6, Offset=29, Letra='c'
+Ventana 367: Tamaño=2, Offset=26, Letra='p'
+Ventana 368: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 369: Tamaño=1, Offset=27, Letra='◻'
+Ventana 370: Tamaño=3, Offset=16, Letra='n'
+Ventana 371: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 372: Tamaño=4, Offset=18, Letra='g'
+Ventana 373: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 374: Tamaño=4, Offset=16, Letra='p'
+Ventana 375: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 376: Tamaño=6, Offset=18, Letra='t'
+Ventana 377: Tamaño=1, Offset=9, Letra='a'
+Ventana 378: Tamaño=1, Offset=27, Letra='c'
+Ventana 379: Tamaño=2, Offset=18, Letra='h'
+Ventana 380: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 381: Tamaño=5, Offset=8, Letra='e'
+Ventana 382: Tamaño=5, Offset=26, Letra='g'
+Ventana 383: Tamaño=1, Offset=17, Letra='a'
+Ventana 384: Tamaño=1, Offset=26, Letra='l'
+Ventana 385: Tamaño=1, Offset=18, Letra='l'
+Ventana 386: Tamaño=1, Offset=19, Letra='o'
+Ventana 387: Tamaño=2, Offset=23, Letra='c'
+Ventana 388: Tamaño=1, Offset=29, Letra='o'
+Ventana 389: Tamaño=1, Offset=26, Letra='r'
+Ventana 390: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 391: Tamaño=4, Offset=20, Letra='i'
+Ventana 392: Tamaño=1, Offset=27, Letra='n'
+Ventana 393: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 394: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 395: Tamaño=12, Offset=18, Letra='Vacío...'
+Ventana 396: Tamaño=4, Offset=18, Letra='◻'
+Ventana 397: Tamaño=12, Offset=17, Letra='Vacío...'
+Ventana 398: Tamaño=5, Offset=17, Letra=','
+Ventana 399: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 400: Tamaño=6, Offset=18, Letra='◻'
+Ventana 401: Tamaño=2, Offset=15, Letra='n'
+Ventana 402: Tamaño=1, Offset=26, Letra='◻'
+Ventana 403: Tamaño=1, Offset=25, Letra='r'
+Ventana 404: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 405: Tamaño=1, Offset=28, Letra='t'
+Ventana 406: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 407: Tamaño=12, Offset=25, Letra='Vacío...'
+Ventana 408: Tamaño=10, Offset=25, Letra='e'
+Ventana 409: Tamaño=3, Offset=27, Letra='l'
+Ventana 410: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 411: Tamaño=1, Offset=23, Letra='u'
+Ventana 412: Tamaño=1, Offset=28, Letra='u'
+Ventana 413: Tamaño=1, Offset=29, Letra='m'
+Ventana 414: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 415: Tamaño=12, Offset=19, Letra='Vacío...'
+Ventana 416: Tamaño=12, Offset=19, Letra='Vacío...'
+Ventana 417: Tamaño=3, Offset=19, Letra='◻'
+Ventana 418: Tamaño=1, Offset=25, Letra='e'
+Ventana 419: Tamaño=2, Offset=27, Letra='i'
+Ventana 420: Tamaño=3, Offset=20, Letra='p'
+Ventana 421: Tamaño=12, Offset=0, Letra='Vacío...'
+Ventana 422: Tamaño=1, Offset=24, Letra='c'
+
+Tamaño original: 2483 caracteres
+Radio de compresión: 0.75

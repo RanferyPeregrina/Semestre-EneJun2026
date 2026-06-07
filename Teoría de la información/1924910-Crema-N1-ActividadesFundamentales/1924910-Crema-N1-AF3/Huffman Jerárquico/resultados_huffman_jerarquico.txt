@@ -1,0 +1,95 @@
+============================================================
+     RESULTADOS DE HUFFMAN JERARQUICO
+============================================================
+
+TEXTO ORIGINAL:
+   Una corona di spine sarà il dress-code per la mia festa
+
+CONFIGURACION:
+   Umbral sin mejora: 25000 arboles
+   Arboles evaluados: 42895
+
+FRECUENCIAS:
+   'a': 6 veces (0.1333)
+   'e': 5 veces (0.1111)
+   's': 5 veces (0.1111)
+   'i': 4 veces (0.0889)
+   'r': 4 veces (0.0889)
+   'd': 3 veces (0.0667)
+   'n': 3 veces (0.0667)
+   'o': 3 veces (0.0667)
+   'c': 2 veces (0.0444)
+   'l': 2 veces (0.0444)
+   'p': 2 veces (0.0444)
+   '-': 1 veces (0.0222)
+   'f': 1 veces (0.0222)
+   'm': 1 veces (0.0222)
+   't': 1 veces (0.0222)
+   'u': 1 veces (0.0222)
+   'à': 1 veces (0.0222)
+
+CODIGOS HUFFMAN:
+   'p' -> 111
+   'l' -> 1101
+   'c' -> 11001
+   'o' -> 110001
+   'n' -> 1100001
+   'd' -> 11000001
+   'r' -> 110000001
+   'i' -> 1100000001
+   's' -> 11000000001
+   'a' -> 110000000001
+   'e' -> 110000000000
+   '-' -> 1011
+   'f' -> 1010
+   'm' -> 1001
+   't' -> 1000
+   'u' -> 01
+   'à' -> 00
+
+------------------------------------------------------------
+ENTROPIAS:
+   HE (Fuente):  3.825326 bits
+   HT (Arbol):   4.372422 bits
+   HIT (Total):  8.197748 bits
+
+METRICAS DE COMPRESION:
+   LMS: 8.2222 bits
+   LME: 8.0000 bits
+   RC:  0.9730
+
+============================================================
+ESTRUCTURA DEL ARBOL SELECCIONADO:
+nodo: (((p+(l+(c+(o+(n+(d+(r+(i+(s+(a+e))))))))))+((-+f)+(m+t)))+( (p=1.0000)
+  nodo: ((p+(l+(c+(o+(n+(d+(r+(i+(s+(a+e))))))))))+((-+f)+(m+t))) (p=0.9556)
+    nodo: (p+(l+(c+(o+(n+(d+(r+(i+(s+(a+e)))))))))) (p=0.8667)
+      hoja: 'p' (p=0.0444)
+      nodo: (l+(c+(o+(n+(d+(r+(i+(s+(a+e))))))))) (p=0.8222)
+        hoja: 'l' (p=0.0444)
+        nodo: (c+(o+(n+(d+(r+(i+(s+(a+e)))))))) (p=0.7778)
+          hoja: 'c' (p=0.0444)
+          nodo: (o+(n+(d+(r+(i+(s+(a+e))))))) (p=0.7333)
+            hoja: 'o' (p=0.0667)
+            nodo: (n+(d+(r+(i+(s+(a+e)))))) (p=0.6667)
+              hoja: 'n' (p=0.0667)
+              nodo: (d+(r+(i+(s+(a+e))))) (p=0.6000)
+                hoja: 'd' (p=0.0667)
+                nodo: (r+(i+(s+(a+e)))) (p=0.5333)
+                  hoja: 'r' (p=0.0889)
+                  nodo: (i+(s+(a+e))) (p=0.4444)
+                    hoja: 'i' (p=0.0889)
+                    nodo: (s+(a+e)) (p=0.3556)
+                      hoja: 's' (p=0.1111)
+                      nodo: (a+e) (p=0.2444)
+                        hoja: 'a' (p=0.1333)
+                        hoja: 'e' (p=0.1111)
+    nodo: ((-+f)+(m+t)) (p=0.0889)
+      nodo: (-+f) (p=0.0444)
+        hoja: '-' (p=0.0222)
+        hoja: 'f' (p=0.0222)
+      nodo: (m+t) (p=0.0444)
+        hoja: 'm' (p=0.0222)
+        hoja: 't' (p=0.0222)
+  nodo: (u+à) (p=0.0444)
+    hoja: 'u' (p=0.0222)
+    hoja: 'à' (p=0.0222)

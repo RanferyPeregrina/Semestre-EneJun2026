@@ -1,0 +1,51 @@
+
+Las frecuencias de entrada suman 0.8
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+⚠ Epale, no acompletas una salida entera.
+Se agregará el caracter: * con valor 0.2
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Alfabeto: ['a', 'b', 'c', 'd', '*']
+Frecuencias: [0.17, 0.38, 0.2, 0.05, 0.2]
+Probabilidad de transmisión exitosa: 0.95
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+Frecuencias de salida
+
+(0.17 * 0.95) + (0.38 * 0.0125) + (0.2 * 0.0125) + (0.05 * 0.0125) + (0.2 * 0.0125)
+Probabilidad de aparición de a = 0.1719
+
+(0.38 * 0.95) + (0.17 * 0.0125) + (0.2 * 0.0125) + (0.05 * 0.0125) + (0.2 * 0.0125)
+Probabilidad de aparición de b = 0.3687
+
+(0.2 * 0.95) + (0.17 * 0.0125) + (0.38 * 0.0125) + (0.05 * 0.0125) + (0.2 * 0.0125)
+Probabilidad de aparición de c = 0.2
+
+(0.05 * 0.95) + (0.17 * 0.0125) + (0.38 * 0.0125) + (0.2 * 0.0125) + (0.2 * 0.0125)
+Probabilidad de aparición de d = 0.0594
+
+(0.2 * 0.95) + (0.17 * 0.0125) + (0.38 * 0.0125) + (0.2 * 0.0125) + (0.05 * 0.0125)
+Probabilidad de aparición de * = 0.2
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+Autoinformación
+I(0.95) = -log(0.95)2 = 0.074
+I(0.0125) = -log(0.0125)2 = 6.32193
+I(0.0125) = -log(0.0125)2 = 6.32193
+I(0.0125) = -log(0.0125)2 = 6.32193
+I(0.0125) = -log(0.0125)2 = 6.32193
+
+La autoinformación total es: 25.36172
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+Entropía
+H(0.95) = -log(0.95)2 = 0.0703
+H(0.0125) = -log(0.0125)2 = 0.07902
+H(0.0125) = -log(0.0125)2 = 0.07902
+H(0.0125) = -log(0.0125)2 = 0.07902
+H(0.0125) = -log(0.0125)2 = 0.07902
+
+La entropia total es: 0.38638
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+Capacidad del canal
+La entropía máxma es alcanzada con todos los canales al máximo:
+Son 5 canales, entonces: log2(5) = 2.32193
+C = 2.32193 - 0.38638000000000006
+C = 1.93555

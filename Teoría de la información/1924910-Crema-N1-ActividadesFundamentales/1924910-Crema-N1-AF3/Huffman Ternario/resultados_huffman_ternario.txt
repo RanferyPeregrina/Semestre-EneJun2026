@@ -1,0 +1,100 @@
+============================================================
+     RESULTADOS DE HUFFMAN TERNARIO
+============================================================
+
+TEXTO ORIGINAL:
+   Una corona di spine sarà il dress-code per la mia festa
+
+CONFIGURACION:
+   Umbral sin mejora: 25000 arboles
+   Arboles evaluados: 25179
+   Alfabeto ternario: {0, 1, *}
+   Bits por digito ternario: 1.58496
+
+FRECUENCIAS:
+   'a': 6 veces (0.1333)
+   'e': 5 veces (0.1111)
+   's': 5 veces (0.1111)
+   'i': 4 veces (0.0889)
+   'r': 4 veces (0.0889)
+   'd': 3 veces (0.0667)
+   'n': 3 veces (0.0667)
+   'o': 3 veces (0.0667)
+   'c': 2 veces (0.0444)
+   'l': 2 veces (0.0444)
+   'p': 2 veces (0.0444)
+   '-': 1 veces (0.0222)
+   'f': 1 veces (0.0222)
+   'm': 1 veces (0.0222)
+   't': 1 veces (0.0222)
+   'u': 1 veces (0.0222)
+   'à': 1 veces (0.0222)
+
+CODIGOS TERNARIOS:
+   'd' -> 000  (digitos: 3 | bits: 4.75)
+   'n' -> 001  (digitos: 3 | bits: 4.75)
+   'o' -> 00*  (digitos: 3 | bits: 4.75)
+   'i' -> 010  (digitos: 3 | bits: 4.75)
+   'r' -> 01*  (digitos: 3 | bits: 4.75)
+   '-' -> 0*00  (digitos: 4 | bits: 6.34)
+   'f' -> 0*01  (digitos: 4 | bits: 6.34)
+   'm' -> 0*0*  (digitos: 4 | bits: 6.34)
+   't' -> 0**0  (digitos: 4 | bits: 6.34)
+   'u' -> 0**1  (digitos: 4 | bits: 6.34)
+   'à' -> 0***  (digitos: 4 | bits: 6.34)
+   'e' -> *00  (digitos: 3 | bits: 4.75)
+   's' -> *0*  (digitos: 3 | bits: 4.75)
+   'a' -> **0  (digitos: 3 | bits: 4.75)
+   'c' -> ***0  (digitos: 4 | bits: 6.34)
+   'l' -> ***1  (digitos: 4 | bits: 6.34)
+   'p' -> ****  (digitos: 4 | bits: 6.34)
+
+------------------------------------------------------------
+METRICAS TERNARIAS:
+   Longitud media en digitos: 3.2667 digitos
+   Longitud media en bits:   5.1775 bits
+   Longitud maxima en digitos: 4 digitos
+   Longitud maxima en bits:   6.34 bits
+
+ENTROPIAS:
+   HE (Fuente):  3.825326 bits
+   HT (Arbol):   0.451909 bits
+   HIT (Total):  4.277235 bits
+
+METRICAS DE COMPRESION:
+   LMS (Longitud Media Simbolo): 5.1775 bits
+   LME (Longitud Media Ensamblaje): 8.0000 bits
+   RC (Relacion de Compresion): 1.5451
+
+============================================================
+ESTRUCTURA DEL ARBOL TERNARIO:
+(0 = izquierda, 1 = centro, * = derecha)
+
+nodo: (((d+n+o)+(i+r)+((-+f+m)+(t+u+à)))+((e+s)+(a+(c+l+p)))) (p=1.0000)
+  [0]   nodo: ((d+n+o)+(i+r)+((-+f+m)+(t+u+à))) (p=0.5111)
+    [0]     nodo: (d+n+o) (p=0.2000)
+      [0]       hoja: 'd' (p=0.0667)
+      [1]       hoja: 'n' (p=0.0667)
+      [*]       hoja: 'o' (p=0.0667)
+    [1]     nodo: (i+r) (p=0.1778)
+      [0]       hoja: 'i' (p=0.0889)
+      [*]       hoja: 'r' (p=0.0889)
+    [*]     nodo: ((-+f+m)+(t+u+à)) (p=0.1333)
+      [0]       nodo: (-+f+m) (p=0.0667)
+        [0]         hoja: '-' (p=0.0222)
+        [1]         hoja: 'f' (p=0.0222)
+        [*]         hoja: 'm' (p=0.0222)
+      [*]       nodo: (t+u+à) (p=0.0667)
+        [0]         hoja: 't' (p=0.0222)
+        [1]         hoja: 'u' (p=0.0222)
+        [*]         hoja: 'à' (p=0.0222)
+  [*]   nodo: ((e+s)+(a+(c+l+p))) (p=0.4889)
+    [0]     nodo: (e+s) (p=0.2222)
+      [0]       hoja: 'e' (p=0.1111)
+      [*]       hoja: 's' (p=0.1111)
+    [*]     nodo: (a+(c+l+p)) (p=0.2667)
+      [0]       hoja: 'a' (p=0.1333)
+      [*]       nodo: (c+l+p) (p=0.1333)
+        [0]         hoja: 'c' (p=0.0444)
+        [1]         hoja: 'l' (p=0.0444)
+        [*]         hoja: 'p' (p=0.0444)
